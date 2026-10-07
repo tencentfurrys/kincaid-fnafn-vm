@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_UI_Fade_Black",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "47757754-71ab-45c6-bff3-e71d9a7c3b5c",
+      "name": "546d7b03-ee30-4311-9a93-b5221b49026c",
       "spriteId": {
         "name": "Spr_UI_Fade_Black",
         "path": "sprites/Spr_UI_Fade_Black/Spr_UI_Fade_Black.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "47757754-71ab-45c6-bff3-e71d9a7c3b5c",
-          "path": "sprites/Spr_UI_Fade_Black/47757754-71ab-45c6-bff3-e71d9a7c3b5c.png"
+          "name": "546d7b03-ee30-4311-9a93-b5221b49026c",
+          "path": "sprites/Spr_UI_Fade_Black/546d7b03-ee30-4311-9a93-b5221b49026c.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "47757754-71ab-45c6-bff3-e71d9a7c3b5c",
-            "path": "sprites/Spr_UI_Fade_Black/47757754-71ab-45c6-bff3-e71d9a7c3b5c.png"
+            "name": "546d7b03-ee30-4311-9a93-b5221b49026c",
+            "path": "sprites/Spr_UI_Fade_Black/546d7b03-ee30-4311-9a93-b5221b49026c.png"
           },
           "LayerId": {
-            "name": "58ea35de-3018-4b3b-ac59-4be98872df3a",
-            "path": "sprites/Spr_UI_Fade_Black/58ea35de-3018-4b3b-ac59-4be98872df3a.png"
+            "name": "1718e029-3793-4a36-9a45-5f1b98861489",
+            "path": "sprites/Spr_UI_Fade_Black/1718e029-3793-4a36-9a45-5f1b98861489.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_UI_Fade_Black",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "b3602e83-f95b-4b1f-83ec-ccf1036fd28b",
+              "id": "2a8ef874-4e2f-4f37-9327-f0a98a3ba780",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "47757754-71ab-45c6-bff3-e71d9a7c3b5c",
+                    "name": "546d7b03-ee30-4311-9a93-b5221b49026c",
                     "path": "sprites/Spr_UI_Fade_Black/Spr_UI_Fade_Black.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "58ea35de-3018-4b3b-ac59-4be98872df3a",
+      "name": "1718e029-3793-4a36-9a45-5f1b98861489",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

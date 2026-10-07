@@ -1,4 +1,5 @@
 {
+  "$GMMainOptions": "v1",
   "resourceType": "GMMainOptions",
   "resourceVersion": "1.4",
   "name": "Main",

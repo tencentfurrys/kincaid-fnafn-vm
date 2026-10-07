@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "OLD_TV_Filter_Signal",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "5b30eb3b-b4f4-4431-a519-3458f72c5ef1",
+      "name": "6f26ffb7-d858-4ed0-8af8-33c2e0a8045f",
       "spriteId": {
         "name": "OLD_TV_Filter_Signal",
         "path": "sprites/OLD_TV_Filter_Signal/OLD_TV_Filter_Signal.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "5b30eb3b-b4f4-4431-a519-3458f72c5ef1",
-          "path": "sprites/OLD_TV_Filter_Signal/5b30eb3b-b4f4-4431-a519-3458f72c5ef1.png"
+          "name": "6f26ffb7-d858-4ed0-8af8-33c2e0a8045f",
+          "path": "sprites/OLD_TV_Filter_Signal/6f26ffb7-d858-4ed0-8af8-33c2e0a8045f.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "5b30eb3b-b4f4-4431-a519-3458f72c5ef1",
-            "path": "sprites/OLD_TV_Filter_Signal/5b30eb3b-b4f4-4431-a519-3458f72c5ef1.png"
+            "name": "6f26ffb7-d858-4ed0-8af8-33c2e0a8045f",
+            "path": "sprites/OLD_TV_Filter_Signal/6f26ffb7-d858-4ed0-8af8-33c2e0a8045f.png"
           },
           "LayerId": {
-            "name": "86021fbe-cfad-4fa4-99d0-11256920b14b",
-            "path": "sprites/OLD_TV_Filter_Signal/86021fbe-cfad-4fa4-99d0-11256920b14b.png"
+            "name": "85889943-a1d8-4c65-ad31-569192277944",
+            "path": "sprites/OLD_TV_Filter_Signal/85889943-a1d8-4c65-ad31-569192277944.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "OLD_TV_Filter_Signal",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "f5955424-7612-4fad-a8ff-a215e41643d6",
+              "id": "0865c8fd-cd7c-49a3-b5d2-ed804faf3a24",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "5b30eb3b-b4f4-4431-a519-3458f72c5ef1",
+                    "name": "6f26ffb7-d858-4ed0-8af8-33c2e0a8045f",
                     "path": "sprites/OLD_TV_Filter_Signal/OLD_TV_Filter_Signal.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "86021fbe-cfad-4fa4-99d0-11256920b14b",
+      "name": "85889943-a1d8-4c65-ad31-569192277944",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

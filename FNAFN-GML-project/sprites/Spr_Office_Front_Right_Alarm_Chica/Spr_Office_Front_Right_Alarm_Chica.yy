@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Office_Front_Right_Alarm_Chica",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "0fe69875-5583-420d-9cf9-3db8c2b6f653",
+      "name": "e2e618e8-3820-430f-a6d8-85b488ba4f08",
       "spriteId": {
         "name": "Spr_Office_Front_Right_Alarm_Chica",
         "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/Spr_Office_Front_Right_Alarm_Chica.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "0fe69875-5583-420d-9cf9-3db8c2b6f653",
-          "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/0fe69875-5583-420d-9cf9-3db8c2b6f653.png"
+          "name": "e2e618e8-3820-430f-a6d8-85b488ba4f08",
+          "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/e2e618e8-3820-430f-a6d8-85b488ba4f08.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "0fe69875-5583-420d-9cf9-3db8c2b6f653",
-            "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/0fe69875-5583-420d-9cf9-3db8c2b6f653.png"
+            "name": "e2e618e8-3820-430f-a6d8-85b488ba4f08",
+            "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/e2e618e8-3820-430f-a6d8-85b488ba4f08.png"
           },
           "LayerId": {
-            "name": "064af9fb-6d13-4013-be31-654621a784b7",
-            "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/064af9fb-6d13-4013-be31-654621a784b7.png"
+            "name": "24f4ad00-8499-4564-aacc-9315d82b4776",
+            "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/24f4ad00-8499-4564-aacc-9315d82b4776.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Office_Front_Right_Alarm_Chica",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "b4441ed6-c900-43e6-bcde-ee4777cc81ba",
+              "id": "716bfef4-ce30-49c7-940e-547823c1818c",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "0fe69875-5583-420d-9cf9-3db8c2b6f653",
+                    "name": "e2e618e8-3820-430f-a6d8-85b488ba4f08",
                     "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/Spr_Office_Front_Right_Alarm_Chica.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "064af9fb-6d13-4013-be31-654621a784b7",
+      "name": "24f4ad00-8499-4564-aacc-9315d82b4776",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

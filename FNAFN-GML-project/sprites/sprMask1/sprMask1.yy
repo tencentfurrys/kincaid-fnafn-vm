@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "sprMask1",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "20260b2c-6aee-47e4-9b22-2964bcc82bd4",
+      "name": "ef2535e3-2709-4945-8be6-8730033ed345",
       "spriteId": {
         "name": "sprMask1",
         "path": "sprites/sprMask1/sprMask1.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "20260b2c-6aee-47e4-9b22-2964bcc82bd4",
-          "path": "sprites/sprMask1/20260b2c-6aee-47e4-9b22-2964bcc82bd4.png"
+          "name": "ef2535e3-2709-4945-8be6-8730033ed345",
+          "path": "sprites/sprMask1/ef2535e3-2709-4945-8be6-8730033ed345.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "20260b2c-6aee-47e4-9b22-2964bcc82bd4",
-            "path": "sprites/sprMask1/20260b2c-6aee-47e4-9b22-2964bcc82bd4.png"
+            "name": "ef2535e3-2709-4945-8be6-8730033ed345",
+            "path": "sprites/sprMask1/ef2535e3-2709-4945-8be6-8730033ed345.png"
           },
           "LayerId": {
-            "name": "4bde440c-25e5-4e30-af4c-2d5b2ce54ab1",
-            "path": "sprites/sprMask1/4bde440c-25e5-4e30-af4c-2d5b2ce54ab1.png"
+            "name": "9f39aac7-d926-4425-8b2f-f935bbba3448",
+            "path": "sprites/sprMask1/9f39aac7-d926-4425-8b2f-f935bbba3448.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "sprMask1",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "83f64d30-f951-468a-b259-ea6fbd4042c7",
+              "id": "f90b25fd-11ac-4237-8053-0619f19ac82a",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "20260b2c-6aee-47e4-9b22-2964bcc82bd4",
+                    "name": "ef2535e3-2709-4945-8be6-8730033ed345",
                     "path": "sprites/sprMask1/sprMask1.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "4bde440c-25e5-4e30-af4c-2d5b2ce54ab1",
+      "name": "9f39aac7-d926-4425-8b2f-f935bbba3448",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

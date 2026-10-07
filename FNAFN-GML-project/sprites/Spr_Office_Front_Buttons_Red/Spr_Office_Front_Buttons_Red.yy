@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Office_Front_Buttons_Red",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "487404dd-fec4-44d1-9fd2-93f01830384d",
+      "name": "6e25e66b-574d-43d6-9943-77fed765dbef",
       "spriteId": {
         "name": "Spr_Office_Front_Buttons_Red",
         "path": "sprites/Spr_Office_Front_Buttons_Red/Spr_Office_Front_Buttons_Red.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "487404dd-fec4-44d1-9fd2-93f01830384d",
-          "path": "sprites/Spr_Office_Front_Buttons_Red/487404dd-fec4-44d1-9fd2-93f01830384d.png"
+          "name": "6e25e66b-574d-43d6-9943-77fed765dbef",
+          "path": "sprites/Spr_Office_Front_Buttons_Red/6e25e66b-574d-43d6-9943-77fed765dbef.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "487404dd-fec4-44d1-9fd2-93f01830384d",
-            "path": "sprites/Spr_Office_Front_Buttons_Red/487404dd-fec4-44d1-9fd2-93f01830384d.png"
+            "name": "6e25e66b-574d-43d6-9943-77fed765dbef",
+            "path": "sprites/Spr_Office_Front_Buttons_Red/6e25e66b-574d-43d6-9943-77fed765dbef.png"
           },
           "LayerId": {
-            "name": "e6dd8bb5-ca18-4f37-bafa-6d561c097fe0",
-            "path": "sprites/Spr_Office_Front_Buttons_Red/e6dd8bb5-ca18-4f37-bafa-6d561c097fe0.png"
+            "name": "25cfbf0a-71cd-4b29-9a35-5a0a28150222",
+            "path": "sprites/Spr_Office_Front_Buttons_Red/25cfbf0a-71cd-4b29-9a35-5a0a28150222.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Office_Front_Buttons_Red",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "15adf6d6-3e54-444c-80fa-176e1479814f",
+              "id": "92aaa55b-5809-4aac-bded-e4a75b747fee",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "487404dd-fec4-44d1-9fd2-93f01830384d",
+                    "name": "6e25e66b-574d-43d6-9943-77fed765dbef",
                     "path": "sprites/Spr_Office_Front_Buttons_Red/Spr_Office_Front_Buttons_Red.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "e6dd8bb5-ca18-4f37-bafa-6d561c097fe0",
+      "name": "25cfbf0a-71cd-4b29-9a35-5a0a28150222",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

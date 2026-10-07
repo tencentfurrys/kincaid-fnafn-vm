@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Office_Front_Right_Alarm_Empty",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "d97b7da6-5001-4ace-8e2d-90ce1f668020",
+      "name": "486c1e8a-478d-4f0a-9e45-dd6d9f38d9df",
       "spriteId": {
         "name": "Spr_Office_Front_Right_Alarm_Empty",
         "path": "sprites/Spr_Office_Front_Right_Alarm_Empty/Spr_Office_Front_Right_Alarm_Empty.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "d97b7da6-5001-4ace-8e2d-90ce1f668020",
-          "path": "sprites/Spr_Office_Front_Right_Alarm_Empty/d97b7da6-5001-4ace-8e2d-90ce1f668020.png"
+          "name": "486c1e8a-478d-4f0a-9e45-dd6d9f38d9df",
+          "path": "sprites/Spr_Office_Front_Right_Alarm_Empty/486c1e8a-478d-4f0a-9e45-dd6d9f38d9df.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "d97b7da6-5001-4ace-8e2d-90ce1f668020",
-            "path": "sprites/Spr_Office_Front_Right_Alarm_Empty/d97b7da6-5001-4ace-8e2d-90ce1f668020.png"
+            "name": "486c1e8a-478d-4f0a-9e45-dd6d9f38d9df",
+            "path": "sprites/Spr_Office_Front_Right_Alarm_Empty/486c1e8a-478d-4f0a-9e45-dd6d9f38d9df.png"
           },
           "LayerId": {
-            "name": "e28dfe7f-4ea5-4f26-ae22-5b8f19e5383c",
-            "path": "sprites/Spr_Office_Front_Right_Alarm_Empty/e28dfe7f-4ea5-4f26-ae22-5b8f19e5383c.png"
+            "name": "419485a1-6bd2-4e7d-9fa9-2e703557a017",
+            "path": "sprites/Spr_Office_Front_Right_Alarm_Empty/419485a1-6bd2-4e7d-9fa9-2e703557a017.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Office_Front_Right_Alarm_Empty",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "591cfb67-1b84-4eb1-9cb4-b2033ae5c937",
+              "id": "d057e283-5896-438b-870e-c203e3b3207f",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "d97b7da6-5001-4ace-8e2d-90ce1f668020",
+                    "name": "486c1e8a-478d-4f0a-9e45-dd6d9f38d9df",
                     "path": "sprites/Spr_Office_Front_Right_Alarm_Empty/Spr_Office_Front_Right_Alarm_Empty.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "e28dfe7f-4ea5-4f26-ae22-5b8f19e5383c",
+      "name": "419485a1-6bd2-4e7d-9fa9-2e703557a017",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

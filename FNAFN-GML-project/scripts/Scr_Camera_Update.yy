@@ -1,4 +1,5 @@
 {
+  "$GMScript": "v1",
   "resourceType": "GMScript",
   "resourceVersion": "2.0",
   "name": "Scr_Camera_Update",

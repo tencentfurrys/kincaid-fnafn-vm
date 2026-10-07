@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Night_Radio_Buttons",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "f101bf01-7aac-4ac5-aa83-12ba411e728d",
+      "name": "7ae7722e-7464-4570-9e8e-a1c9b86152dd",
       "spriteId": {
         "name": "Spr_Night_Radio_Buttons",
         "path": "sprites/Spr_Night_Radio_Buttons/Spr_Night_Radio_Buttons.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "f101bf01-7aac-4ac5-aa83-12ba411e728d",
-          "path": "sprites/Spr_Night_Radio_Buttons/f101bf01-7aac-4ac5-aa83-12ba411e728d.png"
+          "name": "7ae7722e-7464-4570-9e8e-a1c9b86152dd",
+          "path": "sprites/Spr_Night_Radio_Buttons/7ae7722e-7464-4570-9e8e-a1c9b86152dd.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "f101bf01-7aac-4ac5-aa83-12ba411e728d",
-            "path": "sprites/Spr_Night_Radio_Buttons/f101bf01-7aac-4ac5-aa83-12ba411e728d.png"
+            "name": "7ae7722e-7464-4570-9e8e-a1c9b86152dd",
+            "path": "sprites/Spr_Night_Radio_Buttons/7ae7722e-7464-4570-9e8e-a1c9b86152dd.png"
           },
           "LayerId": {
-            "name": "5d97802c-1a87-474a-9b44-6b0c35668cdf",
-            "path": "sprites/Spr_Night_Radio_Buttons/5d97802c-1a87-474a-9b44-6b0c35668cdf.png"
+            "name": "f46c069b-ecda-419a-97bb-4c26f0de1602",
+            "path": "sprites/Spr_Night_Radio_Buttons/f46c069b-ecda-419a-97bb-4c26f0de1602.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Night_Radio_Buttons",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "f4df308e-515b-437b-ac46-6666c047a5e5",
+              "id": "f7e28352-b54b-4509-8c86-48fb65d98ec9",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "f101bf01-7aac-4ac5-aa83-12ba411e728d",
+                    "name": "7ae7722e-7464-4570-9e8e-a1c9b86152dd",
                     "path": "sprites/Spr_Night_Radio_Buttons/Spr_Night_Radio_Buttons.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "5d97802c-1a87-474a-9b44-6b0c35668cdf",
+      "name": "f46c069b-ecda-419a-97bb-4c26f0de1602",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

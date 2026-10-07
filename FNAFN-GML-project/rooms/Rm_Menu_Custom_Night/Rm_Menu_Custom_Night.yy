@@ -1,4 +1,5 @@
 {
+  "$GMRoom": "v1",
   "resourceType": "GMRoom",
   "resourceVersion": "2.0",
   "name": "Rm_Menu_Custom_Night",
@@ -8,11 +9,13 @@
   "views": [],
   "layers": [
     {
+      "$GMRInstanceLayer": "v1",
       "resourceType": "GMRInstanceLayer",
       "resourceVersion": "2.0",
       "name": "Instances",
       "instances": [
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A1",
@@ -37,6 +40,7 @@
           "y": 64
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A2",
@@ -61,6 +65,7 @@
           "y": 192
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A3",
@@ -85,6 +90,7 @@
           "y": 192
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A4",
@@ -109,6 +115,7 @@
           "y": 192
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A5",
@@ -133,6 +140,7 @@
           "y": 192
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A6",
@@ -157,6 +165,7 @@
           "y": 512
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A7",
@@ -181,6 +190,7 @@
           "y": 352
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A0",

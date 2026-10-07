@@ -1,4 +1,5 @@
 {
+  "$GMObject": "v1",
   "resourceType": "GMObject",
   "resourceVersion": "2.3",
   "name": "obj_OLDTVFilter_VHS",
@@ -24,6 +25,7 @@
   "overriddenProperties": [],
   "eventList": [
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 0,
       "eventSubtype": 0,
@@ -33,6 +35,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 14,
       "eventSubtype": 0,

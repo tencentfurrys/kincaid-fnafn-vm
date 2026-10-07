@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_UI_Game_Over",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a",
+      "name": "02c04525-fd3b-4d6a-b085-f7c5e7b863d6",
       "spriteId": {
         "name": "Spr_UI_Game_Over",
         "path": "sprites/Spr_UI_Game_Over/Spr_UI_Game_Over.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a",
-          "path": "sprites/Spr_UI_Game_Over/f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a.png"
+          "name": "02c04525-fd3b-4d6a-b085-f7c5e7b863d6",
+          "path": "sprites/Spr_UI_Game_Over/02c04525-fd3b-4d6a-b085-f7c5e7b863d6.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a",
-            "path": "sprites/Spr_UI_Game_Over/f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a.png"
+            "name": "02c04525-fd3b-4d6a-b085-f7c5e7b863d6",
+            "path": "sprites/Spr_UI_Game_Over/02c04525-fd3b-4d6a-b085-f7c5e7b863d6.png"
           },
           "LayerId": {
-            "name": "69197f83-304a-4105-9a22-d9429ba92b9f",
-            "path": "sprites/Spr_UI_Game_Over/69197f83-304a-4105-9a22-d9429ba92b9f.png"
+            "name": "e6ac31f9-52e5-46c2-ba51-943b2401937c",
+            "path": "sprites/Spr_UI_Game_Over/e6ac31f9-52e5-46c2-ba51-943b2401937c.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_UI_Game_Over",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "6ec033fe-db27-4581-a595-85e8ef58bd66",
+              "id": "385bd344-b9a2-4a5b-8b69-93c251faedb6",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a",
+                    "name": "02c04525-fd3b-4d6a-b085-f7c5e7b863d6",
                     "path": "sprites/Spr_UI_Game_Over/Spr_UI_Game_Over.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "69197f83-304a-4105-9a22-d9429ba92b9f",
+      "name": "e6ac31f9-52e5-46c2-ba51-943b2401937c",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

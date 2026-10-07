@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Jumpscare_Foxy",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a",
+      "name": "fda7e98c-11ce-4446-a8cb-6c61de9743b0",
       "spriteId": {
         "name": "Spr_Jumpscare_Foxy",
         "path": "sprites/Spr_Jumpscare_Foxy/Spr_Jumpscare_Foxy.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a",
-          "path": "sprites/Spr_Jumpscare_Foxy/65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a.png"
+          "name": "fda7e98c-11ce-4446-a8cb-6c61de9743b0",
+          "path": "sprites/Spr_Jumpscare_Foxy/fda7e98c-11ce-4446-a8cb-6c61de9743b0.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a",
-            "path": "sprites/Spr_Jumpscare_Foxy/65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a.png"
+            "name": "fda7e98c-11ce-4446-a8cb-6c61de9743b0",
+            "path": "sprites/Spr_Jumpscare_Foxy/fda7e98c-11ce-4446-a8cb-6c61de9743b0.png"
           },
           "LayerId": {
-            "name": "7e020af7-c245-4f38-8be4-aba5683d6699",
-            "path": "sprites/Spr_Jumpscare_Foxy/7e020af7-c245-4f38-8be4-aba5683d6699.png"
+            "name": "cc8b2b31-9751-4dba-aca9-f58358345747",
+            "path": "sprites/Spr_Jumpscare_Foxy/cc8b2b31-9751-4dba-aca9-f58358345747.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Jumpscare_Foxy",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "7a940fc4-72b9-47fe-a986-ec06360c2ea2",
+              "id": "dd906810-3877-4842-8974-9941afcaf346",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a",
+                    "name": "fda7e98c-11ce-4446-a8cb-6c61de9743b0",
                     "path": "sprites/Spr_Jumpscare_Foxy/Spr_Jumpscare_Foxy.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "7e020af7-c245-4f38-8be4-aba5683d6699",
+      "name": "cc8b2b31-9751-4dba-aca9-f58358345747",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

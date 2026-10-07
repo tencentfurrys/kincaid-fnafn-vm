@@ -1,4 +1,5 @@
 {
+  "$GMObject": "v1",
   "resourceType": "GMObject",
   "resourceVersion": "2.3",
   "name": "Obj_Office_Front_Figurines",
@@ -24,6 +25,7 @@
   "overriddenProperties": [],
   "eventList": [
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 9,
       "eventSubtype": 49,
@@ -33,6 +35,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 9,
       "eventSubtype": 50,
@@ -42,6 +45,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 9,
       "eventSubtype": 51,
@@ -51,6 +55,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 9,
       "eventSubtype": 52,
@@ -60,6 +65,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 9,
       "eventSubtype": 53,
@@ -69,6 +75,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 14,
       "eventSubtype": 0,

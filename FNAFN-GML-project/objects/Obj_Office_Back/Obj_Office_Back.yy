@@ -1,4 +1,5 @@
 {
+  "$GMObject": "v1",
   "resourceType": "GMObject",
   "resourceVersion": "2.3",
   "name": "Obj_Office_Back",
@@ -24,6 +25,7 @@
   "overriddenProperties": [],
   "eventList": [
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 0,
       "eventSubtype": 0,
@@ -33,6 +35,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 3,
       "eventSubtype": 0,
@@ -42,6 +45,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 6,
       "eventSubtype": 4,
@@ -51,6 +55,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 8,
       "eventSubtype": 0,
@@ -60,6 +65,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 14,
       "eventSubtype": 0,

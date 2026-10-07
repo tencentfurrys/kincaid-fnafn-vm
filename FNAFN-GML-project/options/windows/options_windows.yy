@@ -1,4 +1,5 @@
 {
+  "$GMWindowsOptions": "v1",
   "resourceType": "GMWindowsOptions",
   "resourceVersion": "1.1",
   "name": "Windows",

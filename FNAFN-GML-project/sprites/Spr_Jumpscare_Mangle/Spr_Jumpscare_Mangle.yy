@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Jumpscare_Mangle",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "e166e9e8-87ea-4cdc-a989-16ab447965e4",
+      "name": "80baf370-2590-44fb-a0cc-070c1460c1bc",
       "spriteId": {
         "name": "Spr_Jumpscare_Mangle",
         "path": "sprites/Spr_Jumpscare_Mangle/Spr_Jumpscare_Mangle.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "e166e9e8-87ea-4cdc-a989-16ab447965e4",
-          "path": "sprites/Spr_Jumpscare_Mangle/e166e9e8-87ea-4cdc-a989-16ab447965e4.png"
+          "name": "80baf370-2590-44fb-a0cc-070c1460c1bc",
+          "path": "sprites/Spr_Jumpscare_Mangle/80baf370-2590-44fb-a0cc-070c1460c1bc.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "e166e9e8-87ea-4cdc-a989-16ab447965e4",
-            "path": "sprites/Spr_Jumpscare_Mangle/e166e9e8-87ea-4cdc-a989-16ab447965e4.png"
+            "name": "80baf370-2590-44fb-a0cc-070c1460c1bc",
+            "path": "sprites/Spr_Jumpscare_Mangle/80baf370-2590-44fb-a0cc-070c1460c1bc.png"
           },
           "LayerId": {
-            "name": "63df8776-e887-441a-892e-1834c4b7ecf6",
-            "path": "sprites/Spr_Jumpscare_Mangle/63df8776-e887-441a-892e-1834c4b7ecf6.png"
+            "name": "6419170d-b7b3-42d7-b47e-4f5f3ab0d19b",
+            "path": "sprites/Spr_Jumpscare_Mangle/6419170d-b7b3-42d7-b47e-4f5f3ab0d19b.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Jumpscare_Mangle",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "34315b6d-e9d1-4ada-aa8d-406b4100c196",
+              "id": "31fbabdf-4f09-4d17-9621-a6811ffbf32d",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "e166e9e8-87ea-4cdc-a989-16ab447965e4",
+                    "name": "80baf370-2590-44fb-a0cc-070c1460c1bc",
                     "path": "sprites/Spr_Jumpscare_Mangle/Spr_Jumpscare_Mangle.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "63df8776-e887-441a-892e-1834c4b7ecf6",
+      "name": "6419170d-b7b3-42d7-b47e-4f5f3ab0d19b",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

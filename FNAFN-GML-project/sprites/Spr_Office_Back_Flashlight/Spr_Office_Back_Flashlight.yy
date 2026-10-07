@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Office_Back_Flashlight",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "d1cd9719-1663-417a-be5c-c7dc80a631b8",
+      "name": "ed4efc20-4d01-4a57-b57a-3ef223bd3615",
       "spriteId": {
         "name": "Spr_Office_Back_Flashlight",
         "path": "sprites/Spr_Office_Back_Flashlight/Spr_Office_Back_Flashlight.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "d1cd9719-1663-417a-be5c-c7dc80a631b8",
-          "path": "sprites/Spr_Office_Back_Flashlight/d1cd9719-1663-417a-be5c-c7dc80a631b8.png"
+          "name": "ed4efc20-4d01-4a57-b57a-3ef223bd3615",
+          "path": "sprites/Spr_Office_Back_Flashlight/ed4efc20-4d01-4a57-b57a-3ef223bd3615.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "d1cd9719-1663-417a-be5c-c7dc80a631b8",
-            "path": "sprites/Spr_Office_Back_Flashlight/d1cd9719-1663-417a-be5c-c7dc80a631b8.png"
+            "name": "ed4efc20-4d01-4a57-b57a-3ef223bd3615",
+            "path": "sprites/Spr_Office_Back_Flashlight/ed4efc20-4d01-4a57-b57a-3ef223bd3615.png"
           },
           "LayerId": {
-            "name": "34dca35b-9f65-41f8-bdd4-040ac5c5796e",
-            "path": "sprites/Spr_Office_Back_Flashlight/34dca35b-9f65-41f8-bdd4-040ac5c5796e.png"
+            "name": "a1180a17-dbd9-4d8f-a31a-010d23fd16ad",
+            "path": "sprites/Spr_Office_Back_Flashlight/a1180a17-dbd9-4d8f-a31a-010d23fd16ad.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Office_Back_Flashlight",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "de470adb-01a3-4527-9933-d0de8e5f4f9f",
+              "id": "1d2c0403-7d3c-41d6-95b2-ecb06471e91b",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "d1cd9719-1663-417a-be5c-c7dc80a631b8",
+                    "name": "ed4efc20-4d01-4a57-b57a-3ef223bd3615",
                     "path": "sprites/Spr_Office_Back_Flashlight/Spr_Office_Back_Flashlight.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "34dca35b-9f65-41f8-bdd4-040ac5c5796e",
+      "name": "a1180a17-dbd9-4d8f-a31a-010d23fd16ad",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

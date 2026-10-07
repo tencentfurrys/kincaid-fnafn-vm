@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Fon_Sprite_Font_1",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "e39aa51b-aa97-41de-94f3-760102cbf8f1",
+      "name": "b24c39cf-8628-4eb8-9543-0c78bd321491",
       "spriteId": {
         "name": "Fon_Sprite_Font_1",
         "path": "sprites/Fon_Sprite_Font_1/Fon_Sprite_Font_1.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "e39aa51b-aa97-41de-94f3-760102cbf8f1",
-          "path": "sprites/Fon_Sprite_Font_1/e39aa51b-aa97-41de-94f3-760102cbf8f1.png"
+          "name": "b24c39cf-8628-4eb8-9543-0c78bd321491",
+          "path": "sprites/Fon_Sprite_Font_1/b24c39cf-8628-4eb8-9543-0c78bd321491.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "e39aa51b-aa97-41de-94f3-760102cbf8f1",
-            "path": "sprites/Fon_Sprite_Font_1/e39aa51b-aa97-41de-94f3-760102cbf8f1.png"
+            "name": "b24c39cf-8628-4eb8-9543-0c78bd321491",
+            "path": "sprites/Fon_Sprite_Font_1/b24c39cf-8628-4eb8-9543-0c78bd321491.png"
           },
           "LayerId": {
-            "name": "7a60b899-e68b-4fbb-8256-c15a1360c3d5",
-            "path": "sprites/Fon_Sprite_Font_1/7a60b899-e68b-4fbb-8256-c15a1360c3d5.png"
+            "name": "b7d87270-db7b-426e-b9b9-04f3688aaadd",
+            "path": "sprites/Fon_Sprite_Font_1/b7d87270-db7b-426e-b9b9-04f3688aaadd.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Fon_Sprite_Font_1",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "16919fb3-b875-4bc2-bbb6-e274a179b323",
+              "id": "bbac1372-958d-4019-87e1-18dc08af602b",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "e39aa51b-aa97-41de-94f3-760102cbf8f1",
+                    "name": "b24c39cf-8628-4eb8-9543-0c78bd321491",
                     "path": "sprites/Fon_Sprite_Font_1/Fon_Sprite_Font_1.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "7a60b899-e68b-4fbb-8256-c15a1360c3d5",
+      "name": "b7d87270-db7b-426e-b9b9-04f3688aaadd",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

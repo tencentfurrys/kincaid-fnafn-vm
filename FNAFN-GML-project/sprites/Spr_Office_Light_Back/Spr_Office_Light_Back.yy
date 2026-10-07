@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Office_Light_Back",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "62979045-6757-4fd1-ab07-3604285a238c",
+      "name": "4eab8006-0190-47c5-bdf0-2e10ac6fc1f2",
       "spriteId": {
         "name": "Spr_Office_Light_Back",
         "path": "sprites/Spr_Office_Light_Back/Spr_Office_Light_Back.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "62979045-6757-4fd1-ab07-3604285a238c",
-          "path": "sprites/Spr_Office_Light_Back/62979045-6757-4fd1-ab07-3604285a238c.png"
+          "name": "4eab8006-0190-47c5-bdf0-2e10ac6fc1f2",
+          "path": "sprites/Spr_Office_Light_Back/4eab8006-0190-47c5-bdf0-2e10ac6fc1f2.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "62979045-6757-4fd1-ab07-3604285a238c",
-            "path": "sprites/Spr_Office_Light_Back/62979045-6757-4fd1-ab07-3604285a238c.png"
+            "name": "4eab8006-0190-47c5-bdf0-2e10ac6fc1f2",
+            "path": "sprites/Spr_Office_Light_Back/4eab8006-0190-47c5-bdf0-2e10ac6fc1f2.png"
           },
           "LayerId": {
-            "name": "dd3275cc-b989-4470-a103-006bb9b13464",
-            "path": "sprites/Spr_Office_Light_Back/dd3275cc-b989-4470-a103-006bb9b13464.png"
+            "name": "11601683-7fe8-42ba-b29b-09a5f074b6ce",
+            "path": "sprites/Spr_Office_Light_Back/11601683-7fe8-42ba-b29b-09a5f074b6ce.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Office_Light_Back",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "2b60f521-fe07-4c2c-8956-b0d37622ba6a",
+              "id": "dd525b47-2b23-40c5-90b1-13ed00e929c7",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "62979045-6757-4fd1-ab07-3604285a238c",
+                    "name": "4eab8006-0190-47c5-bdf0-2e10ac6fc1f2",
                     "path": "sprites/Spr_Office_Light_Back/Spr_Office_Light_Back.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "dd3275cc-b989-4470-a103-006bb9b13464",
+      "name": "11601683-7fe8-42ba-b29b-09a5f074b6ce",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

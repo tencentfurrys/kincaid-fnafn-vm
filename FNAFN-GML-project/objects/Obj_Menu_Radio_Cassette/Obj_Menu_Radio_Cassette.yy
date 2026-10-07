@@ -1,4 +1,5 @@
 {
+  "$GMObject": "v1",
   "resourceType": "GMObject",
   "resourceVersion": "2.3",
   "name": "Obj_Menu_Radio_Cassette",
@@ -24,6 +25,7 @@
   "overriddenProperties": [],
   "eventList": [
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 0,
       "eventSubtype": 0,
@@ -33,6 +35,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 1,
       "eventSubtype": 0,
@@ -42,6 +45,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 3,
       "eventSubtype": 0,
@@ -51,6 +55,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 6,
       "eventSubtype": 53,
@@ -60,6 +65,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 6,
       "eventSubtype": 54,
@@ -69,6 +75,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 8,
       "eventSubtype": 0,
@@ -78,6 +85,7 @@
       "resourceType": "GMEvent"
     },
     {
+      "$GMEvent": "v1",
       "isDnD": false,
       "eventType": 14,
       "eventSubtype": 0,

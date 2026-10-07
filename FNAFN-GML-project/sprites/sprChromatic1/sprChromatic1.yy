@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "sprChromatic1",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "99becf6c-a0dd-41cb-a5f3-2307ec8e7570",
+      "name": "847e421d-3d1f-4b06-9ce9-95256b358e59",
       "spriteId": {
         "name": "sprChromatic1",
         "path": "sprites/sprChromatic1/sprChromatic1.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "99becf6c-a0dd-41cb-a5f3-2307ec8e7570",
-          "path": "sprites/sprChromatic1/99becf6c-a0dd-41cb-a5f3-2307ec8e7570.png"
+          "name": "847e421d-3d1f-4b06-9ce9-95256b358e59",
+          "path": "sprites/sprChromatic1/847e421d-3d1f-4b06-9ce9-95256b358e59.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "99becf6c-a0dd-41cb-a5f3-2307ec8e7570",
-            "path": "sprites/sprChromatic1/99becf6c-a0dd-41cb-a5f3-2307ec8e7570.png"
+            "name": "847e421d-3d1f-4b06-9ce9-95256b358e59",
+            "path": "sprites/sprChromatic1/847e421d-3d1f-4b06-9ce9-95256b358e59.png"
           },
           "LayerId": {
-            "name": "c6271eef-72be-4573-b9a5-277d2dfcc191",
-            "path": "sprites/sprChromatic1/c6271eef-72be-4573-b9a5-277d2dfcc191.png"
+            "name": "6c89c34b-4f89-4d57-bddb-2f1031c7ecbc",
+            "path": "sprites/sprChromatic1/6c89c34b-4f89-4d57-bddb-2f1031c7ecbc.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "sprChromatic1",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "6eda9133-0a9b-4ab7-8ab0-a4373969492f",
+              "id": "2ceaa992-cce3-4095-92df-10ed66417410",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "99becf6c-a0dd-41cb-a5f3-2307ec8e7570",
+                    "name": "847e421d-3d1f-4b06-9ce9-95256b358e59",
                     "path": "sprites/sprChromatic1/sprChromatic1.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "c6271eef-72be-4573-b9a5-277d2dfcc191",
+      "name": "6c89c34b-4f89-4d57-bddb-2f1031c7ecbc",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

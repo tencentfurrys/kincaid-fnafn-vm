@@ -1,4 +1,5 @@
 {
+  "$GMSound": "v1",
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
   "name": "Snd_Menu_Select",

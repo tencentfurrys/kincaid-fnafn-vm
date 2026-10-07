@@ -1,4 +1,5 @@
 {
+  "$GMScript": "v1",
   "resourceType": "GMScript",
   "resourceVersion": "2.0",
   "name": "Game_Save_And_Load",

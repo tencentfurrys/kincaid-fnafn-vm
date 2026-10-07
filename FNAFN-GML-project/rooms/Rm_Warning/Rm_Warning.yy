@@ -1,4 +1,5 @@
 {
+  "$GMRoom": "v1",
   "resourceType": "GMRoom",
   "resourceVersion": "2.0",
   "name": "Rm_Warning",
@@ -8,11 +9,13 @@
   "views": [],
   "layers": [
     {
+      "$GMRInstanceLayer": "v1",
       "resourceType": "GMRInstanceLayer",
       "resourceVersion": "2.0",
       "name": "Instances",
       "instances": [
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186EE",
@@ -37,6 +40,7 @@
           "y": 32
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186EF",
@@ -61,6 +65,7 @@
           "y": 0
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186F0",
@@ -85,6 +90,7 @@
           "y": 0
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186F2",

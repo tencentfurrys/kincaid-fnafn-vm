@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Menu_Radio_Cassette",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5",
+      "name": "db7ec0c2-3912-4d42-b6d5-b145d31346e1",
       "spriteId": {
         "name": "Spr_Menu_Radio_Cassette",
         "path": "sprites/Spr_Menu_Radio_Cassette/Spr_Menu_Radio_Cassette.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5",
-          "path": "sprites/Spr_Menu_Radio_Cassette/4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5.png"
+          "name": "db7ec0c2-3912-4d42-b6d5-b145d31346e1",
+          "path": "sprites/Spr_Menu_Radio_Cassette/db7ec0c2-3912-4d42-b6d5-b145d31346e1.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5",
-            "path": "sprites/Spr_Menu_Radio_Cassette/4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5.png"
+            "name": "db7ec0c2-3912-4d42-b6d5-b145d31346e1",
+            "path": "sprites/Spr_Menu_Radio_Cassette/db7ec0c2-3912-4d42-b6d5-b145d31346e1.png"
           },
           "LayerId": {
-            "name": "32fa76e0-07dd-4c4f-b07c-48c504e831e9",
-            "path": "sprites/Spr_Menu_Radio_Cassette/32fa76e0-07dd-4c4f-b07c-48c504e831e9.png"
+            "name": "1a2248d7-e23c-4a6c-9edf-4e567cee6c0e",
+            "path": "sprites/Spr_Menu_Radio_Cassette/1a2248d7-e23c-4a6c-9edf-4e567cee6c0e.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Menu_Radio_Cassette",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "04836e14-ad88-4d68-8ecd-26e6c491e0dd",
+              "id": "55ea854d-a452-457b-8fe5-473a9c43bcf3",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5",
+                    "name": "db7ec0c2-3912-4d42-b6d5-b145d31346e1",
                     "path": "sprites/Spr_Menu_Radio_Cassette/Spr_Menu_Radio_Cassette.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "32fa76e0-07dd-4c4f-b07c-48c504e831e9",
+      "name": "1a2248d7-e23c-4a6c-9edf-4e567cee6c0e",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

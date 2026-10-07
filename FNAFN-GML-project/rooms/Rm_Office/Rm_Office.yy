@@ -1,4 +1,5 @@
 {
+  "$GMRoom": "v1",
   "resourceType": "GMRoom",
   "resourceVersion": "2.0",
   "name": "Rm_Office",
@@ -8,11 +9,13 @@
   "views": [],
   "layers": [
     {
+      "$GMRInstanceLayer": "v1",
       "resourceType": "GMRInstanceLayer",
       "resourceVersion": "2.0",
       "name": "Instances",
       "instances": [
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186B7",
@@ -37,6 +40,7 @@
           "y": 0
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186BE",
@@ -61,6 +65,7 @@
           "y": 681
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186BD",
@@ -85,6 +90,7 @@
           "y": 360
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E2",
@@ -109,6 +115,7 @@
           "y": -18
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E3",
@@ -133,6 +140,7 @@
           "y": -18
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E4",
@@ -157,6 +165,7 @@
           "y": -18
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C5",
@@ -181,6 +190,7 @@
           "y": 0
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D4",
@@ -205,6 +215,7 @@
           "y": 408
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C9",
@@ -229,6 +240,7 @@
           "y": 408
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186CA",
@@ -253,6 +265,7 @@
           "y": 422
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186CB",
@@ -277,6 +290,7 @@
           "y": 408
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186CC",
@@ -301,6 +315,7 @@
           "y": 517
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186CD",
@@ -325,6 +340,7 @@
           "y": 513
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186CE",
@@ -349,6 +365,7 @@
           "y": 585
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186CF",
@@ -373,6 +390,7 @@
           "y": 650
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D0",
@@ -397,6 +415,7 @@
           "y": 541
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D1",
@@ -421,6 +440,7 @@
           "y": 626
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D2",
@@ -445,6 +465,7 @@
           "y": 405
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C7",
@@ -469,6 +490,7 @@
           "y": 627
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D5",
@@ -493,6 +515,7 @@
           "y": 282
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D6",
@@ -517,6 +540,7 @@
           "y": 282
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D3",
@@ -541,6 +565,7 @@
           "y": 398
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186DC",
@@ -565,6 +590,7 @@
           "y": 578
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186DD",
@@ -589,6 +615,7 @@
           "y": 578
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186DE",
@@ -613,6 +640,7 @@
           "y": 577
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E0",
@@ -637,6 +665,7 @@
           "y": 496
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186DF",
@@ -661,6 +690,7 @@
           "y": 496
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C8",
@@ -685,6 +715,7 @@
           "y": 627
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D7",
@@ -709,6 +740,7 @@
           "y": 380
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D8",
@@ -733,6 +765,7 @@
           "y": 372
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186D9",
@@ -757,6 +790,7 @@
           "y": 526
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186DA",
@@ -781,6 +815,7 @@
           "y": 504
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186DB",
@@ -805,6 +840,7 @@
           "y": 487
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C6",
@@ -829,6 +865,7 @@
           "y": 517
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C4",
@@ -853,6 +890,7 @@
           "y": 0
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C3",
@@ -877,6 +915,7 @@
           "y": 360
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E5",
@@ -901,6 +940,7 @@
           "y": 62
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186EA",
@@ -925,6 +965,7 @@
           "y": 360
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E9",
@@ -949,6 +990,7 @@
           "y": 265
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E8",
@@ -973,6 +1015,7 @@
           "y": 284
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186BF",
@@ -997,6 +1040,7 @@
           "y": 608
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186B8",
@@ -1021,6 +1065,7 @@
           "y": 0
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186B9",
@@ -1045,6 +1090,7 @@
           "y": 32
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186BA",
@@ -1069,6 +1115,7 @@
           "y": 64
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186BB",
@@ -1093,6 +1140,7 @@
           "y": 96
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186BC",
@@ -1117,6 +1165,7 @@
           "y": 128
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C0",
@@ -1141,6 +1190,7 @@
           "y": 360
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E6",
@@ -1165,6 +1215,7 @@
           "y": 352
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E7",
@@ -1189,6 +1240,7 @@
           "y": 349
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C1",
@@ -1213,6 +1265,7 @@
           "y": 360
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186B6",
@@ -1237,6 +1290,7 @@
           "y": 32
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186C2",
@@ -1261,6 +1315,7 @@
           "y": 128
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186E1",

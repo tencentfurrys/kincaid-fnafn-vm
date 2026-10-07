@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Night_Camera_Room_9",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "47cacedc-ef16-496e-ad75-b3991237d2b6",
+      "name": "d2108a5f-1e9f-47ee-8d4a-77e0b2c40aaf",
       "spriteId": {
         "name": "Spr_Night_Camera_Room_9",
         "path": "sprites/Spr_Night_Camera_Room_9/Spr_Night_Camera_Room_9.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "47cacedc-ef16-496e-ad75-b3991237d2b6",
-          "path": "sprites/Spr_Night_Camera_Room_9/47cacedc-ef16-496e-ad75-b3991237d2b6.png"
+          "name": "d2108a5f-1e9f-47ee-8d4a-77e0b2c40aaf",
+          "path": "sprites/Spr_Night_Camera_Room_9/d2108a5f-1e9f-47ee-8d4a-77e0b2c40aaf.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "47cacedc-ef16-496e-ad75-b3991237d2b6",
-            "path": "sprites/Spr_Night_Camera_Room_9/47cacedc-ef16-496e-ad75-b3991237d2b6.png"
+            "name": "d2108a5f-1e9f-47ee-8d4a-77e0b2c40aaf",
+            "path": "sprites/Spr_Night_Camera_Room_9/d2108a5f-1e9f-47ee-8d4a-77e0b2c40aaf.png"
           },
           "LayerId": {
-            "name": "b54880aa-2e3f-4f44-bada-ef95a0a2631b",
-            "path": "sprites/Spr_Night_Camera_Room_9/b54880aa-2e3f-4f44-bada-ef95a0a2631b.png"
+            "name": "790d0ce7-f18b-4e95-846e-bcd6668a0cf7",
+            "path": "sprites/Spr_Night_Camera_Room_9/790d0ce7-f18b-4e95-846e-bcd6668a0cf7.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Night_Camera_Room_9",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "ca823d3c-4096-4312-9b45-f8cbb96af97c",
+              "id": "2523f79d-d49f-4c76-857b-c12d44a3f5ec",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "47cacedc-ef16-496e-ad75-b3991237d2b6",
+                    "name": "d2108a5f-1e9f-47ee-8d4a-77e0b2c40aaf",
                     "path": "sprites/Spr_Night_Camera_Room_9/Spr_Night_Camera_Room_9.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "b54880aa-2e3f-4f44-bada-ef95a0a2631b",
+      "name": "790d0ce7-f18b-4e95-846e-bcd6668a0cf7",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

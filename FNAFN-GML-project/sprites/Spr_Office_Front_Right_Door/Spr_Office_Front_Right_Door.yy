@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Office_Front_Right_Door",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "a441b8a5-46d7-417b-9399-bb55136ad5af",
+      "name": "da321245-7653-45b7-80f9-de65791dcbc3",
       "spriteId": {
         "name": "Spr_Office_Front_Right_Door",
         "path": "sprites/Spr_Office_Front_Right_Door/Spr_Office_Front_Right_Door.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "a441b8a5-46d7-417b-9399-bb55136ad5af",
-          "path": "sprites/Spr_Office_Front_Right_Door/a441b8a5-46d7-417b-9399-bb55136ad5af.png"
+          "name": "da321245-7653-45b7-80f9-de65791dcbc3",
+          "path": "sprites/Spr_Office_Front_Right_Door/da321245-7653-45b7-80f9-de65791dcbc3.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "a441b8a5-46d7-417b-9399-bb55136ad5af",
-            "path": "sprites/Spr_Office_Front_Right_Door/a441b8a5-46d7-417b-9399-bb55136ad5af.png"
+            "name": "da321245-7653-45b7-80f9-de65791dcbc3",
+            "path": "sprites/Spr_Office_Front_Right_Door/da321245-7653-45b7-80f9-de65791dcbc3.png"
           },
           "LayerId": {
-            "name": "9aae5f24-9d33-47cc-9bdc-57edebc42e70",
-            "path": "sprites/Spr_Office_Front_Right_Door/9aae5f24-9d33-47cc-9bdc-57edebc42e70.png"
+            "name": "45f41069-0308-40d7-9c4b-94e5e98c0bc8",
+            "path": "sprites/Spr_Office_Front_Right_Door/45f41069-0308-40d7-9c4b-94e5e98c0bc8.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Office_Front_Right_Door",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "8310e2d2-e663-490e-b58f-19ba94a5d123",
+              "id": "cb20f32a-8089-450f-9ac2-4c860937232c",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "a441b8a5-46d7-417b-9399-bb55136ad5af",
+                    "name": "da321245-7653-45b7-80f9-de65791dcbc3",
                     "path": "sprites/Spr_Office_Front_Right_Door/Spr_Office_Front_Right_Door.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "9aae5f24-9d33-47cc-9bdc-57edebc42e70",
+      "name": "45f41069-0308-40d7-9c4b-94e5e98c0bc8",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

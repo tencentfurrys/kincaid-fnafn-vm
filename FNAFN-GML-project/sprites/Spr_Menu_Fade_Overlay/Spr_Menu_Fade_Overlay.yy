@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Menu_Fade_Overlay",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "d37fa064-29a3-4b19-aabf-1ac9e494f84a",
+      "name": "57f12699-00f8-4c33-add9-387b5f01b6cf",
       "spriteId": {
         "name": "Spr_Menu_Fade_Overlay",
         "path": "sprites/Spr_Menu_Fade_Overlay/Spr_Menu_Fade_Overlay.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "d37fa064-29a3-4b19-aabf-1ac9e494f84a",
-          "path": "sprites/Spr_Menu_Fade_Overlay/d37fa064-29a3-4b19-aabf-1ac9e494f84a.png"
+          "name": "57f12699-00f8-4c33-add9-387b5f01b6cf",
+          "path": "sprites/Spr_Menu_Fade_Overlay/57f12699-00f8-4c33-add9-387b5f01b6cf.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "d37fa064-29a3-4b19-aabf-1ac9e494f84a",
-            "path": "sprites/Spr_Menu_Fade_Overlay/d37fa064-29a3-4b19-aabf-1ac9e494f84a.png"
+            "name": "57f12699-00f8-4c33-add9-387b5f01b6cf",
+            "path": "sprites/Spr_Menu_Fade_Overlay/57f12699-00f8-4c33-add9-387b5f01b6cf.png"
           },
           "LayerId": {
-            "name": "5986dbf8-5653-4da6-8454-490a691f537f",
-            "path": "sprites/Spr_Menu_Fade_Overlay/5986dbf8-5653-4da6-8454-490a691f537f.png"
+            "name": "25f8b1f4-4bd9-47d3-9746-69b7a60b9116",
+            "path": "sprites/Spr_Menu_Fade_Overlay/25f8b1f4-4bd9-47d3-9746-69b7a60b9116.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Menu_Fade_Overlay",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "39cf678b-63a7-43b5-a5d9-db375944ad25",
+              "id": "71dfbc89-3f6f-4092-a971-9e4a1aa9ddde",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "d37fa064-29a3-4b19-aabf-1ac9e494f84a",
+                    "name": "57f12699-00f8-4c33-add9-387b5f01b6cf",
                     "path": "sprites/Spr_Menu_Fade_Overlay/Spr_Menu_Fade_Overlay.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "5986dbf8-5653-4da6-8454-490a691f537f",
+      "name": "25f8b1f4-4bd9-47d3-9746-69b7a60b9116",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

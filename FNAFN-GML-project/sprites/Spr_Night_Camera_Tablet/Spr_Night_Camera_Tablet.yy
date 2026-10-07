@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Night_Camera_Tablet",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "87b29e52-7f92-4293-8de1-1b63df08cff5",
+      "name": "c4c29c12-077a-4ece-b572-557d960a981c",
       "spriteId": {
         "name": "Spr_Night_Camera_Tablet",
         "path": "sprites/Spr_Night_Camera_Tablet/Spr_Night_Camera_Tablet.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "87b29e52-7f92-4293-8de1-1b63df08cff5",
-          "path": "sprites/Spr_Night_Camera_Tablet/87b29e52-7f92-4293-8de1-1b63df08cff5.png"
+          "name": "c4c29c12-077a-4ece-b572-557d960a981c",
+          "path": "sprites/Spr_Night_Camera_Tablet/c4c29c12-077a-4ece-b572-557d960a981c.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "87b29e52-7f92-4293-8de1-1b63df08cff5",
-            "path": "sprites/Spr_Night_Camera_Tablet/87b29e52-7f92-4293-8de1-1b63df08cff5.png"
+            "name": "c4c29c12-077a-4ece-b572-557d960a981c",
+            "path": "sprites/Spr_Night_Camera_Tablet/c4c29c12-077a-4ece-b572-557d960a981c.png"
           },
           "LayerId": {
-            "name": "c19c3303-bac3-473e-bd3b-c33a25db6135",
-            "path": "sprites/Spr_Night_Camera_Tablet/c19c3303-bac3-473e-bd3b-c33a25db6135.png"
+            "name": "45e5b74e-a1b5-4ecb-b98f-954877d061fc",
+            "path": "sprites/Spr_Night_Camera_Tablet/45e5b74e-a1b5-4ecb-b98f-954877d061fc.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Night_Camera_Tablet",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "73c01c25-e821-4ec7-bc43-7b84003ff366",
+              "id": "6016c8e6-a892-4448-b227-3cd5c64a2e83",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "87b29e52-7f92-4293-8de1-1b63df08cff5",
+                    "name": "c4c29c12-077a-4ece-b572-557d960a981c",
                     "path": "sprites/Spr_Night_Camera_Tablet/Spr_Night_Camera_Tablet.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "c19c3303-bac3-473e-bd3b-c33a25db6135",
+      "name": "45e5b74e-a1b5-4ecb-b98f-954877d061fc",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

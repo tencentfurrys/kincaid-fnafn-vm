@@ -743,6 +743,38 @@ missing sprites.
 """
 
 
+def tag_yy(obj):
+    """Insert 2024.2+ $type tags: every dict with resourceType GMX gets
+    "$GMX" as its first key (required at the start of the JSON record by
+    the 2026 asset compiler). Recurses into nested dicts/lists."""
+    if isinstance(obj, dict):
+        rt = obj.get("resourceType")
+        items = [(tag_yy(k), tag_yy(v)) for k, v in obj.items()]
+        if isinstance(rt, str) and rt.startswith("GM"):
+            tag = "$" + rt
+            items = [(tag, "v1")] + [(k, v) for k, v in items
+                                     if k != tag]
+        return dict(items)
+    if isinstance(obj, list):
+        return [tag_yy(v) for v in obj]
+    return obj
+
+
+def apply_type_tags() -> int:
+    """Rewrite every project .yy (plus FNAFN.yyp) with $type tags."""
+    count = 0
+    for p in list(PROJ.rglob("*.yy")) + [YYP]:
+        try:
+            data = json.loads(p.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        p.write_text(json.dumps(tag_yy(data), indent=2) + "\n",
+                     encoding="utf-8")
+        count += 1
+    print(f"type tags applied: {count} .yy files")
+    return count
+
+
 def main() -> int:
     sprites = json.loads((BASE / "sprite_names.json").read_text())
     print(f"sprites: {len(sprites)}, rooms: "
@@ -775,6 +807,8 @@ def main() -> int:
             print(f"{junk}: already gone")
 
     (BASE / "BUILD-DATA.md").write_text(BUILD_DATA)
+
+    apply_type_tags()
 
     # ---- validation ----
     yyp_check = json.loads(YYP.read_text(encoding="utf-8"))

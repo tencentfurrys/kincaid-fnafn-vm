@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Night_Music_Switch",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "b3797e22-ae5f-4913-922a-e31c7390c784",
+      "name": "367ea41b-e6da-4858-99ea-b081a52aa3a1",
       "spriteId": {
         "name": "Spr_Night_Music_Switch",
         "path": "sprites/Spr_Night_Music_Switch/Spr_Night_Music_Switch.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "b3797e22-ae5f-4913-922a-e31c7390c784",
-          "path": "sprites/Spr_Night_Music_Switch/b3797e22-ae5f-4913-922a-e31c7390c784.png"
+          "name": "367ea41b-e6da-4858-99ea-b081a52aa3a1",
+          "path": "sprites/Spr_Night_Music_Switch/367ea41b-e6da-4858-99ea-b081a52aa3a1.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "b3797e22-ae5f-4913-922a-e31c7390c784",
-            "path": "sprites/Spr_Night_Music_Switch/b3797e22-ae5f-4913-922a-e31c7390c784.png"
+            "name": "367ea41b-e6da-4858-99ea-b081a52aa3a1",
+            "path": "sprites/Spr_Night_Music_Switch/367ea41b-e6da-4858-99ea-b081a52aa3a1.png"
           },
           "LayerId": {
-            "name": "2cabb0d2-d217-4534-af3d-e2fe63b41f53",
-            "path": "sprites/Spr_Night_Music_Switch/2cabb0d2-d217-4534-af3d-e2fe63b41f53.png"
+            "name": "fcf74a25-a939-450d-be7c-47df752c0c9a",
+            "path": "sprites/Spr_Night_Music_Switch/fcf74a25-a939-450d-be7c-47df752c0c9a.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Night_Music_Switch",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "b0ca3a70-e43b-41a3-8073-6978a5071151",
+              "id": "fba2982d-ef5b-4857-a63f-619e57e3060e",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "b3797e22-ae5f-4913-922a-e31c7390c784",
+                    "name": "367ea41b-e6da-4858-99ea-b081a52aa3a1",
                     "path": "sprites/Spr_Night_Music_Switch/Spr_Night_Music_Switch.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "2cabb0d2-d217-4534-af3d-e2fe63b41f53",
+      "name": "fcf74a25-a939-450d-be7c-47df752c0c9a",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

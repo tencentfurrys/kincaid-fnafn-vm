@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Jumpscare_Bonnie_1",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "44c8fc80-dc47-4c03-ac33-dd357d28d953",
+      "name": "a60f0bde-90fa-48cd-863e-c8bbd2610953",
       "spriteId": {
         "name": "Spr_Jumpscare_Bonnie_1",
         "path": "sprites/Spr_Jumpscare_Bonnie_1/Spr_Jumpscare_Bonnie_1.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "44c8fc80-dc47-4c03-ac33-dd357d28d953",
-          "path": "sprites/Spr_Jumpscare_Bonnie_1/44c8fc80-dc47-4c03-ac33-dd357d28d953.png"
+          "name": "a60f0bde-90fa-48cd-863e-c8bbd2610953",
+          "path": "sprites/Spr_Jumpscare_Bonnie_1/a60f0bde-90fa-48cd-863e-c8bbd2610953.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "44c8fc80-dc47-4c03-ac33-dd357d28d953",
-            "path": "sprites/Spr_Jumpscare_Bonnie_1/44c8fc80-dc47-4c03-ac33-dd357d28d953.png"
+            "name": "a60f0bde-90fa-48cd-863e-c8bbd2610953",
+            "path": "sprites/Spr_Jumpscare_Bonnie_1/a60f0bde-90fa-48cd-863e-c8bbd2610953.png"
           },
           "LayerId": {
-            "name": "1543d695-d73e-4c72-88a3-74bc606bb654",
-            "path": "sprites/Spr_Jumpscare_Bonnie_1/1543d695-d73e-4c72-88a3-74bc606bb654.png"
+            "name": "1b5844e3-93c9-4a2e-a26e-ad62802d0f86",
+            "path": "sprites/Spr_Jumpscare_Bonnie_1/1b5844e3-93c9-4a2e-a26e-ad62802d0f86.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Jumpscare_Bonnie_1",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "31295d4e-e8fc-4ef9-bb60-2bffd43b0e8b",
+              "id": "74b29568-b4f2-43cf-988a-63b70091b73b",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "44c8fc80-dc47-4c03-ac33-dd357d28d953",
+                    "name": "a60f0bde-90fa-48cd-863e-c8bbd2610953",
                     "path": "sprites/Spr_Jumpscare_Bonnie_1/Spr_Jumpscare_Bonnie_1.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "1543d695-d73e-4c72-88a3-74bc606bb654",
+      "name": "1b5844e3-93c9-4a2e-a26e-ad62802d0f86",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

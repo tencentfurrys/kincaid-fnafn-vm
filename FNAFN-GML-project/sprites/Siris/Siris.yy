@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Siris",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "24f21f1d-58bc-40ef-8515-2c35f0fa7bd6",
+      "name": "9bb98459-d63c-434c-8d98-c733fb81c5a6",
       "spriteId": {
         "name": "Siris",
         "path": "sprites/Siris/Siris.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "24f21f1d-58bc-40ef-8515-2c35f0fa7bd6",
-          "path": "sprites/Siris/24f21f1d-58bc-40ef-8515-2c35f0fa7bd6.png"
+          "name": "9bb98459-d63c-434c-8d98-c733fb81c5a6",
+          "path": "sprites/Siris/9bb98459-d63c-434c-8d98-c733fb81c5a6.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "24f21f1d-58bc-40ef-8515-2c35f0fa7bd6",
-            "path": "sprites/Siris/24f21f1d-58bc-40ef-8515-2c35f0fa7bd6.png"
+            "name": "9bb98459-d63c-434c-8d98-c733fb81c5a6",
+            "path": "sprites/Siris/9bb98459-d63c-434c-8d98-c733fb81c5a6.png"
           },
           "LayerId": {
-            "name": "9f9bb091-cc7b-431c-8928-91caf92da3b2",
-            "path": "sprites/Siris/9f9bb091-cc7b-431c-8928-91caf92da3b2.png"
+            "name": "4d40fd63-8fb0-4496-b9a4-d84290109223",
+            "path": "sprites/Siris/4d40fd63-8fb0-4496-b9a4-d84290109223.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Siris",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "e17722a0-c014-4f89-a03c-780d7ca9ace2",
+              "id": "60770a38-5304-47fa-bec3-e3d7b3fcc1a2",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "24f21f1d-58bc-40ef-8515-2c35f0fa7bd6",
+                    "name": "9bb98459-d63c-434c-8d98-c733fb81c5a6",
                     "path": "sprites/Siris/Siris.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "9f9bb091-cc7b-431c-8928-91caf92da3b2",
+      "name": "4d40fd63-8fb0-4496-b9a4-d84290109223",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

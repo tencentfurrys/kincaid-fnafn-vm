@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Jumpscare_Chica_1",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "8d31fb79-cdac-4151-bdef-377bdc93df42",
+      "name": "c8293606-e440-4fd8-b813-e36a6da3ed8c",
       "spriteId": {
         "name": "Spr_Jumpscare_Chica_1",
         "path": "sprites/Spr_Jumpscare_Chica_1/Spr_Jumpscare_Chica_1.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "8d31fb79-cdac-4151-bdef-377bdc93df42",
-          "path": "sprites/Spr_Jumpscare_Chica_1/8d31fb79-cdac-4151-bdef-377bdc93df42.png"
+          "name": "c8293606-e440-4fd8-b813-e36a6da3ed8c",
+          "path": "sprites/Spr_Jumpscare_Chica_1/c8293606-e440-4fd8-b813-e36a6da3ed8c.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "8d31fb79-cdac-4151-bdef-377bdc93df42",
-            "path": "sprites/Spr_Jumpscare_Chica_1/8d31fb79-cdac-4151-bdef-377bdc93df42.png"
+            "name": "c8293606-e440-4fd8-b813-e36a6da3ed8c",
+            "path": "sprites/Spr_Jumpscare_Chica_1/c8293606-e440-4fd8-b813-e36a6da3ed8c.png"
           },
           "LayerId": {
-            "name": "c6d42911-a6d3-4819-829e-eb9ac3762527",
-            "path": "sprites/Spr_Jumpscare_Chica_1/c6d42911-a6d3-4819-829e-eb9ac3762527.png"
+            "name": "5118f6fa-7e23-44b9-b9aa-d92ebeac36fa",
+            "path": "sprites/Spr_Jumpscare_Chica_1/5118f6fa-7e23-44b9-b9aa-d92ebeac36fa.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Jumpscare_Chica_1",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "eee35a98-de16-4784-863f-029e6a1fe00c",
+              "id": "9b4f7874-b194-4722-b93a-f1010b672fa8",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "8d31fb79-cdac-4151-bdef-377bdc93df42",
+                    "name": "c8293606-e440-4fd8-b813-e36a6da3ed8c",
                     "path": "sprites/Spr_Jumpscare_Chica_1/Spr_Jumpscare_Chica_1.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "c6d42911-a6d3-4819-829e-eb9ac3762527",
+      "name": "5118f6fa-7e23-44b9-b9aa-d92ebeac36fa",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

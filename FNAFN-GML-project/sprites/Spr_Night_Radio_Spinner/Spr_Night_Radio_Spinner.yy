@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Night_Radio_Spinner",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "a0640f0c-d29b-469e-8918-5f62aa44c05b",
+      "name": "58d24821-3ccf-458b-a010-39c5cb04484f",
       "spriteId": {
         "name": "Spr_Night_Radio_Spinner",
         "path": "sprites/Spr_Night_Radio_Spinner/Spr_Night_Radio_Spinner.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "a0640f0c-d29b-469e-8918-5f62aa44c05b",
-          "path": "sprites/Spr_Night_Radio_Spinner/a0640f0c-d29b-469e-8918-5f62aa44c05b.png"
+          "name": "58d24821-3ccf-458b-a010-39c5cb04484f",
+          "path": "sprites/Spr_Night_Radio_Spinner/58d24821-3ccf-458b-a010-39c5cb04484f.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "a0640f0c-d29b-469e-8918-5f62aa44c05b",
-            "path": "sprites/Spr_Night_Radio_Spinner/a0640f0c-d29b-469e-8918-5f62aa44c05b.png"
+            "name": "58d24821-3ccf-458b-a010-39c5cb04484f",
+            "path": "sprites/Spr_Night_Radio_Spinner/58d24821-3ccf-458b-a010-39c5cb04484f.png"
           },
           "LayerId": {
-            "name": "6ff8a027-8d73-4042-ac41-20b5fcf0e277",
-            "path": "sprites/Spr_Night_Radio_Spinner/6ff8a027-8d73-4042-ac41-20b5fcf0e277.png"
+            "name": "5f800fda-eaaa-42e5-a7f2-44079bffc370",
+            "path": "sprites/Spr_Night_Radio_Spinner/5f800fda-eaaa-42e5-a7f2-44079bffc370.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Night_Radio_Spinner",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "10fa7fec-af1e-40c6-8a85-60b0eb06e5bd",
+              "id": "aa5a86ce-5049-4cb1-94b5-872f53329837",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "a0640f0c-d29b-469e-8918-5f62aa44c05b",
+                    "name": "58d24821-3ccf-458b-a010-39c5cb04484f",
                     "path": "sprites/Spr_Night_Radio_Spinner/Spr_Night_Radio_Spinner.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "6ff8a027-8d73-4042-ac41-20b5fcf0e277",
+      "name": "5f800fda-eaaa-42e5-a7f2-44079bffc370",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

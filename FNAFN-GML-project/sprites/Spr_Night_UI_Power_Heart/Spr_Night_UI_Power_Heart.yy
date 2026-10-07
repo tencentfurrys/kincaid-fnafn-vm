@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Night_UI_Power_Heart",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "e591151b-28ab-4317-9cd2-215324f05631",
+      "name": "e6ed660a-9b12-492f-8e97-a9bcd1bf3067",
       "spriteId": {
         "name": "Spr_Night_UI_Power_Heart",
         "path": "sprites/Spr_Night_UI_Power_Heart/Spr_Night_UI_Power_Heart.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "e591151b-28ab-4317-9cd2-215324f05631",
-          "path": "sprites/Spr_Night_UI_Power_Heart/e591151b-28ab-4317-9cd2-215324f05631.png"
+          "name": "e6ed660a-9b12-492f-8e97-a9bcd1bf3067",
+          "path": "sprites/Spr_Night_UI_Power_Heart/e6ed660a-9b12-492f-8e97-a9bcd1bf3067.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "e591151b-28ab-4317-9cd2-215324f05631",
-            "path": "sprites/Spr_Night_UI_Power_Heart/e591151b-28ab-4317-9cd2-215324f05631.png"
+            "name": "e6ed660a-9b12-492f-8e97-a9bcd1bf3067",
+            "path": "sprites/Spr_Night_UI_Power_Heart/e6ed660a-9b12-492f-8e97-a9bcd1bf3067.png"
           },
           "LayerId": {
-            "name": "26b45bd5-76b9-4d88-9171-763be7ffb612",
-            "path": "sprites/Spr_Night_UI_Power_Heart/26b45bd5-76b9-4d88-9171-763be7ffb612.png"
+            "name": "521501a9-3789-4e1b-bf53-8d04ca2d42bb",
+            "path": "sprites/Spr_Night_UI_Power_Heart/521501a9-3789-4e1b-bf53-8d04ca2d42bb.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Night_UI_Power_Heart",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "c38e2dcb-06d4-489d-bbb3-a9823f284102",
+              "id": "8326578a-ccef-48cf-b8bf-1c16fd1bd856",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "e591151b-28ab-4317-9cd2-215324f05631",
+                    "name": "e6ed660a-9b12-492f-8e97-a9bcd1bf3067",
                     "path": "sprites/Spr_Night_UI_Power_Heart/Spr_Night_UI_Power_Heart.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "26b45bd5-76b9-4d88-9171-763be7ffb612",
+      "name": "521501a9-3789-4e1b-bf53-8d04ca2d42bb",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

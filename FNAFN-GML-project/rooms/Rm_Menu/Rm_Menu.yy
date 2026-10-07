@@ -1,4 +1,5 @@
 {
+  "$GMRoom": "v1",
   "resourceType": "GMRoom",
   "resourceVersion": "2.0",
   "name": "Rm_Menu",
@@ -8,11 +9,13 @@
   "views": [],
   "layers": [
     {
+      "$GMRInstanceLayer": "v1",
       "resourceType": "GMRInstanceLayer",
       "resourceVersion": "2.0",
       "name": "Instances",
       "instances": [
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A9",
@@ -37,6 +40,7 @@
           "y": 160
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186B0",
@@ -61,6 +65,7 @@
           "y": 0
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186AC",
@@ -85,6 +90,7 @@
           "y": 64
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186AA",
@@ -109,6 +115,7 @@
           "y": 352
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186AB",
@@ -133,6 +140,7 @@
           "y": 635
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186AD",
@@ -157,6 +165,7 @@
           "y": 635
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186B1",
@@ -181,6 +190,7 @@
           "y": 0
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186AE",
@@ -205,6 +215,7 @@
           "y": 656
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186AF",
@@ -229,6 +240,7 @@
           "y": 656
         },
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186A8",

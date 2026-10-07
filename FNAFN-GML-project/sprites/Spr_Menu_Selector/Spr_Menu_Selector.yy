@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Menu_Selector",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "69c3bb35-91de-463b-b526-85f387679125",
+      "name": "943e7252-dd39-4009-8879-3e3c8ceb457b",
       "spriteId": {
         "name": "Spr_Menu_Selector",
         "path": "sprites/Spr_Menu_Selector/Spr_Menu_Selector.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "69c3bb35-91de-463b-b526-85f387679125",
-          "path": "sprites/Spr_Menu_Selector/69c3bb35-91de-463b-b526-85f387679125.png"
+          "name": "943e7252-dd39-4009-8879-3e3c8ceb457b",
+          "path": "sprites/Spr_Menu_Selector/943e7252-dd39-4009-8879-3e3c8ceb457b.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "69c3bb35-91de-463b-b526-85f387679125",
-            "path": "sprites/Spr_Menu_Selector/69c3bb35-91de-463b-b526-85f387679125.png"
+            "name": "943e7252-dd39-4009-8879-3e3c8ceb457b",
+            "path": "sprites/Spr_Menu_Selector/943e7252-dd39-4009-8879-3e3c8ceb457b.png"
           },
           "LayerId": {
-            "name": "4b62a757-eb7f-418b-8103-21889f9c62c2",
-            "path": "sprites/Spr_Menu_Selector/4b62a757-eb7f-418b-8103-21889f9c62c2.png"
+            "name": "74291328-1e35-45b6-b366-58f176eb603c",
+            "path": "sprites/Spr_Menu_Selector/74291328-1e35-45b6-b366-58f176eb603c.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Menu_Selector",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "1b3e4015-697c-45cb-92e5-586cdc7b81ce",
+              "id": "c5e68ce6-4028-4398-9f72-e22bfabb2475",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "69c3bb35-91de-463b-b526-85f387679125",
+                    "name": "943e7252-dd39-4009-8879-3e3c8ceb457b",
                     "path": "sprites/Spr_Menu_Selector/Spr_Menu_Selector.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "4b62a757-eb7f-418b-8103-21889f9c62c2",
+      "name": "74291328-1e35-45b6-b366-58f176eb603c",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

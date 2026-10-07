@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Static_2",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "24a474de-c811-49f4-a9fd-e08dcde90dd1",
+      "name": "1ab3be1b-9834-42ce-8c98-9c4c7dd84d85",
       "spriteId": {
         "name": "Spr_Static_2",
         "path": "sprites/Spr_Static_2/Spr_Static_2.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "24a474de-c811-49f4-a9fd-e08dcde90dd1",
-          "path": "sprites/Spr_Static_2/24a474de-c811-49f4-a9fd-e08dcde90dd1.png"
+          "name": "1ab3be1b-9834-42ce-8c98-9c4c7dd84d85",
+          "path": "sprites/Spr_Static_2/1ab3be1b-9834-42ce-8c98-9c4c7dd84d85.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "24a474de-c811-49f4-a9fd-e08dcde90dd1",
-            "path": "sprites/Spr_Static_2/24a474de-c811-49f4-a9fd-e08dcde90dd1.png"
+            "name": "1ab3be1b-9834-42ce-8c98-9c4c7dd84d85",
+            "path": "sprites/Spr_Static_2/1ab3be1b-9834-42ce-8c98-9c4c7dd84d85.png"
           },
           "LayerId": {
-            "name": "ad12579c-8621-480a-be66-4d7d36ba1a5d",
-            "path": "sprites/Spr_Static_2/ad12579c-8621-480a-be66-4d7d36ba1a5d.png"
+            "name": "a78157a8-64f4-460b-a962-f96951a364f0",
+            "path": "sprites/Spr_Static_2/a78157a8-64f4-460b-a962-f96951a364f0.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Static_2",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "ca348abb-b01a-4ad3-a71a-86ecc30a767c",
+              "id": "4b005d4e-fe80-4d68-bffd-4b52e982782e",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "24a474de-c811-49f4-a9fd-e08dcde90dd1",
+                    "name": "1ab3be1b-9834-42ce-8c98-9c4c7dd84d85",
                     "path": "sprites/Spr_Static_2/Spr_Static_2.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "ad12579c-8621-480a-be66-4d7d36ba1a5d",
+      "name": "a78157a8-64f4-460b-a962-f96951a364f0",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

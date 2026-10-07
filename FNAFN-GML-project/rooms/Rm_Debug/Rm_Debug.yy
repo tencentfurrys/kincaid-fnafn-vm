@@ -1,4 +1,5 @@
 {
+  "$GMRoom": "v1",
   "resourceType": "GMRoom",
   "resourceVersion": "2.0",
   "name": "Rm_Debug",
@@ -8,11 +9,13 @@
   "views": [],
   "layers": [
     {
+      "$GMRInstanceLayer": "v1",
       "resourceType": "GMRInstanceLayer",
       "resourceVersion": "2.0",
       "name": "Instances",
       "instances": [
         {
+          "$GMRInstance": "v1",
           "resourceType": "GMRInstance",
           "resourceVersion": "2.0",
           "name": "inst_000186B5",

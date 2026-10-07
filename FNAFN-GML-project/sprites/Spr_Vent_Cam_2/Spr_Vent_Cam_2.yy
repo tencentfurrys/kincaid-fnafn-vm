@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Vent_Cam_2",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "bce2816f-7ae5-4fe0-803b-111331a33d38",
+      "name": "dd730021-f8d5-4740-bd49-a1322a67664a",
       "spriteId": {
         "name": "Spr_Vent_Cam_2",
         "path": "sprites/Spr_Vent_Cam_2/Spr_Vent_Cam_2.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "bce2816f-7ae5-4fe0-803b-111331a33d38",
-          "path": "sprites/Spr_Vent_Cam_2/bce2816f-7ae5-4fe0-803b-111331a33d38.png"
+          "name": "dd730021-f8d5-4740-bd49-a1322a67664a",
+          "path": "sprites/Spr_Vent_Cam_2/dd730021-f8d5-4740-bd49-a1322a67664a.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "bce2816f-7ae5-4fe0-803b-111331a33d38",
-            "path": "sprites/Spr_Vent_Cam_2/bce2816f-7ae5-4fe0-803b-111331a33d38.png"
+            "name": "dd730021-f8d5-4740-bd49-a1322a67664a",
+            "path": "sprites/Spr_Vent_Cam_2/dd730021-f8d5-4740-bd49-a1322a67664a.png"
           },
           "LayerId": {
-            "name": "94679c5c-738e-4b87-9e11-ac57ed2c1f77",
-            "path": "sprites/Spr_Vent_Cam_2/94679c5c-738e-4b87-9e11-ac57ed2c1f77.png"
+            "name": "e05bc14c-c79f-43a1-a9ec-5e64dc802287",
+            "path": "sprites/Spr_Vent_Cam_2/e05bc14c-c79f-43a1-a9ec-5e64dc802287.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Vent_Cam_2",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "84577f97-fdd9-4e14-ba02-f11f56b02b41",
+              "id": "6b578c06-fd0f-47ac-989d-d26ce00d26c9",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "bce2816f-7ae5-4fe0-803b-111331a33d38",
+                    "name": "dd730021-f8d5-4740-bd49-a1322a67664a",
                     "path": "sprites/Spr_Vent_Cam_2/Spr_Vent_Cam_2.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "94679c5c-738e-4b87-9e11-ac57ed2c1f77",
+      "name": "e05bc14c-c79f-43a1-a9ec-5e64dc802287",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

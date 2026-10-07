@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Spr_Night_UI_Freddy_Alert",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd",
+      "name": "0026f8b2-8439-4881-aae9-26fda691c89e",
       "spriteId": {
         "name": "Spr_Night_UI_Freddy_Alert",
         "path": "sprites/Spr_Night_UI_Freddy_Alert/Spr_Night_UI_Freddy_Alert.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd",
-          "path": "sprites/Spr_Night_UI_Freddy_Alert/5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd.png"
+          "name": "0026f8b2-8439-4881-aae9-26fda691c89e",
+          "path": "sprites/Spr_Night_UI_Freddy_Alert/0026f8b2-8439-4881-aae9-26fda691c89e.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd",
-            "path": "sprites/Spr_Night_UI_Freddy_Alert/5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd.png"
+            "name": "0026f8b2-8439-4881-aae9-26fda691c89e",
+            "path": "sprites/Spr_Night_UI_Freddy_Alert/0026f8b2-8439-4881-aae9-26fda691c89e.png"
           },
           "LayerId": {
-            "name": "0fccd15f-634e-48ce-94bc-ce9c4f945291",
-            "path": "sprites/Spr_Night_UI_Freddy_Alert/0fccd15f-634e-48ce-94bc-ce9c4f945291.png"
+            "name": "953f9ca9-b7d8-42dc-a79a-d009a8e208cc",
+            "path": "sprites/Spr_Night_UI_Freddy_Alert/953f9ca9-b7d8-42dc-a79a-d009a8e208cc.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Spr_Night_UI_Freddy_Alert",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "35d63fbd-eaf5-41aa-af0e-3ca022b67d1f",
+              "id": "03894f05-bf30-4bf5-b56b-f7d11605128e",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd",
+                    "name": "0026f8b2-8439-4881-aae9-26fda691c89e",
                     "path": "sprites/Spr_Night_UI_Freddy_Alert/Spr_Night_UI_Freddy_Alert.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "0fccd15f-634e-48ce-94bc-ce9c4f945291",
+      "name": "953f9ca9-b7d8-42dc-a79a-d009a8e208cc",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

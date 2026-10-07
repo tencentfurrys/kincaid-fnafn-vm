@@ -1,4 +1,5 @@
 {
+  "$GMSprite": "v1",
   "resourceType": "GMSprite",
   "resourceVersion": "2.0",
   "name": "Sring",
@@ -29,35 +30,38 @@
   "nineSlice": null,
   "frames": [
     {
+      "$GMSpriteFrame": "v1",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "03db4bd4-90b0-4f1c-bcd5-893e3421c186",
+      "name": "564e7da8-43aa-40da-ad12-03d44c75ece0",
       "spriteId": {
         "name": "Sring",
         "path": "sprites/Sring/Sring.yy"
       },
       "compositeImage": {
+        "$GMSpriteCameraTrack": "v1",
         "resourceType": "GMSpriteCameraTrack",
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "03db4bd4-90b0-4f1c-bcd5-893e3421c186",
-          "path": "sprites/Sring/03db4bd4-90b0-4f1c-bcd5-893e3421c186.png"
+          "name": "564e7da8-43aa-40da-ad12-03d44c75ece0",
+          "path": "sprites/Sring/564e7da8-43aa-40da-ad12-03d44c75ece0.png"
         },
         "LayerId": null
       },
       "images": [
         {
+          "$GMSpriteImage": "v1",
           "resourceType": "GMSpriteImage",
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "03db4bd4-90b0-4f1c-bcd5-893e3421c186",
-            "path": "sprites/Sring/03db4bd4-90b0-4f1c-bcd5-893e3421c186.png"
+            "name": "564e7da8-43aa-40da-ad12-03d44c75ece0",
+            "path": "sprites/Sring/564e7da8-43aa-40da-ad12-03d44c75ece0.png"
           },
           "LayerId": {
-            "name": "46895b7e-9765-416b-8b7d-3f3874cfeb28",
-            "path": "sprites/Sring/46895b7e-9765-416b-8b7d-3f3874cfeb28.png"
+            "name": "d30ee88b-d4b8-4683-ab3d-59594793ef65",
+            "path": "sprites/Sring/d30ee88b-d4b8-4683-ab3d-59594793ef65.png"
           }
         }
       ],
@@ -68,6 +72,7 @@
     }
   ],
   "sequence": {
+    "$GMSequence": "v1",
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
     "name": "Sring",
@@ -88,6 +93,7 @@
     },
     "tracks": [
       {
+        "$GMSpriteFramesTrack": "v1",
         "resourceType": "GMSpriteFramesTrack",
         "resourceVersion": "1.0",
         "name": "frames",
@@ -99,7 +105,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "b3d2699b-881a-4071-87ed-efe8546bae7f",
+              "id": "654b9d02-6bff-4988-b74f-de2affcc3ff9",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +116,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "03db4bd4-90b0-4f1c-bcd5-893e3421c186",
+                    "name": "564e7da8-43aa-40da-ad12-03d44c75ece0",
                     "path": "sprites/Sring/Sring.yy"
                   }
                 }
@@ -151,9 +157,10 @@
   },
   "layers": [
     {
+      "$GMSpriteLayer": "v1",
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "46895b7e-9765-416b-8b7d-3f3874cfeb28",
+      "name": "d30ee88b-d4b8-4683-ab3d-59594793ef65",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,
