@@ -464,8 +464,8 @@ def wire_sprites() -> list[dict]:
 
     Object spriteId stays null (per-object sprite mapping is out of
     scope); this only proves the sprite resources compile. Re-run
-    regenerates placeholders (stale frame PNGs are pruned first), so
-    do NOT re-run after real art is imported (see ASSETS-SCAFFOLD.md).
+    regenerates placeholders, except dirs carrying a .imported_real
+    sentinel (real art from import_assets.py), which are left alone.
     """
     sprites = json.loads((BASE / "sprite_names.json").read_text())
     png = white_png_32()
@@ -478,6 +478,14 @@ def wire_sprites() -> list[dict]:
                             f"skipped")
             continue
         d = sdir / name
+        if (d / ".imported_real").exists():
+            # Real art already imported (see import_assets.py): keep it.
+            entries.append({
+                "id": str(uuid.uuid4()),
+                "resourcePath": f"sprites/{name}/{name}.yy",
+                "resourceType": "GMSprite",
+            })
+            continue
         d.mkdir(parents=True, exist_ok=True)
         for stale in d.glob("*.png"):
             stale.unlink()
@@ -648,7 +656,10 @@ def wire_sprites() -> list[dict]:
 
 
 def wire_sounds() -> list[dict]:
-    """Scaffold sounds/<Name>/<Name>.yy + 0.1s silent 8-bit WAV."""
+    """Scaffold sounds/<Name>/<Name>.yy + 0.1s silent 8-bit WAV.
+
+    Re-run regenerates placeholders, except dirs carrying a
+    .imported_real sentinel (real audio from import_assets.py)."""
     sounds = json.loads((BASE / "sound_names.json").read_text())
     wav = silent_wav_8bit()
     sdir = PROJ / "sounds"
@@ -660,6 +671,14 @@ def wire_sounds() -> list[dict]:
                             f"skipped")
             continue
         d = sdir / name
+        if (d / ".imported_real").exists():
+            # Real audio already imported (see import_assets.py): keep it.
+            entries.append({
+                "id": str(uuid.uuid4()),
+                "resourcePath": f"sounds/{name}/{name}.yy",
+                "resourceType": "GMSound",
+            })
+            continue
         d.mkdir(parents=True, exist_ok=True)
         for stale in d.glob("*.wav"):
             stale.unlink()
@@ -855,8 +874,14 @@ def main() -> int:
         f"sprite count: entries={len(spr_entries)} files={len(spr_yy)}")
     assert len(snd_yy) == len(snd_entries) == 57, (
         f"sound count: entries={len(snd_entries)} files={len(snd_yy)}")
-    assert len(spr_png) == 2 * len(spr_entries), (
-        f"sprite pngs: {len(spr_png)}")
+    # Multi-frame sprites: 2 PNGs (root + layer) per declared frame.
+    total_frames = 0
+    for p in spr_yy:
+        total_frames += len(
+            json.loads(p.read_text(encoding="utf-8")).get("frames", []))
+    assert len(spr_png) == 2 * total_frames, (
+        f"sprite pngs: {len(spr_png)} vs 2 * frames={total_frames}")
+    print(f"sprite frames (all sprites): {total_frames}")
     assert len(snd_wav) == len(snd_entries), f"sound wavs: {len(snd_wav)}"
     assert len(yyp_check["resources"]) == (
         len(obj_entries) + len(scr_entries) + len(room_entries)

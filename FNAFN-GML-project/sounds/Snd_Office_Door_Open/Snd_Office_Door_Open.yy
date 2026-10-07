@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 2.7375056689342405,
   "exportDir": "",
   "name": "Snd_Office_Door_Open",
   "parent": {

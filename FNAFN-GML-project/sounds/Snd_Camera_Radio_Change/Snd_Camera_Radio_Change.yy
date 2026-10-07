@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 0.3831519274376417,
   "exportDir": "",
   "name": "Snd_Camera_Radio_Change",
   "parent": {

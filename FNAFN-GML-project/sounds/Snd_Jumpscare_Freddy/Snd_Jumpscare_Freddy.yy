@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 2.8212244897959184,
   "exportDir": "",
   "name": "Snd_Jumpscare_Freddy",
   "parent": {

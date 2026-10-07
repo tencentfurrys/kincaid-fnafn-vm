@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 2.0341950113378684,
   "exportDir": "",
   "name": "Snd_Camera_Radio_Play",
   "parent": {

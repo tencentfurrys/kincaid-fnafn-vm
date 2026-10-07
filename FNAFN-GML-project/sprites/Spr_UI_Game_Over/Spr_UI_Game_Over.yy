@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_UI_Game_Over",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 267,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 705,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "1c403687-8ab5-4a6f-9928-a594a39d912b",
-      "name": "1c403687-8ab5-4a6f-9928-a594a39d912b",
+      "%Name": "9d972192-18e7-5878-a741-f36ea50c4f44",
+      "name": "9d972192-18e7-5878-a741-f36ea50c4f44",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 268,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "faf82b85-cc34-4f4d-8adb-33a55b70d022",
+      "%Name": "8f825a99-ccab-51a6-98b3-e6ade48edbb3",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "faf82b85-cc34-4f4d-8adb-33a55b70d022",
+      "name": "8f825a99-ccab-51a6-98b3-e6ade48edbb3",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -40,7 +40,7 @@
   ],
   "name": "Spr_UI_Game_Over",
   "nineSlice": null,
-  "origin": 0,
+  "origin": 4,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy"
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "1c403687-8ab5-4a6f-9928-a594a39d912b",
+                    "name": "9d972192-18e7-5878-a741-f36ea50c4f44",
                     "path": "sprites/Spr_UI_Game_Over/Spr_UI_Game_Over.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "02c468e3-cbf4-5527-bf52-f11f75626100",
+              "id": "e11be664-cd53-5edd-a269-586085bbc94b",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -132,8 +132,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0
+    "xorigin": 353,
+    "yorigin": 134
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 706
 }

@@ -2,7 +2,7 @@
   "$GMSprite": "v2",
   "%Name": "sprScanline1",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 63,
   "bbox_left": 0,
   "bbox_right": 31,
   "bbox_top": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "294f6038-4197-4164-bd5f-e4de019db0e8",
-      "name": "294f6038-4197-4164-bd5f-e4de019db0e8",
+      "%Name": "73ffdfdf-ef19-50ab-be2b-bf5d6664ed14",
+      "name": "73ffdfdf-ef19-50ab-be2b-bf5d6664ed14",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 64,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "a7fe278b-9848-4000-93fb-81068024055d",
+      "%Name": "4b825fa1-ac35-5529-90c8-372284c0ea98",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "a7fe278b-9848-4000-93fb-81068024055d",
+      "name": "4b825fa1-ac35-5529-90c8-372284c0ea98",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -76,7 +76,7 @@
     },
     "name": "sprScanline1",
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 0,
     "resourceType": "GMSequence",
     "resourceVersion": "2.0",
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "294f6038-4197-4164-bd5f-e4de019db0e8",
+                    "name": "73ffdfdf-ef19-50ab-be2b-bf5d6664ed14",
                     "path": "sprites/sprScanline1/sprScanline1.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "824185b8-f234-5e67-88e6-4d35d6bd44b3",
+              "id": "8f94fe5d-a1d4-5bcd-96bc-b697bf2a1855",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,

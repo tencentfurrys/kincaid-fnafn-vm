@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Office_Front_Buttons_Red",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 115,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 110,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,31 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "8d7686e3-ce3a-40d9-8d5e-3391a8d41a2d",
-      "name": "8d7686e3-ce3a-40d9-8d5e-3391a8d41a2d",
+      "%Name": "0d7022f1-ce00-50fb-a3fb-1413e84703c5",
+      "name": "0d7022f1-ce00-50fb-a3fb-1413e84703c5",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMSpriteFrame": "v1",
+      "%Name": "302278b7-cbea-5db1-98b4-09e99ba1490a",
+      "name": "302278b7-cbea-5db1-98b4-09e99ba1490a",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 116,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "6d696460-c256-4922-94b2-2ff8ffd88f9a",
+      "%Name": "7eb3eeeb-43f3-5265-bbf0-e68cdb7754e2",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "6d696460-c256-4922-94b2-2ff8ffd88f9a",
+      "name": "7eb3eeeb-43f3-5265-bbf0-e68cdb7754e2",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -40,7 +47,7 @@
   ],
   "name": "Spr_Office_Front_Buttons_Red",
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy"
@@ -66,7 +73,7 @@
     },
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {
       "$KeyframeStore<MomentsEventKeyframe>": "",
@@ -100,7 +107,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "8d7686e3-ce3a-40d9-8d5e-3391a8d41a2d",
+                    "name": "0d7022f1-ce00-50fb-a3fb-1413e84703c5",
                     "path": "sprites/Spr_Office_Front_Buttons_Red/Spr_Office_Front_Buttons_Red.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,9 +115,31 @@
                 }
               },
               "Disabled": false,
-              "id": "69273e65-61af-5e34-aec7-17da0ca7579a",
+              "id": "42f22e09-4f76-542c-b1e6-a07ab9f915ef",
               "IsCreationKey": false,
               "Key": 0.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            },
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "302278b7-cbea-5db1-98b4-09e99ba1490a",
+                    "path": "sprites/Spr_Office_Front_Buttons_Red/Spr_Office_Front_Buttons_Red.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "31a22f6f-ce19-52f8-87d1-ed5a2ba5254c",
+              "IsCreationKey": false,
+              "Key": 1.0,
               "Length": 1.0,
               "resourceType": "Keyframe<SpriteFrameKeyframe>",
               "resourceVersion": "2.0",
@@ -132,8 +161,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0
+    "xorigin": 55,
+    "yorigin": 58
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -143,5 +172,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 111
 }

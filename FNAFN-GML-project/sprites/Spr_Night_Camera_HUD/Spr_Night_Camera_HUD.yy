@@ -2,10 +2,10 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Night_Camera_HUD",
   "bboxMode": 0,
-  "bbox_bottom": 31,
-  "bbox_left": 0,
-  "bbox_right": 31,
-  "bbox_top": 0,
+  "bbox_bottom": 659,
+  "bbox_left": 60,
+  "bbox_right": 1219,
+  "bbox_top": 60,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "bf4f0651-ad45-44bb-9961-3a1992e364d9",
-      "name": "bf4f0651-ad45-44bb-9961-3a1992e364d9",
+      "%Name": "c2ae2f2f-6912-5688-9113-4784e1ab37a3",
+      "name": "c2ae2f2f-6912-5688-9113-4784e1ab37a3",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 720,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "f47d20c3-12dc-46f4-986f-15dc30f2ae43",
+      "%Name": "a31e1b4a-a7bf-51da-a758-a3a6532392a0",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "f47d20c3-12dc-46f4-986f-15dc30f2ae43",
+      "name": "a31e1b4a-a7bf-51da-a758-a3a6532392a0",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -40,7 +40,7 @@
   ],
   "name": "Spr_Night_Camera_HUD",
   "nineSlice": null,
-  "origin": 0,
+  "origin": 4,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy"
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "bf4f0651-ad45-44bb-9961-3a1992e364d9",
+                    "name": "c2ae2f2f-6912-5688-9113-4784e1ab37a3",
                     "path": "sprites/Spr_Night_Camera_HUD/Spr_Night_Camera_HUD.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "bf08d5fd-d569-5a29-8dea-a725ed1b6fbf",
+              "id": "1d6c51aa-c793-55ec-bb15-095b224c3145",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -132,8 +132,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0
+    "xorigin": 640,
+    "yorigin": 360
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 1280
 }

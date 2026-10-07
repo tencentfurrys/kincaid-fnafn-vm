@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Menu_Radio_Cassette",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 365,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 679,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "0bdf37c0-31b5-4843-a855-aee717c5e7db",
-      "name": "0bdf37c0-31b5-4843-a855-aee717c5e7db",
+      "%Name": "b83a7c39-0e61-511f-a534-9f110d6beca2",
+      "name": "b83a7c39-0e61-511f-a534-9f110d6beca2",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 366,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "15930697-fdfd-45e0-8e5c-cc9ad0a77621",
+      "%Name": "1ba1b6f8-36a0-5c03-a4c9-46fbe22d1209",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "15930697-fdfd-45e0-8e5c-cc9ad0a77621",
+      "name": "1ba1b6f8-36a0-5c03-a4c9-46fbe22d1209",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -40,7 +40,7 @@
   ],
   "name": "Spr_Menu_Radio_Cassette",
   "nineSlice": null,
-  "origin": 0,
+  "origin": 4,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy"
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "0bdf37c0-31b5-4843-a855-aee717c5e7db",
+                    "name": "b83a7c39-0e61-511f-a534-9f110d6beca2",
                     "path": "sprites/Spr_Menu_Radio_Cassette/Spr_Menu_Radio_Cassette.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "af85548f-b4e5-597a-8a96-13937f487886",
+              "id": "f4e879da-097b-54cc-98c1-31f09b7aafcf",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -132,8 +132,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0
+    "xorigin": 340,
+    "yorigin": 183
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 680
 }

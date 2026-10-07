@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 3.7473696145124715,
   "exportDir": "",
   "name": "Snd_Mangle_In_Vents",
   "parent": {

@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 1.3034013605442176,
   "exportDir": "",
   "name": "Snd_Office_Door_Alarm_Left",
   "parent": {

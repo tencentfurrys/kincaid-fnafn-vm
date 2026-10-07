@@ -43,13 +43,23 @@ prove the resources compile; real assets get imported later.
   game (see `__background_*` / `action_*` compat scripts), so legacy
   behaviour flags may need tuning against real gameplay later.
 
-## Importing real assets (replaces the placeholders)
+## Importing real assets (DONE 2026-10-07 by `import_assets.py`)
 
-1. Export Sprites/Sounds from `fnafn/binaries/data.win` with
-   UndertaleModTool (see `BUILD-DATA.md` step (a)).
-2. In the IDE, replace each placeholder frame/WAV (or delete the
-   scaffold `sprites/<Name>/` + `sounds/<Name>/` content and import).
-3. Assign real sprites to objects (`spriteId`), tune options.
-4. **Do NOT re-run `gen_yy_wiring.py` after the real import** —
-   `wire_sprites()`/`wire_sounds()` regenerate placeholders and would
-   clobber real art/audio (stale PNG/WAV pruning included).
+Real sprites + audio were imported straight from `fnafn/binaries/data.win`
+(no UndertaleModTool needed):
+- `sprites/<Name>/`: 109 sprites, 1124 frames total (TPAG linkage resolved
+  exactly: each SPRT record carries frame count + inline TPAG-pointer array
+  at +88; every TPAG index used once, TPAG 242 unused). Frame = sprite-size
+  RGBA canvas, src crop pasted at (tgt_x,tgt_y); origins/bbox/playback speed
+  from SPRT fields (speed 0.0 = default 30.0; bbox clamped to the frame).
+- `sounds/<Name>/`: 54 real sounds swapped in (53 WAV copied byte-identical,
+  `Snd_Office_Unsettle` OGG decoded to PCM16 WAV via the runtime ffmpeg);
+  .yy keeps the accepted GMSound shape, only duration/sampleRate/volume
+  updated (volume from SOND). The 3 external/streamed sounds
+  (`Snd_Loading`, `Snd_Menu_Theme`, `Snd_Menu_Theme_Radio`, SOND
+  audio_idx=-1, no embedded bytes in data.win) keep silent placeholders.
+- `.imported_real` sentinels mark imported dirs: `gen_yy_wiring.py`
+  `wire_sprites()`/`wire_sounds()` skip them, so re-running the generator
+  (and `format_2026.convert_all`, which preserves multi-frame sprites) is
+  safe. Remaining work: assign real sprites to objects (`spriteId`), tune
+  options.

@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 62.0669387755102,
   "exportDir": "",
   "name": "Snd_Office_Unsettle",
   "parent": {
@@ -22,5 +22,5 @@
   "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "Snd_Office_Unsettle.wav",
-  "volume": 1.0
+  "volume": 0.02500000037252903
 }

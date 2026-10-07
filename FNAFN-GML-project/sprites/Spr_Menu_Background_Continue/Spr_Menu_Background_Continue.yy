@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Menu_Background_Continue",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 719,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 1279,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,52 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "02304d41-ee69-49eb-9aad-0d15f377d90d",
-      "name": "02304d41-ee69-49eb-9aad-0d15f377d90d",
+      "%Name": "bf705b99-5ffa-5a21-976c-cca0b0ef53b1",
+      "name": "bf705b99-5ffa-5a21-976c-cca0b0ef53b1",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMSpriteFrame": "v1",
+      "%Name": "37c3d350-f947-53df-976a-f4a06c9decb8",
+      "name": "37c3d350-f947-53df-976a-f4a06c9decb8",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMSpriteFrame": "v1",
+      "%Name": "526c48d4-6985-5d4a-9e53-5ef87a0206e6",
+      "name": "526c48d4-6985-5d4a-9e53-5ef87a0206e6",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMSpriteFrame": "v1",
+      "%Name": "98823a66-1e31-5cad-94bc-8b7f94ee33b1",
+      "name": "98823a66-1e31-5cad-94bc-8b7f94ee33b1",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMSpriteFrame": "v1",
+      "%Name": "406d4f3a-7903-5319-a0dc-76c5057d492e",
+      "name": "406d4f3a-7903-5319-a0dc-76c5057d492e",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 720,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "35653717-c963-4045-9eb4-677168d8d35d",
+      "%Name": "f32b42bd-3587-5266-bfdc-175d0d138fb5",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "35653717-c963-4045-9eb4-677168d8d35d",
+      "name": "f32b42bd-3587-5266-bfdc-175d0d138fb5",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -66,7 +94,7 @@
     },
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 5.0,
     "lockOrigin": false,
     "moments": {
       "$KeyframeStore<MomentsEventKeyframe>": "",
@@ -100,7 +128,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "02304d41-ee69-49eb-9aad-0d15f377d90d",
+                    "name": "bf705b99-5ffa-5a21-976c-cca0b0ef53b1",
                     "path": "sprites/Spr_Menu_Background_Continue/Spr_Menu_Background_Continue.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,9 +136,97 @@
                 }
               },
               "Disabled": false,
-              "id": "8af56544-9916-5629-902d-ec7ee9b97077",
+              "id": "08d6c012-830f-5bbb-8df2-83eca0d3c0fa",
               "IsCreationKey": false,
               "Key": 0.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            },
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "37c3d350-f947-53df-976a-f4a06c9decb8",
+                    "path": "sprites/Spr_Menu_Background_Continue/Spr_Menu_Background_Continue.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "72082e87-b69d-57d6-ba8a-22d9888aa328",
+              "IsCreationKey": false,
+              "Key": 1.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            },
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "526c48d4-6985-5d4a-9e53-5ef87a0206e6",
+                    "path": "sprites/Spr_Menu_Background_Continue/Spr_Menu_Background_Continue.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "269e3752-48b0-596a-87f0-70fd5c6f40e9",
+              "IsCreationKey": false,
+              "Key": 2.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            },
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "98823a66-1e31-5cad-94bc-8b7f94ee33b1",
+                    "path": "sprites/Spr_Menu_Background_Continue/Spr_Menu_Background_Continue.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "51e46c1c-f9ed-556d-9859-d5b8789a6fe8",
+              "IsCreationKey": false,
+              "Key": 3.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            },
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "406d4f3a-7903-5319-a0dc-76c5057d492e",
+                    "path": "sprites/Spr_Menu_Background_Continue/Spr_Menu_Background_Continue.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "574faba8-cec0-537a-85d1-5835a10218ae",
+              "IsCreationKey": false,
+              "Key": 4.0,
               "Length": 1.0,
               "resourceType": "Keyframe<SpriteFrameKeyframe>",
               "resourceVersion": "2.0",
@@ -143,5 +259,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 1280
 }

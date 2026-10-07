@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 0.8578231292517007,
   "exportDir": "",
   "name": "Snd_Office_Button_Error",
   "parent": {

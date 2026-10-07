@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Night_Camera_Flash",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 53,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 236,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "78f8dac0-a954-4a88-a45f-80305cca61b7",
-      "name": "78f8dac0-a954-4a88-a45f-80305cca61b7",
+      "%Name": "a204eb8d-cf22-57f2-995c-41b15564bc30",
+      "name": "a204eb8d-cf22-57f2-995c-41b15564bc30",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 54,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "1042e61f-abfe-4be8-9b77-96c8677c29e7",
+      "%Name": "570d455a-8e83-5f15-81a8-9009cabd33e8",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "1042e61f-abfe-4be8-9b77-96c8677c29e7",
+      "name": "570d455a-8e83-5f15-81a8-9009cabd33e8",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "78f8dac0-a954-4a88-a45f-80305cca61b7",
+                    "name": "a204eb8d-cf22-57f2-995c-41b15564bc30",
                     "path": "sprites/Spr_Night_Camera_Flash/Spr_Night_Camera_Flash.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "e6f318be-5b42-52fb-af28-419d044e0005",
+              "id": "3e70cb55-a11c-524f-98de-1525abe205aa",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 237
 }

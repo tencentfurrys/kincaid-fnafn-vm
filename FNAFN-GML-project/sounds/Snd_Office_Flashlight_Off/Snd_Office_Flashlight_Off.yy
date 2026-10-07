@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 1.0319727891156463,
   "exportDir": "",
   "name": "Snd_Office_Flashlight_Off",
   "parent": {

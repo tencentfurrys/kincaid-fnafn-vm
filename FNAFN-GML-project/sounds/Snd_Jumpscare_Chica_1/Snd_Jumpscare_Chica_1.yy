@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 1.4889795918367348,
   "exportDir": "",
   "name": "Snd_Jumpscare_Chica_1",
   "parent": {

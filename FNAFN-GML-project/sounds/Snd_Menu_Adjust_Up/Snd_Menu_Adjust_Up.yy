@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 0.05317460317460317,
   "exportDir": "",
   "name": "Snd_Menu_Adjust_Up",
   "parent": {
@@ -22,5 +22,5 @@
   "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "Snd_Menu_Adjust_Up.wav",
-  "volume": 1.0
+  "volume": 0.30000001192092896
 }

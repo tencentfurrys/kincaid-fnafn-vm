@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "sprMask1",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 511,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 511,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "c44bd979-88d9-4101-b4ee-b1c65bcaf3c9",
-      "name": "c44bd979-88d9-4101-b4ee-b1c65bcaf3c9",
+      "%Name": "86f360bb-9626-5e8b-bc48-caf85102096f",
+      "name": "86f360bb-9626-5e8b-bc48-caf85102096f",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 512,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "c0ed1183-b9cf-4925-b343-603ccfb20e9f",
+      "%Name": "337a5686-05cb-5b29-acdd-13c26759e2a6",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "c0ed1183-b9cf-4925-b343-603ccfb20e9f",
+      "name": "337a5686-05cb-5b29-acdd-13c26759e2a6",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -76,7 +76,7 @@
     },
     "name": "sprMask1",
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 0,
     "resourceType": "GMSequence",
     "resourceVersion": "2.0",
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "c44bd979-88d9-4101-b4ee-b1c65bcaf3c9",
+                    "name": "86f360bb-9626-5e8b-bc48-caf85102096f",
                     "path": "sprites/sprMask1/sprMask1.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "bd788f5e-e9ca-5e07-a5b3-45c62562bedd",
+              "id": "975abdbd-986d-5034-9183-33a44dab9ab6",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 512
 }

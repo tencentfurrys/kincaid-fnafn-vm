@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 0.2522675736961451,
   "exportDir": "",
   "name": "Snd_Camera_Click",
   "parent": {

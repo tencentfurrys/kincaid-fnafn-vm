@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 1.073922902494331,
   "exportDir": "",
   "name": "Snd_Camera_Change",
   "parent": {

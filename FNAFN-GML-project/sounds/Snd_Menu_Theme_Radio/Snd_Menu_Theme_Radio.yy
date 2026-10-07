@@ -22,5 +22,5 @@
   "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "Snd_Menu_Theme_Radio.wav",
-  "volume": 1.0
+  "volume": 0.5
 }

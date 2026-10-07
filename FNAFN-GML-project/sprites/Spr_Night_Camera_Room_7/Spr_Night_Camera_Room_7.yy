@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Night_Camera_Room_7",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 719,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 1279,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "43b7dad0-3b72-4467-a2be-a6d4e74e1dbd",
-      "name": "43b7dad0-3b72-4467-a2be-a6d4e74e1dbd",
+      "%Name": "701064a5-117b-5a3d-9606-5a747d2870ea",
+      "name": "701064a5-117b-5a3d-9606-5a747d2870ea",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 720,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "64bdfc2a-fa84-45ad-94b3-f6dded60a48a",
+      "%Name": "5bb4c33e-13c9-5e84-bd80-8a735ae79e3e",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "64bdfc2a-fa84-45ad-94b3-f6dded60a48a",
+      "name": "5bb4c33e-13c9-5e84-bd80-8a735ae79e3e",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -40,7 +40,7 @@
   ],
   "name": "Spr_Night_Camera_Room_7",
   "nineSlice": null,
-  "origin": 0,
+  "origin": 4,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy"
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "43b7dad0-3b72-4467-a2be-a6d4e74e1dbd",
+                    "name": "701064a5-117b-5a3d-9606-5a747d2870ea",
                     "path": "sprites/Spr_Night_Camera_Room_7/Spr_Night_Camera_Room_7.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "867c4cd1-2bfa-523a-acd5-808090a0ace0",
+              "id": "812a2437-eebf-561e-a226-89ab1a5865ed",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -132,8 +132,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0
+    "xorigin": 640,
+    "yorigin": 360
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 1280
 }

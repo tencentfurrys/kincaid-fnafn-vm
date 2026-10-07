@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 0.49334375,
   "exportDir": "",
   "name": "Snd_Office_Look_4",
   "parent": {
@@ -20,7 +20,7 @@
   "preload": false,
   "resourceType": "GMSound",
   "resourceVersion": "2.0",
-  "sampleRate": 44100,
+  "sampleRate": 32000,
   "soundFile": "Snd_Office_Look_4.wav",
   "volume": 1.0
 }

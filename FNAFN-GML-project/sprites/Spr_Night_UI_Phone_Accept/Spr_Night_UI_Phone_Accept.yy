@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Night_UI_Phone_Accept",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 231,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 298,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,38 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "9956b9a1-4d7a-40f7-afb5-68f3a861c0c2",
-      "name": "9956b9a1-4d7a-40f7-afb5-68f3a861c0c2",
+      "%Name": "56f85f4a-a887-5780-a753-d7095c020320",
+      "name": "56f85f4a-a887-5780-a753-d7095c020320",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMSpriteFrame": "v1",
+      "%Name": "b1bd0cde-e7b8-5afa-948f-489b4bf7fe24",
+      "name": "b1bd0cde-e7b8-5afa-948f-489b4bf7fe24",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMSpriteFrame": "v1",
+      "%Name": "18d7519d-0c4d-511d-b540-0c7fb04a28a9",
+      "name": "18d7519d-0c4d-511d-b540-0c7fb04a28a9",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 232,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "a800084b-c22a-4521-a381-45d7da290efe",
+      "%Name": "c736726e-79bf-5ccb-b71a-9efac2a8a070",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "a800084b-c22a-4521-a381-45d7da290efe",
+      "name": "c736726e-79bf-5ccb-b71a-9efac2a8a070",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -66,7 +80,7 @@
     },
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 3.0,
     "lockOrigin": false,
     "moments": {
       "$KeyframeStore<MomentsEventKeyframe>": "",
@@ -76,7 +90,7 @@
     },
     "name": "Spr_Night_UI_Phone_Accept",
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "resourceType": "GMSequence",
     "resourceVersion": "2.0",
@@ -100,7 +114,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "9956b9a1-4d7a-40f7-afb5-68f3a861c0c2",
+                    "name": "56f85f4a-a887-5780-a753-d7095c020320",
                     "path": "sprites/Spr_Night_UI_Phone_Accept/Spr_Night_UI_Phone_Accept.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,9 +122,53 @@
                 }
               },
               "Disabled": false,
-              "id": "cdbc893a-d5c0-5b39-bf6a-7ede24feb22f",
+              "id": "feb98bc5-0a69-5a46-aff7-889ecb0f599d",
               "IsCreationKey": false,
               "Key": 0.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            },
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "b1bd0cde-e7b8-5afa-948f-489b4bf7fe24",
+                    "path": "sprites/Spr_Night_UI_Phone_Accept/Spr_Night_UI_Phone_Accept.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "c514222f-9a2c-5830-8158-39caf3760f88",
+              "IsCreationKey": false,
+              "Key": 1.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            },
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "18d7519d-0c4d-511d-b540-0c7fb04a28a9",
+                    "path": "sprites/Spr_Night_UI_Phone_Accept/Spr_Night_UI_Phone_Accept.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "8d212988-3cfa-53bf-b19e-4a195f7575bb",
+              "IsCreationKey": false,
+              "Key": 2.0,
               "Length": 1.0,
               "resourceType": "Keyframe<SpriteFrameKeyframe>",
               "resourceVersion": "2.0",
@@ -143,5 +201,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 299
 }

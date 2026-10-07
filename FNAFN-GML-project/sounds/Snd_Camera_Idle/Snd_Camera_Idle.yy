@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 30.72,
   "exportDir": "",
   "name": "Snd_Camera_Idle",
   "parent": {
@@ -22,5 +22,5 @@
   "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "Snd_Camera_Idle.wav",
-  "volume": 1.0
+  "volume": 0.44999998807907104
 }

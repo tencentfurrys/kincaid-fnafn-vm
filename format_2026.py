@@ -303,50 +303,98 @@ def white_png_32() -> bytes:
             + chunk(b"IDAT", zlib.compress(row * 32)) + chunk(b"IEND", b""))
 
 
-def sprite_frame_ids(d: dict, name: str):
-    """Return (frame_id, layer_id): reuse wire_* UUIDs when present."""
+def sprite_frame_ids(d: dict, name: str, n: int = 1):
+    """Return (frame_ids, layer_id): reuse wire_* UUIDs when present."""
     frames = d.get("frames") or []
-    fid = frames[0].get("name") if frames else None
+    fids = [f.get("name") for f in frames if f.get("name")]
+    while len(fids) < n:
+        fids.append(str(uuid.uuid5(
+            uuid.NAMESPACE_URL,
+            "FNAFN/sprite-frame/%s/%d" % (name, len(fids)))))
     layers = d.get("layers") or []
-    lid = layers[0].get("name") if layers else None
-    if not fid:
-        fid = str(uuid.uuid5(uuid.NAMESPACE_URL, "FNAFN/sprite-frame/%s" % name))
+    lid = layers[0].get("name") if layers and layers[0].get("name") else None
     if not lid:
         lid = str(uuid.uuid5(uuid.NAMESPACE_URL, "FNAFN/sprite-layer/%s" % name))
-    return fid, lid
+    return fids[:n], lid
 
 
-def fix_sprite_files(sdir: Path, name: str, fid: str, lid: str) -> None:
-    """Enforce 2026 layout: <fid>.png + layers/<fid>/<lid>.png."""
-    layers_dir = sdir / "layers" / fid
-    layers_dir.mkdir(parents=True, exist_ok=True)
-    target = layers_dir / (lid + ".png")
-    root_layer_png = sdir / (lid + ".png")
-    if root_layer_png.exists() and not target.exists():
-        root_layer_png.rename(target)
-    if not target.exists():
-        src = sdir / (fid + ".png")
-        if src.exists():
-            shutil.copyfile(src, target)
-        else:
-            target.write_bytes(white_png_32())
-    if not (sdir / (fid + ".png")).exists():
-        (sdir / (fid + ".png")).write_bytes(white_png_32())
+def sprite_key_ids(d: dict, name: str, n: int):
+    """Reuse existing keyframe ids (in order) when the count matches."""
+    try:
+        keys = d["sequence"]["tracks"][0]["keyframes"]["Keyframes"]
+        ids = [k.get("id") for k in keys]
+    except (KeyError, IndexError, TypeError, AttributeError):
+        ids = []
+    if len(ids) != n or any(not i for i in ids):
+        ids = [str(uuid.uuid5(uuid.NAMESPACE_URL,
+                              "FNAFN/sprite-key/%s/%d" % (name, i)))
+               for i in range(n)]
+    return ids
+
+
+def fix_sprite_files(sdir: Path, name: str, fids, lid: str) -> None:
+    """Enforce 2026 layout per frame: <fid>.png + layers/<fid>/<lid>.png."""
+    if isinstance(fids, str):
+        fids = [fids]
+    want_roots = set()
+    for fid in fids:
+        layers_dir = sdir / "layers" / fid
+        layers_dir.mkdir(parents=True, exist_ok=True)
+        target = layers_dir / (lid + ".png")
+        root_layer_png = sdir / (lid + ".png")
+        if root_layer_png.exists() and not target.exists():
+            root_layer_png.rename(target)
+        if not target.exists():
+            src = sdir / (fid + ".png")
+            if src.exists():
+                shutil.copyfile(src, target)
+            else:
+                target.write_bytes(white_png_32())
+        if not (sdir / (fid + ".png")).exists():
+            (sdir / (fid + ".png")).write_bytes(white_png_32())
+        want_roots.add(fid)
     # prune stale placeholders (wire_* regenerates + converter relocates)
     for p in sdir.glob("*.png"):
-        if p.stem not in (fid,):
+        if p.stem not in want_roots:
             # the relocated layer png was already moved; anything else is stale
-            if p.stem != lid or target.exists():
-                if p.stem != fid:
+            if p.stem != lid or (sdir / "layers").exists():
+                if p.stem not in want_roots:
                     p.unlink(missing_ok=True)
-    for sub in (sdir / "layers").iterdir():
-        if sub.name != fid:
-            shutil.rmtree(sub, ignore_errors=True)
+    if (sdir / "layers").exists():
+        for sub in (sdir / "layers").iterdir():
+            if sub.name not in want_roots:
+                shutil.rmtree(sub, ignore_errors=True)
 
 
 def conv_sprite(d: dict, name: str, yy_rel: str) -> dict:
-    fid, lid = sprite_frame_ids(d, name)
-    kid = str(uuid.uuid5(uuid.NAMESPACE_URL, "FNAFN/sprite-key/%s" % name))
+    frames_in = d.get("frames") or [{}]
+    n = len(frames_in)
+    fids, lid = sprite_frame_ids(d, name, n)
+    kids = sprite_key_ids(d, name, n)
+    seq_in = d.get("sequence") or {}
+    w = d.get("width", 32)
+    h = d.get("height", 32)
+    keyframes = []
+    for i, (fid, kid) in enumerate(zip(fids, kids)):
+        keyframes.append({
+            "$Keyframe<SpriteFrameKeyframe>": "",
+            "Channels": {
+                "0": {
+                    "$SpriteFrameKeyframe": "",
+                    "Id": {"name": fid, "path": yy_rel},
+                    "resourceType": "SpriteFrameKeyframe",
+                    "resourceVersion": "2.0",
+                },
+            },
+            "Disabled": False,
+            "id": kid,
+            "IsCreationKey": False,
+            "Key": float(i),
+            "Length": 1.0,
+            "resourceType": "Keyframe<SpriteFrameKeyframe>",
+            "resourceVersion": "2.0",
+            "Stretch": False,
+        })
     track = {
         "$GMSpriteFramesTrack": "",
         "builtinName": 0,
@@ -356,25 +404,7 @@ def conv_sprite(d: dict, name: str, yy_rel: str) -> dict:
         "isCreationTrack": False,
         "keyframes": {
             "$KeyframeStore<SpriteFrameKeyframe>": "",
-            "Keyframes": [{
-                "$Keyframe<SpriteFrameKeyframe>": "",
-                "Channels": {
-                    "0": {
-                        "$SpriteFrameKeyframe": "",
-                        "Id": {"name": fid, "path": yy_rel},
-                        "resourceType": "SpriteFrameKeyframe",
-                        "resourceVersion": "2.0",
-                    },
-                },
-                "Disabled": False,
-                "id": kid,
-                "IsCreationKey": False,
-                "Key": 0.0,
-                "Length": 1.0,
-                "resourceType": "Keyframe<SpriteFrameKeyframe>",
-                "resourceVersion": "2.0",
-                "Stretch": False,
-            }],
+            "Keyframes": keyframes,
             "resourceType": "KeyframeStore<SpriteFrameKeyframe>",
             "resourceVersion": "2.0",
         },
@@ -405,7 +435,7 @@ def conv_sprite(d: dict, name: str, yy_rel: str) -> dict:
         },
         "eventStubScript": None,
         "eventToFunction": {},
-        "length": 1.0,
+        "length": float(n),
         "lockOrigin": False,
         "moments": {
             "$KeyframeStore<MomentsEventKeyframe>": "",
@@ -415,7 +445,7 @@ def conv_sprite(d: dict, name: str, yy_rel: str) -> dict:
         },
         "name": name,
         "playback": 1,
-        "playbackSpeed": 30.0,
+        "playbackSpeed": seq_in.get("playbackSpeed", 30.0),
         "playbackSpeedType": 0,
         "resourceType": "GMSequence",
         "resourceVersion": "2.0",
@@ -425,16 +455,16 @@ def conv_sprite(d: dict, name: str, yy_rel: str) -> dict:
         "tracks": [track],
         "visibleRange": None,
         "volume": 1.0,
-        "xorigin": 0,
-        "yorigin": 0,
+        "xorigin": seq_in.get("xorigin", 0),
+        "yorigin": seq_in.get("yorigin", 0),
     }
     return {
         "$GMSprite": "v2",
         "%Name": name,
         "bboxMode": d.get("bboxMode", 0),
-        "bbox_bottom": d.get("bbox_bottom", 31),
+        "bbox_bottom": d.get("bbox_bottom", h - 1),
         "bbox_left": d.get("bbox_left", 0),
-        "bbox_right": d.get("bbox_right", 31),
+        "bbox_right": d.get("bbox_right", w - 1),
         "bbox_top": d.get("bbox_top", 0),
         "collisionKind": d.get("collisionKind", 1),
         "collisionTolerance": d.get("collisionTolerance", 0),
@@ -447,7 +477,7 @@ def conv_sprite(d: dict, name: str, yy_rel: str) -> dict:
             "name": fid,
             "resourceType": "GMSpriteFrame",
             "resourceVersion": "2.0",
-        }],
+        } for fid in fids],
         "gridX": d.get("gridX", 0),
         "gridY": d.get("gridY", 0),
         "height": d.get("height", 32),
@@ -757,9 +787,9 @@ def convert_all(proj: Path = PROJ) -> dict:
             data = load_yy(yy)
             rel = "sprites/%s/%s.yy" % (d.name, d.name)
             new = conv_sprite(data, d.name, rel)
-            fid = new["frames"][0]["name"]
+            fids = [f["name"] for f in new["frames"]]
             lid = new["layers"][0]["name"]
-            fix_sprite_files(d, d.name, fid, lid)
+            fix_sprite_files(d, d.name, fids, lid)
             save_yy(yy, new)
             counts["sprite"] += 1
     for d in sorted((proj / "sounds").iterdir()):

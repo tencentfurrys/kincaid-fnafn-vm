@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Night_Camera_Tether_Lock",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 119,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 119,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "9ab150a4-8bf7-424e-b31c-b4bb3316f1ed",
-      "name": "9ab150a4-8bf7-424e-b31c-b4bb3316f1ed",
+      "%Name": "08a3d44a-858d-52fc-84fc-d1a891bcc018",
+      "name": "08a3d44a-858d-52fc-84fc-d1a891bcc018",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 120,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "3db4278f-11b2-49ec-9ec1-10dde73b22cc",
+      "%Name": "87bd2c97-313a-5576-86b2-8984c691b3d2",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "3db4278f-11b2-49ec-9ec1-10dde73b22cc",
+      "name": "87bd2c97-313a-5576-86b2-8984c691b3d2",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -40,7 +40,7 @@
   ],
   "name": "Spr_Night_Camera_Tether_Lock",
   "nineSlice": null,
-  "origin": 0,
+  "origin": 4,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy"
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "9ab150a4-8bf7-424e-b31c-b4bb3316f1ed",
+                    "name": "08a3d44a-858d-52fc-84fc-d1a891bcc018",
                     "path": "sprites/Spr_Night_Camera_Tether_Lock/Spr_Night_Camera_Tether_Lock.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "333c9f1f-20a1-57c1-a03d-b15e47acaf37",
+              "id": "ab732116-7700-593c-91dd-61dcbfbec2c1",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -132,8 +132,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0
+    "xorigin": 60,
+    "yorigin": 60
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 120
 }

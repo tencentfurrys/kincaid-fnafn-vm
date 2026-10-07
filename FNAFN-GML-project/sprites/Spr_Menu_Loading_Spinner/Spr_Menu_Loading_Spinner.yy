@@ -2,10 +2,10 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Menu_Loading_Spinner",
   "bboxMode": 0,
-  "bbox_bottom": 31,
-  "bbox_left": 0,
-  "bbox_right": 31,
-  "bbox_top": 0,
+  "bbox_bottom": 134,
+  "bbox_left": 14,
+  "bbox_right": 134,
+  "bbox_top": 8,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "f6945edb-60d0-4a13-9c25-c1813213aac7",
-      "name": "f6945edb-60d0-4a13-9c25-c1813213aac7",
+      "%Name": "49496bb0-4585-55be-9306-ffc5055bb108",
+      "name": "49496bb0-4585-55be-9306-ffc5055bb108",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 149,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "519198f4-452e-434c-9e9e-2864d7faecd7",
+      "%Name": "3d3a99a4-df6b-513b-8787-f2c31285e605",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "519198f4-452e-434c-9e9e-2864d7faecd7",
+      "name": "3d3a99a4-df6b-513b-8787-f2c31285e605",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -40,7 +40,7 @@
   ],
   "name": "Spr_Menu_Loading_Spinner",
   "nineSlice": null,
-  "origin": 0,
+  "origin": 9,
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy"
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "f6945edb-60d0-4a13-9c25-c1813213aac7",
+                    "name": "49496bb0-4585-55be-9306-ffc5055bb108",
                     "path": "sprites/Spr_Menu_Loading_Spinner/Spr_Menu_Loading_Spinner.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "b6bbd9b4-d23e-5eec-b24f-7beced1f5cba",
+              "id": "31e77ced-06e0-5193-ad57-d3ccefdeac42",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -132,8 +132,8 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 0,
-    "yorigin": 0
+    "xorigin": 74,
+    "yorigin": 74
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 149
 }

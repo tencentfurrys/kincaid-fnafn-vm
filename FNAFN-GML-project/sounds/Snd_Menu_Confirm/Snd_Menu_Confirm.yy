@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 0.3108843537414966,
   "exportDir": "",
   "name": "Snd_Menu_Confirm",
   "parent": {
@@ -22,5 +22,5 @@
   "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "Snd_Menu_Confirm.wav",
-  "volume": 1.0
+  "volume": 0.15000000596046448
 }

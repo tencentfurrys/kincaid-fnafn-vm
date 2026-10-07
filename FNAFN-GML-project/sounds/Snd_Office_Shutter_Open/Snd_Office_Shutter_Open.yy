@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 1.0689569160997732,
   "exportDir": "",
   "name": "Snd_Office_Shutter_Open",
   "parent": {

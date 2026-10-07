@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "OLD_TV_Filter_Signal",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 599,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 799,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "e48e8833-2a5a-49fd-8392-0391a08a2ec1",
-      "name": "e48e8833-2a5a-49fd-8392-0391a08a2ec1",
+      "%Name": "dd6e78da-9515-5b92-9c0e-43b2a0bf9c3d",
+      "name": "dd6e78da-9515-5b92-9c0e-43b2a0bf9c3d",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 600,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "9743cf94-257c-4733-a2fb-4283eaf0a87b",
+      "%Name": "0a0e94dc-25c6-5fba-ac12-c1274b87b968",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "9743cf94-257c-4733-a2fb-4283eaf0a87b",
+      "name": "0a0e94dc-25c6-5fba-ac12-c1274b87b968",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -76,7 +76,7 @@
     },
     "name": "OLD_TV_Filter_Signal",
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "resourceType": "GMSequence",
     "resourceVersion": "2.0",
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "e48e8833-2a5a-49fd-8392-0391a08a2ec1",
+                    "name": "dd6e78da-9515-5b92-9c0e-43b2a0bf9c3d",
                     "path": "sprites/OLD_TV_Filter_Signal/OLD_TV_Filter_Signal.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "28ca9b7f-d24c-5ec8-9a06-51dc1028b0da",
+              "id": "a5cad5f8-df5c-5cd5-8992-864f8c2663c8",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 800
 }

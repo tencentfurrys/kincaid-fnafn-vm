@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 0.990249433106576,
   "exportDir": "",
   "name": "Snd_Office_Nose",
   "parent": {
@@ -20,7 +20,7 @@
   "preload": false,
   "resourceType": "GMSound",
   "resourceVersion": "2.0",
-  "sampleRate": 44100,
+  "sampleRate": 22050,
   "soundFile": "Snd_Office_Nose.wav",
-  "volume": 1.0
+  "volume": 0.550000011920929
 }

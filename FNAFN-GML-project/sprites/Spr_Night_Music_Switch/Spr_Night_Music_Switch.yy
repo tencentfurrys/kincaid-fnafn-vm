@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Night_Music_Switch",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 69,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 69,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,31 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "8d16d3de-96fd-428c-886f-6b7f3907f601",
-      "name": "8d16d3de-96fd-428c-886f-6b7f3907f601",
+      "%Name": "adc94457-78e0-5270-90e6-e244d27daf66",
+      "name": "adc94457-78e0-5270-90e6-e244d27daf66",
+      "resourceType": "GMSpriteFrame",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMSpriteFrame": "v1",
+      "%Name": "f8e8c759-27e3-5876-9471-38bf9d1dc863",
+      "name": "f8e8c759-27e3-5876-9471-38bf9d1dc863",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 70,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "8e5a23e6-43b8-4cd9-8fbb-3705bf45d869",
+      "%Name": "9d75675d-02eb-5931-bd9d-7faf9661cc2b",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "8e5a23e6-43b8-4cd9-8fbb-3705bf45d869",
+      "name": "9d75675d-02eb-5931-bd9d-7faf9661cc2b",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -66,7 +73,7 @@
     },
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {
       "$KeyframeStore<MomentsEventKeyframe>": "",
@@ -100,7 +107,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "8d16d3de-96fd-428c-886f-6b7f3907f601",
+                    "name": "adc94457-78e0-5270-90e6-e244d27daf66",
                     "path": "sprites/Spr_Night_Music_Switch/Spr_Night_Music_Switch.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,9 +115,31 @@
                 }
               },
               "Disabled": false,
-              "id": "6dabfc88-52b1-58a7-9079-0cb28c49a9e5",
+              "id": "62dccda1-d1a9-5145-8ab7-6ad707347ffe",
               "IsCreationKey": false,
               "Key": 0.0,
+              "Length": 1.0,
+              "resourceType": "Keyframe<SpriteFrameKeyframe>",
+              "resourceVersion": "2.0",
+              "Stretch": false
+            },
+            {
+              "$Keyframe<SpriteFrameKeyframe>": "",
+              "Channels": {
+                "0": {
+                  "$SpriteFrameKeyframe": "",
+                  "Id": {
+                    "name": "f8e8c759-27e3-5876-9471-38bf9d1dc863",
+                    "path": "sprites/Spr_Night_Music_Switch/Spr_Night_Music_Switch.yy"
+                  },
+                  "resourceType": "SpriteFrameKeyframe",
+                  "resourceVersion": "2.0"
+                }
+              },
+              "Disabled": false,
+              "id": "0bb93711-f8cf-5447-9f05-0c6f2abeb1ea",
+              "IsCreationKey": false,
+              "Key": 1.0,
               "Length": 1.0,
               "resourceType": "Keyframe<SpriteFrameKeyframe>",
               "resourceVersion": "2.0",
@@ -143,5 +172,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 70
 }

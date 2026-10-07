@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 2.6107482993197277,
   "exportDir": "",
   "name": "Snd_Foxy_Move_1",
   "parent": {

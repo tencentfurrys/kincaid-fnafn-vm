@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 1.619591836734694,
   "exportDir": "",
   "name": "Snd_Jumpscare_Bonnie_1",
   "parent": {

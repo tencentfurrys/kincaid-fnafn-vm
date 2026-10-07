@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_UI_Fade_Black",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 0,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 0,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "b9b27918-e5b7-40a7-b5f7-66bd75c4d5e8",
-      "name": "b9b27918-e5b7-40a7-b5f7-66bd75c4d5e8",
+      "%Name": "cb24e653-fd61-512c-afd0-f0e8fdd17a88",
+      "name": "cb24e653-fd61-512c-afd0-f0e8fdd17a88",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 1,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "644b8e8b-3bac-4384-b291-acb1f03dd3f1",
+      "%Name": "0e479263-dd6c-5883-9499-17ceef60be08",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "644b8e8b-3bac-4384-b291-acb1f03dd3f1",
+      "name": "0e479263-dd6c-5883-9499-17ceef60be08",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "b9b27918-e5b7-40a7-b5f7-66bd75c4d5e8",
+                    "name": "cb24e653-fd61-512c-afd0-f0e8fdd17a88",
                     "path": "sprites/Spr_UI_Fade_Black/Spr_UI_Fade_Black.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "17e2f2dc-3d14-5389-a28c-fec461b8997d",
+              "id": "9a68c7e8-a714-5e3e-81e2-44d4a4b42a77",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 1
 }

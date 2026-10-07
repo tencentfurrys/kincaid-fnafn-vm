@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 3.305578231292517,
   "exportDir": "",
   "name": "Snd_Chica_Move_2",
   "parent": {

@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 3.0317006802721087,
   "exportDir": "",
   "name": "Snd_Bonnie_Move_2",
   "parent": {

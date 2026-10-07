@@ -10,7 +10,7 @@
   "compression": 0,
   "compressionQuality": 1,
   "conversionMode": 0,
-  "duration": 0.1,
+  "duration": 4.050793650793651,
   "exportDir": "",
   "name": "Snd_Freddy_Power_Out",
   "parent": {

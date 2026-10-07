@@ -2,9 +2,9 @@
   "$GMSprite": "v2",
   "%Name": "Spr_Menu_Fade_Overlay",
   "bboxMode": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 719,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 760,
   "bbox_top": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -14,24 +14,24 @@
   "frames": [
     {
       "$GMSpriteFrame": "v1",
-      "%Name": "5072ef70-459c-496c-9b11-dbf0ba5e8428",
-      "name": "5072ef70-459c-496c-9b11-dbf0ba5e8428",
+      "%Name": "9032d112-9611-5379-8599-daff311f5eec",
+      "name": "9032d112-9611-5379-8599-daff311f5eec",
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "2.0"
     }
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 720,
   "HTile": false,
   "layers": [
     {
       "$GMImageLayer": "",
-      "%Name": "092750cf-799a-43a8-997a-8f48e0704987",
+      "%Name": "37138dc4-1b16-5474-94f1-744fc763a62f",
       "blendMode": 0,
       "displayName": "default",
       "isLocked": false,
-      "name": "092750cf-799a-43a8-997a-8f48e0704987",
+      "name": "37138dc4-1b16-5474-94f1-744fc763a62f",
       "opacity": 100.0,
       "resourceType": "GMImageLayer",
       "resourceVersion": "2.0",
@@ -100,7 +100,7 @@
                 "0": {
                   "$SpriteFrameKeyframe": "",
                   "Id": {
-                    "name": "5072ef70-459c-496c-9b11-dbf0ba5e8428",
+                    "name": "9032d112-9611-5379-8599-daff311f5eec",
                     "path": "sprites/Spr_Menu_Fade_Overlay/Spr_Menu_Fade_Overlay.yy"
                   },
                   "resourceType": "SpriteFrameKeyframe",
@@ -108,7 +108,7 @@
                 }
               },
               "Disabled": false,
-              "id": "7cfb815f-cad3-5d01-bf7c-751df672f9c2",
+              "id": "fd6118cf-38f5-5e31-bc27-c14f94df53e8",
               "IsCreationKey": false,
               "Key": 0.0,
               "Length": 1.0,
@@ -143,5 +143,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32
+  "width": 1280
 }
