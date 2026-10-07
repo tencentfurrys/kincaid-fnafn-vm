@@ -37,7 +37,7 @@ void gml_Object_Obj_Night_Camera_Record_PreCreate_0(undefined8 param_1)
   undefined8 uStack_18;
   
   uStack_18 = 0xfffffffffffffffe;
-  puStack_98 = &UNK_14043dc79 /* "gml_Object_Obj_Night_Camera_Record_PreCreate_0" */;
+  puStack_98 = &UNK_14043dc79 / * "gml_Object_Obj_Night_Camera_Record_PreCreate_0" * /;
   uStack_90 = 0;
   uStack_a0 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_a0;

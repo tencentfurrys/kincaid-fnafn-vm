@@ -1,12 +1,13 @@
 {
   "$GMScript": "v1",
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
-  "name": "action_draw_sprite",
+  "%Name": "action_draw_sprite",
   "isCompatibility": false,
   "isDnD": false,
+  "name": "action_draw_sprite",
   "parent": {
     "name": "Scripts",
     "path": "folders/Scripts.yy"
-  }
+  },
+  "resourceType": "GMScript",
+  "resourceVersion": "2.0"
 }

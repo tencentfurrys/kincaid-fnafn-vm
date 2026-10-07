@@ -1,12 +1,13 @@
 {
   "$GMScript": "v1",
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
-  "name": "Scr_Camera_Update",
+  "%Name": "Scr_Camera_Update",
   "isCompatibility": false,
   "isDnD": false,
+  "name": "Scr_Camera_Update",
   "parent": {
     "name": "Scripts",
     "path": "folders/Scripts.yy"
-  }
+  },
+  "resourceType": "GMScript",
+  "resourceVersion": "2.0"
 }

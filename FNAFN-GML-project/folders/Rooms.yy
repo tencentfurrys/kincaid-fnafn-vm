@@ -1,7 +1,8 @@
 {
-  "$GMFolder": "v1",
-  "resourceType": "GMFolder",
-  "resourceVersion": "1.0",
+  "$GMFolder": "",
+  "%Name": "Rooms",
+  "folderPath": "folders/Rooms.yy",
   "name": "Rooms",
-  "folderPath": "folders/Rooms.yy"
+  "resourceType": "GMFolder",
+  "resourceVersion": "2.0"
 }

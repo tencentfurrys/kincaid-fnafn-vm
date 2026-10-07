@@ -17,8 +17,8 @@ draw_sprite_ext(Spr_Night_UI_Power_Bar, 0, 66, 65, 1, 1, 0, $40A0FF, power_bar_o
 draw_sprite_ext(Spr_Night_UI_Power_Bar, 0, 96, 65, 1, 1, 0, c_red, power_bar_opacity[2]);
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Type propagation algorithm not settling */
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Type propagation algorithm not settling * /
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_UI_Power_Draw_75(longlong *param_1)
 

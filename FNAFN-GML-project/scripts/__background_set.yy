@@ -1,12 +1,13 @@
 {
   "$GMScript": "v1",
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
-  "name": "__background_set",
+  "%Name": "__background_set",
   "isCompatibility": false,
   "isDnD": false,
+  "name": "__background_set",
   "parent": {
     "name": "Scripts",
     "path": "folders/Scripts.yy"
-  }
+  },
+  "resourceType": "GMScript",
+  "resourceVersion": "2.0"
 }

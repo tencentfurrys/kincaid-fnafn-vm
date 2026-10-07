@@ -33,7 +33,7 @@ void gml_Object_Obj_Menu_Radio_Cassette_PreCreate_0(undefined8 param_1)
   undefined8 uStack_18;
   
   uStack_18 = 0xfffffffffffffffe;
-  puStack_78 = &UNK_14043ce8d /* "gml_Object_Obj_Menu_Radio_Cassette_PreCreate_0" */;
+  puStack_78 = &UNK_14043ce8d / * "gml_Object_Obj_Menu_Radio_Cassette_PreCreate_0" * /;
   uStack_80 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_80;
   uStack_5c = 0xffffff;

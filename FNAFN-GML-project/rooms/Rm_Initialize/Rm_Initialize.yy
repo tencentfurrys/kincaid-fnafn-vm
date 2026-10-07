@@ -1,71 +1,25 @@
 {
   "$GMRoom": "v1",
-  "resourceType": "GMRoom",
-  "resourceVersion": "2.0",
-  "name": "Rm_Initialize",
+  "%Name": "Rm_Initialize",
   "creationCodeFile": "rooms/Rm_Initialize/RoomCreationCode.gml",
+  "inheritCode": false,
+  "inheritCreationOrder": false,
+  "inheritLayers": false,
+  "instanceCreationOrder": [
+    {
+      "name": "inst_000186F5",
+      "path": "rooms/Rm_Initialize/Rm_Initialize.yy"
+    },
+    {
+      "name": "inst_000186F6",
+      "path": "rooms/Rm_Initialize/Rm_Initialize.yy"
+    }
+  ],
   "isDnd": false,
-  "volume": 1.0,
-  "views": [],
   "layers": [
     {
-      "$GMRInstanceLayer": "v1",
-      "resourceType": "GMRInstanceLayer",
-      "resourceVersion": "2.0",
-      "name": "Instances",
-      "instances": [
-        {
-          "$GMRInstance": "v1",
-          "resourceType": "GMRInstance",
-          "resourceVersion": "2.0",
-          "name": "inst_000186F5",
-          "id": "ae5217fe-3514-5aba-a0c4-58651a5fb7a9",
-          "objectId": {
-            "name": "Obj_System_Stats_Check",
-            "path": "objects/Obj_System_Stats_Check/Obj_System_Stats_Check.yy"
-          },
-          "inheritCode": false,
-          "hasCreationCode": false,
-          "colour": 4294967295,
-          "rotation": 0.0,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "imageIndex": 0,
-          "imageSpeed": 1.0,
-          "inherited": false,
-          "frozen": false,
-          "ignore": false,
-          "inheritItemSettings": false,
-          "x": -32,
-          "y": 64
-        },
-        {
-          "$GMRInstance": "v1",
-          "resourceType": "GMRInstance",
-          "resourceVersion": "2.0",
-          "name": "inst_000186F6",
-          "id": "99fa1fa8-02cd-5725-a58e-bc4d987dcae5",
-          "objectId": {
-            "name": "Obj_System_Delta_Time",
-            "path": "objects/Obj_System_Delta_Time/Obj_System_Delta_Time.yy"
-          },
-          "inheritCode": false,
-          "hasCreationCode": false,
-          "colour": 4294967295,
-          "rotation": 0.0,
-          "scaleX": 1.0,
-          "scaleY": 1.0,
-          "imageIndex": 0,
-          "imageSpeed": 1.0,
-          "inherited": false,
-          "frozen": false,
-          "ignore": false,
-          "inheritItemSettings": false,
-          "x": 32,
-          "y": 64
-        }
-      ],
-      "visible": true,
+      "$GMRInstanceLayer": "",
+      "%Name": "Instances",
       "depth": 0,
       "effectEnabled": false,
       "effectType": null,
@@ -76,31 +30,77 @@
       "inheritLayerSettings": false,
       "inheritSubLayers": true,
       "inheritVisibility": true,
-      "userdefinedDepth": false
+      "instances": [
+        {
+          "$GMRInstance": "v4",
+          "%Name": "inst_000186F5",
+          "colour": 4294967295,
+          "frozen": false,
+          "hasCreationCode": false,
+          "ignore": false,
+          "imageIndex": 0,
+          "imageSpeed": 1.0,
+          "inheritCode": false,
+          "inheritedItemId": null,
+          "inheritItemSettings": false,
+          "isDnd": false,
+          "name": "inst_000186F5",
+          "objectId": {
+            "name": "Obj_System_Stats_Check",
+            "path": "objects/Obj_System_Stats_Check/Obj_System_Stats_Check.yy"
+          },
+          "properties": [],
+          "resourceType": "GMRInstance",
+          "resourceVersion": "2.0",
+          "rotation": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "x": -32,
+          "y": 64
+        },
+        {
+          "$GMRInstance": "v4",
+          "%Name": "inst_000186F6",
+          "colour": 4294967295,
+          "frozen": false,
+          "hasCreationCode": false,
+          "ignore": false,
+          "imageIndex": 0,
+          "imageSpeed": 1.0,
+          "inheritCode": false,
+          "inheritedItemId": null,
+          "inheritItemSettings": false,
+          "isDnd": false,
+          "name": "inst_000186F6",
+          "objectId": {
+            "name": "Obj_System_Delta_Time",
+            "path": "objects/Obj_System_Delta_Time/Obj_System_Delta_Time.yy"
+          },
+          "properties": [],
+          "resourceType": "GMRInstance",
+          "resourceVersion": "2.0",
+          "rotation": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "x": 32,
+          "y": 64
+        }
+      ],
+      "layers": [],
+      "name": "Instances",
+      "properties": [],
+      "resourceType": "GMRInstanceLayer",
+      "resourceVersion": "2.0",
+      "userdefinedDepth": false,
+      "visible": true
     }
   ],
-  "instanceCreationOrderIds": [
-    {
-      "name": "inst_000186F5",
-      "path": "rooms/Rm_Initialize/Rm_Initialize.yy"
-    },
-    {
-      "name": "inst_000186F6",
-      "path": "rooms/Rm_Initialize/Rm_Initialize.yy"
-    }
-  ],
-  "roomSettings": {
-    "inheritRoomSettings": false,
-    "Width": 1280,
-    "Height": 720,
-    "persistent": false
+  "name": "Rm_Initialize",
+  "parent": {
+    "name": "FNAFN",
+    "path": "FNAFN.yyp"
   },
-  "viewSettings": {
-    "inheritViewSettings": false,
-    "enableViews": false,
-    "clearViewBackground": false,
-    "clearDisplayBuffer": true
-  },
+  "parentRoom": null,
   "physicsSettings": {
     "inheritPhysicsSettings": false,
     "PhysicsWorld": false,
@@ -108,9 +108,158 @@
     "PhysicsWorldGravityY": 10.0,
     "PhysicsWorldPixToMetres": 0.1
   },
-  "parentRoom": null,
-  "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy"
-  }
+  "resourceType": "GMRoom",
+  "resourceVersion": "2.0",
+  "roomSettings": {
+    "Height": 720,
+    "inheritRoomSettings": false,
+    "persistent": false,
+    "Width": 1280
+  },
+  "sequenceId": null,
+  "views": [
+    {
+      "hborder": 32,
+      "hport": 768,
+      "hspeed": -1,
+      "hview": 768,
+      "inherit": false,
+      "objectId": null,
+      "vborder": 32,
+      "visible": false,
+      "vspeed": -1,
+      "wport": 1366,
+      "wview": 1366,
+      "xport": 0,
+      "xview": 0,
+      "yport": 0,
+      "yview": 0
+    },
+    {
+      "hborder": 32,
+      "hport": 768,
+      "hspeed": -1,
+      "hview": 768,
+      "inherit": false,
+      "objectId": null,
+      "vborder": 32,
+      "visible": false,
+      "vspeed": -1,
+      "wport": 1366,
+      "wview": 1366,
+      "xport": 0,
+      "xview": 0,
+      "yport": 0,
+      "yview": 0
+    },
+    {
+      "hborder": 32,
+      "hport": 768,
+      "hspeed": -1,
+      "hview": 768,
+      "inherit": false,
+      "objectId": null,
+      "vborder": 32,
+      "visible": false,
+      "vspeed": -1,
+      "wport": 1366,
+      "wview": 1366,
+      "xport": 0,
+      "xview": 0,
+      "yport": 0,
+      "yview": 0
+    },
+    {
+      "hborder": 32,
+      "hport": 768,
+      "hspeed": -1,
+      "hview": 768,
+      "inherit": false,
+      "objectId": null,
+      "vborder": 32,
+      "visible": false,
+      "vspeed": -1,
+      "wport": 1366,
+      "wview": 1366,
+      "xport": 0,
+      "xview": 0,
+      "yport": 0,
+      "yview": 0
+    },
+    {
+      "hborder": 32,
+      "hport": 768,
+      "hspeed": -1,
+      "hview": 768,
+      "inherit": false,
+      "objectId": null,
+      "vborder": 32,
+      "visible": false,
+      "vspeed": -1,
+      "wport": 1366,
+      "wview": 1366,
+      "xport": 0,
+      "xview": 0,
+      "yport": 0,
+      "yview": 0
+    },
+    {
+      "hborder": 32,
+      "hport": 768,
+      "hspeed": -1,
+      "hview": 768,
+      "inherit": false,
+      "objectId": null,
+      "vborder": 32,
+      "visible": false,
+      "vspeed": -1,
+      "wport": 1366,
+      "wview": 1366,
+      "xport": 0,
+      "xview": 0,
+      "yport": 0,
+      "yview": 0
+    },
+    {
+      "hborder": 32,
+      "hport": 768,
+      "hspeed": -1,
+      "hview": 768,
+      "inherit": false,
+      "objectId": null,
+      "vborder": 32,
+      "visible": false,
+      "vspeed": -1,
+      "wport": 1366,
+      "wview": 1366,
+      "xport": 0,
+      "xview": 0,
+      "yport": 0,
+      "yview": 0
+    },
+    {
+      "hborder": 32,
+      "hport": 768,
+      "hspeed": -1,
+      "hview": 768,
+      "inherit": false,
+      "objectId": null,
+      "vborder": 32,
+      "visible": false,
+      "vspeed": -1,
+      "wport": 1366,
+      "wview": 1366,
+      "xport": 0,
+      "xview": 0,
+      "yport": 0,
+      "yview": 0
+    }
+  ],
+  "viewSettings": {
+    "clearDisplayBuffer": true,
+    "clearViewBackground": false,
+    "enableViews": false,
+    "inheritViewSettings": false
+  },
+  "volume": 1.0
 }

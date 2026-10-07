@@ -1,7 +1,8 @@
 {
-  "$GMFolder": "v1",
-  "resourceType": "GMFolder",
-  "resourceVersion": "1.0",
+  "$GMFolder": "",
+  "%Name": "Sprites",
+  "folderPath": "folders/Sprites.yy",
   "name": "Sprites",
-  "folderPath": "folders/Sprites.yy"
+  "resourceType": "GMFolder",
+  "resourceVersion": "2.0"
 }

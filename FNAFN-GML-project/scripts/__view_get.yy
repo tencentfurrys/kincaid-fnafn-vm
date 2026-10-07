@@ -1,12 +1,13 @@
 {
   "$GMScript": "v1",
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
-  "name": "__view_get",
+  "%Name": "__view_get",
   "isCompatibility": false,
   "isDnD": false,
+  "name": "__view_get",
   "parent": {
     "name": "Scripts",
     "path": "folders/Scripts.yy"
-  }
+  },
+  "resourceType": "GMScript",
+  "resourceVersion": "2.0"
 }

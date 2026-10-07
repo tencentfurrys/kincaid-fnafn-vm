@@ -1,14 +1,15 @@
 {
-  "$GMWindowsOptions": "v1",
-  "resourceType": "GMWindowsOptions",
-  "resourceVersion": "1.1",
+  "$GMWindowsOptions": "v2",
+  "%Name": "Windows",
   "name": "Windows",
   "option_windows_allow_fullscreen_switching": false,
   "option_windows_borderless": false,
   "option_windows_company_info": "",
-  "option_windows_copy_exe_to_dest": false,
   "option_windows_copyright_info": "",
+  "option_windows_copy_exe_to_dest": false,
+  "option_windows_d3dswapeffectdiscard": false,
   "option_windows_description_info": "FNAFN",
+  "option_windows_disable_sandbox": false,
   "option_windows_display_cursor": true,
   "option_windows_display_name": "FNAFN",
   "option_windows_enable_steam": false,
@@ -28,7 +29,10 @@
   "option_windows_start_fullscreen": false,
   "option_windows_steam_use_alternative_launcher": false,
   "option_windows_texture_page": "2048x2048",
-  "option_windows_use_x64": false,
+  "option_windows_use_raw_mouse": false,
+  "option_windows_use_splash": false,
   "option_windows_version": "1.0.0.0",
-  "option_windows_vsync": false
+  "option_windows_vsync": false,
+  "resourceType": "GMWindowsOptions",
+  "resourceVersion": "2.0"
 }

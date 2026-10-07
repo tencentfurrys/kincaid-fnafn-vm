@@ -64,7 +64,7 @@ with (Obj_Night_Camera_Icons) {
 }
 // ground truth: gml_Object_Obj_Night_Camera_Record_Mouse_4 (3140 B @0x1401215e0)
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Camera_Record_Mouse_4(longlong *param_1,undefined8 param_2)
 

@@ -27,7 +27,7 @@ void gml_Object_Obj_Office_Camera_Control_PreCreate_0(undefined8 param_1)
   undefined8 uStack_18;
   
   uStack_18 = 0xfffffffffffffffe;
-  puStack_48 = &UNK_14043a849 /* "gml_Object_Obj_Office_Camera_Control_PreCreate_0" */;
+  puStack_48 = &UNK_14043a849 / * "gml_Object_Obj_Office_Camera_Control_PreCreate_0" * /;
   uStack_50 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_50;
   uStack_2c = 0xffffff;

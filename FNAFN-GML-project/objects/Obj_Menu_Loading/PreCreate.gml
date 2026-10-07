@@ -34,7 +34,7 @@ void gml_Object_Obj_Menu_Loading_PreCreate_0(longlong *param_1)
   undefined8 uStack_20;
   
   uStack_20 = 0xfffffffffffffffe;
-  puStack_80 = &UNK_14043b8bc /* "gml_Object_Obj_Menu_Loading_PreCreate_0" */;
+  puStack_80 = &UNK_14043b8bc / * "gml_Object_Obj_Menu_Loading_PreCreate_0" * /;
   uStack_88 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_88;
   uStack_64 = 0xffffff;
@@ -51,13 +51,13 @@ void gml_Object_Obj_Menu_Loading_PreCreate_0(longlong *param_1)
   plRam0000000140657680 = param_1;
   func_0x000140181be0();
   uStack_78 = 3;
-  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18760 /* Room_to_go_to */);
+  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18760 / * Room_to_go_to * /);
   if ((0x46U >> (*(uint *)((longlong)puVar1 + 0xc) & 0x1f) & 1) != 0) {
     func_0x000140001410(puVar1);
   }
   *(undefined4 *)((longlong)puVar1 + 0xc) = 0;
   *puVar1 = 0;
-  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x1877d /* Switches_to_room */);
+  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x1877d / * Switches_to_room * /);
   if ((0x46U >> (*(uint *)((longlong)puVar1 + 0xc) & 0x1f) & 1) != 0) {
     func_0x000140001410(puVar1);
   }

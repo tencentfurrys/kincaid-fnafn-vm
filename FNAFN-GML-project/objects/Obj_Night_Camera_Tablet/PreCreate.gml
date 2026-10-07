@@ -29,7 +29,7 @@ void gml_Object_Obj_Night_Camera_Tablet_PreCreate_0(undefined8 param_1)
   undefined8 uStack_18;
   
   uStack_18 = 0xfffffffffffffffe;
-  puStack_58 = &UNK_14043aaf6 /* "gml_Object_Obj_Night_Camera_Tablet_PreCreate_0" */;
+  puStack_58 = &UNK_14043aaf6 / * "gml_Object_Obj_Night_Camera_Tablet_PreCreate_0" * /;
   uStack_60 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_60;
   uStack_3c = 0xffffff;

@@ -1,14 +1,16 @@
 {
-  "$GMObject": "v1",
-  "resourceType": "GMObject",
-  "resourceVersion": "2.3",
-  "name": "obj_OLDTVFilter_Logo",
-  "spriteId": null,
-  "solid": false,
-  "visible": true,
+  "$GMObject": "",
+  "%Name": "obj_OLDTVFilter_Logo",
+  "eventList": [],
   "managed": true,
-  "persistent": false,
+  "name": "obj_OLDTVFilter_Logo",
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy"
+  },
   "parentObjectId": null,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -22,17 +24,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "overriddenProperties": [],
-  "eventList": [
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 14,
-      "eventSubtype": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    }
-  ]
+  "resourceType": "GMObject",
+  "resourceVersion": "2.0",
+  "solid": false,
+  "spriteId": null,
+  "spriteMaskId": null,
+  "visible": true
 }

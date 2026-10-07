@@ -37,7 +37,7 @@ if (Night_camera == 0) {
 }
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_UI_Camera_Button_Draw_75(longlong *param_1)
 

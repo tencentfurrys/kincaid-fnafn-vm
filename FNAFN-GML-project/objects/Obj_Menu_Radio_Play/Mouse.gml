@@ -46,7 +46,7 @@ if (play == 1) { // TODO(calibrate): runtime pool @0x140656eb0/@0x140656ec4/@0x1
 }
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Menu_Radio_Play_Mouse_4(longlong *param_1,undefined8 param_2)
 

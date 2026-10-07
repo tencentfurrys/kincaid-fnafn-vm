@@ -111,7 +111,7 @@ switch (_s83) {
 audio_sound_pitch(0, random_range(0, 0)); // TODO(calibrate): random args are .rdata doubles _UNK_14043b070/_UNK_14043b078 — verify in-game
 audio_play_sound(0, 0 /* TODO(calibrate): runtime const @0x140655850 */, false /* TODO(calibrate): runtime const @0x140655850 */);
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_UI_Camera_Button_KeyPress_83(longlong *param_1,undefined8 param_2)
 
@@ -655,8 +655,8 @@ code_r0x00014006ad25:
     uVar8 = (ulonglong)*(uint *)(lVar9 * 0x14 + 0x1406558a0);
 joined_r0x00014006b13c:
     if (uVar8 < 4) {
-                    /* WARNING: Could not recover jumptable at 0x00014006ad45. Too many branches */
-                    /* WARNING: Treating indirect jump as call */
+                    / * WARNING: Could not recover jumptable at 0x00014006ad45. Too many branches * /
+                    / * WARNING: Treating indirect jump as call * /
       (*(code *)(&UNK_14006b6ec + *(int *)(&UNK_14006b6ec + uVar8 * 4)))();
       return;
     }

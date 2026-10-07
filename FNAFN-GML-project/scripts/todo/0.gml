@@ -36,7 +36,7 @@ undefined8 * gml_GlobalScript_0(undefined8 param_1,undefined8 param_2,undefined8
   undefined8 uStack_20;
   
   uStack_20 = 0xfffffffffffffffe;
-  puStack_a0 = &UNK_14043deaa /* "gml_GlobalScript_0" */;
+  puStack_a0 = &UNK_14043deaa / * "gml_GlobalScript_0" * /;
   uStack_a8 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_a8;
   uStack_84 = 0xffffff;

@@ -26,14 +26,14 @@ gml_GlobalScript_scr_OLDTVFilter_Setup(longlong *param_1,undefined8 param_2,unde
   undefined8 uStack_28;
   
   uStack_28 = 0xfffffffffffffffe;
-  puStack_48 = &UNK_14043a1b5 /* "gml_GlobalScript_scr_OLDTVFilter_Setup" */;
+  puStack_48 = &UNK_14043a1b5 / * "gml_GlobalScript_scr_OLDTVFilter_Setup" * /;
   uStack_50 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_50;
   plRam0000000140657680 = param_1;
   *(undefined4 *)((longlong)param_3 + 0xc) = 5;
   *param_3 = 0;
   uStack_40 = 1;
-  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18768 /* scr_OLDTVFilter_Setup */);
+  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18768 / * scr_OLDTVFilter_Setup * /);
   func_0x0001401452a0(auStack_38,gml_Script_scr_OLDTVFilter_Setup,param_1);
   func_0x000140141d00(param_1);
   func_0x000140001490(uVar1,auStack_38);

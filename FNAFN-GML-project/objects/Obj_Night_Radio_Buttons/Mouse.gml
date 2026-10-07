@@ -162,7 +162,7 @@ if (image_alpha == 1) {
 }
 Obj_Night_Music_Switch.selection = audio_play_sound_on(Obj_Night_Music_Switch.selection, 1, 10);
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Radio_Buttons_Mouse_4(longlong *param_1,undefined8 param_2)
 
@@ -498,8 +498,8 @@ code_r0x00014010dda9:
         uVar8 = (ulonglong)*(uint *)(lVar9 * 0x14 + 0x1406572d0);
 joined_r0x00014010dd55:
         if (uVar8 < 10) {
-                    /* WARNING: Could not recover jumptable at 0x00014010ddc9. Too many branches */
-                    /* WARNING: Treating indirect jump as call */
+                    / * WARNING: Could not recover jumptable at 0x00014010ddc9. Too many branches * /
+                    / * WARNING: Treating indirect jump as call * /
           (*(code *)(&UNK_14010f29c + *(int *)(&UNK_14010f29c + uVar8 * 4)))();
           return;
         }

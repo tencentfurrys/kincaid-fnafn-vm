@@ -155,7 +155,7 @@ void gml_Object_Obj_Pause_KeyPress_27(longlong *param_1,undefined8 param_2)
   undefined8 uStack_50;
   
   uStack_50 = 0xfffffffffffffffe;
-  puStack_80 = &UNK_14043c751 /* "gml_Object_Obj_Pause_KeyPress_27" */;
+  puStack_80 = &UNK_14043c751 / * "gml_Object_Obj_Pause_KeyPress_27" * /;
   uStack_78 = 0;
   uStack_88 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_88;
@@ -170,7 +170,7 @@ void gml_Object_Obj_Pause_KeyPress_27(longlong *param_1,undefined8 param_2)
   plRam0000000140657680 = param_1;
   uStack_70 = param_2;
   plStack_68 = param_1;
-  puVar4 = (undefined8 *)(**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x18751 /* "Parallax_enabled" */);
+  puVar4 = (undefined8 *)(**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x18751 / * "Parallax_enabled" * /);
   uStack_58 = CONCAT44(0xffffff,(undefined4)uStack_58);
   uStack_60 = 0;
   uStack_13c = 0xffffff;
@@ -182,7 +182,7 @@ void gml_Object_Obj_Pause_KeyPress_27(longlong *param_1,undefined8 param_2)
   uStack_10c = 0xffffff;
   uStack_118 = 0;
   uStack_78 = 1;
-  pdVar5 = (double *)(**(code **)(*param_1 + 0x10))(param_1,0x18754 /* "paused" */);
+  pdVar5 = (double *)(**(code **)(*param_1 + 0x10))(param_1,0x18754 / * "paused" * /);
   uVar2 = func_0x00014012bb70(pdVar5);
   if ((0x46U >> (*(uint *)((longlong)pdVar5 + 0xc) & 0x1f) & 1) != 0) {
     func_0x000140001410(pdVar5);
@@ -311,7 +311,7 @@ void gml_Object_Obj_Pause_KeyPress_27(longlong *param_1,undefined8 param_2)
     uStack_78 = 0x1f;
     uStack_160 = 0;
     uStack_168 = 0x3ff0000000000000;
-    func_0x000140160b90(1,0x18718 /* "fade_alpha" */,0x80000000,&uStack_168);
+    func_0x000140160b90(1,0x18718 / * "fade_alpha" * /,0x80000000,&uStack_168);
     uStack_78 = 0x20;
   }
   else if (iVar3 == 0) {
@@ -321,7 +321,7 @@ void gml_Object_Obj_Pause_KeyPress_27(longlong *param_1,undefined8 param_2)
     }
     uStack_60 = 0;
     uStack_58 = 0x500000000;
-    (**(code **)(*plStack_68 + 0x10))(plStack_68,0x18754 /* "paused" */);
+    (**(code **)(*plStack_68 + 0x10))(plStack_68,0x18754 / * "paused" * /);
     if ((0x46U >> (uStack_bc & 0x1f) & 1) != 0) {
       func_0x000140001410(&uStack_c8);
     }

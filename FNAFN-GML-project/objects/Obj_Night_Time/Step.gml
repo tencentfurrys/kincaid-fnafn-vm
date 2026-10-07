@@ -48,7 +48,7 @@ if (image_alpha != 0) {
 }
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Time_Step_1(longlong *param_1,undefined8 param_2)
 

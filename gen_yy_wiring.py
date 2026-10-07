@@ -35,6 +35,8 @@ import uuid
 import zlib
 from pathlib import Path
 
+import format_2026
+
 BASE = Path(__file__).resolve().parent
 PROJ = BASE / "FNAFN-GML-project"
 OBJ_DIR = PROJ / "objects"
@@ -255,7 +257,10 @@ def wire_rooms() -> list[dict]:
                        for lyr in prev_layers
                        if lyr.get("resourceType") == "GMRInstanceLayer"):
                     keep_layers = prev_layers
-                    keep_order = prev.get("instanceCreationOrderIds", [])
+                    # format_2026 renames this key; accept both shapes.
+                    keep_order = prev.get(
+                        "instanceCreationOrder",
+                        prev.get("instanceCreationOrderIds", []))
             except (json.JSONDecodeError, OSError) as e:
                 warnings.append(f"room {name}: could not read existing .yy "
                                 f"({e}), regenerating scaffold")
@@ -370,7 +375,6 @@ def wire_options() -> list[dict]:
         "option_gameid": "0",
         "option_legacy_json_parsing": True,
         "option_legacy_number_parsing": True,
-        "option_legacy_other_behaviour": False,
         "option_legacy_view_behaviour": False,
         "option_mips_for_3d_textures": False,
         "option_remove_unused_assets": False,
@@ -743,37 +747,6 @@ missing sprites.
 """
 
 
-def tag_yy(obj):
-    """Insert 2024.2+ $type tags: every dict with resourceType GMX gets
-    "$GMX" as its first key (required at the start of the JSON record by
-    the 2026 asset compiler). Recurses into nested dicts/lists."""
-    if isinstance(obj, dict):
-        rt = obj.get("resourceType")
-        items = [(tag_yy(k), tag_yy(v)) for k, v in obj.items()]
-        if isinstance(rt, str) and rt.startswith("GM"):
-            tag = "$" + rt
-            items = [(tag, "v1")] + [(k, v) for k, v in items
-                                     if k != tag]
-        return dict(items)
-    if isinstance(obj, list):
-        return [tag_yy(v) for v in obj]
-    return obj
-
-
-def apply_type_tags() -> int:
-    """Rewrite every project .yy (plus FNAFN.yyp) with $type tags."""
-    count = 0
-    for p in list(PROJ.rglob("*.yy")) + [YYP]:
-        try:
-            data = json.loads(p.read_text(encoding="utf-8"))
-        except (json.JSONDecodeError, OSError):
-            continue
-        p.write_text(json.dumps(tag_yy(data), indent=2) + "\n",
-                     encoding="utf-8")
-        count += 1
-    print(f"type tags applied: {count} .yy files")
-    return count
-
 
 def main() -> int:
     sprites = json.loads((BASE / "sprite_names.json").read_text())
@@ -808,11 +781,18 @@ def main() -> int:
 
     (BASE / "BUILD-DATA.md").write_text(BUILD_DATA)
 
-    apply_type_tags()
+    # Rewrite every .yy to the exact GameMaker 2026 schema (replaces the
+    # old tag_yy pass; keeps the format stable across re-runs).
+    fmt_counts = format_2026.convert_all(PROJ)
+    print(f"format_2026 applied: {fmt_counts}")
 
-    # ---- validation ----
+    # ---- validation (post-2026 conversion; format_2026 ran above) ----
     yyp_check = json.loads(YYP.read_text(encoding="utf-8"))
     assert isinstance(yyp_check["resources"], list) and yyp_check["resources"]
+    # 2026 yyp shape: no legacy Options/types keys; resources are id refs.
+    assert "Options" not in yyp_check, "legacy Options key in yyp"
+    assert "types" not in yyp_check, "legacy types key in yyp"
+    assert "RoomOrderNodes" in yyp_check and len(yyp_check["RoomOrderNodes"]) == 9
     obj_yy = list(OBJ_DIR.glob("*/*.yy"))
     dirs = [d for d in OBJ_DIR.iterdir() if d.is_dir()]
     missing = [d.name for d in dirs
@@ -831,12 +811,24 @@ def main() -> int:
             json.loads(p.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError) as e:
             bad_json.append(f"{p}: {e}")
-    # Every yyp resourcePath must resolve on disk.
-    unresolvable = [e["resourcePath"] for e in yyp_check["resources"]
-                    if not (PROJ / e["resourcePath"]).exists()]
+    # Every 2026 yyp id-ref must resolve on disk.
+    unresolvable = [e["id"]["path"] for e in yyp_check["resources"]
+                    if not (PROJ / e["id"]["path"]).exists()]
+    # 2026 schema spot checks: events use eventNum, rooms carry 8 views
+    # plus instanceCreationOrder refs (never the legacy key names).
+    bad_events = []
+    for p in OBJ_DIR.glob("*/*.yy"):
+        for e in json.loads(p.read_text(encoding="utf-8"))["eventList"]:
+            if "eventNum" not in e or "eventSubtype" in e:
+                bad_events.append(str(p))
+    bad_rooms = []
+    for p in (PROJ / "rooms").glob("*/*.yy"):
+        rd = json.loads(p.read_text(encoding="utf-8"))
+        if len(rd.get("views", [])) != 8 or "instanceCreationOrderIds" in rd:
+            bad_rooms.append(str(p))
     spr_yy = list((PROJ / "sprites").glob("*/*.yy"))
     snd_yy = list((PROJ / "sounds").glob("*/*.yy"))
-    spr_png = list((PROJ / "sprites").glob("*/*.png"))
+    spr_png = list((PROJ / "sprites").rglob("*.png"))
     snd_wav = list((PROJ / "sounds").glob("*/*.wav"))
     print(f"objects: {len(dirs)} dirs, {len(obj_yy)} .yy, "
           f"missing: {missing or 'NONE'}")
@@ -850,11 +842,15 @@ def main() -> int:
     print(f"total .yy files: {len(yy_all)}")
     print(f"yyp resources: {len(yyp_check['resources'])}")
     print(f"bad JSON: {bad_json or 'NONE'}")
-    print(f"unresolvable resourcePaths: {unresolvable or 'NONE'}")
+    print(f"unresolvable id-refs: {unresolvable or 'NONE'}")
+    print(f"bad 2026 events: {bad_events or 'NONE'}")
+    print(f"bad 2026 rooms: {bad_rooms or 'NONE'}")
     assert not missing, f"objects missing .yy: {missing}"
     assert len(obj_yy) == len(dirs)
     assert not bad_json, f"unparseable .yy: {bad_json}"
-    assert not unresolvable, f"dangling resourcePaths: {unresolvable}"
+    assert not unresolvable, f"dangling id-refs: {unresolvable}"
+    assert not bad_events, f"legacy event entries: {bad_events}"
+    assert not bad_rooms, f"legacy room shape: {bad_rooms}"
     assert len(spr_yy) == len(spr_entries) == 109, (
         f"sprite count: entries={len(spr_entries)} files={len(spr_yy)}")
     assert len(snd_yy) == len(snd_entries) == 57, (
@@ -866,7 +862,7 @@ def main() -> int:
         len(obj_entries) + len(scr_entries) + len(room_entries)
         + len(spr_entries) + len(snd_entries))
     assert len(yyp_check["Folders"]) == len(folder_entries) == 5
-    assert len(yyp_check["Options"]) == len(opt_entries) == 2
+    assert len(opt_entries) == 2  # options live on disk, not in the 2026 yyp
     print("warnings:")
     for w in warnings:
         print(f"  - {w}")

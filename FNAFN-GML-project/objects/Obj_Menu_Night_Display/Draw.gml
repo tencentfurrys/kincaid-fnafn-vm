@@ -24,7 +24,7 @@
 draw_sprite_ext(Spr_UI_Night_Number, image_index, surface_get_width(application_surface) / 2, surface_get_height(application_surface) / 2, 1, 1, 0, c_white, alpha);
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Menu_Night_Display_Draw_75(longlong *param_1,undefined8 param_2)
 

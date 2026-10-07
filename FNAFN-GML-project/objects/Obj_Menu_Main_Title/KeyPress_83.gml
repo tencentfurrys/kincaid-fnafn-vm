@@ -47,7 +47,7 @@ if (glitching == 1) { // TODO(calibrate): case const is runtime @0x140657180/@0x
 }
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Menu_Main_Title_KeyPress_83(longlong *param_1,undefined8 param_2)
 
@@ -509,8 +509,8 @@ code_r0x0001401069c4:
     uVar6 = (ulonglong)*(uint *)(lVar7 * 0x14 + 0x1406571c0);
 joined_r0x000140106d5a:
     if (uVar6 < 4) {
-                    /* WARNING: Could not recover jumptable at 0x0001401069e4. Too many branches */
-                    /* WARNING: Treating indirect jump as call */
+                    / * WARNING: Could not recover jumptable at 0x0001401069e4. Too many branches * /
+                    / * WARNING: Treating indirect jump as call * /
       (*(code *)(&UNK_140107a4c + *(int *)(&UNK_140107a4c + uVar6 * 4)))();
       return;
     }

@@ -54,7 +54,7 @@ audio_emitter_gain(office_emitter, ambient_gain);
 // in GML. Call graph and names are intact (see gml_all_414_decompiled.c).
 // ground truth: gml_Object_Obj_Office_Front_Middle_Step_1 (4186 B @0x1400bee60)
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Office_Front_Middle_Step_1(longlong *param_1,undefined8 param_2)
 

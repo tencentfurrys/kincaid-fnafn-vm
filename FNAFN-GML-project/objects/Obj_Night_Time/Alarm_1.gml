@@ -30,7 +30,7 @@ void gml_Object_Obj_Night_Time_Alarm_1(longlong *param_1)
   undefined8 uStack_20;
 
   uStack_20 = 0xfffffffffffffffe;
-  puStack_70 = &UNK_14043b5ae /* "gml_Object_Obj_Night_Time_Alarm_1" */;
+  puStack_70 = &UNK_14043b5ae / * "gml_Object_Obj_Night_Time_Alarm_1" * /;
   uStack_78 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_78;
   uStack_54 = 0xffffff;
@@ -43,7 +43,7 @@ void gml_Object_Obj_Night_Time_Alarm_1(longlong *param_1)
   uStack_30 = 0;
   uStack_68 = 2;
   plRam0000000140657680 = param_1;
-  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18719 /* fading */);
+  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18719 / * fading * /);
   if ((0x46U >> (*(uint *)((longlong)puVar1 + 0xc) & 0x1f) & 1) != 0) {
     func_0x000140001410(puVar1);
   }

@@ -34,7 +34,7 @@ draw_text(20, 60, string_hash_to_newline("RAM available: " + string(ram_availabl
 draw_text(20, 80, string_hash_to_newline("RAM used by this application: " + string(ram_application() / 1024 / 1024) + " MB"));
 // ground truth: gml_Object_Obj_System_RAM_Usage_Draw_75 (3779 B @0x14005fd10)
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_System_RAM_Usage_Draw_75(undefined8 param_1,undefined8 param_2)
 

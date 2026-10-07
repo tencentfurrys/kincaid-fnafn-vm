@@ -26,14 +26,14 @@ gml_GlobalScript___background_get_element(longlong *param_1,undefined8 param_2,u
   undefined8 uStack_28;
   
   uStack_28 = 0xfffffffffffffffe;
-  puStack_48 = &UNK_140439ffe /* "gml_GlobalScript___background_get_element" */;
+  puStack_48 = &UNK_140439ffe / * "gml_GlobalScript___background_get_element" * /;
   uStack_50 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_50;
   plRam0000000140657680 = param_1;
   *(undefined4 *)((longlong)param_3 + 0xc) = 5;
   *param_3 = 0;
   uStack_40 = 1;
-  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x186a1 /* draw_set_blend_mode */);
+  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x186a1 / * draw_set_blend_mode * /);
   func_0x0001401452a0(auStack_38,gml_Script___background_get_element,param_1);
   func_0x000140141d00(param_1);
   func_0x000140001490(uVar1,auStack_38);

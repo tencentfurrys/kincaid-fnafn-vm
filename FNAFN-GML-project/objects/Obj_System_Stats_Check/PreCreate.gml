@@ -38,7 +38,7 @@ void gml_Object_Obj_System_Stats_Check_PreCreate_0(longlong *param_1)
   undefined8 uStack_20;
   
   uStack_20 = 0xfffffffffffffffe;
-  puStack_a0 = &UNK_14043db15 /* "gml_Object_Obj_System_Stats_Check_PreCreate_0" */;
+  puStack_a0 = &UNK_14043db15 / * "gml_Object_Obj_System_Stats_Check_PreCreate_0" * /;
   uStack_a8 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_a8;
   uStack_84 = 0xffffff;
@@ -59,7 +59,7 @@ void gml_Object_Obj_System_Stats_Check_PreCreate_0(longlong *param_1)
   plRam0000000140657680 = param_1;
   func_0x000140181be0();
   uStack_98 = 3;
-  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18793 /* toggle */);
+  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18793 / * toggle * /);
   if ((0x46U >> (*(uint *)((longlong)puVar1 + 0xc) & 0x1f) & 1) != 0) {
     func_0x000140001410(puVar1);
   }

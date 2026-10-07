@@ -112,7 +112,7 @@ if (button_toggle[0] == 0) { // TODO(calibrate): table @0x140655800 mapping assu
     }
 }
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_UI_Camera_Button_KeyPress_87(longlong *param_1,undefined8 param_2)
 

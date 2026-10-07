@@ -25,7 +25,7 @@ void gml_Object_Obj_Office_Back_Flashlight_PreCreate_0(undefined8 param_1)
   undefined8 uStack_10;
   
   uStack_10 = 0xfffffffffffffffe;
-  puStack_30 = &UNK_14043a72e /* "gml_Object_Obj_Office_Back_Flashlight_PreCreate_0" */;
+  puStack_30 = &UNK_14043a72e / * "gml_Object_Obj_Office_Back_Flashlight_PreCreate_0" * /;
   uStack_38 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_38;
   uStack_14 = 0xffffff;

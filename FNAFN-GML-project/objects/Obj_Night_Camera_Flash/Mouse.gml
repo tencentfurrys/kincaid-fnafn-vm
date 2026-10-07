@@ -100,7 +100,7 @@ if (layer_get_visible("Camera_HUD") == 1) {
     }
 }
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Camera_Flash_Mouse_4(longlong *param_1,undefined8 param_2)
 
@@ -318,8 +318,8 @@ void gml_Object_Obj_Night_Camera_Flash_Mouse_4(longlong *param_1,undefined8 para
                    uVar8 = uRam0000000140657504, iVar2 == 0)) ||
                   (iVar2 = func_0x00014015be60(0x14065750c,&uStack_e8,uVar4,0),
                   uVar8 = uRam0000000140657518, iVar2 == 0)) && (uVar8 >> 0x20 < 4)) {
-                    /* WARNING: Could not recover jumptable at 0x00014011f088. Too many branches */
-                    /* WARNING: Treating indirect jump as call */
+                    / * WARNING: Could not recover jumptable at 0x00014011f088. Too many branches * /
+                    / * WARNING: Treating indirect jump as call * /
                 (*(code *)(&UNK_14011feec + *(int *)(&UNK_14011feec + (uVar8 >> 0x20) * 4)))();
                 return;
               }

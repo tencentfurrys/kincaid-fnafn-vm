@@ -53,7 +53,7 @@ if (layer_get_visible("TODO_calibrate_0x1405c5f48") == 1 && image_alpha == 1) {
 // ---- sub-event Mouse_7 — PORTED ----
 // ground truth: gml_Object_Obj_Night_Music_Switch_Mouse_7 (2540 B @0x1400f5360)
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Music_Switch_Mouse_7(longlong *param_1,undefined8 param_2)
 

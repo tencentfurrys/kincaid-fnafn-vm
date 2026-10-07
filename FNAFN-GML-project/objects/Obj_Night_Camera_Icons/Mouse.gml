@@ -69,7 +69,7 @@ if (image_alpha != 0
 }
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Camera_Icons_Mouse_4(undefined8 param_1,undefined8 param_2)
 
@@ -251,8 +251,8 @@ code_r0x0001400c3882:
     uVar5 = (ulonglong)*(uint *)(lVar6 * 0x14 + 0x1406566c0);
 joined_r0x0001400c380e:
     if (uVar5 < 0xb) {
-                    /* WARNING: Could not recover jumptable at 0x0001400c38a3. Too many branches */
-                    /* WARNING: Treating indirect jump as call */
+                    / * WARNING: Could not recover jumptable at 0x0001400c38a3. Too many branches * /
+                    / * WARNING: Treating indirect jump as call * /
       (*(code *)(&UNK_1400c469c + *(int *)(&UNK_1400c469c + uVar5 * 4)))();
       return;
     }

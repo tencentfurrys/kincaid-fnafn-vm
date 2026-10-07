@@ -14,7 +14,7 @@
 draw_sprite_ext(Spr_Night_UI_Time, time, 640, 360, image_xscale, image_yscale, 0, c_white, image_alpha);
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Time_Draw_75(longlong *param_1)
 

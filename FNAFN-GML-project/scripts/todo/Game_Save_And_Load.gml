@@ -26,14 +26,14 @@ gml_GlobalScript_Game_Save_And_Load(longlong *param_1,undefined8 param_2,undefin
   undefined8 uStack_28;
   
   uStack_28 = 0xfffffffffffffffe;
-  puStack_48 = &UNK_14043a308 /* "gml_GlobalScript_Game_Save_And_Load" */;
+  puStack_48 = &UNK_14043a308 / * "gml_GlobalScript_Game_Save_And_Load" * /;
   uStack_50 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_50;
   plRam0000000140657680 = param_1;
   *(undefined4 *)((longlong)param_3 + 0xc) = 5;
   *param_3 = 0;
   uStack_40 = 1;
-  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18703 /* customfunct_game_save */);
+  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18703 / * customfunct_game_save * /);
   func_0x0001401452a0(auStack_38,gml_Script_customfunct_game_save,param_1);
   func_0x000140141d00(param_1);
   func_0x000140001490(uVar1,auStack_38);
@@ -42,7 +42,7 @@ gml_GlobalScript_Game_Save_And_Load(longlong *param_1,undefined8 param_2,undefin
     func_0x000140001410(auStack_38);
   }
   uStack_40 = 0x1b;
-  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18700 /* customfunct_game_load */);
+  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18700 / * customfunct_game_load * /);
   func_0x0001401452a0(auStack_38,gml_Script_customfunct_game_load,param_1);
   func_0x000140141d00(param_1);
   func_0x000140001490(uVar1,auStack_38);
@@ -51,7 +51,7 @@ gml_GlobalScript_Game_Save_And_Load(longlong *param_1,undefined8 param_2,undefin
     func_0x000140001410(auStack_38);
   }
   uStack_40 = 0x38;
-  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18704 /* customfunct_game_save_music */);
+  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18704 / * customfunct_game_save_music * /);
   func_0x0001401452a0(auStack_38,gml_Script_customfunct_game_save_music,param_1);
   func_0x000140141d00(param_1);
   func_0x000140001490(uVar1,auStack_38);
@@ -60,7 +60,7 @@ gml_GlobalScript_Game_Save_And_Load(longlong *param_1,undefined8 param_2,undefin
     func_0x000140001410(auStack_38);
   }
   uStack_40 = 0x48;
-  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18701 /* customfunct_game_load_music */);
+  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18701 / * customfunct_game_load_music * /);
   func_0x0001401452a0(auStack_38,gml_Script_customfunct_game_load_music,param_1);
   func_0x000140141d00(param_1);
   func_0x000140001490(uVar1,auStack_38);
@@ -69,7 +69,7 @@ gml_GlobalScript_Game_Save_And_Load(longlong *param_1,undefined8 param_2,undefin
     func_0x000140001410(auStack_38);
   }
   uStack_40 = 0x58;
-  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x186ff /* customfunct_game_create_music_stream */);
+  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x186ff / * customfunct_game_create_music_stream * /);
   func_0x0001401452a0(auStack_38,gml_Script_customfunct_game_create_music_stream,param_1);
   func_0x000140141d00(param_1);
   func_0x000140001490(uVar1,auStack_38);
@@ -78,7 +78,7 @@ gml_GlobalScript_Game_Save_And_Load(longlong *param_1,undefined8 param_2,undefin
     func_0x000140001410(auStack_38);
   }
   uStack_40 = 0x66;
-  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18702 /* customfunct_game_music_clear */);
+  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x18702 / * customfunct_game_music_clear * /);
   func_0x0001401452a0(auStack_38,gml_Script_customfunct_game_music_clear,param_1);
   func_0x000140141d00(param_1);
   func_0x000140001490(uVar1,auStack_38);

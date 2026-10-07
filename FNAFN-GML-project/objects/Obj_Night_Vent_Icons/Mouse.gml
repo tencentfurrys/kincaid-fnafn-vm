@@ -44,7 +44,7 @@ if (image_alpha == 0 && layer_get_visible("TODO_calibrate_0x1405c4a18") == 1) {
 // ---- sub-event Mouse_4 — PORTED ----
 // ground truth: gml_Object_Obj_Night_Vent_Icons_Mouse_4 (2717 B @0x140095a20)
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Vent_Icons_Mouse_4(undefined8 param_1,undefined8 param_2)
 

@@ -26,7 +26,7 @@ void gml_Object_Obj_Pause_Create_0(longlong *param_1)
   undefined8 uStack_20;
   
   uStack_20 = 0xfffffffffffffffe;
-  puStack_80 = &UNK_14043c733 /* "gml_Object_Obj_Pause_Create_0" */;
+  puStack_80 = &UNK_14043c733 / * "gml_Object_Obj_Pause_Create_0" * /;
   uStack_88 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_88;
   uStack_64 = 0xffffff;
@@ -41,7 +41,7 @@ void gml_Object_Obj_Pause_Create_0(longlong *param_1)
   uStack_30 = 0;
   uStack_78 = 2;
   plRam0000000140657680 = param_1;
-  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18754 /* "paused" */);
+  puVar1 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18754 / * "paused" * /);
   if ((0x46U >> (*(uint *)((longlong)puVar1 + 0xc) & 0x1f) & 1) != 0) {
     func_0x000140001410(puVar1);
   }

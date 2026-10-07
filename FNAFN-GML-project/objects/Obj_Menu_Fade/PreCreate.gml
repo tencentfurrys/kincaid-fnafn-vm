@@ -31,7 +31,7 @@ void gml_Object_Obj_Menu_Fade_PreCreate_0(undefined8 param_1)
   undefined8 uStack_18;
   
   uStack_18 = 0xfffffffffffffffe;
-  puStack_68 = &UNK_14043b146 /* "gml_Object_Obj_Menu_Fade_PreCreate_0" */;
+  puStack_68 = &UNK_14043b146 / * "gml_Object_Obj_Menu_Fade_PreCreate_0" * /;
   uStack_60 = 0;
   uStack_70 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_70;

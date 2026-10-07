@@ -21,7 +21,7 @@ if (room == 4) {
 draw_sprite_ext(Spr_UI_Night_Complete, 0, 640, 360, night_size, night_size, 0, c_white, text_alpha);
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Shift_End_Draw_75(longlong *param_1)
 

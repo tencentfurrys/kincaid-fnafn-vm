@@ -57,7 +57,7 @@ if (mouse_y > y + 180 && mouse_y < y + 210) {
 track_select = clamp(track_select, 1, 10);
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Menu_Radio_Cassette_Mouse_53(longlong *param_1,undefined8 param_2)
 

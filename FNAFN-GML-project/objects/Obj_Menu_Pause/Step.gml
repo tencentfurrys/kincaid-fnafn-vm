@@ -70,7 +70,7 @@ void gml_Object_Obj_Menu_Pause_Step_0(undefined8 param_1,undefined8 param_2)
   undefined8 uStack_48;
   
   uStack_48 = 0xfffffffffffffffe;
-  puStack_108 = &UNK_14043ca28 /* "gml_Object_Obj_Menu_Pause_Step_0" */;
+  puStack_108 = &UNK_14043ca28 / * "gml_Object_Obj_Menu_Pause_Step_0" * /;
   uStack_100 = 0;
   uStack_110 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_110;
@@ -83,7 +83,7 @@ void gml_Object_Obj_Menu_Pause_Step_0(undefined8 param_1,undefined8 param_2)
   uStack_6c = 0xffffff;
   uStack_78 = 0;
   uRam0000000140657680 = param_1;
-  uVar1 = (**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x1870b /* "delta_factor" */);
+  uVar1 = (**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x1870b / * "delta_factor" * /);
   uStack_7c = 0xffffff;
   uStack_88 = 0;
   uStack_ec = 0xffffff;

@@ -146,7 +146,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
   undefined8 uStack_48;
   
   uStack_48 = 0xfffffffffffffffe;
-  puStack_88 = &UNK_14043c9e1 /* "gml_Object_Obj_Menu_Pause_Create_0" */;
+  puStack_88 = &UNK_14043c9e1 / * "gml_Object_Obj_Menu_Pause_Create_0" * /;
   uStack_80 = 0;
   uStack_90 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_90;
@@ -165,7 +165,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
   plRam0000000140657680 = param_1;
   uStack_68 = param_2;
   plStack_50 = param_1;
-  plVar4 = (longlong *)(**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x18727 /* "game_settings" */);
+  plVar4 = (longlong *)(**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x18727 / * "game_settings" * /);
   uStack_58 = CONCAT44(0xffffff,(undefined4)uStack_58);
   uStack_60 = 0;
   uStack_70 = CONCAT44(0xffffff,(undefined4)uStack_70);
@@ -176,14 +176,14 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
   uStack_148 = 0;
   uStack_12c = 0xffffff;
   uStack_138 = 0;
-  puVar5 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18752 /* "pause_surface" */);
+  puVar5 = (undefined8 *)(**(code **)(*param_1 + 0x10))(param_1,0x18752 / * "pause_surface" * /);
   if ((0x46U >> (*(uint *)((longlong)puVar5 + 0xc) & 0x1f) & 1) != 0) {
     func_0x000140001410(puVar5);
   }
   *(undefined4 *)((longlong)puVar5 + 0xc) = 0;
   *puVar5 = 0xbff0000000000000;
   uStack_80 = 2;
-  puVar6 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x186e5 /* "back_surface" */);
+  puVar6 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x186e5 / * "back_surface" * /);
   if ((0x46U >> (*(uint *)((longlong)puVar6 + 0xc) & 0x1f) & 1) != 0) {
     func_0x000140001410(puVar6);
   }
@@ -198,7 +198,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
   func_0x000140160140(plStack_50,uRam00000001405c7b98,0x80000000,&uStack_a0);
   uStack_80 = 5;
   plRam0000000140657680 = (longlong *)0x287dc;
-  puVar7 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x18753 /* "pause_text" */);
+  puVar7 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x18753 / * "pause_text" * /);
   func_0x000140141d00(plStack_50);
   lVar8 = func_0x00014012b840(puVar7,0);
   func_0x000140141d00(*puVar7);
@@ -208,7 +208,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
   func_0x0001401441e0(lVar8,0x1405c5590);
   func_0x000140141c50(2);
   uStack_80 = 6;
-  puVar7 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x18753 /* "pause_text" */);
+  puVar7 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x18753 / * "pause_text" * /);
   func_0x000140141d00(plStack_50);
   lVar8 = func_0x00014012b840(puVar7,1);
   func_0x000140141d00(*puVar7);
@@ -234,7 +234,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
     }
     uStack_78 = 0;
     uStack_70 = 0x500000000;
-    uVar9 = (**(code **)(*plStack_50 + 0x10))(plStack_50,0x18752 /* "pause_surface" */);
+    uVar9 = (**(code **)(*plStack_50 + 0x10))(plStack_50,0x18752 / * "pause_surface" * /);
     func_0x00014000bee0(&uStack_108,0x1405c55b0);
     puStack_d0 = &uStack_108;
     func_0x00014000bee0(&uStack_f8,0x1405c55c0);
@@ -261,7 +261,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
     }
     uStack_78 = 0;
     uStack_70 = 0x500000000;
-    uVar9 = (**(code **)(*plStack_50 + 0x10))(plStack_50,0x186e5 /* "back_surface" */);
+    uVar9 = (**(code **)(*plStack_50 + 0x10))(plStack_50,0x186e5 / * "back_surface" * /);
     func_0x00014000bee0(&uStack_108,0x1405c55d0);
     puStack_d0 = &uStack_108;
     func_0x00014000bee0(&uStack_f8,0x1405c55c0);
@@ -276,7 +276,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
     }
     uStack_60 = 0;
     uStack_58 = 0x500000000;
-    uVar9 = (**(code **)(*plStack_50 + 0x10))(plStack_50,0x186e5 /* "back_surface" */);
+    uVar9 = (**(code **)(*plStack_50 + 0x10))(plStack_50,0x186e5 / * "back_surface" * /);
     func_0x00014015ef90(plStack_50,uRam00000001405c7ba8,0x80000000,&uStack_128);
     func_0x000140001490(&uStack_118,uVar9);
     puStack_d8 = &uStack_118;
@@ -327,7 +327,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
   uStack_80 = 0x14;
   uStack_160 = 0;
   uStack_168 = 0x3fd999999999999a;
-  func_0x000140160b90(0x20,0x186db /* "alpha_current" */,0x80000000,&uStack_168);
+  func_0x000140160b90(0x20,0x186db / * "alpha_current" * /,0x80000000,&uStack_168);
   uStack_80 = 0x15;
   uStack_a4 = 0;
   uStack_b0 = 0x4040000000000000;
@@ -344,7 +344,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
         iVar2 = func_0x000140147990(*plVar4);
         if (iVar2 < 1) {
           uVar3 = func_0x000140147990(*plVar4);
-          func_0x000140144260(&UNK_140439ca6 /* "index out of bounds request %d maximum size is %d" */,0,uVar3);
+          func_0x000140144260(&UNK_140439ca6 / * "index out of bounds request %d maximum size is %d" * /,0,uVar3);
           plVar11 = (longlong *)0x0;
         }
         else {
@@ -352,7 +352,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
         }
       }
       else {
-        func_0x000140144260(&UNK_140439cd8 /* "trying to index variable that is not an array" */);
+        func_0x000140144260(&UNK_140439cd8 / * "trying to index variable that is not an array" * /);
         plVar11 = plVar4;
       }
       iVar2 = func_0x00014015be60(plVar11,&uStack_b0,uRam00000001405cd9c0,0);
@@ -361,7 +361,7 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
       }
       if (iVar2 == 0) {
         uStack_80 = 0x1e;
-        puVar5 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x186dd /* "animate_speed" */);
+        puVar5 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x186dd / * "animate_speed" * /);
         if ((0x46U >> (*(uint *)((longlong)puVar5 + 0xc) & 0x1f) & 1) != 0) {
           func_0x000140001410(puVar5);
         }
@@ -377,14 +377,14 @@ void gml_Object_Obj_Menu_Pause_Create_0(longlong *param_1,undefined8 param_2)
       }
       else {
         uStack_80 = 0x19;
-        puVar5 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x186dd /* "animate_speed" */);
+        puVar5 = (undefined8 *)(**(code **)(*plStack_50 + 0x10))(plStack_50,0x186dd / * "animate_speed" * /);
         if ((0x46U >> (*(uint *)((longlong)puVar5 + 0xc) & 0x1f) & 1) != 0) {
           func_0x000140001410(puVar5);
         }
         *(undefined4 *)((longlong)puVar5 + 0xc) = 0;
         *puVar5 = 0x3fd6666666666666;
         uStack_80 = 0x1a;
-        uVar9 = (**(code **)(*plStack_50 + 8))(plStack_50,0x186db /* "alpha_current" */);
+        uVar9 = (**(code **)(*plStack_50 + 8))(plStack_50,0x186db / * "alpha_current" * /);
         func_0x000140001490(&uStack_a0,uVar9);
         func_0x000140160140(plStack_50,uRam00000001405c7b98,0x80000000);
       }

@@ -1,14 +1,28 @@
 {
-  "$GMObject": "v1",
-  "resourceType": "GMObject",
-  "resourceVersion": "2.3",
-  "name": "Obj_RoundedRoom",
-  "spriteId": null,
-  "solid": false,
-  "visible": true,
+  "$GMObject": "",
+  "%Name": "Obj_RoundedRoom",
+  "eventList": [
+    {
+      "$GMEvent": "v1",
+      "%Name": "",
+      "collisionObjectId": null,
+      "eventNum": 75,
+      "eventType": 8,
+      "isDnD": false,
+      "name": "",
+      "resourceType": "GMEvent",
+      "resourceVersion": "2.0"
+    }
+  ],
   "managed": true,
-  "persistent": false,
+  "name": "Obj_RoundedRoom",
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy"
+  },
   "parentObjectId": null,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -22,27 +36,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "overriddenProperties": [],
-  "eventList": [
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 8,
-      "eventSubtype": 75,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    },
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 14,
-      "eventSubtype": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    }
-  ]
+  "resourceType": "GMObject",
+  "resourceVersion": "2.0",
+  "solid": false,
+  "spriteId": null,
+  "spriteMaskId": null,
+  "visible": true
 }

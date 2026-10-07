@@ -1,14 +1,39 @@
 {
-  "$GMObject": "v1",
-  "resourceType": "GMObject",
-  "resourceVersion": "2.3",
-  "name": "Obj_Pause",
-  "spriteId": null,
-  "solid": false,
-  "visible": true,
+  "$GMObject": "",
+  "%Name": "Obj_Pause",
+  "eventList": [
+    {
+      "$GMEvent": "v1",
+      "%Name": "",
+      "collisionObjectId": null,
+      "eventNum": 0,
+      "eventType": 0,
+      "isDnD": false,
+      "name": "",
+      "resourceType": "GMEvent",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMEvent": "v1",
+      "%Name": "",
+      "collisionObjectId": null,
+      "eventNum": 27,
+      "eventType": 9,
+      "isDnD": false,
+      "name": "",
+      "resourceType": "GMEvent",
+      "resourceVersion": "2.0"
+    }
+  ],
   "managed": true,
-  "persistent": false,
+  "name": "Obj_Pause",
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy"
+  },
   "parentObjectId": null,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -22,37 +47,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "overriddenProperties": [],
-  "eventList": [
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 0,
-      "eventSubtype": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    },
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 9,
-      "eventSubtype": 27,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    },
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 14,
-      "eventSubtype": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    }
-  ]
+  "resourceType": "GMObject",
+  "resourceVersion": "2.0",
+  "solid": false,
+  "spriteId": null,
+  "spriteMaskId": null,
+  "visible": true
 }

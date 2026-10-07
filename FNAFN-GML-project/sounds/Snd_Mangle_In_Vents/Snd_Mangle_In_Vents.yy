@@ -1,24 +1,26 @@
 {
-  "$GMSound": "v1",
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "Snd_Mangle_In_Vents",
-  "conversionMode": 0,
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 0,
+  "$GMSound": "v2",
+  "%Name": "Snd_Mangle_In_Vents",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default"
   },
-  "soundFile": "sounds/Snd_Mangle_In_Vents/Snd_Mangle_In_Vents.wav",
+  "bitDepth": 0,
+  "channelFormat": 0,
+  "compression": 0,
+  "compressionQuality": 1,
+  "conversionMode": 0,
   "duration": 0.1,
+  "exportDir": "",
+  "name": "Snd_Mangle_In_Vents",
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy"
-  }
+  },
+  "preload": false,
+  "resourceType": "GMSound",
+  "resourceVersion": "2.0",
+  "sampleRate": 44100,
+  "soundFile": "Snd_Mangle_In_Vents.wav",
+  "volume": 1.0
 }

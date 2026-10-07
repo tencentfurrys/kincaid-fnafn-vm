@@ -1,7 +1,8 @@
 {
-  "$GMFolder": "v1",
-  "resourceType": "GMFolder",
-  "resourceVersion": "1.0",
+  "$GMFolder": "",
+  "%Name": "Sounds",
+  "folderPath": "folders/Sounds.yy",
   "name": "Sounds",
-  "folderPath": "folders/Sounds.yy"
+  "resourceType": "GMFolder",
+  "resourceVersion": "2.0"
 }

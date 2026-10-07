@@ -1,12 +1,13 @@
 {
   "$GMScript": "v1",
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
-  "name": "draw_set_blend_mode",
+  "%Name": "draw_set_blend_mode",
   "isCompatibility": false,
   "isDnD": false,
+  "name": "draw_set_blend_mode",
   "parent": {
     "name": "Scripts",
     "path": "folders/Scripts.yy"
-  }
+  },
+  "resourceType": "GMScript",
+  "resourceVersion": "2.0"
 }

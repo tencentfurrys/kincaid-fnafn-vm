@@ -29,7 +29,7 @@ void gml_Object_Obj_Menu_Night_Display_PreCreate_0(undefined8 param_1)
   undefined8 uStack_18;
   
   uStack_18 = 0xfffffffffffffffe;
-  puStack_58 = &UNK_14043abcd /* "gml_Object_Obj_Menu_Night_Display_PreCreate_0" */;
+  puStack_58 = &UNK_14043abcd / * "gml_Object_Obj_Menu_Night_Display_PreCreate_0" * /;
   uStack_60 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_60;
   uStack_3c = 0xffffff;

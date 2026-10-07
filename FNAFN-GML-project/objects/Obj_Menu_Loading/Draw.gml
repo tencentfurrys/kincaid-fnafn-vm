@@ -57,7 +57,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Menu_Loading_Draw_75(longlong *param_1,undefined8 param_2)
 

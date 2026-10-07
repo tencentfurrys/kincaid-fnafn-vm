@@ -21,7 +21,7 @@ if (image_index == 0) { url_open("https://gamejolt.com/games/FNAF-N/148097"); }
 else if (image_index == 1) { url_open("https://www.patreon.com/HStudiosDev"); }
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Menu_Options_Icons_Mouse_4(undefined8 param_1,undefined8 param_2)
 

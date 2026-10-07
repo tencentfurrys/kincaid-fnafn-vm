@@ -26,14 +26,14 @@ gml_GlobalScript_action_draw_sprite(longlong *param_1,undefined8 param_2,undefin
   undefined8 uStack_28;
   
   uStack_28 = 0xfffffffffffffffe;
-  puStack_48 = &UNK_14043a046 /* "gml_GlobalScript_action_draw_sprite" */;
+  puStack_48 = &UNK_14043a046 / * "gml_GlobalScript_action_draw_sprite" * /;
   uStack_50 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_50;
   plRam0000000140657680 = param_1;
   *(undefined4 *)((longlong)param_3 + 0xc) = 5;
   *param_3 = 0;
   uStack_40 = 6;
-  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x186d2 /* __init_background */);
+  uVar1 = (**(code **)(*param_1 + 0x10))(param_1,0x186d2 / * __init_background * /);
   func_0x0001401452a0(auStack_38,gml_Script_action_draw_sprite,param_1);
   func_0x000140141d00(param_1);
   func_0x000140001490(uVar1,auStack_38);

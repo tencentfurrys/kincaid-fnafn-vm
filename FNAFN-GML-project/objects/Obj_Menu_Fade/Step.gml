@@ -52,14 +52,14 @@ void gml_Object_Obj_Menu_Fade_Step_0(undefined8 param_1,undefined8 param_2)
   undefined8 uStack_28;
   
   uStack_28 = 0xfffffffffffffffe;
-  puStack_98 = &UNK_14043b106 /* "gml_Object_Obj_Menu_Fade_Step_0" */;
+  puStack_98 = &UNK_14043b106 / * "gml_Object_Obj_Menu_Fade_Step_0" * /;
   uStack_90 = 0;
   uStack_a0 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_a0;
   uStack_3c = 0xffffff;
   uStack_48 = 0;
   uRam0000000140657680 = param_1;
-  uVar2 = (**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x1870b /* delta_factor */);
+  uVar2 = (**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x1870b / * delta_factor * /);
   uStack_7c = 0xffffff;
   uStack_88 = 0;
   uStack_6c = 0xffffff;

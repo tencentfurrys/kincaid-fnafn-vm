@@ -1,14 +1,72 @@
 {
-  "$GMObject": "v1",
-  "resourceType": "GMObject",
-  "resourceVersion": "2.3",
-  "name": "Obj_Office_Front_Figurines",
-  "spriteId": null,
-  "solid": false,
-  "visible": true,
+  "$GMObject": "",
+  "%Name": "Obj_Office_Front_Figurines",
+  "eventList": [
+    {
+      "$GMEvent": "v1",
+      "%Name": "",
+      "collisionObjectId": null,
+      "eventNum": 49,
+      "eventType": 9,
+      "isDnD": false,
+      "name": "",
+      "resourceType": "GMEvent",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMEvent": "v1",
+      "%Name": "",
+      "collisionObjectId": null,
+      "eventNum": 50,
+      "eventType": 9,
+      "isDnD": false,
+      "name": "",
+      "resourceType": "GMEvent",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMEvent": "v1",
+      "%Name": "",
+      "collisionObjectId": null,
+      "eventNum": 51,
+      "eventType": 9,
+      "isDnD": false,
+      "name": "",
+      "resourceType": "GMEvent",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMEvent": "v1",
+      "%Name": "",
+      "collisionObjectId": null,
+      "eventNum": 52,
+      "eventType": 9,
+      "isDnD": false,
+      "name": "",
+      "resourceType": "GMEvent",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMEvent": "v1",
+      "%Name": "",
+      "collisionObjectId": null,
+      "eventNum": 53,
+      "eventType": 9,
+      "isDnD": false,
+      "name": "",
+      "resourceType": "GMEvent",
+      "resourceVersion": "2.0"
+    }
+  ],
   "managed": true,
-  "persistent": false,
+  "name": "Obj_Office_Front_Figurines",
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy"
+  },
   "parentObjectId": null,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -22,67 +80,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "overriddenProperties": [],
-  "eventList": [
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 9,
-      "eventSubtype": 49,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    },
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 9,
-      "eventSubtype": 50,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    },
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 9,
-      "eventSubtype": 51,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    },
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 9,
-      "eventSubtype": 52,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    },
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 9,
-      "eventSubtype": 53,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    },
-    {
-      "$GMEvent": "v1",
-      "isDnD": false,
-      "eventType": 14,
-      "eventSubtype": 0,
-      "collisionObjectId": null,
-      "resourceVersion": "1.0",
-      "name": "",
-      "resourceType": "GMEvent"
-    }
-  ]
+  "resourceType": "GMObject",
+  "resourceVersion": "2.0",
+  "solid": false,
+  "spriteId": null,
+  "spriteMaskId": null,
+  "visible": true
 }

@@ -58,7 +58,7 @@ if (layer_get_visible("Camera_HUD") == 1) {
 }
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Night_Camera_Switch_Mouse_7(longlong *param_1,undefined8 param_2)
 

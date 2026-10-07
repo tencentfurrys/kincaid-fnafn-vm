@@ -22,7 +22,7 @@ if (toggle == 1 /* TODO(calibrate): runtime const @0x140657480 */) {
 }
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_System_Stats_Check_KeyPress_16(longlong *param_1,undefined8 param_2)
 

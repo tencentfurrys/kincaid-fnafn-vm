@@ -18,7 +18,7 @@ instance_create_layer(32, 160, "Main_menu", Obj_Menu_Main_Title);
 instance_destroy();
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Menu_Radio_Cassette_Mouse_54(undefined8 param_1,undefined8 param_2)
 

@@ -63,7 +63,7 @@ void gml_Object_Obj_Menu_Pause_Destroy_0(longlong *param_1,undefined8 param_2)
   undefined8 uStack_28;
   
   uStack_28 = 0xfffffffffffffffe;
-  puStack_68 = &UNK_14043ca04 /* "gml_Object_Obj_Menu_Pause_Destroy_0" */;
+  puStack_68 = &UNK_14043ca04 / * "gml_Object_Obj_Menu_Pause_Destroy_0" * /;
   uStack_70 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_70;
   uStack_4c = 0xffffff;
@@ -82,7 +82,7 @@ void gml_Object_Obj_Menu_Pause_Destroy_0(longlong *param_1,undefined8 param_2)
   plRam0000000140657680 = param_1;
   uStack_38 = param_2;
   plStack_30 = param_1;
-  uVar3 = (**(code **)(*param_1 + 8))(param_1,0x18752 /* "pause_surface" */);
+  uVar3 = (**(code **)(*param_1 + 8))(param_1,0x18752 / * "pause_surface" * /);
   func_0x000140001490(&uStack_58,uVar3);
   puStack_e8 = &uStack_58;
   func_0x0001401445d0(plStack_30,uStack_38,&uStack_48,1,uRam00000001405c8c20,&puStack_e8);
@@ -92,7 +92,7 @@ void gml_Object_Obj_Menu_Pause_Destroy_0(longlong *param_1,undefined8 param_2)
   }
   uStack_48 = 0;
   uStack_40 = 0x500000000;
-  uVar3 = (**(code **)(*plStack_30 + 8))(plStack_30,0x186e5 /* "back_surface" */);
+  uVar3 = (**(code **)(*plStack_30 + 8))(plStack_30,0x186e5 / * "back_surface" * /);
   func_0x000140001490(&uStack_58,uVar3);
   puStack_e8 = &uStack_58;
   func_0x0001401445d0(plStack_30,uStack_38,&uStack_48,1,uRam00000001405c8c20,&puStack_e8);

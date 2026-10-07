@@ -1,12 +1,13 @@
 {
   "$GMScript": "v1",
-  "resourceType": "GMScript",
-  "resourceVersion": "2.0",
-  "name": "customfunct_ui_button_detection",
+  "%Name": "customfunct_ui_button_detection",
   "isCompatibility": false,
   "isDnD": false,
+  "name": "customfunct_ui_button_detection",
   "parent": {
     "name": "Scripts",
     "path": "folders/Scripts.yy"
-  }
+  },
+  "resourceType": "GMScript",
+  "resourceVersion": "2.0"
 }

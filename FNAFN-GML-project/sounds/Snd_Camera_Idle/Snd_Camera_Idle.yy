@@ -1,24 +1,26 @@
 {
-  "$GMSound": "v1",
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "Snd_Camera_Idle",
-  "conversionMode": 0,
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 0,
+  "$GMSound": "v2",
+  "%Name": "Snd_Camera_Idle",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default"
   },
-  "soundFile": "sounds/Snd_Camera_Idle/Snd_Camera_Idle.wav",
+  "bitDepth": 0,
+  "channelFormat": 0,
+  "compression": 0,
+  "compressionQuality": 1,
+  "conversionMode": 0,
   "duration": 0.1,
+  "exportDir": "",
+  "name": "Snd_Camera_Idle",
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy"
-  }
+  },
+  "preload": false,
+  "resourceType": "GMSound",
+  "resourceVersion": "2.0",
+  "sampleRate": 44100,
+  "soundFile": "Snd_Camera_Idle.wav",
+  "volume": 1.0
 }

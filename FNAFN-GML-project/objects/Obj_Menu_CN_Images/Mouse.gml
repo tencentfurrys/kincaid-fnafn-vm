@@ -60,7 +60,7 @@ switch (image_index) {
 }
 
 /* BEGIN DECOMPILED REFERENCE
-// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+// (Ghidra note) WARNING: Globals starting with '_' overlap smaller symbols at the same address * /
 
 void gml_Object_Obj_Menu_CN_Images_Mouse_4(longlong *param_1,undefined8 param_2)
 
@@ -267,8 +267,8 @@ code_r0x0001400b889a:
     }
   }
   if (uVar4 < 5) {
-                    /* WARNING: Could not recover jumptable at 0x0001400b88ba. Too many branches */
-                    /* WARNING: Treating indirect jump as call */
+                    / * WARNING: Could not recover jumptable at 0x0001400b88ba. Too many branches * /
+                    / * WARNING: Treating indirect jump as call * /
     (*(code *)(&UNK_1400b903c + *(int *)(&UNK_1400b903c + uVar4 * 4)))();
     return;
   }

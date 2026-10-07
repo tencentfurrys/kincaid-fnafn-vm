@@ -145,7 +145,7 @@ void gml_Object_Obj_Menu_Pause_Draw_0(longlong *param_1,undefined8 param_2)
   undefined8 uStack_48;
   
   uStack_48 = 0xfffffffffffffffe;
-  puStack_88 = &UNK_14043ca6c /* "gml_Object_Obj_Menu_Pause_Draw_0" */;
+  puStack_88 = &UNK_14043ca6c / * "gml_Object_Obj_Menu_Pause_Draw_0" * /;
   uStack_80 = 0;
   uStack_90 = puRam0000000140657668;
   puRam0000000140657668 = &uStack_90;
@@ -168,7 +168,7 @@ void gml_Object_Obj_Menu_Pause_Draw_0(longlong *param_1,undefined8 param_2)
   uStack_ec = 0xffffff;
   uStack_f8 = 0;
   plRam0000000140657680 = param_1;
-  pdVar4 = (double *)(**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x18725 /* "game_font" */);
+  pdVar4 = (double *)(**(code **)(*plRam000000014065e080 + 8))(plRam000000014065e080,0x18725 / * "game_font" * /);
   uStack_6c = 0xffffff;
   uStack_78 = 0;
   uStack_18c = 0xffffff;
@@ -191,7 +191,7 @@ void gml_Object_Obj_Menu_Pause_Draw_0(longlong *param_1,undefined8 param_2)
     iVar2 = func_0x000140147990(*pdVar4);
     if (iVar2 < 2) {
       uVar3 = func_0x000140147990(*pdVar4);
-      func_0x000140144260(&UNK_140439ca6 /* "index out of bounds request %d maximum size is %d" */,1,uVar3);
+      func_0x000140144260(&UNK_140439ca6 / * "index out of bounds request %d maximum size is %d" * /,1,uVar3);
       pdVar5 = (double *)0x0;
       uVar10 = uRam000000000000000c;
       goto joined_r0x0001400d839f;
@@ -202,7 +202,7 @@ code_r0x0001400d83a1:
     dVar9 = (double)func_0x00014012d320();
   }
   else {
-    func_0x000140144260(&UNK_140439cd8 /* "trying to index variable that is not an array" */);
+    func_0x000140144260(&UNK_140439cd8 / * "trying to index variable that is not an array" * /);
     pdVar5 = pdVar4;
     uVar10 = *(uint *)((longlong)pdVar4 + 0xc);
 joined_r0x0001400d839f:
@@ -222,7 +222,7 @@ code_r0x0001400d83cc:
   }
   uStack_58 = 0;
   uStack_50 = 0x500000000;
-  uVar6 = (**(code **)(*param_1 + 8))(param_1,0x186e5 /* "back_surface" */);
+  uVar6 = (**(code **)(*param_1 + 8))(param_1,0x186e5 / * "back_surface" * /);
   func_0x000140001490(&uStack_178,uVar6);
   ppuVar11 = &puStack_e8;
   uVar10 = uRam00000001405c8a50;
@@ -241,7 +241,7 @@ code_r0x0001400d83cc:
     }
     uStack_a0 = 0;
     uStack_98 = 0x500000000;
-    uVar6 = (**(code **)(*param_1 + 8))(param_1,0x186e5 /* "back_surface" */);
+    uVar6 = (**(code **)(*param_1 + 8))(param_1,0x186e5 / * "back_surface" * /);
     func_0x00014015ef90(param_1,uRam00000001405c7bf8,0,&uStack_78);
     func_0x000140001490(&uStack_168,&uStack_78);
     puStack_e0 = &uStack_168;
@@ -312,7 +312,7 @@ code_r0x0001400d83cc:
   }
   func_0x000140175550(param_1,0x2a,0,(float)dVar9,0);
   uStack_80 = 0xc;
-  pdStack_1a0 = (double *)(**(code **)(*param_1 + 8))(param_1,0x18752 /* "pause_surface" */);
+  pdStack_1a0 = (double *)(**(code **)(*param_1 + 8))(param_1,0x18752 / * "pause_surface" * /);
   if ((*(uint *)((longlong)pdStack_1a0 + 0xc) & 0xffffff) == 0) {
     dVar9 = *pdStack_1a0;
   }
@@ -347,10 +347,10 @@ code_r0x0001400d83cc:
     }
     uVar3 = func_0x000140147990(*pdVar4);
     pdVar4 = (double *)0x0;
-    func_0x000140144260(&UNK_140439ca6 /* "index out of bounds request %d maximum size is %d" */,0,uVar3);
+    func_0x000140144260(&UNK_140439ca6 / * "index out of bounds request %d maximum size is %d" * /,0,uVar3);
   }
   else {
-    func_0x000140144260(&UNK_140439cd8 /* "trying to index variable that is not an array" */);
+    func_0x000140144260(&UNK_140439cd8 / * "trying to index variable that is not an array" * /);
   }
   uVar10 = *(uint *)((longlong)pdVar4 + 0xc);
 joined_r0x0001400d8a6b:
@@ -367,7 +367,7 @@ joined_r0x0001400d8a6b:
   }
   uStack_58 = 0;
   uStack_50 = 0x500000000;
-  plVar8 = (longlong *)(**(code **)(*param_1 + 8))(param_1,0x18753 /* "pause_text" */);
+  plVar8 = (longlong *)(**(code **)(*param_1 + 8))(param_1,0x18753 / * "pause_text" * /);
   func_0x00014000bee0(&uStack_178,0x1405c56b8);
   puStack_e8 = &uStack_178;
   func_0x00014000bee0(&uStack_168,0x1405c56c8);
@@ -378,7 +378,7 @@ joined_r0x0001400d8a6b:
     if (iVar2 < 1) {
       uVar3 = func_0x000140147990(*plVar8);
       plVar8 = (longlong *)0x0;
-      func_0x000140144260(&UNK_140439ca6 /* "index out of bounds request %d maximum size is %d" */,0,uVar3);
+      func_0x000140144260(&UNK_140439ca6 / * "index out of bounds request %d maximum size is %d" * /,0,uVar3);
     }
     else {
       plVar8 = (longlong *)func_0x000140147980(*plVar8,0);
@@ -386,7 +386,7 @@ joined_r0x0001400d8a6b:
   }
   else {
     puStack_e0 = &uStack_168;
-    func_0x000140144260(&UNK_140439cd8 /* "trying to index variable that is not an array" */);
+    func_0x000140144260(&UNK_140439cd8 / * "trying to index variable that is not an array" * /);
   }
   func_0x000140001490(&uStack_158,plVar8);
   puStack_d8 = &uStack_158;
@@ -397,7 +397,7 @@ joined_r0x0001400d8a6b:
   }
   uStack_58 = 0;
   uStack_50 = 0x500000000;
-  plVar8 = (longlong *)(**(code **)(*param_1 + 8))(param_1,0x18753 /* "pause_text" */);
+  plVar8 = (longlong *)(**(code **)(*param_1 + 8))(param_1,0x18753 / * "pause_text" * /);
   func_0x00014000bee0(&uStack_178,0x1405c56b8);
   puStack_e8 = &uStack_178;
   func_0x00014000bee0(&uStack_168,0x1405c56d8);
@@ -407,7 +407,7 @@ joined_r0x0001400d8a6b:
     iVar2 = func_0x000140147990(*plVar8);
     if (iVar2 < 2) {
       uVar3 = func_0x000140147990(*plVar8);
-      func_0x000140144260(&UNK_140439ca6 /* "index out of bounds request %d maximum size is %d" */,1,uVar3);
+      func_0x000140144260(&UNK_140439ca6 / * "index out of bounds request %d maximum size is %d" * /,1,uVar3);
       plVar8 = (longlong *)0x0;
     }
     else {
@@ -416,7 +416,7 @@ joined_r0x0001400d8a6b:
   }
   else {
     puStack_e0 = &uStack_168;
-    func_0x000140144260(&UNK_140439cd8 /* "trying to index variable that is not an array" */);
+    func_0x000140144260(&UNK_140439cd8 / * "trying to index variable that is not an array" * /);
   }
   func_0x000140001490(&uStack_158,plVar8);
   puStack_d8 = &uStack_158;
