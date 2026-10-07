@@ -1,0 +1,2607 @@
+{
+ "0x140655": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406554": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406559": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656e": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655090": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406550a0": {
+  "kind": "string",
+  "value": "full",
+  "status": "exact-exe"
+ },
+ "0x1406550b0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406550b4": {
+  "kind": "string",
+  "value": "low",
+  "status": "exact-exe"
+ },
+ "0x1406550c8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406550f0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655110": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655120": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655124": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655138": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065514c": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655160": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655174": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655188": {
+  "kind": "guard-literal",
+  "value": "0x4018000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065519c": {
+  "kind": "guard-literal",
+  "value": "0x401c000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406551b0": {
+  "kind": "guard-literal",
+  "value": "0x4020000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406551c4": {
+  "kind": "guard-literal",
+  "value": "0x4022000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406551d8": {
+  "kind": "guard-literal",
+  "value": "0x4024000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406551ec": {
+  "kind": "guard-literal",
+  "value": "0x4026000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655200": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655210": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655220": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655224": {
+  "kind": "guard-literal",
+  "value": "0x3ff199999999999a",
+  "status": "exact-exe"
+ },
+ "0x140655238": {
+  "kind": "guard-literal",
+  "value": "0x3ff3333333333333",
+  "status": "exact-exe"
+ },
+ "0x14065524c": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655250": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655260": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655264": {
+  "kind": "guard-literal",
+  "value": "0x4000cccccccccccd",
+  "status": "exact-exe"
+ },
+ "0x140655278": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655280": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655290": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655294": {
+  "kind": "guard-literal",
+  "value": "0x4008cccccccccccd",
+  "status": "exact-exe"
+ },
+ "0x1406552a8": {
+  "kind": "guard-literal",
+  "value": "0x400999999999999a",
+  "status": "exact-exe"
+ },
+ "0x1406552bc": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406552c0": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406552d0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406552d4": {
+  "kind": "guard-literal",
+  "value": "0x4010666666666666",
+  "status": "exact-exe"
+ },
+ "0x1406552e8": {
+  "kind": "guard-literal",
+  "value": "0x4010cccccccccccd",
+  "status": "exact-exe"
+ },
+ "0x1406552fc": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655300": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655310": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655314": {
+  "kind": "guard-literal",
+  "value": "0x4014666666666666",
+  "status": "exact-exe"
+ },
+ "0x140655328": {
+  "kind": "guard-literal",
+  "value": "0x4014cccccccccccd",
+  "status": "exact-exe"
+ },
+ "0x14065533c": {
+  "kind": "guard-literal",
+  "value": "0x4015333333333333",
+  "status": "exact-exe"
+ },
+ "0x140655350": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655360": {
+  "kind": "guard-literal",
+  "value": "0x4022000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655374": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655380": {
+  "kind": "guard-literal",
+  "value": "0x4024000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655394": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406553a0": {
+  "kind": "guard-literal",
+  "value": "0x4026000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406553b4": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406553c0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406553d0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406553d4": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406553e8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406553fc": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655410": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655424": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406554c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406554d0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406554e0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406554e4": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406554f8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655504": {
+  "kind": "guard-literal",
+  "value": "0x200000000",
+  "status": "exact-exe"
+ },
+ "0x14065550c": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655510": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655520": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655530": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655550": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655560": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655570": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655580": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655590": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406555a0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406555a4": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406555b8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406555cc": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406555e0": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406555f4": {
+  "kind": "guard-literal",
+  "value": "0x4018000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655608": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655610": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655620": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655630": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655644": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655650": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655660": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655664": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655678": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655680": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655690": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655694": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406556a8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406556b4": {
+  "kind": "guard-literal",
+  "value": "0x200000000",
+  "status": "exact-exe"
+ },
+ "0x1406556bc": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655720": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655730": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655740": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655744": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655758": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655760": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655770": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655784": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655790": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406557a0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406557b0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406557b4": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406557c8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406557dc": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406557e0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406557f0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655800": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655804": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655818": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655820": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655830": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655834": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655848": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655850": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655860": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655870": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655874": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655888": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655890": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406558a0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406558a4": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406558b8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406558cc": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406558e0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655920": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655930": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655940": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655950": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655960": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655974": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655980": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655990": {
+  "kind": "guard-literal",
+  "value": "0x3fe3333333333333",
+  "status": "exact-exe"
+ },
+ "0x1406559a0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406559a4": {
+  "kind": "guard-literal",
+  "value": "0xbfdeb851eb851eb8",
+  "status": "exact-exe"
+ },
+ "0x1406559b8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406559c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406559d0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406559e0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406559e4": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406559f8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655a00": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655a10": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655a20": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655a30": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655a40": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655a44": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655a58": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655a6c": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655a80": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655a94": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655aa0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655ab0": {
+  "kind": "string",
+  "value": "video",
+  "status": "exact-exe"
+ },
+ "0x140655ac0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655ac4": {
+  "kind": "string",
+  "value": "audio",
+  "status": "exact-exe"
+ },
+ "0x140655ad8": {
+  "kind": "string",
+  "value": "preferences",
+  "status": "exact-exe"
+ },
+ "0x140655aec": {
+  "kind": "string",
+  "value": "accessibility",
+  "status": "exact-exe"
+ },
+ "0x140655b00": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655b70": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655b80": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655b84": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655b98": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655bac": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655bc0": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655bd4": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655be0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655bf0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655bf4": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655c08": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655c1c": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655c30": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655c44": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655c48": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655c60": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655c70": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655c80": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655c84": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655c98": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655ca0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655cb0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655cc0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655cd0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655ce0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655ce4": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655cf8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655d00": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655d10": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655d20": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655d30": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655d40": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655d44": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655d58": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655d6c": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655d80": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655d94": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655d98": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655da8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655dc0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655dd0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655de0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655de4": {
+  "kind": "guard-literal",
+  "value": "0x3ff199999999999a",
+  "status": "exact-exe"
+ },
+ "0x140655df8": {
+  "kind": "guard-literal",
+  "value": "0x3ff3333333333333",
+  "status": "exact-exe"
+ },
+ "0x140655e0c": {
+  "kind": "guard-literal",
+  "value": "0x3ff8000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655e20": {
+  "kind": "guard-literal",
+  "value": "0x4024000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655e34": {
+  "kind": "guard-literal",
+  "value": "0x4025000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655e48": {
+  "kind": "guard-literal",
+  "value": "0x4018000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655e5c": {
+  "kind": "guard-literal",
+  "value": "0x401a000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655e70": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655e80": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655e90": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655e94": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655ea8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655ebc": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655ed0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655ee0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140655ef0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140655ef4": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140655f08": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656018": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656030": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656040": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656050": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656054": {
+  "kind": "guard-literal",
+  "value": "0x4008cccccccccccd",
+  "status": "exact-exe"
+ },
+ "0x140656068": {
+  "kind": "guard-literal",
+  "value": "0x400999999999999a",
+  "status": "exact-exe"
+ },
+ "0x14065607c": {
+  "kind": "guard-literal",
+  "value": "0x400c000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656090": {
+  "kind": "guard-literal",
+  "value": "0x4026000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406560a4": {
+  "kind": "guard-literal",
+  "value": "0x4027000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406560b8": {
+  "kind": "guard-literal",
+  "value": "0x4020000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406560cc": {
+  "kind": "guard-literal",
+  "value": "0x4021000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406560e0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406560f0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656100": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656104": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656118": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065612c": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656140": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656150": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140656160": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656164": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656178": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406562c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406562d0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406562e0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406562e4": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406562f8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656300": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656310": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656320": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656330": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656340": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656350": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656354": {
+  "kind": "guard-literal",
+  "value": "0x4010666666666666",
+  "status": "exact-exe"
+ },
+ "0x140656368": {
+  "kind": "guard-literal",
+  "value": "0x4010cccccccccccd",
+  "status": "exact-exe"
+ },
+ "0x14065637c": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656380": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656390": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656394": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406563a8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406563bc": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406563d0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406563e0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406563f4": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656410": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656420": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656424": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656438": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656440": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656460": {
+  "kind": "string",
+  "value": "cameras",
+  "status": "exact-exe"
+ },
+ "0x140656470": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140656474": {
+  "kind": "string",
+  "value": "vents",
+  "status": "exact-exe"
+ },
+ "0x140656488": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656490": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406564a0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406564a4": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406564b8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406564c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406564d0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406564e0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406564f0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406564f4": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656508": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065651c": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656530": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656544": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656548": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406565a0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406565b0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406565c0": {
+  "kind": "string",
+  "value": "disabled",
+  "status": "exact-exe"
+ },
+ "0x1406565d0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406565d4": {
+  "kind": "string",
+  "value": "enabled",
+  "status": "exact-exe"
+ },
+ "0x1406565e8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406565f0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140656600": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656604": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656618": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656620": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140656630": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656634": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656648": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656650": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656660": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656670": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656680": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656684": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656698": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406566a0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406566b0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406566c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406566c4": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406566d8": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406566ec": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656700": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656714": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656728": {
+  "kind": "guard-literal",
+  "value": "0x4018000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065673c": {
+  "kind": "guard-literal",
+  "value": "0x401c000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656750": {
+  "kind": "guard-literal",
+  "value": "0x4020000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656764": {
+  "kind": "guard-literal",
+  "value": "0x4022000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656778": {
+  "kind": "guard-literal",
+  "value": "0x4024000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065678c": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656790": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406567dc": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406567e0": {
+  "kind": "string",
+  "value": "video",
+  "status": "exact-exe"
+ },
+ "0x1406567f0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406567f4": {
+  "kind": "string",
+  "value": "audio",
+  "status": "exact-exe"
+ },
+ "0x140656808": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656810": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656820": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656824": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656838": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065684c": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656860": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656874": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656980": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656990": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656994": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406569a8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406569b0": {
+  "kind": "string",
+  "value": "disabled",
+  "status": "exact-exe"
+ },
+ "0x1406569c0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406569c4": {
+  "kind": "string",
+  "value": "enabled",
+  "status": "exact-exe"
+ },
+ "0x1406569d8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656bf0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656c00": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656c10": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656c20": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656c30": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656c34": {
+  "kind": "guard-literal",
+  "value": "0x4000cccccccccccd",
+  "status": "exact-exe"
+ },
+ "0x140656c48": {
+  "kind": "guard-literal",
+  "value": "0x400199999999999a",
+  "status": "exact-exe"
+ },
+ "0x140656c5c": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656c60": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140656c70": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656c74": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656c88": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656ce0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656cf0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656d00": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656d04": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656d18": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656d20": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656d30": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656d40": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656d50": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656d60": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140656d70": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656d74": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656d88": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656da0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656dc0": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656dd0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656dd4": {
+  "kind": "guard-literal",
+  "value": "0x4014666666666666",
+  "status": "exact-exe"
+ },
+ "0x140656de8": {
+  "kind": "guard-literal",
+  "value": "0x4014cccccccccccd",
+  "status": "exact-exe"
+ },
+ "0x140656dfc": {
+  "kind": "guard-literal",
+  "value": "0x4015333333333333",
+  "status": "exact-exe"
+ },
+ "0x140656e10": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656e20": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140656e30": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656e34": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656e48": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656e50": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656e60": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656e70": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656e80": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656e88": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656e90": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656ea0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656eb0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656ec0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656ec4": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656ed8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656ee0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656ef0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656f00": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f04": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f10": {
+  "kind": "guard-literal",
+  "value": "0x100000000",
+  "status": "exact-exe"
+ },
+ "0x140656f18": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f20": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f30": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656f40": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f44": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f58": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f60": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f70": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140656f80": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656f84": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656f98": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656fa0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656fb0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140656fc4": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656fd0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656fe0": {
+  "kind": "guard-literal",
+  "value": "0x3fe3333333333333",
+  "status": "exact-exe"
+ },
+ "0x140656ff0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140656ff4": {
+  "kind": "guard-literal",
+  "value": "0xbfdeb851eb851eb8",
+  "status": "exact-exe"
+ },
+ "0x140657008": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657010": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657020": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140657030": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657034": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657048": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657050": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657070": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657080": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140657090": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657094": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406570a8": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406570bc": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406570c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406570d0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406570e0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406570e4": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406570f8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657100": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657110": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657114": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657128": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065713c": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657150": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657158": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657168": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657180": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657190": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657194": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406571a8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406571b0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406571c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406571c4": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406571d8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406571ec": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657200": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657210": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657220": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657224": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657238": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657240": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657250": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657254": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657268": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065727c": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657290": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657298": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406572b0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406572c0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406572d0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406572d4": {
+  "kind": "guard-literal",
+  "value": "0x4000000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406572e8": {
+  "kind": "guard-literal",
+  "value": "0x4008000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406572fc": {
+  "kind": "guard-literal",
+  "value": "0x4010000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657310": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657324": {
+  "kind": "guard-literal",
+  "value": "0x4018000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657338": {
+  "kind": "guard-literal",
+  "value": "0x401c000000000000",
+  "status": "exact-exe"
+ },
+ "0x14065734c": {
+  "kind": "guard-literal",
+  "value": "0x4020000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657360": {
+  "kind": "guard-literal",
+  "value": "0x4022000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657374": {
+  "kind": "guard-literal",
+  "value": "0x4024000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657388": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657390": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406573a0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406573c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406573d0": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406573e0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406573e4": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406573f0": {
+  "kind": "guard-literal",
+  "value": "0x100000000",
+  "status": "exact-exe"
+ },
+ "0x1406573f8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657400": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657440": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657460": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657470": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657480": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140657490": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657494": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406574a8": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406574b0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406574c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406574d0": {
+  "kind": "guard-literal",
+  "value": "0x4014000000000000",
+  "status": "exact-exe"
+ },
+ "0x1406574e4": {
+  "kind": "guard-literal",
+  "value": "0x4014666666666666",
+  "status": "exact-exe"
+ },
+ "0x1406574f8": {
+  "kind": "guard-literal",
+  "value": "0x4014cccccccccccd",
+  "status": "exact-exe"
+ },
+ "0x14065750c": {
+  "kind": "guard-literal",
+  "value": "0x4015333333333333",
+  "status": "exact-exe"
+ },
+ "0x140657520": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657530": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657540": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x140657550": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657554": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657568": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657570": {
+  "kind": "guard-literal",
+  "value": "0x3ff0000000000000",
+  "status": "exact-exe"
+ },
+ "0x140657580": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657584": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657598": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406575b0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406575c0": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x1406575d0": {
+  "kind": "string",
+  "value": "freddy",
+  "status": "exact-exe"
+ },
+ "0x1406575e0": {
+  "kind": "guard-literal",
+  "value": "0",
+  "status": "exact-exe"
+ },
+ "0x1406575e4": {
+  "kind": "string",
+  "value": "bonnie",
+  "status": "exact-exe"
+ },
+ "0x1406575f8": {
+  "kind": "string",
+  "value": "chica",
+  "status": "exact-exe"
+ },
+ "0x14065760c": {
+  "kind": "string",
+  "value": "foxy",
+  "status": "exact-exe"
+ },
+ "0x140657620": {
+  "kind": "string",
+  "value": "mangle",
+  "status": "exact-exe"
+ },
+ "0x140657634": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ },
+ "0x140657658": {
+  "kind": "expression-const",
+  "value": null,
+  "status": "runtime-only"
+ }
+}
