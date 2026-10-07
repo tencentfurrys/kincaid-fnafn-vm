@@ -74,6 +74,12 @@
     },
     {
       "id": {
+        "name": "Obj_Debug_Log",
+        "path": "objects/Obj_Debug_Log/Obj_Debug_Log.yy"
+      }
+    },
+    {
+      "id": {
         "name": "Obj_Filter_Camera",
         "path": "objects/Obj_Filter_Camera/Obj_Filter_Camera.yy"
       }
@@ -748,6 +754,12 @@
       "id": {
         "name": "scr_OLDTVFilter_Setup",
         "path": "scripts/scr_OLDTVFilter_Setup.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "scr_dbg_log",
+        "path": "scripts/scr_dbg_log.yy"
       }
     },
     {

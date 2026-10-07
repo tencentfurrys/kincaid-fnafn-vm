@@ -37,6 +37,10 @@
     {
       "name": "inst_000186A0",
       "path": "rooms/Rm_Menu_Custom_Night/Rm_Menu_Custom_Night.yy"
+    },
+    {
+      "name": "inst_DEBUGLOG",
+      "path": "rooms/Rm_Menu_Custom_Night/Rm_Menu_Custom_Night.yy"
     }
   ],
   "isDnd": false,
@@ -270,6 +274,33 @@
           "scaleY": 1.0,
           "x": 0,
           "y": 0
+        },
+        {
+          "$GMRInstance": "v4",
+          "%Name": "inst_DEBUGLOG",
+          "colour": 4294967295,
+          "frozen": false,
+          "hasCreationCode": false,
+          "ignore": false,
+          "imageIndex": 0,
+          "imageSpeed": 1.0,
+          "inheritCode": false,
+          "inheritedItemId": null,
+          "inheritItemSettings": false,
+          "isDnd": false,
+          "name": "inst_DEBUGLOG",
+          "objectId": {
+            "name": "Obj_Debug_Log",
+            "path": "objects/Obj_Debug_Log/Obj_Debug_Log.yy"
+          },
+          "properties": [],
+          "resourceType": "GMRInstance",
+          "resourceVersion": "2.0",
+          "rotation": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "x": -32,
+          "y": -64
         }
       ],
       "layers": [],
