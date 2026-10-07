@@ -3,7 +3,7 @@
 // Custom-night roster screen — same family as the ported Obj_Menu_Continue
 // Create (shared backdrop + shared Obj_Menu_Selector pattern). Decoded, in
 // order (uStack_30 = GML line markers):
-//   0. customfunct_audio_play_sound_single(22, <?>, <?>) — DIRECT script
+//   0. customfunct_audio_play_sound_single(Snd_Menu_Confirm, <?>, <?>) — DIRECT script
 //      call, argc=3; exe const 0x1405c5848 = 22.0 (menu-blip sound).
 //   2. Obj_Menu_Main_Back.sprite_index = 64 [slot 0x1405c7be8; 64 =
 //      Spr_Menu_Background_Customize per sprite_names.json].
@@ -19,7 +19,7 @@
 // (0x14065xxxx, outside the exe image); loop is certainly false for a
 // "single" UI blip, priority assumed 0 (same convention as Continue port).
 // Ported: Obj_Menu_Customize / Create
-customfunct_audio_play_sound_single(22, /*priority*/ 0, /*loop*/ false);
+customfunct_audio_play_sound_single(Snd_Menu_Confirm, /*priority*/ 0, /*loop*/ false);
 Obj_Menu_Main_Back.sprite_index = 64; // Spr_Menu_Background_Customize
 Obj_Menu_Main_Back.image_alpha = 0;
 select = 0;

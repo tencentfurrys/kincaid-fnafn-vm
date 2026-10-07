@@ -1,0 +1,230 @@
+[
+ {
+  "index": 0,
+  "name": "Snd_Loading"
+ },
+ {
+  "index": 1,
+  "name": "Snd_Camera_Change"
+ },
+ {
+  "index": 2,
+  "name": "Snd_Office_Look_4"
+ },
+ {
+  "index": 3,
+  "name": "Snd_Office_Switch_2"
+ },
+ {
+  "index": 4,
+  "name": "Snd_Freddy_Alarm"
+ },
+ {
+  "index": 5,
+  "name": "Snd_Foxy_Run"
+ },
+ {
+  "index": 6,
+  "name": "Snd_Bonnie_Move_1"
+ },
+ {
+  "index": 7,
+  "name": "Snd_Office_Flashlight_Off"
+ },
+ {
+  "index": 8,
+  "name": "Snd_Office_Button_Up"
+ },
+ {
+  "index": 9,
+  "name": "Snd_Jumpscare_Mangle"
+ },
+ {
+  "index": 10,
+  "name": "Snd_Office_Ambience"
+ },
+ {
+  "index": 11,
+  "name": "Snd_Office_Door_Open"
+ },
+ {
+  "index": 12,
+  "name": "Snd_Menu_Theme"
+ },
+ {
+  "index": 13,
+  "name": "Snd_Office_Button_Down"
+ },
+ {
+  "index": 14,
+  "name": "Snd_Foxy_Move_2"
+ },
+ {
+  "index": 15,
+  "name": "Snd_Office_Door_Close"
+ },
+ {
+  "index": 16,
+  "name": "Snd_Menu_Adjust_Down"
+ },
+ {
+  "index": 17,
+  "name": "Snd_Chica_Move_2"
+ },
+ {
+  "index": 18,
+  "name": "Snd_Camera_Flash"
+ },
+ {
+  "index": 19,
+  "name": "Snd_Office_Door_Alarm_Right"
+ },
+ {
+  "index": 20,
+  "name": "Snd_Office_Look_3"
+ },
+ {
+  "index": 21,
+  "name": "Snd_Menu_Adjust_Up"
+ },
+ {
+  "index": 22,
+  "name": "Snd_Menu_Confirm"
+ },
+ {
+  "index": 23,
+  "name": "Snd_Office_Switch_1"
+ },
+ {
+  "index": 24,
+  "name": "Snd_Jumpscare_Bonnie_1"
+ },
+ {
+  "index": 25,
+  "name": "Snd_Office_Switch_4"
+ },
+ {
+  "index": 26,
+  "name": "Snd_Foxy_Move_1"
+ },
+ {
+  "index": 27,
+  "name": "Snd_Camera_Radio_Change"
+ },
+ {
+  "index": 28,
+  "name": "Snd_Office_Nose"
+ },
+ {
+  "index": 29,
+  "name": "Snd_Office_Shutter_Close"
+ },
+ {
+  "index": 30,
+  "name": "Snd_Office_Shutter_Open"
+ },
+ {
+  "index": 31,
+  "name": "Snd_Menu_Select"
+ },
+ {
+  "index": 32,
+  "name": "Snd_Freddy_Power_Out"
+ },
+ {
+  "index": 33,
+  "name": "Snd_Office_Look_2"
+ },
+ {
+  "index": 34,
+  "name": "Snd_Office_Switch_3"
+ },
+ {
+  "index": 35,
+  "name": "Snd_Office_Flashlight_On"
+ },
+ {
+  "index": 36,
+  "name": "Snd_Office_Lever_Error"
+ },
+ {
+  "index": 37,
+  "name": "Snd_Camera_Idle"
+ },
+ {
+  "index": 38,
+  "name": "Snd_Camera_Open"
+ },
+ {
+  "index": 39,
+  "name": "Snd_Jumpscare_Foxy"
+ },
+ {
+  "index": 40,
+  "name": "Snd_Office_Door_Alarm_Left"
+ },
+ {
+  "index": 41,
+  "name": "Snd_Camera_Record"
+ },
+ {
+  "index": 42,
+  "name": "Snd_Jumpscare_Chica_1"
+ },
+ {
+  "index": 43,
+  "name": "Snd_Foxy_Door"
+ },
+ {
+  "index": 44,
+  "name": "Snd_Office_Look_1"
+ },
+ {
+  "index": 45,
+  "name": "Snd_Mangle_In_Vents"
+ },
+ {
+  "index": 46,
+  "name": "Snd_Camera_Radio_Stop"
+ },
+ {
+  "index": 47,
+  "name": "Snd_Office_Button_Error"
+ },
+ {
+  "index": 48,
+  "name": "Snd_Camera_Click"
+ },
+ {
+  "index": 49,
+  "name": "Snd_Bonnie_Move_2"
+ },
+ {
+  "index": 50,
+  "name": "Snd_Camera_Zoom"
+ },
+ {
+  "index": 51,
+  "name": "Snd_Chica_Move_1"
+ },
+ {
+  "index": 52,
+  "name": "Snd_Camera_Close"
+ },
+ {
+  "index": 53,
+  "name": "Snd_Camera_Radio_Play"
+ },
+ {
+  "index": 54,
+  "name": "Snd_Jumpscare_Freddy"
+ },
+ {
+  "index": 55,
+  "name": "Snd_Menu_Theme_Radio"
+ },
+ {
+  "index": 56,
+  "name": "Snd_Office_Unsettle"
+ }
+]

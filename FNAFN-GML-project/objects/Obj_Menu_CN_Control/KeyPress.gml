@@ -16,7 +16,7 @@
 // (0x4000000000000000 into global 0x18724) and object-tagged write
 // func_0x000140160b90(2, 0x18760) = Obj_Menu_Transition.Room_to_go_to = 5
 // (0x4014000000000000; 5 = Rm_Loading).
-customfunct_audio_play_sound_single(22, 0, false); // TODO(calibrate): priority+loop are runtime const @0x140656440 (0x14065xxxx, outside exe image); loop assumed false, priority assumed 0
+customfunct_audio_play_sound_single(Snd_Menu_Confirm, 0, false); // TODO(calibrate): priority+loop are runtime const @0x140656440 (0x14065xxxx, outside exe image); loop assumed false, priority assumed 0
 instance_create_layer(0, 0, "Fade", Obj_Menu_Transition); // TODO(calibrate): x/y are runtime const @0x140656440 (assumed 0, 0)
 game = 2;
 Obj_Menu_Transition.Room_to_go_to = 5;

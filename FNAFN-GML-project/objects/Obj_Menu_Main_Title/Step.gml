@@ -21,7 +21,7 @@ if (customfunct_ui_button_detection(94, 340, 94 + string_width(text_menu[0]), 38
     Obj_Menu_Main_Back.image_index = 0;
     Obj_Menu_Main_Back.image_alpha = 0;
     if (select != 0) {
-        customfunct_audio_play_sound_single(31, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406570c0
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406570c0
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 0;
     }
@@ -31,7 +31,7 @@ if (customfunct_ui_button_detection(94, 385, 94 + string_width(text_menu[1]), 42
     Obj_Menu_Main_Back.image_index = 1;
     Obj_Menu_Main_Back.image_alpha = 0;
     if (select != 1) {
-        customfunct_audio_play_sound_single(31, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406570c0
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406570c0
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 1;
     }
@@ -41,7 +41,7 @@ if (customfunct_ui_button_detection(94, 430, 94 + string_width(text_menu[2]), 47
     Obj_Menu_Main_Back.image_index = 2;
     Obj_Menu_Main_Back.image_alpha = 0;
     if (select != 2) {
-        customfunct_audio_play_sound_single(31, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406570c0
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406570c0
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 2;
     }
@@ -51,7 +51,7 @@ if (customfunct_ui_button_detection(94, 475, 94 + string_width(text_menu[3]), 51
     Obj_Menu_Main_Back.image_index = 3;
     Obj_Menu_Main_Back.image_alpha = 0;
     if (select != 3) {
-        customfunct_audio_play_sound_single(31, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406570c0
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406570c0
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 3;
     }

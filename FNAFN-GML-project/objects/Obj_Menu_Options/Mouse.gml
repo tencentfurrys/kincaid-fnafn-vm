@@ -19,7 +19,7 @@
 //          text_options[i]), X[i] + string_width(text_options[i]),
 //          <runtime @0x140655a20>)) {
 //          if (menu != T[i]) {
-//              customfunct_audio_play_sound_single(48, <runtime>, <runtime>)
+//              customfunct_audio_play_sound_single(Snd_Camera_Click, <runtime>, <runtime>)
 //              [48.0 @0x1405c45e8]; menu = T[i]; select = 1;
 //              text_scale[j] = (j == i) ? 0.95 : 0.7 [0x3fee.../0x3fe6...];
 //              static_magnetude = 1; buttons_x = (i == 0) ? 0 : -416
@@ -56,7 +56,7 @@
 if (mouse_y < 116) {
     if (customfunct_ui_button_detection_x(94 - string_width(text_options[0]), 94 + string_width(text_options[0]), 0 /* TODO(calibrate): runtime const @0x140655a20 */)) {
         if (menu != "video") {
-            customfunct_audio_play_sound_single(48, 0 /* TODO(calibrate): runtime @0x140655a20 */, false /* TODO(calibrate): same */);
+            customfunct_audio_play_sound_single(Snd_Camera_Click, 0 /* TODO(calibrate): runtime @0x140655a20 */, false /* TODO(calibrate): same */);
             menu = "video";
             select = 1;
             text_scale[0] = 0.95;
@@ -74,7 +74,7 @@ if (mouse_y < 116) {
     }
     if (customfunct_ui_button_detection_x(320 - string_width(text_options[1]), 320 + string_width(text_options[1]), 0 /* TODO(calibrate): runtime const @0x140655a20 */)) {
         if (menu != "audio") {
-            customfunct_audio_play_sound_single(48, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+            customfunct_audio_play_sound_single(Snd_Camera_Click, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
             menu = "audio";
             select = 1;
             text_scale[0] = 0.7;
@@ -92,7 +92,7 @@ if (mouse_y < 116) {
     }
     if (customfunct_ui_button_detection_x(640 - string_width(text_options[2]), 640 + string_width(text_options[2]), 0 /* TODO(calibrate) */)) {
         if (menu != "preferences") {
-            customfunct_audio_play_sound_single(48, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+            customfunct_audio_play_sound_single(Snd_Camera_Click, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
             menu = "preferences";
             select = 1;
             text_scale[0] = 0.7;
@@ -110,7 +110,7 @@ if (mouse_y < 116) {
     }
     if (customfunct_ui_button_detection_x(960 - string_width(text_options[3]), 960 + string_width(text_options[3]), 0 /* TODO(calibrate) */)) {
         if (menu != "accessibility") {
-            customfunct_audio_play_sound_single(48, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+            customfunct_audio_play_sound_single(Snd_Camera_Click, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
             menu = "accessibility";
             select = 1;
             text_scale[0] = 0.7;
@@ -128,7 +128,7 @@ if (mouse_y < 116) {
     }
     if (customfunct_ui_button_detection_x(1186 - string_width(text_options[4]), 1186 + string_width(text_options[4]), 0 /* TODO(calibrate) */)) {
         if (menu != "credits") {
-            customfunct_audio_play_sound_single(48, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+            customfunct_audio_play_sound_single(Snd_Camera_Click, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
             menu = "credits";
             select = 1;
             text_scale[0] = 0.7;
@@ -148,26 +148,26 @@ if (mouse_y < 116) {
 if (mouse_x < 384) {
     if ((mouse_y > 116) && (mouse_y < 656)) {
         if ((mouse_y > 192) && (mouse_y < 256)) {
-            customfunct_audio_play_sound_single(31, 0 /* TODO(calibrate): runtime @0x140655a20 */, false /* TODO(calibrate): same */);
+            customfunct_audio_play_sound_single(Snd_Menu_Select, 0 /* TODO(calibrate): runtime @0x140655a20 */, false /* TODO(calibrate): same */);
             select = 1;
         }
         if ((mouse_y > 256) && (mouse_y < 320)) {
-            customfunct_audio_play_sound_single(31, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+            customfunct_audio_play_sound_single(Snd_Menu_Select, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
             select = 2;
         }
         if ((mouse_y > 320) && (mouse_y < 384)) {
-            customfunct_audio_play_sound_single(31, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+            customfunct_audio_play_sound_single(Snd_Menu_Select, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
             select = 3;
         }
         if ((mouse_y > 384) && (mouse_y < 448)) {
             if (menu != "preferences") {
-                customfunct_audio_play_sound_single(31, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+                customfunct_audio_play_sound_single(Snd_Menu_Select, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
                 select = 4;
             }
         }
         if ((mouse_y > 448) && (mouse_y < 512)) {
             if (menu != "preferences") {
-                customfunct_audio_play_sound_single(31, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+                customfunct_audio_play_sound_single(Snd_Menu_Select, 0 /* TODO(calibrate) */, false /* TODO(calibrate) */);
                 select = 5;
             }
         }

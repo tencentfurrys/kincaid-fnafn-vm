@@ -20,16 +20,16 @@
 //        0x4026000000000000 = 11.0; `<` via the `r < 0` test]:
 //   7.     Obj_Night_Music_Switch.selection += 1 [+= helper 0x14000bf90
 //        with immediate 1; write-back via 0x140160b90(0x3c, 0x1876f)].
-//   8.     customfunct_audio_play_sound_single(27, <rt>, <rt>) [exe const
+//   8.     customfunct_audio_play_sound_single(Snd_Camera_Radio_Change, <rt>, <rt>) [exe const
 //        27.0 @0x1405c6490].
 //   0xb-0x12. if (image_index == 2): play button.
 //        if (image_xscale > 0.95) [slot 0x1405c7c18; 0x3fee666666666666
 //        = 0.95; `>` via `0 < r`]:
 //   0xd.     audio_stop_sound(46) [slot 0x1405c8960; exe const 46.0
 //          @0x1405c64a0].
-//   0xe.     customfunct_audio_play_sound_single(53, <rt>, <rt>) [53.0
+//   0xe.     customfunct_audio_play_sound_single(Snd_Camera_Radio_Play, <rt>, <rt>) [53.0
 //          @0x1405c64b0].
-//   0xf.     customfunct_audio_play_sound_single(48, <rt>, <rt>) [48.0
+//   0xf.     customfunct_audio_play_sound_single(Snd_Camera_Click, <rt>, <rt>) [48.0
 //          @0x1405c64c0].
 //   0x10.    playing = 1 (id 0x18759; direct +0x10 slot write).
 //   0x11.    Obj_Night_Radio_Spinner.turn = 1 [0x3e = 62 =
@@ -64,8 +64,8 @@
 //   0x26-0x2e. if (image_index == 1):
 //        if (image_xscale < 0.95) [`<` via `(r != -2) && (r < 0)`]:
 //   0x28.      audio_stop_sound(53).
-//   0x29.      customfunct_audio_play_sound_single(48, <rt>, <rt>).
-//   0x2a.      customfunct_audio_play_sound_single(46, <rt>, <rt>).
+//   0x29.      customfunct_audio_play_sound_single(Snd_Camera_Click, <rt>, <rt>).
+//   0x2a.      customfunct_audio_play_sound_single(Snd_Camera_Radio_Stop, <rt>, <rt>).
 //   0x2b.      playing = 0.
 //   0x2c.      Obj_Night_Radio_Spinner.turn = 0.
 //   0x2d.      image_index = 2.
@@ -74,7 +74,7 @@
 //   0x35.    if (Obj_Night_Music_Switch.selection > 1):
 //   0x37.      Obj_Night_Music_Switch.selection -= 1 [-= helper
 //          0x14000bdb0 with 1.0 RValue; write-back].
-//   0x38.      customfunct_audio_play_sound_single(27, <rt>, <rt>).
+//   0x38.      customfunct_audio_play_sound_single(Snd_Camera_Radio_Change, <rt>, <rt>).
 //   0x3d (ALWAYS runs, even when image_alpha != 1 — the L1 early-exit
 //      jumps here, and the main body falls through):
 //        Obj_Night_Music_Switch.selection =
@@ -91,14 +91,14 @@ if (image_alpha == 1) {
     if (image_index == 1) {
         if (Obj_Night_Music_Switch.selection < 11) {
             Obj_Night_Music_Switch.selection += 1;
-            customfunct_audio_play_sound_single(27, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
+            customfunct_audio_play_sound_single(Snd_Camera_Radio_Change, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
         }
     }
     if (image_index == 2) {
         if (image_xscale > 0.95) {
             audio_stop_sound(46);
-            customfunct_audio_play_sound_single(53, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
-            customfunct_audio_play_sound_single(48, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
+            customfunct_audio_play_sound_single(Snd_Camera_Radio_Play, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
+            customfunct_audio_play_sound_single(Snd_Camera_Click, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
             playing = 1;
             Obj_Night_Radio_Spinner.turn = 1;
             for (var i = array_length(custom_music) - 1; i >= 0; i -= 1) {
@@ -143,8 +143,8 @@ if (image_alpha == 1) {
     if (image_index == 1) {
         if (image_xscale < 0.95) {
             audio_stop_sound(53);
-            customfunct_audio_play_sound_single(48, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
-            customfunct_audio_play_sound_single(46, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
+            customfunct_audio_play_sound_single(Snd_Camera_Click, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
+            customfunct_audio_play_sound_single(Snd_Camera_Radio_Stop, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
             playing = 0;
             Obj_Night_Radio_Spinner.turn = 0;
             image_index = 2;
@@ -156,7 +156,7 @@ if (image_alpha == 1) {
     if (image_index == 3) {
         if (Obj_Night_Music_Switch.selection > 1) {
             Obj_Night_Music_Switch.selection -= 1;
-            customfunct_audio_play_sound_single(27, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
+            customfunct_audio_play_sound_single(Snd_Camera_Radio_Change, 0 /* TODO(calibrate): runtime const @0x1406572b0 */, false /* TODO(calibrate): runtime const @0x1406572b0 */);
         }
     }
 }

@@ -37,7 +37,7 @@
 // @0x140657158 (assumed 0, 0); audio priority/loop same runtime const.
 if (draw_alpha > 0.975) {
     if (customfunct_ui_button_detection(94, 340, 94 + string_width(text_menu[0]), 380, 94) == 1) {
-        customfunct_audio_play_sound_single(22, 0, false); // TODO(calibrate): priority/loop are runtime const @0x140657158
+        customfunct_audio_play_sound_single(Snd_Menu_Confirm, 0, false); // TODO(calibrate): priority/loop are runtime const @0x140657158
         instance_create_layer(0, 0, "Fade", Obj_Menu_Transition); // TODO(calibrate): x/y are runtime const @0x140657158
         Obj_Menu_Transition.Room_to_go_to = 5; // Rm_Loading (room_names.json)
     }

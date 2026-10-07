@@ -233,6 +233,24 @@ def wire_rooms() -> list[dict]:
         rdir.mkdir(parents=True, exist_ok=True)
         (rdir / "RoomCreationCode.gml").write_text(
             f"/// {name} creation code (empty scaffold)\n")
+        # Preserve populated instances on re-run (see room_instances.py):
+        # a fresh scaffold has an empty Instances layer, but once the
+        # ROOM-chunk dump has filled it, regenerating must not wipe it.
+        keep_layers = None
+        keep_order = None
+        existing = rdir / f"{name}.yy"
+        if existing.exists():
+            try:
+                prev = json.loads(existing.read_text(encoding="utf-8"))
+                prev_layers = prev.get("layers") or []
+                if any(len(lyr.get("instances", [])) > 0
+                       for lyr in prev_layers
+                       if lyr.get("resourceType") == "GMRInstanceLayer"):
+                    keep_layers = prev_layers
+                    keep_order = prev.get("instanceCreationOrderIds", [])
+            except (json.JSONDecodeError, OSError) as e:
+                warnings.append(f"room {name}: could not read existing .yy "
+                                f"({e}), regenerating scaffold")
         yy = {
             "resourceType": "GMRoom",
             "resourceVersion": "2.0",
@@ -241,7 +259,7 @@ def wire_rooms() -> list[dict]:
             "isDnd": False,
             "volume": 1.0,
             "views": [],
-            "layers": [
+            "layers": keep_layers if keep_layers is not None else [
                 {
                     "resourceType": "GMRInstanceLayer",
                     "resourceVersion": "2.0",
@@ -261,7 +279,7 @@ def wire_rooms() -> list[dict]:
                     "userdefinedDepth": False,
                 }
             ],
-            "instanceCreationOrderIds": [],
+            "instanceCreationOrderIds": keep_order if keep_order is not None else [],
             "roomSettings": {
                 "inheritRoomSettings": False,
                 "Width": w,

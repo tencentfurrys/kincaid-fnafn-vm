@@ -2,7 +2,7 @@
 // Ground truth: gml_Object_Obj_Menu_Radio_Cassette_Create_0
 // Decoded, in order (uStack_80 = GML line markers):
 //   (0). customfunct_game_create_music_stream() (direct named-script call).
-//   2. customfunct_audio_play_sound_single(22, <runtime>, <runtime>)
+//   2. customfunct_audio_play_sound_single(Snd_Menu_Confirm, <runtime>, <runtime>)
 //      (22.0 = exe const @0x1405c5b40 verified; priority/loop are runtime
 //      const @0x140656e70, outside the mapped exe image).
 //   3. with (Obj_Menu_Selector) { instance_destroy(); } (35.0 =
@@ -28,7 +28,7 @@
 // mapped exe image) — verify in-game.
 // Ported: Obj_Menu_Radio_Cassette / Create
 customfunct_game_create_music_stream();
-customfunct_audio_play_sound_single(22, 0, false); // TODO(calibrate): priority/loop are runtime const @0x140656e70
+customfunct_audio_play_sound_single(Snd_Menu_Confirm, 0, false); // TODO(calibrate): priority/loop are runtime const @0x140656e70
 with (Obj_Menu_Selector) {
     instance_destroy();
 }

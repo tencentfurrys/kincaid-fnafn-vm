@@ -29,7 +29,7 @@
 //        .image_xscale = 0.65 (0x3fe4cccccccccccd; slots 0x1405c7c08/c18).
 //   0x12/0x13. Obj_Night_Camera_Icons_Select (obj 20, tag 0x14).x = 0;
 //        .y = 0 (slots 0x1405c7b78 = x, 0x1405c7b88 = y per PORTING.md).
-//   0x14. customfunct_audio_play_sound_single(48, <runtime>, <runtime>)
+//   0x14. customfunct_audio_play_sound_single(Snd_Camera_Click, <runtime>, <runtime>)
 //        (48.0 = @0x1405c4d90; other args runtime @0x1406562c0 x2).
 // TODO(calibrate): toggle case/label pool @0x14065xxxx (mapping above
 // assumes toggle==1 -> cameras like the Create-seeded toggle=1 initial
@@ -53,7 +53,7 @@ if (layer_get_visible("Camera_HUD") == 1) {
         Obj_Night_Camera_Screen.image_xscale = 0.65;
         Obj_Night_Camera_Icons_Select.x = 0;
         Obj_Night_Camera_Icons_Select.y = 0;
-        customfunct_audio_play_sound_single(48, 0, 0); // TODO(calibrate): 2nd/3rd args are runtime const @0x1406562c0
+        customfunct_audio_play_sound_single(Snd_Camera_Click, 0, 0); // TODO(calibrate): 2nd/3rd args are runtime const @0x1406562c0
     }
 }
 

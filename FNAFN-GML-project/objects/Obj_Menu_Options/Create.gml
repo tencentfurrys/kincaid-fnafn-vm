@@ -1,7 +1,7 @@
 /// @description FNAFN Obj_Menu_Options / Create_0 — PORTED from C
 // Ground truth: gml_Object_Obj_Menu_Options_Create_0 (5580 B @0x140074950)
 // Decoded, in order (uStack_58 = GML line markers):
-//   0. customfunct_audio_play_sound_single(22, <runtime>, <runtime>) —
+//   0. customfunct_audio_play_sound_single(Snd_Menu_Confirm, <runtime>, <runtime>) —
 //      exe const 0x1405c4490 = 22.0 (menu blip); priority/loop are the
 //      same runtime const @0x140655a10 (TODO/calibrate below).
 //   2. if (room == 1): Obj_Menu_Main_Back.sprite_index = 92
@@ -44,7 +44,7 @@
 // TODO(calibrate): audio priority/loop @0x140655a10 (assumed 0/false);
 // object_set_visible 2nd arg @0x140655a10 (assumed 1);
 // func_0x00014017bda0 identity (best-fit instance_activate_object).
-customfunct_audio_play_sound_single(22, 0, false); // TODO(calibrate): priority/loop are runtime const @0x140655a10
+customfunct_audio_play_sound_single(Snd_Menu_Confirm, 0, false); // TODO(calibrate): priority/loop are runtime const @0x140655a10
 if (room == 1) {
     Obj_Menu_Main_Back.sprite_index = 92; // Spr_Menu_Background_Options (sprite_names.json)
     Obj_Menu_Main_Back.image_alpha = 0;

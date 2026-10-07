@@ -142,6 +142,38 @@ So: **every `draw_sprite_ext(<id>, ...)` port can now name its sprite** —
 replace the id with `sprite_names.json[id]`. Only Obj_Menu_Fade/Draw carried
 a sprite TODO; it is applied.
 
+## BREAKTHROUGH 2026-10-07: SOND chunk — every sound id named
+
+`data.win`'s SOND chunk holds the 57 game sounds as `count` + a pointer
+array; each entry's first u32 is the name pointer into STRG (same rule as
+SPRT/OBJT/ROOM). Run `sound_names.py` -> `sound_names.json`
+(`{'index', 'name'}`, 57 entries, 0-56 contiguous).
+
+**The sound id the YYC codegen passes as the first arg of `audio_play_sound`
+is the SOND chunk index.** PROVEN by jumpscare sprite/sound pairs in
+Obj_Jumpscare/Create (SPRT id already proven above):
+
+| id | name | used by |
+|---|---|---|
+| 24 | Snd_Jumpscare_Bonnie_1 | Obj_Jumpscare/Create bonnie, with SPRT 77 Spr_Jumpscare_Bonnie_1 |
+| 42 | Snd_Jumpscare_Chica_1 | Obj_Jumpscare/Create chica, with SPRT 44 Spr_Jumpscare_Chica_1 |
+| 39 | Snd_Jumpscare_Foxy | Obj_Jumpscare/Create foxy, with SPRT 8 Spr_Jumpscare_Foxy |
+| 9 | Snd_Jumpscare_Mangle | Obj_Jumpscare/Create mangle, with SPRT 93 Spr_Jumpscare_Mangle |
+| 54 | Snd_Jumpscare_Freddy | Obj_Jumpscare/Alarm |
+| 32 | Snd_Freddy_Power_Out | Obj_Jumpscare/Create freddy |
+| 31 | Snd_Menu_Select | menus, 18 sites, highest count |
+| 22 | Snd_Menu_Confirm | menus, 12 sites |
+| 48 | Snd_Camera_Click | camera UI, 14 sites |
+
+All 19 sound ids used in GML (84 call sites) fall in 0-56. Applied so far:
+Obj_Jumpscare/Create (5 calls), Obj_Filter_Menus/Alarm sprite ids
+30/52/68/90 = sprNoise1/Spr_Static_Custom/sprChromatic1/sprMaskWide1
+(parity with Obj_Filter_Camera/Alarm, which already used names).
+
+So: **every `audio_play_sound(<id>, ...)` port can now name its sound** —
+replace the id with `sound_names.json[id]`. Priority/loop args stay
+TODO(calibrate) (runtime pool @0x14065xxxx).
+
 ## BREAKTHROUGH 2026-10-06: instance_destroy / event_perform / instance_exists proven; with() loops decoded
 
 Three high-frequency helpers were misguessed earlier and are now PROVEN by

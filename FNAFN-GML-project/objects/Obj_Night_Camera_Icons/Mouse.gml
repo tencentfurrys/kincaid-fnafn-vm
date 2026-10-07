@@ -62,8 +62,8 @@ if (image_alpha != 0
             Obj_Night_Camera_Screen.image_xscale = 0.65;
             Obj_Night_Camera_Icons_Select.x = x;
             Obj_Night_Camera_Icons_Select.y = y;
-            customfunct_audio_play_sound_single(1, 0 /* TODO(calibrate): runtime const @0x1406566a0 */, false /* TODO(calibrate): runtime const @0x1406566a0 */);
-            customfunct_audio_play_sound_single(48, 0 /* TODO(calibrate): runtime const @0x1406566a0 */, false /* TODO(calibrate): runtime const @0x1406566a0 */);
+            customfunct_audio_play_sound_single(Snd_Camera_Change, 0 /* TODO(calibrate): runtime const @0x1406566a0 */, false /* TODO(calibrate): runtime const @0x1406566a0 */);
+            customfunct_audio_play_sound_single(Snd_Camera_Click, 0 /* TODO(calibrate): runtime const @0x1406566a0 */, false /* TODO(calibrate): runtime const @0x1406566a0 */);
             break;
     }
 }

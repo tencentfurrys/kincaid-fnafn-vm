@@ -1,0 +1,72 @@
+/// @description FNAFN obj_OLDTVFilter_Logo / PreCreate — PORTED from C
+// PORTED from C
+// Ground truth: gml_Object_obj_OLDTVFilter_Logo_PreCreate_0 (272 B @0x1400f4060)
+// Decoded: one no-argument call to runner service func_0x000140181be0
+// with the result discarded — the canonical PreCreate statement
+// event_inherited() (no variable fetches, no property writes; same shape
+// as the 76 batch-ported PreCreate.gml files, e.g. Obj_Menu_Fade).
+// This object (index 59 in obj_names.json) has no directory in the
+// generated project because gen_gml_project.py's object regex does not
+// match the PreCreate event name — its only C block lived homeless in
+// scripts/_unclassified.gml until this scaffold.
+// TODO(calibrate): confirm the object's parent chain in-game; if the
+// object has no parent, event_inherited() is a documented no-op.
+event_inherited();
+
+/* BEGIN DECOMPILED REFERENCE
+// #### gml_Object_obj_OLDTVFilter_Logo_PreCreate_0  va=0x1400f4060  size=272 ====
+
+void gml_Object_obj_OLDTVFilter_Logo_PreCreate_0(undefined8 param_1)
+
+{
+  undefined8 uStack_80;
+  undefined *puStack_78;
+  undefined4 uStack_70;
+  undefined8 uStack_68;
+  uint uStack_5c;
+  undefined8 uStack_58;
+  uint uStack_4c;
+  undefined8 uStack_48;
+  uint uStack_3c;
+  undefined8 uStack_38;
+  uint uStack_2c;
+  undefined8 uStack_28;
+  uint uStack_1c;
+  undefined8 uStack_18;
+  
+  uStack_18 = 0xfffffffffffffffe;
+  puStack_78 = &UNK_14043d19d;
+  uStack_70 = 0;
+  uStack_80 = puRam0000000140657668;
+  puRam0000000140657668 = &uStack_80;
+  uStack_5c = 0xffffff;
+  uStack_68 = 0;
+  uStack_4c = 0xffffff;
+  uStack_58 = 0;
+  uStack_3c = 0xffffff;
+  uStack_48 = 0;
+  uStack_2c = 0xffffff;
+  uStack_38 = 0;
+  uStack_1c = 0xffffff;
+  uStack_28 = 0;
+  uRam0000000140657680 = param_1;
+  func_0x000140181be0();
+  if ((0x46U >> (uStack_1c & 0x1f) & 1) != 0) {
+    func_0x000140001410(&uStack_28);
+  }
+  if ((0x46U >> (uStack_2c & 0x1f) & 1) != 0) {
+    func_0x000140001410(&uStack_38);
+  }
+  if ((0x46U >> (uStack_3c & 0x1f) & 1) != 0) {
+    func_0x000140001410(&uStack_48);
+  }
+  if ((0x46U >> (uStack_4c & 0x1f) & 1) != 0) {
+    func_0x000140001410(&uStack_58);
+  }
+  if ((0x46U >> (uStack_5c & 0x1f) & 1) != 0) {
+    func_0x000140001410(&uStack_68);
+  }
+  puRam0000000140657668 = (undefined8 *)uStack_80;
+  return;
+}
+END DECOMPILED REFERENCE */

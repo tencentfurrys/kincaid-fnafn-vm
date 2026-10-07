@@ -8,7 +8,7 @@
 // direct id-fetch path instead, which is how `select`/`surface`/`draw_alpha`
 // below are distinguished from the dotted object writes.
 // Decoded, in order (uStack_30 = GML line markers):
-//   0. customfunct_audio_play_sound_single(22, <?>, <?>) -- DIRECT script
+//   0. customfunct_audio_play_sound_single(Snd_Menu_Confirm, <?>, <?>) -- DIRECT script
 //      call, argc=3; exe const 0x1405c3a18 = 22.0 (the menu-blip sound);
 //      priority and loop are the same runtime const @0x140655530.
 //   2. Obj_Menu_Main_Back.sprite_index = 1   [slot 0x1405c7be8, const 1.0].
@@ -28,7 +28,7 @@
 // TODO(calibrate): audio priority+loop are runtime const @0x140655530
 // (0x14065xxxx, outside the exe image); loop is certainly false for a
 // "single" UI blip, priority assumed 0.
-customfunct_audio_play_sound_single(22, /*priority*/ 0, /*loop*/ false);
+customfunct_audio_play_sound_single(Snd_Menu_Confirm, /*priority*/ 0, /*loop*/ false);
 Obj_Menu_Main_Back.sprite_index = 1;
 Obj_Menu_Main_Back.image_alpha = 0;
 surface = -1;

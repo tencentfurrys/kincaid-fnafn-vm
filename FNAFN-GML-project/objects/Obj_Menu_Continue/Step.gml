@@ -13,7 +13,7 @@
 //   Obj_Menu_Selector.select_y = y1_i        (0x1876d, 0x23-tagged write)
 //   Obj_Menu_Main_Back.image_index = i       (slot 0x1405c7aa8, 0x1d-tagged)
 // and, only when select was NOT already i (compare `iVar1 != 0`):
-//   customfunct_audio_play_sound_single(31, 0, false)
+//   customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false)
 //      — consts 0x1405c3a58 = 31.0, 0x140655540 x2 = BSS-zero globals
 //   Obj_Menu_Main_Back.image_alpha = 0       (slot 0x1405c7b98)
 //   select = i
@@ -40,7 +40,7 @@ if (customfunct_ui_button_detection(94, 295, 94 + string_width(text_night[0]), 3
     Obj_Menu_Selector.select_y = 295;
     Obj_Menu_Main_Back.image_index = 0;
     if (select != 0) {
-        customfunct_audio_play_sound_single(31, 0, false);
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false);
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 0;
     }
@@ -49,7 +49,7 @@ if (customfunct_ui_button_detection(94, 340, 94 + string_width(text_night[1]), 3
     Obj_Menu_Selector.select_y = 340;
     Obj_Menu_Main_Back.image_index = 1;
     if (select != 1) {
-        customfunct_audio_play_sound_single(31, 0, false);
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false);
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 1;
     }
@@ -58,7 +58,7 @@ if (customfunct_ui_button_detection(94, 385, 94 + string_width(text_night[2]), 4
     Obj_Menu_Selector.select_y = 385;
     Obj_Menu_Main_Back.image_index = 2;
     if (select != 2) {
-        customfunct_audio_play_sound_single(31, 0, false);
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false);
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 2;
     }
@@ -67,7 +67,7 @@ if (customfunct_ui_button_detection(94, 430, 94 + string_width(text_night[3]), 4
     Obj_Menu_Selector.select_y = 430;
     Obj_Menu_Main_Back.image_index = 3;
     if (select != 3) {
-        customfunct_audio_play_sound_single(31, 0, false);
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false);
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 3;
     }
@@ -76,7 +76,7 @@ if (customfunct_ui_button_detection(94, 475, 94 + string_width(text_night[4]), 5
     Obj_Menu_Selector.select_y = 475;
     Obj_Menu_Main_Back.image_index = 4;
     if (select != 4) {
-        customfunct_audio_play_sound_single(31, 0, false);
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false);
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 4;
     }
@@ -85,7 +85,7 @@ if (customfunct_ui_button_detection(94, 520, 94 + string_width(text_night[5]), 5
     Obj_Menu_Selector.select_y = 520;
     Obj_Menu_Main_Back.image_index = 5;
     if (select != 5) {
-        customfunct_audio_play_sound_single(31, 0, false);
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false);
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 5;
     }
@@ -94,7 +94,7 @@ if (customfunct_ui_button_detection(94, 565, 94 + string_width(text_night[6]), 6
     Obj_Menu_Selector.select_y = 565;
     Obj_Menu_Main_Back.image_index = 6;
     if (select != 6) {
-        customfunct_audio_play_sound_single(31, 0, false);
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false);
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 6;
     }
@@ -103,7 +103,7 @@ if (customfunct_ui_button_detection(94, 610, 94 + string_width(text_night[7]), 6
     Obj_Menu_Selector.select_y = 610;
     Obj_Menu_Main_Back.image_index = 7;
     if (select != 7) {
-        customfunct_audio_play_sound_single(31, 0, false);
+        customfunct_audio_play_sound_single(Snd_Menu_Select, 0, false);
         Obj_Menu_Main_Back.image_alpha = 0;
         select = 7;
     }

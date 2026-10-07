@@ -7,13 +7,13 @@
 //   1. if (mouse_x < x) (slots 0x1405c7bc8 mouse_x via 0x14015ef90,
 //      0x1405c7b78 x via 0x14015f1a0; `<` via `r < 0` per PORTING.md):
 //        if (animatronic_ai_text > 0):
-//          customfunct_audio_play_sound_single(16, <runtime>, <runtime>)
+//          customfunct_audio_play_sound_single(Snd_Menu_Adjust_Down, <runtime>, <runtime>)
 //            (16.0 = exe const @0x1405c4fc0 verified; priority/loop are
 //            runtime const @0x1406564d0);
 //          animatronic_ai_text -= 1 (-= helper func_0x00014000bdb0, 1.0).
 //   9. if (mouse_x > x) (`>` via `0 < r`):
 //        if (animatronic_ai_text < 20) (20.0 = 0x4034000000000000 literal):
-//          customfunct_audio_play_sound_single(21, <runtime>, <runtime>)
+//          customfunct_audio_play_sound_single(Snd_Menu_Adjust_Up, <runtime>, <runtime>)
 //            (21.0 = exe const @0x1405c4fd0 verified; same runtime const);
 //          animatronic_ai_text += 1 (+= helper func_0x00014000bf90).
 //   0x12. switch (image_index) (slot 0x1405c7aa8) on runtime-pool cases
@@ -31,13 +31,13 @@
 // Ported: Obj_Menu_CN_Images / Mouse_4
 if (mouse_x < x) {
     if (animatronic_ai_text > 0) {
-        customfunct_audio_play_sound_single(16, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406564d0
+        customfunct_audio_play_sound_single(Snd_Menu_Adjust_Down, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406564d0
         animatronic_ai_text -= 1;
     }
 }
 if (mouse_x > x) {
     if (animatronic_ai_text < 20) {
-        customfunct_audio_play_sound_single(21, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406564d0
+        customfunct_audio_play_sound_single(Snd_Menu_Adjust_Up, 0, false); // TODO(calibrate): priority/loop are runtime const @0x1406564d0
         animatronic_ai_text += 1;
     }
 }

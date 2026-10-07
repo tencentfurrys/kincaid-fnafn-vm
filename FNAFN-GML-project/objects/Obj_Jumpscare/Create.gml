@@ -20,22 +20,29 @@
 //       RValue]; Scr_Camera_Update[0] = irandom_range(180, 300)
 //       [func_0x000140168970(0xb4, 0x12c) — disassembled: integer-range
 //       random returning double, i.e. irandom_range]; sprite_index = -1
-//       [slot 0x1405c7be8, 0xbff0...]; audio_play_sound(32, <rt>, <rt>)
-//       [slot 0x1405c8970 = audio_play_sound, const 32.0 @0x1405c6a18].
+//       [slot 0x1405c7be8, 0xbff0...]; audio_play_sound(Snd_Freddy_Power_Out,
+//       <rt>, <rt>) [sound 32 via sound_names.json SOND index; slot
+//       0x1405c8970 = audio_play_sound, const 32.0 @0x1405c6a18].
 //     - bonnie (lines 19-23): sprite_index = Spr_Jumpscare_Bonnie_1 (77)
 //       [0x40534...]; image_index = 0 [slot 0x1405c7aa8, zeroed RValue];
-//       audio_play_sound(24, <rt>, <rt>) [24.0 @0x1405c6a28];
+//       audio_play_sound(Snd_Jumpscare_Bonnie_1, <rt>, <rt>) [sound 24
+//       @0x1405c6a28, SOND index];
 //       Animation_end = 92 [0x40570...].
 //     - chica (lines 24-28): sprite_index = Spr_Jumpscare_Chica_1 (44);
-//       image_index = 0; audio_play_sound(42, <rt>, <rt>) [42.0 @0x1405c6a38];
+//       image_index = 0; audio_play_sound(Snd_Jumpscare_Chica_1, <rt>, <rt>)
+//       [sound 42 @0x1405c6a38, SOND index];
 //       Animation_end = 85 [0x40554...].
 //     - foxy (lines 29-33): sprite_index = Spr_Jumpscare_Foxy (8);
-//       image_index = 0; audio_play_sound(39, <rt>, <rt>) [39.0 @0x1405c6a48];
+//       image_index = 0; audio_play_sound(Snd_Jumpscare_Foxy, <rt>, <rt>)
+//       [sound 39 @0x1405c6a48, SOND index];
 //       Animation_end = 97 [0x40584...].
 //     - mangle (lines 34-38): sprite_index = Spr_Jumpscare_Mangle (93);
-//       image_index = 0; audio_play_sound(9, <rt>, <rt>) [9.0 @0x1405c6a58];
+//       image_index = 0; audio_play_sound(Snd_Jumpscare_Mangle, <rt>, <rt>)
+//       [sound 9 @0x1405c6a58, SOND index];
 //       Animation_end = 142 [0x4061c...].
-//     (sprite ids are SPRT chunk indices via sprite_names.json.)
+//     (sprite ids are SPRT chunk indices via sprite_names.json; sound ids
+//     are SOND chunk indices via sound_names.json — proven by matching
+//     jumpscare sprite/sound pairs above.)
 //   lines 40-42: if (Night_camera == 1) [global 0x1873b vs 1.0] {
 //       instance_create_layer(<x>, <y>, "UI", Obj_Game_Over_Tablet); }
 //     [slot 0x1405c8d90, 4 args: x/y = runtime const @0x1406575c0 (twice),
@@ -55,30 +62,30 @@ switch (Jumpscare) {
         image_alpha = 0;
         Scr_Camera_Update[0] = irandom_range(180, 300);
         sprite_index = -1;
-        audio_play_sound(32, 10 /* TODO(calibrate): runtime @0x1406575c0 */, false /* TODO(calibrate): runtime @0x1406575c0 */);
+        audio_play_sound(Snd_Freddy_Power_Out, 10 /* TODO(calibrate): runtime @0x1406575c0 */, false /* TODO(calibrate): runtime @0x1406575c0 */); // SOND 32
         break;
     case "bonnie":
         sprite_index = Spr_Jumpscare_Bonnie_1; // SPRT 77
         image_index = 0;
-        audio_play_sound(24, 10 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+        audio_play_sound(Snd_Jumpscare_Bonnie_1, 10 /* TODO(calibrate) */, false /* TODO(calibrate) */); // SOND 24
         Animation_end = 92;
         break;
     case "chica":
         sprite_index = Spr_Jumpscare_Chica_1; // SPRT 44
         image_index = 0;
-        audio_play_sound(42, 10 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+        audio_play_sound(Snd_Jumpscare_Chica_1, 10 /* TODO(calibrate) */, false /* TODO(calibrate) */); // SOND 42
         Animation_end = 85;
         break;
     case "foxy":
         sprite_index = Spr_Jumpscare_Foxy; // SPRT 8
         image_index = 0;
-        audio_play_sound(39, 10 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+        audio_play_sound(Snd_Jumpscare_Foxy, 10 /* TODO(calibrate) */, false /* TODO(calibrate) */); // SOND 39
         Animation_end = 97;
         break;
     case "mangle":
         sprite_index = Spr_Jumpscare_Mangle; // SPRT 93
         image_index = 0;
-        audio_play_sound(9, 10 /* TODO(calibrate) */, false /* TODO(calibrate) */);
+        audio_play_sound(Snd_Jumpscare_Mangle, 10 /* TODO(calibrate) */, false /* TODO(calibrate) */); // SOND 9
         Animation_end = 142;
         break;
 }

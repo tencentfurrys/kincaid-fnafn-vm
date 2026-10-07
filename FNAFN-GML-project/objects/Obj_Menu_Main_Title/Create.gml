@@ -1,7 +1,7 @@
 /// @description FNAFN Obj_Menu_Main_Title / Create_0 — PORTED from C
 // Ground truth: gml_Object_Obj_Menu_Main_Title_Create_0 (4414 B @0x1400fcab0)
 // Decoded, in order (uStack_70 = GML line markers):
-//   0. customfunct_audio_play_sound_single(22, <runtime>, <runtime>) —
+//   0. customfunct_audio_play_sound_single(Snd_Menu_Confirm, <runtime>, <runtime>) —
 //      exe const 0x1405c6130 = 22.0 (menu blip); priority/loop are the
 //      same runtime const @0x140657070 (TODO/calibrate, assumed 0/false).
 //   2. Obj_Menu_Main_Back.sprite_index = 55 (Spr_Menu_Background_Main).
@@ -43,7 +43,7 @@
 // TODO(calibrate): audio priority/loop @0x140657070; game[1] star
 // thresholds @0x140657080/@0x140657094/@0x1406570a8 (assumed 0/1/2);
 // Scr_Camera_Update[0] random args @0x14043bb40/@0x14043cbe8.
-customfunct_audio_play_sound_single(22, 0, false); // TODO(calibrate): priority/loop are runtime const @0x140657070
+customfunct_audio_play_sound_single(Snd_Menu_Confirm, 0, false); // TODO(calibrate): priority/loop are runtime const @0x140657070
 Obj_Menu_Main_Back.sprite_index = 55; // Spr_Menu_Background_Main (sprite_names.json)
 Obj_Menu_Main_Back.image_index = 0;
 Obj_Menu_Main_Back.image_alpha = 0;

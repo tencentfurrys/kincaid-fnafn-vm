@@ -37,13 +37,13 @@
 //   iRam @0x1405c8e70.
 game_lines = string(display_get_height()); // TODO(calibrate): formatted via helper 0x14001fa10 with fmt _UNK_14043c440
 noise_enabled = 1;
-noise_pattern = sprite_get_texture(/* TODO(calibrate): spr @0x1405c5058, cf. camera 30=sprNoise1 */ 30, 0 /* TODO(calibrate): subimg @0x1406565a0 */);
+noise_pattern = sprite_get_texture(sprNoise1, 0 /* TODO(calibrate): subimg @0x1406565a0 */); // SPRT 30, exe const @0x1405c5058
 noise_magnetude = 0.025;
-static_pattern = sprite_get_texture(/* TODO(calibrate): spr @0x1405c5068, cf. camera 52=Spr_Static_Custom */ 52, 0 /* TODO(calibrate): subimg @0x1406565a0 */);
+static_pattern = sprite_get_texture(Spr_Static_Custom, 0 /* TODO(calibrate): subimg @0x1406565a0 */); // SPRT 52, exe const @0x1405c5068
 static_magnetude = 0.1;
 static_scale = 1;
 static_offset = 0.025;
-dirt_pattern = sprite_get_texture(/* TODO(calibrate): spr @0x1405c5058 */ 30, 0 /* TODO(calibrate): subimg @0x1406565a0 */);
+dirt_pattern = sprite_get_texture(sprNoise1, 0 /* TODO(calibrate): subimg @0x1406565a0 */); // SPRT 30, exe const @0x1405c5058
 dirt_magnetude = 0.2;
 composite_enabled = 1;
 composite_secondpass_enabled = 1;
@@ -57,14 +57,14 @@ television_contrast = 0;
 television_saturation = 0.5;
 television_sharpness = 0.2;
 chromatic_enabled = 0;
-chromatic_pattern = sprite_get_texture(/* TODO(calibrate): spr @0x1405c5078, cf. camera 68=sprChromatic1 */ 68, 0 /* TODO(calibrate): subimg @0x1406565a0 */);
+chromatic_pattern = sprite_get_texture(sprChromatic1, 0 /* TODO(calibrate): subimg @0x1406565a0 */); // SPRT 68, exe const @0x1405c5078
 chromatic_magnetude = 0.1;
 scanline_enabled = 1;
 scanline_count = 360;
 scanline_pattern = sprite_get_texture(/* TODO(calibrate): spr @0x1406565a0 */ 0, /* TODO(calibrate): subimg @0x1406565a0 */ 0);
 scanline_magnetude = 0.4;
 tube_enabled = 1;
-tube_mask = sprite_get_texture(/* TODO(calibrate): spr @0x1405c5088, cf. camera 90=sprMaskWide1 */ 90, 0 /* TODO(calibrate): subimg @0x1406565a0 */);
+tube_mask = sprite_get_texture(sprMaskWide1, 0 /* TODO(calibrate): subimg @0x1406565a0 */); // SPRT 90, exe const @0x1405c5088
 tube_distortion = 0.15;
 script_execute(/* TODO(calibrate): index iRam @0x1405c8e70 */ 0);
 

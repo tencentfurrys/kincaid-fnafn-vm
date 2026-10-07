@@ -63,8 +63,8 @@ if (layer_get_visible("Camera_HUD") == 1) {
     if (image_alpha == 0.95) {
         if (sprite_index == Spr_Night_Camera_Flash) { // SPRT 19
             if (recharge <= 0) {
-                customfunct_audio_play_sound_single(18, 0 /* TODO(calibrate): runtime const @0x1406574c0 */, false /* TODO(calibrate): runtime const @0x1406574c0 */);
-                customfunct_audio_play_sound_single(48, 0 /* TODO(calibrate): runtime const @0x1406574c0 */, false /* TODO(calibrate): runtime const @0x1406574c0 */);
+                customfunct_audio_play_sound_single(Snd_Camera_Flash, 0 /* TODO(calibrate): runtime const @0x1406574c0 */, false /* TODO(calibrate): runtime const @0x1406574c0 */);
+                customfunct_audio_play_sound_single(Snd_Camera_Click, 0 /* TODO(calibrate): runtime const @0x1406574c0 */, false /* TODO(calibrate): runtime const @0x1406574c0 */);
                 with (Obj_Night_Camera_Screen_Flash) {
                     switch (Night_mangle_location) {
                         case 5.0: // TODO(calibrate): runtime pool @0x1406574d0; jumptable branch — verify in-game

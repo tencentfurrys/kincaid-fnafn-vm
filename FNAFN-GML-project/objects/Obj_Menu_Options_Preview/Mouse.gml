@@ -32,7 +32,7 @@
 // (outside exe image); emitted as 0/false per the BSS-zero convention.
 if (mouse_y > 192 && mouse_y < y - 284) {
     if (mouse_x > 735 && mouse_x < 783) {
-        customfunct_audio_play_sound_single(16, 0 /* TODO(calibrate): runtime const @0x140656bf0 */, false /* TODO(calibrate): runtime const @0x140656bf0 */);
+        customfunct_audio_play_sound_single(Snd_Menu_Adjust_Down, 0 /* TODO(calibrate): runtime const @0x140656bf0 */, false /* TODO(calibrate): runtime const @0x140656bf0 */);
         if (Obj_Menu_Options.select == 2) {
             if (Obj_Menu_Options.menu == "audio") {
                 select -= 5;
@@ -45,7 +45,7 @@ if (mouse_y > 192 && mouse_y < y - 284) {
         event_perform(ev_alarm, 1);
     }
     if (mouse_x > x - 48 && mouse_x < x) {
-        customfunct_audio_play_sound_single(21, 0 /* TODO(calibrate): runtime const @0x140656bf0 */, false /* TODO(calibrate): runtime const @0x140656bf0 */);
+        customfunct_audio_play_sound_single(Snd_Menu_Adjust_Up, 0 /* TODO(calibrate): runtime const @0x140656bf0 */, false /* TODO(calibrate): runtime const @0x140656bf0 */);
         if (Obj_Menu_Options.select == 2) {
             if (Obj_Menu_Options.menu == "audio") {
                 select += 5;

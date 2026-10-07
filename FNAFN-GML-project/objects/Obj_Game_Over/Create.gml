@@ -6,7 +6,7 @@
 //     Obj_Jumpscare.image_alpha = 0.65; [object-tagged property write
 //     0x14015fea0(0x4b, slot 0x1405c7b98 = image_alpha, 0.65 = 0x3fe4...);
 //     0x4b = 75 = Obj_Jumpscare].
-//   line 3: customfunct_audio_play_sound_single(1, <rt>, <rt>);
+//   line 3: customfunct_audio_play_sound_single(Snd_Camera_Change, <rt>, <rt>);
 //     [script call, 3 args: snd const 1.0 @0x1405c4190, priority/loop =
 //     runtime const @0x140655930 (twice)].
 //   line 4: instance_create_layer(<x>, <y>, "Fade", Obj_Filter_Camera);
@@ -43,7 +43,7 @@
 //   const @0x140655930, assumed 0, 0, 10/false below).
 Parallax_enabled = 0;
 Obj_Jumpscare.image_alpha = 0.65;
-customfunct_audio_play_sound_single(1, 10 /* TODO(calibrate): runtime @0x140655930 */, false /* TODO(calibrate): runtime @0x140655930 */);
+customfunct_audio_play_sound_single(Snd_Camera_Change, 10 /* TODO(calibrate): runtime @0x140655930 */, false /* TODO(calibrate): runtime @0x140655930 */);
 instance_create_layer(0 /* TODO(calibrate): runtime @0x140655930 */, 0 /* TODO(calibrate): runtime @0x140655930 */, "Fade", Obj_Filter_Camera);
 composite_distortion = 15;
 composite_bleeding = 10;

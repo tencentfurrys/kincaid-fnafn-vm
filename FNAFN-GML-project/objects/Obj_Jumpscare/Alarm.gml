@@ -6,7 +6,7 @@
 image_alpha = 1;
 sprite_index = 47; // Spr_Jumpscare_Freddy
 image_index = 0;
-audio_play_sound(54, 0, 0); // TODO: args
+audio_play_sound(Snd_Jumpscare_Freddy, 0, 0); // TODO: args
 Animation_end = 165;
 
 /* BEGIN DECOMPILED REFERENCE

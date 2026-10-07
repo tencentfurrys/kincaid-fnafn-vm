@@ -11,7 +11,56 @@
       "resourceType": "GMRInstanceLayer",
       "resourceVersion": "2.0",
       "name": "Instances",
-      "instances": [],
+      "instances": [
+        {
+          "resourceType": "GMRInstance",
+          "resourceVersion": "2.0",
+          "name": "inst_000186F3",
+          "id": "d19efd2b-1962-58e1-9177-ace55e86b42d",
+          "objectId": {
+            "name": "Obj_Jumpscare",
+            "path": "objects/Obj_Jumpscare/Obj_Jumpscare.yy"
+          },
+          "inheritCode": false,
+          "hasCreationCode": false,
+          "colour": 4294967295,
+          "rotation": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "imageIndex": 0,
+          "imageSpeed": 1.0,
+          "inherited": false,
+          "frozen": false,
+          "ignore": false,
+          "inheritItemSettings": false,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "resourceType": "GMRInstance",
+          "resourceVersion": "2.0",
+          "name": "inst_000186F4",
+          "id": "89d29fa1-8ea9-583c-bc58-d0d342f2b147",
+          "objectId": {
+            "name": "Obj_RoundedRoom",
+            "path": "objects/Obj_RoundedRoom/Obj_RoundedRoom.yy"
+          },
+          "inheritCode": false,
+          "hasCreationCode": false,
+          "colour": 4294967295,
+          "rotation": 0.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "imageIndex": 0,
+          "imageSpeed": 1.0,
+          "inherited": false,
+          "frozen": false,
+          "ignore": false,
+          "inheritItemSettings": false,
+          "x": 0,
+          "y": 0
+        }
+      ],
       "visible": true,
       "depth": 0,
       "effectEnabled": false,
@@ -26,7 +75,16 @@
       "userdefinedDepth": false
     }
   ],
-  "instanceCreationOrderIds": [],
+  "instanceCreationOrderIds": [
+    {
+      "name": "inst_000186F3",
+      "path": "rooms/Rm_Jumpscare/Rm_Jumpscare.yy"
+    },
+    {
+      "name": "inst_000186F4",
+      "path": "rooms/Rm_Jumpscare/Rm_Jumpscare.yy"
+    }
+  ],
   "roomSettings": {
     "inheritRoomSettings": false,
     "Width": 1280,

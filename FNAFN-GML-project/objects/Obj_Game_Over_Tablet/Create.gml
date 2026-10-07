@@ -5,7 +5,7 @@
 // Ported: Obj_Game_Over_Tablet / Create
 Tablet_Sprite_Speed = -0.99;
 image_index = 9;
-customfunct_audio_play_sound_single(52, 0, false);
+customfunct_audio_play_sound_single(Snd_Camera_Close, 0, false);
 
 /* BEGIN DECOMPILED REFERENCE
 void gml_Object_Obj_Game_Over_Tablet_Create_0(longlong *param_1,undefined8 param_2)

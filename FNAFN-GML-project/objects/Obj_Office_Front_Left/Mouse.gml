@@ -34,7 +34,7 @@ if (layer_get_visible("Office_front") == 1
     toggle ^= 1;
     if (toggle == 1) { // TODO(calibrate): confirm branch polarity (pool @0x1406559d0/0x1406559e4, table @0x1406559e0)
         if (Night_power_amount >= power_threshold) {
-            customfunct_audio_play_sound_single(36, 0 /* TODO(calibrate): runtime const @0x1406559c0 */, false /* TODO(calibrate): runtime const @0x1406559c0 */);
+            customfunct_audio_play_sound_single(Snd_Office_Lever_Error, 0 /* TODO(calibrate): runtime const @0x1406559c0 */, false /* TODO(calibrate): runtime const @0x1406559c0 */);
             toggle = 0;
         } else {
             door_speed = 0.6;
