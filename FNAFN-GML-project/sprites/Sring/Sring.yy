@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "f58f8eba-8574-4413-b477-6fbd531c6de7",
+      "name": "03db4bd4-90b0-4f1c-bcd5-893e3421c186",
       "spriteId": {
         "name": "Sring",
         "path": "sprites/Sring/Sring.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "f58f8eba-8574-4413-b477-6fbd531c6de7",
-          "path": "sprites/Sring/f58f8eba-8574-4413-b477-6fbd531c6de7.png"
+          "name": "03db4bd4-90b0-4f1c-bcd5-893e3421c186",
+          "path": "sprites/Sring/03db4bd4-90b0-4f1c-bcd5-893e3421c186.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "f58f8eba-8574-4413-b477-6fbd531c6de7",
-            "path": "sprites/Sring/f58f8eba-8574-4413-b477-6fbd531c6de7.png"
+            "name": "03db4bd4-90b0-4f1c-bcd5-893e3421c186",
+            "path": "sprites/Sring/03db4bd4-90b0-4f1c-bcd5-893e3421c186.png"
           },
           "LayerId": {
-            "name": "4bf8f4e9-b782-436c-b555-63548afd9066",
-            "path": "sprites/Sring/4bf8f4e9-b782-436c-b555-63548afd9066.png"
+            "name": "46895b7e-9765-416b-8b7d-3f3874cfeb28",
+            "path": "sprites/Sring/46895b7e-9765-416b-8b7d-3f3874cfeb28.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "babf1039-9ce9-4582-97c1-c72dbc6f25e1",
+              "id": "b3d2699b-881a-4071-87ed-efe8546bae7f",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "f58f8eba-8574-4413-b477-6fbd531c6de7",
+                    "name": "03db4bd4-90b0-4f1c-bcd5-893e3421c186",
                     "path": "sprites/Sring/Sring.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "4bf8f4e9-b782-436c-b555-63548afd9066",
+      "name": "46895b7e-9765-416b-8b7d-3f3874cfeb28",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "a7e031a4-b252-46f8-8c60-78f7544f0d8b",
+      "name": "46f37201-5f12-4d6d-a11f-b939bfe4a5da",
       "spriteId": {
         "name": "Spr_UI_Night_Number",
         "path": "sprites/Spr_UI_Night_Number/Spr_UI_Night_Number.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "a7e031a4-b252-46f8-8c60-78f7544f0d8b",
-          "path": "sprites/Spr_UI_Night_Number/a7e031a4-b252-46f8-8c60-78f7544f0d8b.png"
+          "name": "46f37201-5f12-4d6d-a11f-b939bfe4a5da",
+          "path": "sprites/Spr_UI_Night_Number/46f37201-5f12-4d6d-a11f-b939bfe4a5da.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "a7e031a4-b252-46f8-8c60-78f7544f0d8b",
-            "path": "sprites/Spr_UI_Night_Number/a7e031a4-b252-46f8-8c60-78f7544f0d8b.png"
+            "name": "46f37201-5f12-4d6d-a11f-b939bfe4a5da",
+            "path": "sprites/Spr_UI_Night_Number/46f37201-5f12-4d6d-a11f-b939bfe4a5da.png"
           },
           "LayerId": {
-            "name": "6d5af9ce-0fa6-4ffd-8bfe-bc7a0ee8eb62",
-            "path": "sprites/Spr_UI_Night_Number/6d5af9ce-0fa6-4ffd-8bfe-bc7a0ee8eb62.png"
+            "name": "f06c4c18-25a8-4d28-bdef-535f225fe295",
+            "path": "sprites/Spr_UI_Night_Number/f06c4c18-25a8-4d28-bdef-535f225fe295.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "5fd1f50a-d691-4d5a-a626-1987dc25c898",
+              "id": "124ae516-1308-421c-a0c0-c8db93c7400c",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "a7e031a4-b252-46f8-8c60-78f7544f0d8b",
+                    "name": "46f37201-5f12-4d6d-a11f-b939bfe4a5da",
                     "path": "sprites/Spr_UI_Night_Number/Spr_UI_Night_Number.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "6d5af9ce-0fa6-4ffd-8bfe-bc7a0ee8eb62",
+      "name": "f06c4c18-25a8-4d28-bdef-535f225fe295",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

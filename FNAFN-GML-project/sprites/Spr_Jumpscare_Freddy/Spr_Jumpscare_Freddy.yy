@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "4a68700c-2e82-42fa-9a4b-b82e16fc34ce",
+      "name": "ba09021e-eb1c-4480-8107-8267dd3fe3c6",
       "spriteId": {
         "name": "Spr_Jumpscare_Freddy",
         "path": "sprites/Spr_Jumpscare_Freddy/Spr_Jumpscare_Freddy.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "4a68700c-2e82-42fa-9a4b-b82e16fc34ce",
-          "path": "sprites/Spr_Jumpscare_Freddy/4a68700c-2e82-42fa-9a4b-b82e16fc34ce.png"
+          "name": "ba09021e-eb1c-4480-8107-8267dd3fe3c6",
+          "path": "sprites/Spr_Jumpscare_Freddy/ba09021e-eb1c-4480-8107-8267dd3fe3c6.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "4a68700c-2e82-42fa-9a4b-b82e16fc34ce",
-            "path": "sprites/Spr_Jumpscare_Freddy/4a68700c-2e82-42fa-9a4b-b82e16fc34ce.png"
+            "name": "ba09021e-eb1c-4480-8107-8267dd3fe3c6",
+            "path": "sprites/Spr_Jumpscare_Freddy/ba09021e-eb1c-4480-8107-8267dd3fe3c6.png"
           },
           "LayerId": {
-            "name": "03f95c1c-784c-4af9-b2d2-d3ae7283b071",
-            "path": "sprites/Spr_Jumpscare_Freddy/03f95c1c-784c-4af9-b2d2-d3ae7283b071.png"
+            "name": "667b33b4-bc5c-4004-bb97-fcc639324b95",
+            "path": "sprites/Spr_Jumpscare_Freddy/667b33b4-bc5c-4004-bb97-fcc639324b95.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "66d63ffd-4313-4b57-94eb-abb49e052dcf",
+              "id": "fa9d26ad-9963-41be-93ec-496f66a9e1e0",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "4a68700c-2e82-42fa-9a4b-b82e16fc34ce",
+                    "name": "ba09021e-eb1c-4480-8107-8267dd3fe3c6",
                     "path": "sprites/Spr_Jumpscare_Freddy/Spr_Jumpscare_Freddy.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "03f95c1c-784c-4af9-b2d2-d3ae7283b071",
+      "name": "667b33b4-bc5c-4004-bb97-fcc639324b95",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

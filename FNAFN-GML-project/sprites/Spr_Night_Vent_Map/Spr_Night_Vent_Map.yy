@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "8aa8be44-221d-46c6-9f0d-e8e0560ff63e",
+      "name": "a26a7f9f-08d9-4e1d-be4f-ab4dba838cc9",
       "spriteId": {
         "name": "Spr_Night_Vent_Map",
         "path": "sprites/Spr_Night_Vent_Map/Spr_Night_Vent_Map.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "8aa8be44-221d-46c6-9f0d-e8e0560ff63e",
-          "path": "sprites/Spr_Night_Vent_Map/8aa8be44-221d-46c6-9f0d-e8e0560ff63e.png"
+          "name": "a26a7f9f-08d9-4e1d-be4f-ab4dba838cc9",
+          "path": "sprites/Spr_Night_Vent_Map/a26a7f9f-08d9-4e1d-be4f-ab4dba838cc9.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "8aa8be44-221d-46c6-9f0d-e8e0560ff63e",
-            "path": "sprites/Spr_Night_Vent_Map/8aa8be44-221d-46c6-9f0d-e8e0560ff63e.png"
+            "name": "a26a7f9f-08d9-4e1d-be4f-ab4dba838cc9",
+            "path": "sprites/Spr_Night_Vent_Map/a26a7f9f-08d9-4e1d-be4f-ab4dba838cc9.png"
           },
           "LayerId": {
-            "name": "b7a92df7-4733-41d0-945e-a5e0c57e1f85",
-            "path": "sprites/Spr_Night_Vent_Map/b7a92df7-4733-41d0-945e-a5e0c57e1f85.png"
+            "name": "c1f187ee-8e9a-4898-94ea-5bcb0ff36a34",
+            "path": "sprites/Spr_Night_Vent_Map/c1f187ee-8e9a-4898-94ea-5bcb0ff36a34.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "2da5ca6e-3ca6-478a-b515-f8d344e08cdd",
+              "id": "7ab966be-472c-4100-81f2-e129eef38a12",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "8aa8be44-221d-46c6-9f0d-e8e0560ff63e",
+                    "name": "a26a7f9f-08d9-4e1d-be4f-ab4dba838cc9",
                     "path": "sprites/Spr_Night_Vent_Map/Spr_Night_Vent_Map.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "b7a92df7-4733-41d0-945e-a5e0c57e1f85",
+      "name": "c1f187ee-8e9a-4898-94ea-5bcb0ff36a34",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

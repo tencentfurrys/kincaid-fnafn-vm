@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "a7e660a8-5533-4959-9403-52f7d90e0732",
+      "name": "0fe69875-5583-420d-9cf9-3db8c2b6f653",
       "spriteId": {
         "name": "Spr_Office_Front_Right_Alarm_Chica",
         "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/Spr_Office_Front_Right_Alarm_Chica.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "a7e660a8-5533-4959-9403-52f7d90e0732",
-          "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/a7e660a8-5533-4959-9403-52f7d90e0732.png"
+          "name": "0fe69875-5583-420d-9cf9-3db8c2b6f653",
+          "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/0fe69875-5583-420d-9cf9-3db8c2b6f653.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "a7e660a8-5533-4959-9403-52f7d90e0732",
-            "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/a7e660a8-5533-4959-9403-52f7d90e0732.png"
+            "name": "0fe69875-5583-420d-9cf9-3db8c2b6f653",
+            "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/0fe69875-5583-420d-9cf9-3db8c2b6f653.png"
           },
           "LayerId": {
-            "name": "6f92e9cd-6b35-4227-9994-33875e31b707",
-            "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/6f92e9cd-6b35-4227-9994-33875e31b707.png"
+            "name": "064af9fb-6d13-4013-be31-654621a784b7",
+            "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/064af9fb-6d13-4013-be31-654621a784b7.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "7b4d7c13-e9e6-44d7-8ddd-f583c8d6e12f",
+              "id": "b4441ed6-c900-43e6-bcde-ee4777cc81ba",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "a7e660a8-5533-4959-9403-52f7d90e0732",
+                    "name": "0fe69875-5583-420d-9cf9-3db8c2b6f653",
                     "path": "sprites/Spr_Office_Front_Right_Alarm_Chica/Spr_Office_Front_Right_Alarm_Chica.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "6f92e9cd-6b35-4227-9994-33875e31b707",
+      "name": "064af9fb-6d13-4013-be31-654621a784b7",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

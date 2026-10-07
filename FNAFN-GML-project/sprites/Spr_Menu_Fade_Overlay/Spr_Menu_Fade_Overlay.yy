@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "5f62d515-73fa-4e13-94ef-b64ef5ce2196",
+      "name": "d37fa064-29a3-4b19-aabf-1ac9e494f84a",
       "spriteId": {
         "name": "Spr_Menu_Fade_Overlay",
         "path": "sprites/Spr_Menu_Fade_Overlay/Spr_Menu_Fade_Overlay.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "5f62d515-73fa-4e13-94ef-b64ef5ce2196",
-          "path": "sprites/Spr_Menu_Fade_Overlay/5f62d515-73fa-4e13-94ef-b64ef5ce2196.png"
+          "name": "d37fa064-29a3-4b19-aabf-1ac9e494f84a",
+          "path": "sprites/Spr_Menu_Fade_Overlay/d37fa064-29a3-4b19-aabf-1ac9e494f84a.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "5f62d515-73fa-4e13-94ef-b64ef5ce2196",
-            "path": "sprites/Spr_Menu_Fade_Overlay/5f62d515-73fa-4e13-94ef-b64ef5ce2196.png"
+            "name": "d37fa064-29a3-4b19-aabf-1ac9e494f84a",
+            "path": "sprites/Spr_Menu_Fade_Overlay/d37fa064-29a3-4b19-aabf-1ac9e494f84a.png"
           },
           "LayerId": {
-            "name": "590fcae7-da3b-4a38-bcb8-365409ce1840",
-            "path": "sprites/Spr_Menu_Fade_Overlay/590fcae7-da3b-4a38-bcb8-365409ce1840.png"
+            "name": "5986dbf8-5653-4da6-8454-490a691f537f",
+            "path": "sprites/Spr_Menu_Fade_Overlay/5986dbf8-5653-4da6-8454-490a691f537f.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "656190dc-87b2-4aec-b615-757aa18db1be",
+              "id": "39cf678b-63a7-43b5-a5d9-db375944ad25",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "5f62d515-73fa-4e13-94ef-b64ef5ce2196",
+                    "name": "d37fa064-29a3-4b19-aabf-1ac9e494f84a",
                     "path": "sprites/Spr_Menu_Fade_Overlay/Spr_Menu_Fade_Overlay.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "590fcae7-da3b-4a38-bcb8-365409ce1840",
+      "name": "5986dbf8-5653-4da6-8454-490a691f537f",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

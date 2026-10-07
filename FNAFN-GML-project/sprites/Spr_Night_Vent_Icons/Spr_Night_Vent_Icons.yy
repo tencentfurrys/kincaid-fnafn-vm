@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "0ff912a9-47ab-4589-ac31-7557fc27690b",
+      "name": "8b7c4158-c471-482e-b0f9-ad3c1f9f47f8",
       "spriteId": {
         "name": "Spr_Night_Vent_Icons",
         "path": "sprites/Spr_Night_Vent_Icons/Spr_Night_Vent_Icons.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "0ff912a9-47ab-4589-ac31-7557fc27690b",
-          "path": "sprites/Spr_Night_Vent_Icons/0ff912a9-47ab-4589-ac31-7557fc27690b.png"
+          "name": "8b7c4158-c471-482e-b0f9-ad3c1f9f47f8",
+          "path": "sprites/Spr_Night_Vent_Icons/8b7c4158-c471-482e-b0f9-ad3c1f9f47f8.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "0ff912a9-47ab-4589-ac31-7557fc27690b",
-            "path": "sprites/Spr_Night_Vent_Icons/0ff912a9-47ab-4589-ac31-7557fc27690b.png"
+            "name": "8b7c4158-c471-482e-b0f9-ad3c1f9f47f8",
+            "path": "sprites/Spr_Night_Vent_Icons/8b7c4158-c471-482e-b0f9-ad3c1f9f47f8.png"
           },
           "LayerId": {
-            "name": "1776d9d4-ac7d-4ecc-a2dd-736a61ba4251",
-            "path": "sprites/Spr_Night_Vent_Icons/1776d9d4-ac7d-4ecc-a2dd-736a61ba4251.png"
+            "name": "90425e7d-0615-463a-9bf2-eda8221d3974",
+            "path": "sprites/Spr_Night_Vent_Icons/90425e7d-0615-463a-9bf2-eda8221d3974.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "a706bbcd-d174-4f01-bcbc-73fb020e158c",
+              "id": "6e364ac2-e4d9-4324-9ff3-850551474f86",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "0ff912a9-47ab-4589-ac31-7557fc27690b",
+                    "name": "8b7c4158-c471-482e-b0f9-ad3c1f9f47f8",
                     "path": "sprites/Spr_Night_Vent_Icons/Spr_Night_Vent_Icons.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "1776d9d4-ac7d-4ecc-a2dd-736a61ba4251",
+      "name": "90425e7d-0615-463a-9bf2-eda8221d3974",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "17cc3c31-278b-4ec8-9ccf-7fc4664f2864",
+      "name": "32dba524-4f8b-41ed-8b2a-cbd3ba8e70e6",
       "spriteId": {
         "name": "sprOLDTVFilterIcon",
         "path": "sprites/sprOLDTVFilterIcon/sprOLDTVFilterIcon.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "17cc3c31-278b-4ec8-9ccf-7fc4664f2864",
-          "path": "sprites/sprOLDTVFilterIcon/17cc3c31-278b-4ec8-9ccf-7fc4664f2864.png"
+          "name": "32dba524-4f8b-41ed-8b2a-cbd3ba8e70e6",
+          "path": "sprites/sprOLDTVFilterIcon/32dba524-4f8b-41ed-8b2a-cbd3ba8e70e6.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "17cc3c31-278b-4ec8-9ccf-7fc4664f2864",
-            "path": "sprites/sprOLDTVFilterIcon/17cc3c31-278b-4ec8-9ccf-7fc4664f2864.png"
+            "name": "32dba524-4f8b-41ed-8b2a-cbd3ba8e70e6",
+            "path": "sprites/sprOLDTVFilterIcon/32dba524-4f8b-41ed-8b2a-cbd3ba8e70e6.png"
           },
           "LayerId": {
-            "name": "a33c4742-9c67-4ee0-a40e-46ff930e6880",
-            "path": "sprites/sprOLDTVFilterIcon/a33c4742-9c67-4ee0-a40e-46ff930e6880.png"
+            "name": "81e7331c-6d79-4f53-b1ee-7ec048c63bf7",
+            "path": "sprites/sprOLDTVFilterIcon/81e7331c-6d79-4f53-b1ee-7ec048c63bf7.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "12e63e07-3991-4230-8145-c6ec35610328",
+              "id": "516a373f-18d1-477a-8eef-1c3bc7564264",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "17cc3c31-278b-4ec8-9ccf-7fc4664f2864",
+                    "name": "32dba524-4f8b-41ed-8b2a-cbd3ba8e70e6",
                     "path": "sprites/sprOLDTVFilterIcon/sprOLDTVFilterIcon.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "a33c4742-9c67-4ee0-a40e-46ff930e6880",
+      "name": "81e7331c-6d79-4f53-b1ee-7ec048c63bf7",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

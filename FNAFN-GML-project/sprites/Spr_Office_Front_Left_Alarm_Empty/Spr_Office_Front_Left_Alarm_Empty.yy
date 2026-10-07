@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "2a48a9d8-484c-4ef4-8b3f-4361a0980b44",
+      "name": "9c4293ed-e164-4739-99ad-1b4e90715093",
       "spriteId": {
         "name": "Spr_Office_Front_Left_Alarm_Empty",
         "path": "sprites/Spr_Office_Front_Left_Alarm_Empty/Spr_Office_Front_Left_Alarm_Empty.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "2a48a9d8-484c-4ef4-8b3f-4361a0980b44",
-          "path": "sprites/Spr_Office_Front_Left_Alarm_Empty/2a48a9d8-484c-4ef4-8b3f-4361a0980b44.png"
+          "name": "9c4293ed-e164-4739-99ad-1b4e90715093",
+          "path": "sprites/Spr_Office_Front_Left_Alarm_Empty/9c4293ed-e164-4739-99ad-1b4e90715093.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "2a48a9d8-484c-4ef4-8b3f-4361a0980b44",
-            "path": "sprites/Spr_Office_Front_Left_Alarm_Empty/2a48a9d8-484c-4ef4-8b3f-4361a0980b44.png"
+            "name": "9c4293ed-e164-4739-99ad-1b4e90715093",
+            "path": "sprites/Spr_Office_Front_Left_Alarm_Empty/9c4293ed-e164-4739-99ad-1b4e90715093.png"
           },
           "LayerId": {
-            "name": "8d7b76cd-a9b6-4cb5-93e5-48b94524a837",
-            "path": "sprites/Spr_Office_Front_Left_Alarm_Empty/8d7b76cd-a9b6-4cb5-93e5-48b94524a837.png"
+            "name": "66ff46d4-a4b3-4c59-a53b-6e0219e96881",
+            "path": "sprites/Spr_Office_Front_Left_Alarm_Empty/66ff46d4-a4b3-4c59-a53b-6e0219e96881.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "55bd11ce-75bc-4644-a41a-5b1fcf08f371",
+              "id": "b0aa77fc-ecc9-4f2c-a209-08d96d7923d2",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "2a48a9d8-484c-4ef4-8b3f-4361a0980b44",
+                    "name": "9c4293ed-e164-4739-99ad-1b4e90715093",
                     "path": "sprites/Spr_Office_Front_Left_Alarm_Empty/Spr_Office_Front_Left_Alarm_Empty.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "8d7b76cd-a9b6-4cb5-93e5-48b94524a837",
+      "name": "66ff46d4-a4b3-4c59-a53b-6e0219e96881",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

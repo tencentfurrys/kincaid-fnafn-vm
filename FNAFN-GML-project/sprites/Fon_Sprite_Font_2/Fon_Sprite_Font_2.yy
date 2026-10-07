@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "ee6b832b-4c5d-429c-9678-bd69ff902ea8",
+      "name": "088a51d7-871f-4c0e-a25f-5fb1b8c85d88",
       "spriteId": {
         "name": "Fon_Sprite_Font_2",
         "path": "sprites/Fon_Sprite_Font_2/Fon_Sprite_Font_2.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "ee6b832b-4c5d-429c-9678-bd69ff902ea8",
-          "path": "sprites/Fon_Sprite_Font_2/ee6b832b-4c5d-429c-9678-bd69ff902ea8.png"
+          "name": "088a51d7-871f-4c0e-a25f-5fb1b8c85d88",
+          "path": "sprites/Fon_Sprite_Font_2/088a51d7-871f-4c0e-a25f-5fb1b8c85d88.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "ee6b832b-4c5d-429c-9678-bd69ff902ea8",
-            "path": "sprites/Fon_Sprite_Font_2/ee6b832b-4c5d-429c-9678-bd69ff902ea8.png"
+            "name": "088a51d7-871f-4c0e-a25f-5fb1b8c85d88",
+            "path": "sprites/Fon_Sprite_Font_2/088a51d7-871f-4c0e-a25f-5fb1b8c85d88.png"
           },
           "LayerId": {
-            "name": "8313ffae-e1d1-4244-9511-187eb9747e2a",
-            "path": "sprites/Fon_Sprite_Font_2/8313ffae-e1d1-4244-9511-187eb9747e2a.png"
+            "name": "7ec4139e-3e09-4311-aab2-b165d776f880",
+            "path": "sprites/Fon_Sprite_Font_2/7ec4139e-3e09-4311-aab2-b165d776f880.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "86a21324-8eff-4cea-83a2-645bb6e7fbbc",
+              "id": "8977a16b-81cb-4cc9-9b41-2e1434e3b31d",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "ee6b832b-4c5d-429c-9678-bd69ff902ea8",
+                    "name": "088a51d7-871f-4c0e-a25f-5fb1b8c85d88",
                     "path": "sprites/Fon_Sprite_Font_2/Fon_Sprite_Font_2.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "8313ffae-e1d1-4244-9511-187eb9747e2a",
+      "name": "7ec4139e-3e09-4311-aab2-b165d776f880",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

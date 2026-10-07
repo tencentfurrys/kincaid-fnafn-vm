@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "13fccb46-47d8-4a52-ba8e-123035a0f780",
+      "name": "979b1477-a891-4fad-8ece-80ce75798a71",
       "spriteId": {
         "name": "Spr_Night_UI_Power_Bar",
         "path": "sprites/Spr_Night_UI_Power_Bar/Spr_Night_UI_Power_Bar.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "13fccb46-47d8-4a52-ba8e-123035a0f780",
-          "path": "sprites/Spr_Night_UI_Power_Bar/13fccb46-47d8-4a52-ba8e-123035a0f780.png"
+          "name": "979b1477-a891-4fad-8ece-80ce75798a71",
+          "path": "sprites/Spr_Night_UI_Power_Bar/979b1477-a891-4fad-8ece-80ce75798a71.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "13fccb46-47d8-4a52-ba8e-123035a0f780",
-            "path": "sprites/Spr_Night_UI_Power_Bar/13fccb46-47d8-4a52-ba8e-123035a0f780.png"
+            "name": "979b1477-a891-4fad-8ece-80ce75798a71",
+            "path": "sprites/Spr_Night_UI_Power_Bar/979b1477-a891-4fad-8ece-80ce75798a71.png"
           },
           "LayerId": {
-            "name": "c2beba19-5825-44a7-8f53-f87f96a4aa5c",
-            "path": "sprites/Spr_Night_UI_Power_Bar/c2beba19-5825-44a7-8f53-f87f96a4aa5c.png"
+            "name": "75736b21-08f0-499c-b0d0-37333f303d39",
+            "path": "sprites/Spr_Night_UI_Power_Bar/75736b21-08f0-499c-b0d0-37333f303d39.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "513be69a-0d81-4e85-8412-fba1de9202a2",
+              "id": "ca9c40cb-0b53-41dc-afa1-8fc0142aabb5",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "13fccb46-47d8-4a52-ba8e-123035a0f780",
+                    "name": "979b1477-a891-4fad-8ece-80ce75798a71",
                     "path": "sprites/Spr_Night_UI_Power_Bar/Spr_Night_UI_Power_Bar.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "c2beba19-5825-44a7-8f53-f87f96a4aa5c",
+      "name": "75736b21-08f0-499c-b0d0-37333f303d39",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

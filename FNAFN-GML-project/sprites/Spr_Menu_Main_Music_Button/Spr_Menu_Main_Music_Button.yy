@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "2dc937f4-84f4-4a37-9b2a-172e78d220c2",
+      "name": "5ca5fa8b-0cfb-438c-a400-75697b80332d",
       "spriteId": {
         "name": "Spr_Menu_Main_Music_Button",
         "path": "sprites/Spr_Menu_Main_Music_Button/Spr_Menu_Main_Music_Button.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "2dc937f4-84f4-4a37-9b2a-172e78d220c2",
-          "path": "sprites/Spr_Menu_Main_Music_Button/2dc937f4-84f4-4a37-9b2a-172e78d220c2.png"
+          "name": "5ca5fa8b-0cfb-438c-a400-75697b80332d",
+          "path": "sprites/Spr_Menu_Main_Music_Button/5ca5fa8b-0cfb-438c-a400-75697b80332d.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "2dc937f4-84f4-4a37-9b2a-172e78d220c2",
-            "path": "sprites/Spr_Menu_Main_Music_Button/2dc937f4-84f4-4a37-9b2a-172e78d220c2.png"
+            "name": "5ca5fa8b-0cfb-438c-a400-75697b80332d",
+            "path": "sprites/Spr_Menu_Main_Music_Button/5ca5fa8b-0cfb-438c-a400-75697b80332d.png"
           },
           "LayerId": {
-            "name": "6e3f1ff7-7c64-40b7-9463-a938c08c1a4f",
-            "path": "sprites/Spr_Menu_Main_Music_Button/6e3f1ff7-7c64-40b7-9463-a938c08c1a4f.png"
+            "name": "12ec388d-21ca-49bd-a51a-19918ebe5eaa",
+            "path": "sprites/Spr_Menu_Main_Music_Button/12ec388d-21ca-49bd-a51a-19918ebe5eaa.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "3ef7730e-1f01-4fde-a2f7-d1ad7eaa4196",
+              "id": "943d63ca-92c0-4d52-8be2-8cf4418dfd60",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "2dc937f4-84f4-4a37-9b2a-172e78d220c2",
+                    "name": "5ca5fa8b-0cfb-438c-a400-75697b80332d",
                     "path": "sprites/Spr_Menu_Main_Music_Button/Spr_Menu_Main_Music_Button.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "6e3f1ff7-7c64-40b7-9463-a938c08c1a4f",
+      "name": "12ec388d-21ca-49bd-a51a-19918ebe5eaa",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

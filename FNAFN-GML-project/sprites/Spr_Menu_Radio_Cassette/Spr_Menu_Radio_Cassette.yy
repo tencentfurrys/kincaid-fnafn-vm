@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "119c8405-bece-46d5-8a9a-964064072fc3",
+      "name": "4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5",
       "spriteId": {
         "name": "Spr_Menu_Radio_Cassette",
         "path": "sprites/Spr_Menu_Radio_Cassette/Spr_Menu_Radio_Cassette.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "119c8405-bece-46d5-8a9a-964064072fc3",
-          "path": "sprites/Spr_Menu_Radio_Cassette/119c8405-bece-46d5-8a9a-964064072fc3.png"
+          "name": "4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5",
+          "path": "sprites/Spr_Menu_Radio_Cassette/4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "119c8405-bece-46d5-8a9a-964064072fc3",
-            "path": "sprites/Spr_Menu_Radio_Cassette/119c8405-bece-46d5-8a9a-964064072fc3.png"
+            "name": "4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5",
+            "path": "sprites/Spr_Menu_Radio_Cassette/4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5.png"
           },
           "LayerId": {
-            "name": "80c80b51-798a-4d25-960f-173a3f54d7de",
-            "path": "sprites/Spr_Menu_Radio_Cassette/80c80b51-798a-4d25-960f-173a3f54d7de.png"
+            "name": "32fa76e0-07dd-4c4f-b07c-48c504e831e9",
+            "path": "sprites/Spr_Menu_Radio_Cassette/32fa76e0-07dd-4c4f-b07c-48c504e831e9.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "e215a1ab-1959-4546-8039-9c849cb9bd8f",
+              "id": "04836e14-ad88-4d68-8ecd-26e6c491e0dd",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "119c8405-bece-46d5-8a9a-964064072fc3",
+                    "name": "4dbb7dac-9ff5-4e02-b0d2-4b0cde1676e5",
                     "path": "sprites/Spr_Menu_Radio_Cassette/Spr_Menu_Radio_Cassette.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "80c80b51-798a-4d25-960f-173a3f54d7de",
+      "name": "32fa76e0-07dd-4c4f-b07c-48c504e831e9",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

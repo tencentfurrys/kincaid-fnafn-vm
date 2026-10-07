@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "5bab17e2-8a24-4f0a-a40f-64cec3323956",
+      "name": "e591151b-28ab-4317-9cd2-215324f05631",
       "spriteId": {
         "name": "Spr_Night_UI_Power_Heart",
         "path": "sprites/Spr_Night_UI_Power_Heart/Spr_Night_UI_Power_Heart.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "5bab17e2-8a24-4f0a-a40f-64cec3323956",
-          "path": "sprites/Spr_Night_UI_Power_Heart/5bab17e2-8a24-4f0a-a40f-64cec3323956.png"
+          "name": "e591151b-28ab-4317-9cd2-215324f05631",
+          "path": "sprites/Spr_Night_UI_Power_Heart/e591151b-28ab-4317-9cd2-215324f05631.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "5bab17e2-8a24-4f0a-a40f-64cec3323956",
-            "path": "sprites/Spr_Night_UI_Power_Heart/5bab17e2-8a24-4f0a-a40f-64cec3323956.png"
+            "name": "e591151b-28ab-4317-9cd2-215324f05631",
+            "path": "sprites/Spr_Night_UI_Power_Heart/e591151b-28ab-4317-9cd2-215324f05631.png"
           },
           "LayerId": {
-            "name": "56b081e3-79a5-4a99-bf8d-c882ff9448dd",
-            "path": "sprites/Spr_Night_UI_Power_Heart/56b081e3-79a5-4a99-bf8d-c882ff9448dd.png"
+            "name": "26b45bd5-76b9-4d88-9171-763be7ffb612",
+            "path": "sprites/Spr_Night_UI_Power_Heart/26b45bd5-76b9-4d88-9171-763be7ffb612.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "17a0a3a6-f20a-4298-bccd-b1d38a782df1",
+              "id": "c38e2dcb-06d4-489d-bbb3-a9823f284102",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "5bab17e2-8a24-4f0a-a40f-64cec3323956",
+                    "name": "e591151b-28ab-4317-9cd2-215324f05631",
                     "path": "sprites/Spr_Night_UI_Power_Heart/Spr_Night_UI_Power_Heart.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "56b081e3-79a5-4a99-bf8d-c882ff9448dd",
+      "name": "26b45bd5-76b9-4d88-9171-763be7ffb612",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

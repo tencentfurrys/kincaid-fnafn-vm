@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "4c64b2a9-9e2d-410e-9c64-b61fe990ab51",
+      "name": "b2fcaa5b-2cbb-4740-96bd-035ebee09cea",
       "spriteId": {
         "name": "Spr_Menu_Background_Radio",
         "path": "sprites/Spr_Menu_Background_Radio/Spr_Menu_Background_Radio.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "4c64b2a9-9e2d-410e-9c64-b61fe990ab51",
-          "path": "sprites/Spr_Menu_Background_Radio/4c64b2a9-9e2d-410e-9c64-b61fe990ab51.png"
+          "name": "b2fcaa5b-2cbb-4740-96bd-035ebee09cea",
+          "path": "sprites/Spr_Menu_Background_Radio/b2fcaa5b-2cbb-4740-96bd-035ebee09cea.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "4c64b2a9-9e2d-410e-9c64-b61fe990ab51",
-            "path": "sprites/Spr_Menu_Background_Radio/4c64b2a9-9e2d-410e-9c64-b61fe990ab51.png"
+            "name": "b2fcaa5b-2cbb-4740-96bd-035ebee09cea",
+            "path": "sprites/Spr_Menu_Background_Radio/b2fcaa5b-2cbb-4740-96bd-035ebee09cea.png"
           },
           "LayerId": {
-            "name": "7b292fe7-0a88-4e65-8892-88e59f64971d",
-            "path": "sprites/Spr_Menu_Background_Radio/7b292fe7-0a88-4e65-8892-88e59f64971d.png"
+            "name": "c7476d63-de1b-4a64-825b-ab6f11f614b4",
+            "path": "sprites/Spr_Menu_Background_Radio/c7476d63-de1b-4a64-825b-ab6f11f614b4.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "cdc5032e-4832-4c24-b8cb-1f8b37a7a227",
+              "id": "8c604139-1523-4f07-abe0-5ada9336a104",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "4c64b2a9-9e2d-410e-9c64-b61fe990ab51",
+                    "name": "b2fcaa5b-2cbb-4740-96bd-035ebee09cea",
                     "path": "sprites/Spr_Menu_Background_Radio/Spr_Menu_Background_Radio.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "7b292fe7-0a88-4e65-8892-88e59f64971d",
+      "name": "c7476d63-de1b-4a64-825b-ab6f11f614b4",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

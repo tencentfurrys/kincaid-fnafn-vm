@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "ac6c2ba8-fdff-4315-80bb-ffe104ffb22d",
+      "name": "94012706-557a-4a8b-ac2e-c1430ce5f84e",
       "spriteId": {
         "name": "Spr_Night_Camera_Room_2",
         "path": "sprites/Spr_Night_Camera_Room_2/Spr_Night_Camera_Room_2.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "ac6c2ba8-fdff-4315-80bb-ffe104ffb22d",
-          "path": "sprites/Spr_Night_Camera_Room_2/ac6c2ba8-fdff-4315-80bb-ffe104ffb22d.png"
+          "name": "94012706-557a-4a8b-ac2e-c1430ce5f84e",
+          "path": "sprites/Spr_Night_Camera_Room_2/94012706-557a-4a8b-ac2e-c1430ce5f84e.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "ac6c2ba8-fdff-4315-80bb-ffe104ffb22d",
-            "path": "sprites/Spr_Night_Camera_Room_2/ac6c2ba8-fdff-4315-80bb-ffe104ffb22d.png"
+            "name": "94012706-557a-4a8b-ac2e-c1430ce5f84e",
+            "path": "sprites/Spr_Night_Camera_Room_2/94012706-557a-4a8b-ac2e-c1430ce5f84e.png"
           },
           "LayerId": {
-            "name": "57af1d9f-3eaf-4568-bb9f-b9a49a1cc863",
-            "path": "sprites/Spr_Night_Camera_Room_2/57af1d9f-3eaf-4568-bb9f-b9a49a1cc863.png"
+            "name": "61cfe4db-fa5c-47ad-aed3-e4ac60109dc5",
+            "path": "sprites/Spr_Night_Camera_Room_2/61cfe4db-fa5c-47ad-aed3-e4ac60109dc5.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "37c6fcc4-d11a-49b8-b439-a5d041b097c9",
+              "id": "d49a963f-0340-4fac-ab3b-697da130373b",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "ac6c2ba8-fdff-4315-80bb-ffe104ffb22d",
+                    "name": "94012706-557a-4a8b-ac2e-c1430ce5f84e",
                     "path": "sprites/Spr_Night_Camera_Room_2/Spr_Night_Camera_Room_2.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "57af1d9f-3eaf-4568-bb9f-b9a49a1cc863",
+      "name": "61cfe4db-fa5c-47ad-aed3-e4ac60109dc5",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

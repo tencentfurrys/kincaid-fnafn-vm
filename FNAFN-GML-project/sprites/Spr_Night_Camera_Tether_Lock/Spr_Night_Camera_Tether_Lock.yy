@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "a14c4821-ca27-4692-b9d3-39ddb87bcdac",
+      "name": "00fc1f9e-12ec-4f08-9404-5f10011b114f",
       "spriteId": {
         "name": "Spr_Night_Camera_Tether_Lock",
         "path": "sprites/Spr_Night_Camera_Tether_Lock/Spr_Night_Camera_Tether_Lock.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "a14c4821-ca27-4692-b9d3-39ddb87bcdac",
-          "path": "sprites/Spr_Night_Camera_Tether_Lock/a14c4821-ca27-4692-b9d3-39ddb87bcdac.png"
+          "name": "00fc1f9e-12ec-4f08-9404-5f10011b114f",
+          "path": "sprites/Spr_Night_Camera_Tether_Lock/00fc1f9e-12ec-4f08-9404-5f10011b114f.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "a14c4821-ca27-4692-b9d3-39ddb87bcdac",
-            "path": "sprites/Spr_Night_Camera_Tether_Lock/a14c4821-ca27-4692-b9d3-39ddb87bcdac.png"
+            "name": "00fc1f9e-12ec-4f08-9404-5f10011b114f",
+            "path": "sprites/Spr_Night_Camera_Tether_Lock/00fc1f9e-12ec-4f08-9404-5f10011b114f.png"
           },
           "LayerId": {
-            "name": "415e6d59-3604-411d-a7ea-8e4d9ae2de0f",
-            "path": "sprites/Spr_Night_Camera_Tether_Lock/415e6d59-3604-411d-a7ea-8e4d9ae2de0f.png"
+            "name": "b25c50b4-62ca-4446-9ec1-fbbfe933e374",
+            "path": "sprites/Spr_Night_Camera_Tether_Lock/b25c50b4-62ca-4446-9ec1-fbbfe933e374.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "eeea6e4e-55c8-4fdd-9fbb-e9c85697d25f",
+              "id": "a6812524-da30-4061-b7dc-6966dbc3b7a4",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "a14c4821-ca27-4692-b9d3-39ddb87bcdac",
+                    "name": "00fc1f9e-12ec-4f08-9404-5f10011b114f",
                     "path": "sprites/Spr_Night_Camera_Tether_Lock/Spr_Night_Camera_Tether_Lock.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "415e6d59-3604-411d-a7ea-8e4d9ae2de0f",
+      "name": "b25c50b4-62ca-4446-9ec1-fbbfe933e374",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

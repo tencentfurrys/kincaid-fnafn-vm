@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "2dc0f7a5-a4ce-4d8d-ba10-b8a3ac4d098a",
+      "name": "65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a",
       "spriteId": {
         "name": "Spr_Jumpscare_Foxy",
         "path": "sprites/Spr_Jumpscare_Foxy/Spr_Jumpscare_Foxy.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "2dc0f7a5-a4ce-4d8d-ba10-b8a3ac4d098a",
-          "path": "sprites/Spr_Jumpscare_Foxy/2dc0f7a5-a4ce-4d8d-ba10-b8a3ac4d098a.png"
+          "name": "65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a",
+          "path": "sprites/Spr_Jumpscare_Foxy/65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "2dc0f7a5-a4ce-4d8d-ba10-b8a3ac4d098a",
-            "path": "sprites/Spr_Jumpscare_Foxy/2dc0f7a5-a4ce-4d8d-ba10-b8a3ac4d098a.png"
+            "name": "65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a",
+            "path": "sprites/Spr_Jumpscare_Foxy/65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a.png"
           },
           "LayerId": {
-            "name": "c8fdf785-d0c3-4cf4-88bc-ff3ca9bb2da9",
-            "path": "sprites/Spr_Jumpscare_Foxy/c8fdf785-d0c3-4cf4-88bc-ff3ca9bb2da9.png"
+            "name": "7e020af7-c245-4f38-8be4-aba5683d6699",
+            "path": "sprites/Spr_Jumpscare_Foxy/7e020af7-c245-4f38-8be4-aba5683d6699.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "147b5576-b2b0-40c8-a9da-882ddce5d30b",
+              "id": "7a940fc4-72b9-47fe-a986-ec06360c2ea2",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "2dc0f7a5-a4ce-4d8d-ba10-b8a3ac4d098a",
+                    "name": "65c6d2fb-7c3e-4c3c-924e-ee9536e37b8a",
                     "path": "sprites/Spr_Jumpscare_Foxy/Spr_Jumpscare_Foxy.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "c8fdf785-d0c3-4cf4-88bc-ff3ca9bb2da9",
+      "name": "7e020af7-c245-4f38-8be4-aba5683d6699",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

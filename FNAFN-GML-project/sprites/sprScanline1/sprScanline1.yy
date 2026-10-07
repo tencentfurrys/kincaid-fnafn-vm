@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "232243c9-bdf3-4982-b53c-eba151de0d8c",
+      "name": "9a3423ea-c494-4479-acc5-910266319a0a",
       "spriteId": {
         "name": "sprScanline1",
         "path": "sprites/sprScanline1/sprScanline1.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "232243c9-bdf3-4982-b53c-eba151de0d8c",
-          "path": "sprites/sprScanline1/232243c9-bdf3-4982-b53c-eba151de0d8c.png"
+          "name": "9a3423ea-c494-4479-acc5-910266319a0a",
+          "path": "sprites/sprScanline1/9a3423ea-c494-4479-acc5-910266319a0a.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "232243c9-bdf3-4982-b53c-eba151de0d8c",
-            "path": "sprites/sprScanline1/232243c9-bdf3-4982-b53c-eba151de0d8c.png"
+            "name": "9a3423ea-c494-4479-acc5-910266319a0a",
+            "path": "sprites/sprScanline1/9a3423ea-c494-4479-acc5-910266319a0a.png"
           },
           "LayerId": {
-            "name": "acb4cac2-3383-4309-bc3d-e3b2d92a20ef",
-            "path": "sprites/sprScanline1/acb4cac2-3383-4309-bc3d-e3b2d92a20ef.png"
+            "name": "062b5262-3f0b-403a-8ae3-b2f9e49d3c60",
+            "path": "sprites/sprScanline1/062b5262-3f0b-403a-8ae3-b2f9e49d3c60.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "0e08985b-15ad-4bf3-b90e-595b83ff1e0e",
+              "id": "d0125bc2-13d1-48b4-a4a5-e700d8a7e9e5",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "232243c9-bdf3-4982-b53c-eba151de0d8c",
+                    "name": "9a3423ea-c494-4479-acc5-910266319a0a",
                     "path": "sprites/sprScanline1/sprScanline1.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "acb4cac2-3383-4309-bc3d-e3b2d92a20ef",
+      "name": "062b5262-3f0b-403a-8ae3-b2f9e49d3c60",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

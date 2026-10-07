@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "563a5bb9-194f-4fd2-b8da-1ed0422ae4c8",
+      "name": "0f06ea6c-a4ca-4572-a5be-e05b9eaf2637",
       "spriteId": {
         "name": "Spr_Night_Radio_Cassette",
         "path": "sprites/Spr_Night_Radio_Cassette/Spr_Night_Radio_Cassette.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "563a5bb9-194f-4fd2-b8da-1ed0422ae4c8",
-          "path": "sprites/Spr_Night_Radio_Cassette/563a5bb9-194f-4fd2-b8da-1ed0422ae4c8.png"
+          "name": "0f06ea6c-a4ca-4572-a5be-e05b9eaf2637",
+          "path": "sprites/Spr_Night_Radio_Cassette/0f06ea6c-a4ca-4572-a5be-e05b9eaf2637.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "563a5bb9-194f-4fd2-b8da-1ed0422ae4c8",
-            "path": "sprites/Spr_Night_Radio_Cassette/563a5bb9-194f-4fd2-b8da-1ed0422ae4c8.png"
+            "name": "0f06ea6c-a4ca-4572-a5be-e05b9eaf2637",
+            "path": "sprites/Spr_Night_Radio_Cassette/0f06ea6c-a4ca-4572-a5be-e05b9eaf2637.png"
           },
           "LayerId": {
-            "name": "be8dcbbb-4b41-4c2d-9810-0dbff24a1698",
-            "path": "sprites/Spr_Night_Radio_Cassette/be8dcbbb-4b41-4c2d-9810-0dbff24a1698.png"
+            "name": "7078efcb-b9b1-4c56-b8a5-44b57f1e5d4e",
+            "path": "sprites/Spr_Night_Radio_Cassette/7078efcb-b9b1-4c56-b8a5-44b57f1e5d4e.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "9273816e-0337-428e-b641-9fece20ae6ef",
+              "id": "0fe1546e-e349-4501-8810-da9bd062fb8b",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "563a5bb9-194f-4fd2-b8da-1ed0422ae4c8",
+                    "name": "0f06ea6c-a4ca-4572-a5be-e05b9eaf2637",
                     "path": "sprites/Spr_Night_Radio_Cassette/Spr_Night_Radio_Cassette.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "be8dcbbb-4b41-4c2d-9810-0dbff24a1698",
+      "name": "7078efcb-b9b1-4c56-b8a5-44b57f1e5d4e",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

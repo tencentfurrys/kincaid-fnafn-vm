@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "16bf8c2c-d17a-47c2-a6db-af2ea008d937",
+      "name": "87b29e52-7f92-4293-8de1-1b63df08cff5",
       "spriteId": {
         "name": "Spr_Night_Camera_Tablet",
         "path": "sprites/Spr_Night_Camera_Tablet/Spr_Night_Camera_Tablet.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "16bf8c2c-d17a-47c2-a6db-af2ea008d937",
-          "path": "sprites/Spr_Night_Camera_Tablet/16bf8c2c-d17a-47c2-a6db-af2ea008d937.png"
+          "name": "87b29e52-7f92-4293-8de1-1b63df08cff5",
+          "path": "sprites/Spr_Night_Camera_Tablet/87b29e52-7f92-4293-8de1-1b63df08cff5.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "16bf8c2c-d17a-47c2-a6db-af2ea008d937",
-            "path": "sprites/Spr_Night_Camera_Tablet/16bf8c2c-d17a-47c2-a6db-af2ea008d937.png"
+            "name": "87b29e52-7f92-4293-8de1-1b63df08cff5",
+            "path": "sprites/Spr_Night_Camera_Tablet/87b29e52-7f92-4293-8de1-1b63df08cff5.png"
           },
           "LayerId": {
-            "name": "6d1f8135-0da6-44c7-96a5-c189126de9b8",
-            "path": "sprites/Spr_Night_Camera_Tablet/6d1f8135-0da6-44c7-96a5-c189126de9b8.png"
+            "name": "c19c3303-bac3-473e-bd3b-c33a25db6135",
+            "path": "sprites/Spr_Night_Camera_Tablet/c19c3303-bac3-473e-bd3b-c33a25db6135.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "2d44b834-6dd4-4f8d-b123-d3e47c56445d",
+              "id": "73c01c25-e821-4ec7-bc43-7b84003ff366",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "16bf8c2c-d17a-47c2-a6db-af2ea008d937",
+                    "name": "87b29e52-7f92-4293-8de1-1b63df08cff5",
                     "path": "sprites/Spr_Night_Camera_Tablet/Spr_Night_Camera_Tablet.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "6d1f8135-0da6-44c7-96a5-c189126de9b8",
+      "name": "c19c3303-bac3-473e-bd3b-c33a25db6135",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "0b3a56c4-ceb1-4011-a46b-aab9422d3223",
+      "name": "20260b2c-6aee-47e4-9b22-2964bcc82bd4",
       "spriteId": {
         "name": "sprMask1",
         "path": "sprites/sprMask1/sprMask1.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "0b3a56c4-ceb1-4011-a46b-aab9422d3223",
-          "path": "sprites/sprMask1/0b3a56c4-ceb1-4011-a46b-aab9422d3223.png"
+          "name": "20260b2c-6aee-47e4-9b22-2964bcc82bd4",
+          "path": "sprites/sprMask1/20260b2c-6aee-47e4-9b22-2964bcc82bd4.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "0b3a56c4-ceb1-4011-a46b-aab9422d3223",
-            "path": "sprites/sprMask1/0b3a56c4-ceb1-4011-a46b-aab9422d3223.png"
+            "name": "20260b2c-6aee-47e4-9b22-2964bcc82bd4",
+            "path": "sprites/sprMask1/20260b2c-6aee-47e4-9b22-2964bcc82bd4.png"
           },
           "LayerId": {
-            "name": "cb05b5af-c301-4649-8749-c129189900c2",
-            "path": "sprites/sprMask1/cb05b5af-c301-4649-8749-c129189900c2.png"
+            "name": "4bde440c-25e5-4e30-af4c-2d5b2ce54ab1",
+            "path": "sprites/sprMask1/4bde440c-25e5-4e30-af4c-2d5b2ce54ab1.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "54f2e8cd-d36b-4bf6-961b-a4b2c98359b6",
+              "id": "83f64d30-f951-468a-b259-ea6fbd4042c7",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "0b3a56c4-ceb1-4011-a46b-aab9422d3223",
+                    "name": "20260b2c-6aee-47e4-9b22-2964bcc82bd4",
                     "path": "sprites/sprMask1/sprMask1.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "cb05b5af-c301-4649-8749-c129189900c2",
+      "name": "4bde440c-25e5-4e30-af4c-2d5b2ce54ab1",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

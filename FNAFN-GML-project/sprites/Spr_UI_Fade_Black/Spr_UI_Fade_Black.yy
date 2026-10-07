@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "a630700f-8eb9-42dc-ad3c-735175631711",
+      "name": "47757754-71ab-45c6-bff3-e71d9a7c3b5c",
       "spriteId": {
         "name": "Spr_UI_Fade_Black",
         "path": "sprites/Spr_UI_Fade_Black/Spr_UI_Fade_Black.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "a630700f-8eb9-42dc-ad3c-735175631711",
-          "path": "sprites/Spr_UI_Fade_Black/a630700f-8eb9-42dc-ad3c-735175631711.png"
+          "name": "47757754-71ab-45c6-bff3-e71d9a7c3b5c",
+          "path": "sprites/Spr_UI_Fade_Black/47757754-71ab-45c6-bff3-e71d9a7c3b5c.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "a630700f-8eb9-42dc-ad3c-735175631711",
-            "path": "sprites/Spr_UI_Fade_Black/a630700f-8eb9-42dc-ad3c-735175631711.png"
+            "name": "47757754-71ab-45c6-bff3-e71d9a7c3b5c",
+            "path": "sprites/Spr_UI_Fade_Black/47757754-71ab-45c6-bff3-e71d9a7c3b5c.png"
           },
           "LayerId": {
-            "name": "12474993-fc0b-4a50-84c7-e24f939a5d09",
-            "path": "sprites/Spr_UI_Fade_Black/12474993-fc0b-4a50-84c7-e24f939a5d09.png"
+            "name": "58ea35de-3018-4b3b-ac59-4be98872df3a",
+            "path": "sprites/Spr_UI_Fade_Black/58ea35de-3018-4b3b-ac59-4be98872df3a.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "998df8be-9038-44f8-8083-bfae06f33274",
+              "id": "b3602e83-f95b-4b1f-83ec-ccf1036fd28b",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "a630700f-8eb9-42dc-ad3c-735175631711",
+                    "name": "47757754-71ab-45c6-bff3-e71d9a7c3b5c",
                     "path": "sprites/Spr_UI_Fade_Black/Spr_UI_Fade_Black.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "12474993-fc0b-4a50-84c7-e24f939a5d09",
+      "name": "58ea35de-3018-4b3b-ac59-4be98872df3a",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

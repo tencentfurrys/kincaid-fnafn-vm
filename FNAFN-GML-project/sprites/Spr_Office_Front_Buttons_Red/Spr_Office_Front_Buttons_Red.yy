@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "8e71f790-b096-4cd5-9554-63fadcf78c9f",
+      "name": "487404dd-fec4-44d1-9fd2-93f01830384d",
       "spriteId": {
         "name": "Spr_Office_Front_Buttons_Red",
         "path": "sprites/Spr_Office_Front_Buttons_Red/Spr_Office_Front_Buttons_Red.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "8e71f790-b096-4cd5-9554-63fadcf78c9f",
-          "path": "sprites/Spr_Office_Front_Buttons_Red/8e71f790-b096-4cd5-9554-63fadcf78c9f.png"
+          "name": "487404dd-fec4-44d1-9fd2-93f01830384d",
+          "path": "sprites/Spr_Office_Front_Buttons_Red/487404dd-fec4-44d1-9fd2-93f01830384d.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "8e71f790-b096-4cd5-9554-63fadcf78c9f",
-            "path": "sprites/Spr_Office_Front_Buttons_Red/8e71f790-b096-4cd5-9554-63fadcf78c9f.png"
+            "name": "487404dd-fec4-44d1-9fd2-93f01830384d",
+            "path": "sprites/Spr_Office_Front_Buttons_Red/487404dd-fec4-44d1-9fd2-93f01830384d.png"
           },
           "LayerId": {
-            "name": "b6bcde05-2549-46a5-8834-332e0fc8645d",
-            "path": "sprites/Spr_Office_Front_Buttons_Red/b6bcde05-2549-46a5-8834-332e0fc8645d.png"
+            "name": "e6dd8bb5-ca18-4f37-bafa-6d561c097fe0",
+            "path": "sprites/Spr_Office_Front_Buttons_Red/e6dd8bb5-ca18-4f37-bafa-6d561c097fe0.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "9d311dc1-24ba-4fc8-93fb-67a0ea6a541f",
+              "id": "15adf6d6-3e54-444c-80fa-176e1479814f",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "8e71f790-b096-4cd5-9554-63fadcf78c9f",
+                    "name": "487404dd-fec4-44d1-9fd2-93f01830384d",
                     "path": "sprites/Spr_Office_Front_Buttons_Red/Spr_Office_Front_Buttons_Red.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "b6bcde05-2549-46a5-8834-332e0fc8645d",
+      "name": "e6dd8bb5-ca18-4f37-bafa-6d561c097fe0",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

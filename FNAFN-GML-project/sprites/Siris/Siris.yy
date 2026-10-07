@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "20615f28-5f36-4818-93e4-0777b5e68736",
+      "name": "24f21f1d-58bc-40ef-8515-2c35f0fa7bd6",
       "spriteId": {
         "name": "Siris",
         "path": "sprites/Siris/Siris.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "20615f28-5f36-4818-93e4-0777b5e68736",
-          "path": "sprites/Siris/20615f28-5f36-4818-93e4-0777b5e68736.png"
+          "name": "24f21f1d-58bc-40ef-8515-2c35f0fa7bd6",
+          "path": "sprites/Siris/24f21f1d-58bc-40ef-8515-2c35f0fa7bd6.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "20615f28-5f36-4818-93e4-0777b5e68736",
-            "path": "sprites/Siris/20615f28-5f36-4818-93e4-0777b5e68736.png"
+            "name": "24f21f1d-58bc-40ef-8515-2c35f0fa7bd6",
+            "path": "sprites/Siris/24f21f1d-58bc-40ef-8515-2c35f0fa7bd6.png"
           },
           "LayerId": {
-            "name": "fc730046-dbf3-4c23-b035-41afbcbeb5fa",
-            "path": "sprites/Siris/fc730046-dbf3-4c23-b035-41afbcbeb5fa.png"
+            "name": "9f9bb091-cc7b-431c-8928-91caf92da3b2",
+            "path": "sprites/Siris/9f9bb091-cc7b-431c-8928-91caf92da3b2.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "338ea1ea-94de-4249-a436-72a48d50fdb0",
+              "id": "e17722a0-c014-4f89-a03c-780d7ca9ace2",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "20615f28-5f36-4818-93e4-0777b5e68736",
+                    "name": "24f21f1d-58bc-40ef-8515-2c35f0fa7bd6",
                     "path": "sprites/Siris/Siris.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "fc730046-dbf3-4c23-b035-41afbcbeb5fa",
+      "name": "9f9bb091-cc7b-431c-8928-91caf92da3b2",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

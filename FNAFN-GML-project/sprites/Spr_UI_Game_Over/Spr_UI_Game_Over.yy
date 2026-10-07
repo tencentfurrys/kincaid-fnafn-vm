@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "371e8fef-345e-4994-9315-071a9a7b0f5b",
+      "name": "f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a",
       "spriteId": {
         "name": "Spr_UI_Game_Over",
         "path": "sprites/Spr_UI_Game_Over/Spr_UI_Game_Over.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "371e8fef-345e-4994-9315-071a9a7b0f5b",
-          "path": "sprites/Spr_UI_Game_Over/371e8fef-345e-4994-9315-071a9a7b0f5b.png"
+          "name": "f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a",
+          "path": "sprites/Spr_UI_Game_Over/f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "371e8fef-345e-4994-9315-071a9a7b0f5b",
-            "path": "sprites/Spr_UI_Game_Over/371e8fef-345e-4994-9315-071a9a7b0f5b.png"
+            "name": "f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a",
+            "path": "sprites/Spr_UI_Game_Over/f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a.png"
           },
           "LayerId": {
-            "name": "0188e4bd-5448-4a16-9f44-39d6f5b0321c",
-            "path": "sprites/Spr_UI_Game_Over/0188e4bd-5448-4a16-9f44-39d6f5b0321c.png"
+            "name": "69197f83-304a-4105-9a22-d9429ba92b9f",
+            "path": "sprites/Spr_UI_Game_Over/69197f83-304a-4105-9a22-d9429ba92b9f.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "70b5d5b0-f18d-40f3-9350-14ef04cbdeb7",
+              "id": "6ec033fe-db27-4581-a595-85e8ef58bd66",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "371e8fef-345e-4994-9315-071a9a7b0f5b",
+                    "name": "f0291365-1ec5-4eeb-b76b-c12ccbdc6e6a",
                     "path": "sprites/Spr_UI_Game_Over/Spr_UI_Game_Over.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "0188e4bd-5448-4a16-9f44-39d6f5b0321c",
+      "name": "69197f83-304a-4105-9a22-d9429ba92b9f",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

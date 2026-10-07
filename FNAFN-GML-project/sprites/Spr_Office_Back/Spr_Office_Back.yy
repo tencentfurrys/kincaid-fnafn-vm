@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "75a4ce90-becf-4c22-8739-0a29fd2200ca",
+      "name": "c68b98c2-bc25-49f8-9237-fa186c4a2cf7",
       "spriteId": {
         "name": "Spr_Office_Back",
         "path": "sprites/Spr_Office_Back/Spr_Office_Back.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "75a4ce90-becf-4c22-8739-0a29fd2200ca",
-          "path": "sprites/Spr_Office_Back/75a4ce90-becf-4c22-8739-0a29fd2200ca.png"
+          "name": "c68b98c2-bc25-49f8-9237-fa186c4a2cf7",
+          "path": "sprites/Spr_Office_Back/c68b98c2-bc25-49f8-9237-fa186c4a2cf7.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "75a4ce90-becf-4c22-8739-0a29fd2200ca",
-            "path": "sprites/Spr_Office_Back/75a4ce90-becf-4c22-8739-0a29fd2200ca.png"
+            "name": "c68b98c2-bc25-49f8-9237-fa186c4a2cf7",
+            "path": "sprites/Spr_Office_Back/c68b98c2-bc25-49f8-9237-fa186c4a2cf7.png"
           },
           "LayerId": {
-            "name": "47d6b320-6b5a-44d0-871e-bd0536e3c4f8",
-            "path": "sprites/Spr_Office_Back/47d6b320-6b5a-44d0-871e-bd0536e3c4f8.png"
+            "name": "6ecddb3f-b1dd-4803-a009-016673a40825",
+            "path": "sprites/Spr_Office_Back/6ecddb3f-b1dd-4803-a009-016673a40825.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "b84538ed-bf9c-4b82-9bcd-dc91ea68ae20",
+              "id": "a7c9cfd5-bfa1-4fa4-8057-8e1fddabab89",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "75a4ce90-becf-4c22-8739-0a29fd2200ca",
+                    "name": "c68b98c2-bc25-49f8-9237-fa186c4a2cf7",
                     "path": "sprites/Spr_Office_Back/Spr_Office_Back.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "47d6b320-6b5a-44d0-871e-bd0536e3c4f8",
+      "name": "6ecddb3f-b1dd-4803-a009-016673a40825",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

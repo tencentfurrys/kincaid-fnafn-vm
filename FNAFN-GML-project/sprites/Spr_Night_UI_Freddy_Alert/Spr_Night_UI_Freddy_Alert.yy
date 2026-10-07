@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "076792ae-133b-4bf2-87f4-d5fb6b02c98a",
+      "name": "5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd",
       "spriteId": {
         "name": "Spr_Night_UI_Freddy_Alert",
         "path": "sprites/Spr_Night_UI_Freddy_Alert/Spr_Night_UI_Freddy_Alert.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "076792ae-133b-4bf2-87f4-d5fb6b02c98a",
-          "path": "sprites/Spr_Night_UI_Freddy_Alert/076792ae-133b-4bf2-87f4-d5fb6b02c98a.png"
+          "name": "5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd",
+          "path": "sprites/Spr_Night_UI_Freddy_Alert/5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "076792ae-133b-4bf2-87f4-d5fb6b02c98a",
-            "path": "sprites/Spr_Night_UI_Freddy_Alert/076792ae-133b-4bf2-87f4-d5fb6b02c98a.png"
+            "name": "5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd",
+            "path": "sprites/Spr_Night_UI_Freddy_Alert/5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd.png"
           },
           "LayerId": {
-            "name": "b37fc7f6-757a-44f6-a6da-a1e65fc40c42",
-            "path": "sprites/Spr_Night_UI_Freddy_Alert/b37fc7f6-757a-44f6-a6da-a1e65fc40c42.png"
+            "name": "0fccd15f-634e-48ce-94bc-ce9c4f945291",
+            "path": "sprites/Spr_Night_UI_Freddy_Alert/0fccd15f-634e-48ce-94bc-ce9c4f945291.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "61865a93-3131-4cb7-a58a-95a918bd364c",
+              "id": "35d63fbd-eaf5-41aa-af0e-3ca022b67d1f",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "076792ae-133b-4bf2-87f4-d5fb6b02c98a",
+                    "name": "5ab3cce4-dc5b-4612-bc70-c07fa9caf8bd",
                     "path": "sprites/Spr_Night_UI_Freddy_Alert/Spr_Night_UI_Freddy_Alert.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "b37fc7f6-757a-44f6-a6da-a1e65fc40c42",
+      "name": "0fccd15f-634e-48ce-94bc-ce9c4f945291",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

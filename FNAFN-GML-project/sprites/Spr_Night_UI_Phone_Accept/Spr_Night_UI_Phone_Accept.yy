@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "3616406d-601d-4952-99e7-a039d1c6e742",
+      "name": "dc691d10-8d41-404b-aa71-5fd63ce4cab9",
       "spriteId": {
         "name": "Spr_Night_UI_Phone_Accept",
         "path": "sprites/Spr_Night_UI_Phone_Accept/Spr_Night_UI_Phone_Accept.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "3616406d-601d-4952-99e7-a039d1c6e742",
-          "path": "sprites/Spr_Night_UI_Phone_Accept/3616406d-601d-4952-99e7-a039d1c6e742.png"
+          "name": "dc691d10-8d41-404b-aa71-5fd63ce4cab9",
+          "path": "sprites/Spr_Night_UI_Phone_Accept/dc691d10-8d41-404b-aa71-5fd63ce4cab9.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "3616406d-601d-4952-99e7-a039d1c6e742",
-            "path": "sprites/Spr_Night_UI_Phone_Accept/3616406d-601d-4952-99e7-a039d1c6e742.png"
+            "name": "dc691d10-8d41-404b-aa71-5fd63ce4cab9",
+            "path": "sprites/Spr_Night_UI_Phone_Accept/dc691d10-8d41-404b-aa71-5fd63ce4cab9.png"
           },
           "LayerId": {
-            "name": "aaba2787-2b04-4ea8-a8f0-bba9830bb8e1",
-            "path": "sprites/Spr_Night_UI_Phone_Accept/aaba2787-2b04-4ea8-a8f0-bba9830bb8e1.png"
+            "name": "0e4205b8-0e35-41a2-95ed-f29f3347a0e1",
+            "path": "sprites/Spr_Night_UI_Phone_Accept/0e4205b8-0e35-41a2-95ed-f29f3347a0e1.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "96ce84c2-0380-4844-95c4-94ae65d743a3",
+              "id": "189d1f78-437c-4166-a6e9-f736cffa49e9",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "3616406d-601d-4952-99e7-a039d1c6e742",
+                    "name": "dc691d10-8d41-404b-aa71-5fd63ce4cab9",
                     "path": "sprites/Spr_Night_UI_Phone_Accept/Spr_Night_UI_Phone_Accept.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "aaba2787-2b04-4ea8-a8f0-bba9830bb8e1",
+      "name": "0e4205b8-0e35-41a2-95ed-f29f3347a0e1",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "111431eb-ea14-4277-8389-4860b52d1c05",
+      "name": "b3797e22-ae5f-4913-922a-e31c7390c784",
       "spriteId": {
         "name": "Spr_Night_Music_Switch",
         "path": "sprites/Spr_Night_Music_Switch/Spr_Night_Music_Switch.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "111431eb-ea14-4277-8389-4860b52d1c05",
-          "path": "sprites/Spr_Night_Music_Switch/111431eb-ea14-4277-8389-4860b52d1c05.png"
+          "name": "b3797e22-ae5f-4913-922a-e31c7390c784",
+          "path": "sprites/Spr_Night_Music_Switch/b3797e22-ae5f-4913-922a-e31c7390c784.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "111431eb-ea14-4277-8389-4860b52d1c05",
-            "path": "sprites/Spr_Night_Music_Switch/111431eb-ea14-4277-8389-4860b52d1c05.png"
+            "name": "b3797e22-ae5f-4913-922a-e31c7390c784",
+            "path": "sprites/Spr_Night_Music_Switch/b3797e22-ae5f-4913-922a-e31c7390c784.png"
           },
           "LayerId": {
-            "name": "f3c362c3-df72-4809-85d7-1d05bb363e32",
-            "path": "sprites/Spr_Night_Music_Switch/f3c362c3-df72-4809-85d7-1d05bb363e32.png"
+            "name": "2cabb0d2-d217-4534-af3d-e2fe63b41f53",
+            "path": "sprites/Spr_Night_Music_Switch/2cabb0d2-d217-4534-af3d-e2fe63b41f53.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "e6b4753d-7a04-4507-80bb-4a3dcb2b2a45",
+              "id": "b0ca3a70-e43b-41a3-8073-6978a5071151",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "111431eb-ea14-4277-8389-4860b52d1c05",
+                    "name": "b3797e22-ae5f-4913-922a-e31c7390c784",
                     "path": "sprites/Spr_Night_Music_Switch/Spr_Night_Music_Switch.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "f3c362c3-df72-4809-85d7-1d05bb363e32",
+      "name": "2cabb0d2-d217-4534-af3d-e2fe63b41f53",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

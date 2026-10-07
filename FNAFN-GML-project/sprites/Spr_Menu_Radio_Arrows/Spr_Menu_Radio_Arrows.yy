@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "e5e24dfe-9bc9-45a2-bb0b-451cf707a26f",
+      "name": "10c028c1-bfcc-49e2-a216-f27e2634cd36",
       "spriteId": {
         "name": "Spr_Menu_Radio_Arrows",
         "path": "sprites/Spr_Menu_Radio_Arrows/Spr_Menu_Radio_Arrows.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "e5e24dfe-9bc9-45a2-bb0b-451cf707a26f",
-          "path": "sprites/Spr_Menu_Radio_Arrows/e5e24dfe-9bc9-45a2-bb0b-451cf707a26f.png"
+          "name": "10c028c1-bfcc-49e2-a216-f27e2634cd36",
+          "path": "sprites/Spr_Menu_Radio_Arrows/10c028c1-bfcc-49e2-a216-f27e2634cd36.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "e5e24dfe-9bc9-45a2-bb0b-451cf707a26f",
-            "path": "sprites/Spr_Menu_Radio_Arrows/e5e24dfe-9bc9-45a2-bb0b-451cf707a26f.png"
+            "name": "10c028c1-bfcc-49e2-a216-f27e2634cd36",
+            "path": "sprites/Spr_Menu_Radio_Arrows/10c028c1-bfcc-49e2-a216-f27e2634cd36.png"
           },
           "LayerId": {
-            "name": "2a45f6e8-1a31-4e04-9a0b-394a614b8318",
-            "path": "sprites/Spr_Menu_Radio_Arrows/2a45f6e8-1a31-4e04-9a0b-394a614b8318.png"
+            "name": "d1e17728-4f12-4903-aae0-c0ba69d2d92b",
+            "path": "sprites/Spr_Menu_Radio_Arrows/d1e17728-4f12-4903-aae0-c0ba69d2d92b.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "e95430e9-fe49-46eb-b31d-c9fa7dd8aec9",
+              "id": "4860771b-cbcb-4810-be73-8d700893bfde",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "e5e24dfe-9bc9-45a2-bb0b-451cf707a26f",
+                    "name": "10c028c1-bfcc-49e2-a216-f27e2634cd36",
                     "path": "sprites/Spr_Menu_Radio_Arrows/Spr_Menu_Radio_Arrows.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "2a45f6e8-1a31-4e04-9a0b-394a614b8318",
+      "name": "d1e17728-4f12-4903-aae0-c0ba69d2d92b",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

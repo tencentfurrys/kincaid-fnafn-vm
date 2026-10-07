@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "ad719070-3f43-4d11-af87-90ad24effb26",
+      "name": "9daffe05-0b4b-4340-9a30-580fa4af4a1d",
       "spriteId": {
         "name": "Spr_Menu_Loading_Spinner",
         "path": "sprites/Spr_Menu_Loading_Spinner/Spr_Menu_Loading_Spinner.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "ad719070-3f43-4d11-af87-90ad24effb26",
-          "path": "sprites/Spr_Menu_Loading_Spinner/ad719070-3f43-4d11-af87-90ad24effb26.png"
+          "name": "9daffe05-0b4b-4340-9a30-580fa4af4a1d",
+          "path": "sprites/Spr_Menu_Loading_Spinner/9daffe05-0b4b-4340-9a30-580fa4af4a1d.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "ad719070-3f43-4d11-af87-90ad24effb26",
-            "path": "sprites/Spr_Menu_Loading_Spinner/ad719070-3f43-4d11-af87-90ad24effb26.png"
+            "name": "9daffe05-0b4b-4340-9a30-580fa4af4a1d",
+            "path": "sprites/Spr_Menu_Loading_Spinner/9daffe05-0b4b-4340-9a30-580fa4af4a1d.png"
           },
           "LayerId": {
-            "name": "e7cfffa3-5484-4d83-8293-6480d469ec93",
-            "path": "sprites/Spr_Menu_Loading_Spinner/e7cfffa3-5484-4d83-8293-6480d469ec93.png"
+            "name": "3a4daa9f-426c-4c70-ad8a-c842c952425a",
+            "path": "sprites/Spr_Menu_Loading_Spinner/3a4daa9f-426c-4c70-ad8a-c842c952425a.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "6ff80573-959a-42b3-ae53-d89dd2ac3eae",
+              "id": "e44d4d0c-6b96-4d28-8c58-ca63321d8e8b",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "ad719070-3f43-4d11-af87-90ad24effb26",
+                    "name": "9daffe05-0b4b-4340-9a30-580fa4af4a1d",
                     "path": "sprites/Spr_Menu_Loading_Spinner/Spr_Menu_Loading_Spinner.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "e7cfffa3-5484-4d83-8293-6480d469ec93",
+      "name": "3a4daa9f-426c-4c70-ad8a-c842c952425a",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

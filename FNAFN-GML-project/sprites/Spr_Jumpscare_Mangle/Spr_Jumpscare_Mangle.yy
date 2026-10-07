@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "1ff7a287-f867-448e-8af1-f424d80c01eb",
+      "name": "e166e9e8-87ea-4cdc-a989-16ab447965e4",
       "spriteId": {
         "name": "Spr_Jumpscare_Mangle",
         "path": "sprites/Spr_Jumpscare_Mangle/Spr_Jumpscare_Mangle.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "1ff7a287-f867-448e-8af1-f424d80c01eb",
-          "path": "sprites/Spr_Jumpscare_Mangle/1ff7a287-f867-448e-8af1-f424d80c01eb.png"
+          "name": "e166e9e8-87ea-4cdc-a989-16ab447965e4",
+          "path": "sprites/Spr_Jumpscare_Mangle/e166e9e8-87ea-4cdc-a989-16ab447965e4.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "1ff7a287-f867-448e-8af1-f424d80c01eb",
-            "path": "sprites/Spr_Jumpscare_Mangle/1ff7a287-f867-448e-8af1-f424d80c01eb.png"
+            "name": "e166e9e8-87ea-4cdc-a989-16ab447965e4",
+            "path": "sprites/Spr_Jumpscare_Mangle/e166e9e8-87ea-4cdc-a989-16ab447965e4.png"
           },
           "LayerId": {
-            "name": "0f12e878-ba81-462d-80f7-e75647331ec4",
-            "path": "sprites/Spr_Jumpscare_Mangle/0f12e878-ba81-462d-80f7-e75647331ec4.png"
+            "name": "63df8776-e887-441a-892e-1834c4b7ecf6",
+            "path": "sprites/Spr_Jumpscare_Mangle/63df8776-e887-441a-892e-1834c4b7ecf6.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "53959d76-a6f1-416e-9614-1ca0d9c69d8e",
+              "id": "34315b6d-e9d1-4ada-aa8d-406b4100c196",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "1ff7a287-f867-448e-8af1-f424d80c01eb",
+                    "name": "e166e9e8-87ea-4cdc-a989-16ab447965e4",
                     "path": "sprites/Spr_Jumpscare_Mangle/Spr_Jumpscare_Mangle.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "0f12e878-ba81-462d-80f7-e75647331ec4",
+      "name": "63df8776-e887-441a-892e-1834c4b7ecf6",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

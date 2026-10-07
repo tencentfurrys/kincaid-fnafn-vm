@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "3cb5fe14-7e7a-4e6f-939d-54b5a226e7e8",
+      "name": "d1cd9719-1663-417a-be5c-c7dc80a631b8",
       "spriteId": {
         "name": "Spr_Office_Back_Flashlight",
         "path": "sprites/Spr_Office_Back_Flashlight/Spr_Office_Back_Flashlight.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "3cb5fe14-7e7a-4e6f-939d-54b5a226e7e8",
-          "path": "sprites/Spr_Office_Back_Flashlight/3cb5fe14-7e7a-4e6f-939d-54b5a226e7e8.png"
+          "name": "d1cd9719-1663-417a-be5c-c7dc80a631b8",
+          "path": "sprites/Spr_Office_Back_Flashlight/d1cd9719-1663-417a-be5c-c7dc80a631b8.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "3cb5fe14-7e7a-4e6f-939d-54b5a226e7e8",
-            "path": "sprites/Spr_Office_Back_Flashlight/3cb5fe14-7e7a-4e6f-939d-54b5a226e7e8.png"
+            "name": "d1cd9719-1663-417a-be5c-c7dc80a631b8",
+            "path": "sprites/Spr_Office_Back_Flashlight/d1cd9719-1663-417a-be5c-c7dc80a631b8.png"
           },
           "LayerId": {
-            "name": "e93999b6-c832-4b26-887e-118c65237214",
-            "path": "sprites/Spr_Office_Back_Flashlight/e93999b6-c832-4b26-887e-118c65237214.png"
+            "name": "34dca35b-9f65-41f8-bdd4-040ac5c5796e",
+            "path": "sprites/Spr_Office_Back_Flashlight/34dca35b-9f65-41f8-bdd4-040ac5c5796e.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "5deab22f-fa6b-4c11-9bbf-15bc49e9e040",
+              "id": "de470adb-01a3-4527-9933-d0de8e5f4f9f",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "3cb5fe14-7e7a-4e6f-939d-54b5a226e7e8",
+                    "name": "d1cd9719-1663-417a-be5c-c7dc80a631b8",
                     "path": "sprites/Spr_Office_Back_Flashlight/Spr_Office_Back_Flashlight.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "e93999b6-c832-4b26-887e-118c65237214",
+      "name": "34dca35b-9f65-41f8-bdd4-040ac5c5796e",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

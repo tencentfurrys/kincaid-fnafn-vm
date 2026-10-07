@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "65f13a7f-7803-4f97-a127-917fd934d1a6",
+      "name": "52fbf697-a0ba-4a9a-80e1-6417376e9ed0",
       "spriteId": {
         "name": "Spr_Menu_Options_Previews",
         "path": "sprites/Spr_Menu_Options_Previews/Spr_Menu_Options_Previews.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "65f13a7f-7803-4f97-a127-917fd934d1a6",
-          "path": "sprites/Spr_Menu_Options_Previews/65f13a7f-7803-4f97-a127-917fd934d1a6.png"
+          "name": "52fbf697-a0ba-4a9a-80e1-6417376e9ed0",
+          "path": "sprites/Spr_Menu_Options_Previews/52fbf697-a0ba-4a9a-80e1-6417376e9ed0.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "65f13a7f-7803-4f97-a127-917fd934d1a6",
-            "path": "sprites/Spr_Menu_Options_Previews/65f13a7f-7803-4f97-a127-917fd934d1a6.png"
+            "name": "52fbf697-a0ba-4a9a-80e1-6417376e9ed0",
+            "path": "sprites/Spr_Menu_Options_Previews/52fbf697-a0ba-4a9a-80e1-6417376e9ed0.png"
           },
           "LayerId": {
-            "name": "a3f00a20-22bf-43ce-a528-b146f04e6221",
-            "path": "sprites/Spr_Menu_Options_Previews/a3f00a20-22bf-43ce-a528-b146f04e6221.png"
+            "name": "d0494aaf-9c2c-4b13-92d0-c62b2eaef079",
+            "path": "sprites/Spr_Menu_Options_Previews/d0494aaf-9c2c-4b13-92d0-c62b2eaef079.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "2d1ec1b0-27eb-498e-8978-49f8f3525d6c",
+              "id": "9d9cfee4-c820-44eb-9bb2-9b82a7de21df",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "65f13a7f-7803-4f97-a127-917fd934d1a6",
+                    "name": "52fbf697-a0ba-4a9a-80e1-6417376e9ed0",
                     "path": "sprites/Spr_Menu_Options_Previews/Spr_Menu_Options_Previews.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "a3f00a20-22bf-43ce-a528-b146f04e6221",
+      "name": "d0494aaf-9c2c-4b13-92d0-c62b2eaef079",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

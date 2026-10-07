@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "a1f36f5f-c5e8-40bc-aac7-74486e60a26b",
+      "name": "18ddb066-6c4e-4f5b-90b8-34ebe6f5d6d7",
       "spriteId": {
         "name": "Sglow",
         "path": "sprites/Sglow/Sglow.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "a1f36f5f-c5e8-40bc-aac7-74486e60a26b",
-          "path": "sprites/Sglow/a1f36f5f-c5e8-40bc-aac7-74486e60a26b.png"
+          "name": "18ddb066-6c4e-4f5b-90b8-34ebe6f5d6d7",
+          "path": "sprites/Sglow/18ddb066-6c4e-4f5b-90b8-34ebe6f5d6d7.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "a1f36f5f-c5e8-40bc-aac7-74486e60a26b",
-            "path": "sprites/Sglow/a1f36f5f-c5e8-40bc-aac7-74486e60a26b.png"
+            "name": "18ddb066-6c4e-4f5b-90b8-34ebe6f5d6d7",
+            "path": "sprites/Sglow/18ddb066-6c4e-4f5b-90b8-34ebe6f5d6d7.png"
           },
           "LayerId": {
-            "name": "c27dfef6-9225-4506-a854-dd2e2cb2a855",
-            "path": "sprites/Sglow/c27dfef6-9225-4506-a854-dd2e2cb2a855.png"
+            "name": "242f612e-e9a1-4e00-911b-766122d11f8e",
+            "path": "sprites/Sglow/242f612e-e9a1-4e00-911b-766122d11f8e.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "1d79a2ad-db1e-4e34-89a2-993f15c40523",
+              "id": "6705100b-306a-4792-b4c2-7df55b4c6f96",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "a1f36f5f-c5e8-40bc-aac7-74486e60a26b",
+                    "name": "18ddb066-6c4e-4f5b-90b8-34ebe6f5d6d7",
                     "path": "sprites/Sglow/Sglow.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "c27dfef6-9225-4506-a854-dd2e2cb2a855",
+      "name": "242f612e-e9a1-4e00-911b-766122d11f8e",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

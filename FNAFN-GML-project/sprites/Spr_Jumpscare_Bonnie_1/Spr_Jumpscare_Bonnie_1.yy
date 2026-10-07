@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "4ca5ad18-3e86-4231-ae86-70a6d8d5a9ee",
+      "name": "44c8fc80-dc47-4c03-ac33-dd357d28d953",
       "spriteId": {
         "name": "Spr_Jumpscare_Bonnie_1",
         "path": "sprites/Spr_Jumpscare_Bonnie_1/Spr_Jumpscare_Bonnie_1.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "4ca5ad18-3e86-4231-ae86-70a6d8d5a9ee",
-          "path": "sprites/Spr_Jumpscare_Bonnie_1/4ca5ad18-3e86-4231-ae86-70a6d8d5a9ee.png"
+          "name": "44c8fc80-dc47-4c03-ac33-dd357d28d953",
+          "path": "sprites/Spr_Jumpscare_Bonnie_1/44c8fc80-dc47-4c03-ac33-dd357d28d953.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "4ca5ad18-3e86-4231-ae86-70a6d8d5a9ee",
-            "path": "sprites/Spr_Jumpscare_Bonnie_1/4ca5ad18-3e86-4231-ae86-70a6d8d5a9ee.png"
+            "name": "44c8fc80-dc47-4c03-ac33-dd357d28d953",
+            "path": "sprites/Spr_Jumpscare_Bonnie_1/44c8fc80-dc47-4c03-ac33-dd357d28d953.png"
           },
           "LayerId": {
-            "name": "a5010c71-5034-45c1-9e4f-b35da2b00555",
-            "path": "sprites/Spr_Jumpscare_Bonnie_1/a5010c71-5034-45c1-9e4f-b35da2b00555.png"
+            "name": "1543d695-d73e-4c72-88a3-74bc606bb654",
+            "path": "sprites/Spr_Jumpscare_Bonnie_1/1543d695-d73e-4c72-88a3-74bc606bb654.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "c552e10a-aad8-4f83-9bd3-23c670b805fb",
+              "id": "31295d4e-e8fc-4ef9-bb60-2bffd43b0e8b",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "4ca5ad18-3e86-4231-ae86-70a6d8d5a9ee",
+                    "name": "44c8fc80-dc47-4c03-ac33-dd357d28d953",
                     "path": "sprites/Spr_Jumpscare_Bonnie_1/Spr_Jumpscare_Bonnie_1.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "a5010c71-5034-45c1-9e4f-b35da2b00555",
+      "name": "1543d695-d73e-4c72-88a3-74bc606bb654",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

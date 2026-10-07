@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "ab6d0884-d2dd-444e-9ae4-89fd52197fbf",
+      "name": "0d3d9b04-185b-400b-b679-7bfc072396bd",
       "spriteId": {
         "name": "Spr_Vent_Cam_3",
         "path": "sprites/Spr_Vent_Cam_3/Spr_Vent_Cam_3.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "ab6d0884-d2dd-444e-9ae4-89fd52197fbf",
-          "path": "sprites/Spr_Vent_Cam_3/ab6d0884-d2dd-444e-9ae4-89fd52197fbf.png"
+          "name": "0d3d9b04-185b-400b-b679-7bfc072396bd",
+          "path": "sprites/Spr_Vent_Cam_3/0d3d9b04-185b-400b-b679-7bfc072396bd.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "ab6d0884-d2dd-444e-9ae4-89fd52197fbf",
-            "path": "sprites/Spr_Vent_Cam_3/ab6d0884-d2dd-444e-9ae4-89fd52197fbf.png"
+            "name": "0d3d9b04-185b-400b-b679-7bfc072396bd",
+            "path": "sprites/Spr_Vent_Cam_3/0d3d9b04-185b-400b-b679-7bfc072396bd.png"
           },
           "LayerId": {
-            "name": "344fef68-5725-48c4-93c2-04ffb9cab461",
-            "path": "sprites/Spr_Vent_Cam_3/344fef68-5725-48c4-93c2-04ffb9cab461.png"
+            "name": "55b09935-3ed3-43b6-a6d7-c004a8701b4d",
+            "path": "sprites/Spr_Vent_Cam_3/55b09935-3ed3-43b6-a6d7-c004a8701b4d.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "6af9be76-359f-418f-a315-aa9218af3cf7",
+              "id": "706596ac-740d-4ca5-a5db-0528621f8221",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "ab6d0884-d2dd-444e-9ae4-89fd52197fbf",
+                    "name": "0d3d9b04-185b-400b-b679-7bfc072396bd",
                     "path": "sprites/Spr_Vent_Cam_3/Spr_Vent_Cam_3.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "344fef68-5725-48c4-93c2-04ffb9cab461",
+      "name": "55b09935-3ed3-43b6-a6d7-c004a8701b4d",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

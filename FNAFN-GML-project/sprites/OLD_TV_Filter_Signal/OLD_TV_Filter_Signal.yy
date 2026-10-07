@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "86ef9967-75cd-4cbc-b999-839c03002611",
+      "name": "5b30eb3b-b4f4-4431-a519-3458f72c5ef1",
       "spriteId": {
         "name": "OLD_TV_Filter_Signal",
         "path": "sprites/OLD_TV_Filter_Signal/OLD_TV_Filter_Signal.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "86ef9967-75cd-4cbc-b999-839c03002611",
-          "path": "sprites/OLD_TV_Filter_Signal/86ef9967-75cd-4cbc-b999-839c03002611.png"
+          "name": "5b30eb3b-b4f4-4431-a519-3458f72c5ef1",
+          "path": "sprites/OLD_TV_Filter_Signal/5b30eb3b-b4f4-4431-a519-3458f72c5ef1.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "86ef9967-75cd-4cbc-b999-839c03002611",
-            "path": "sprites/OLD_TV_Filter_Signal/86ef9967-75cd-4cbc-b999-839c03002611.png"
+            "name": "5b30eb3b-b4f4-4431-a519-3458f72c5ef1",
+            "path": "sprites/OLD_TV_Filter_Signal/5b30eb3b-b4f4-4431-a519-3458f72c5ef1.png"
           },
           "LayerId": {
-            "name": "01b14e4e-42be-44db-a537-9a2073a9b9a1",
-            "path": "sprites/OLD_TV_Filter_Signal/01b14e4e-42be-44db-a537-9a2073a9b9a1.png"
+            "name": "86021fbe-cfad-4fa4-99d0-11256920b14b",
+            "path": "sprites/OLD_TV_Filter_Signal/86021fbe-cfad-4fa4-99d0-11256920b14b.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "de22c232-d03a-4878-8723-df63da6cf97a",
+              "id": "f5955424-7612-4fad-a8ff-a215e41643d6",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "86ef9967-75cd-4cbc-b999-839c03002611",
+                    "name": "5b30eb3b-b4f4-4431-a519-3458f72c5ef1",
                     "path": "sprites/OLD_TV_Filter_Signal/OLD_TV_Filter_Signal.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "01b14e4e-42be-44db-a537-9a2073a9b9a1",
+      "name": "86021fbe-cfad-4fa4-99d0-11256920b14b",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

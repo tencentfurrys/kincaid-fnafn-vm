@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "26289148-54df-4c17-8e48-86a187cdcaf2",
+      "name": "9aab925f-de96-4f13-8ee2-a5a92c6707e8",
       "spriteId": {
         "name": "Spr_Night_Camera_Flash_Recharge",
         "path": "sprites/Spr_Night_Camera_Flash_Recharge/Spr_Night_Camera_Flash_Recharge.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "26289148-54df-4c17-8e48-86a187cdcaf2",
-          "path": "sprites/Spr_Night_Camera_Flash_Recharge/26289148-54df-4c17-8e48-86a187cdcaf2.png"
+          "name": "9aab925f-de96-4f13-8ee2-a5a92c6707e8",
+          "path": "sprites/Spr_Night_Camera_Flash_Recharge/9aab925f-de96-4f13-8ee2-a5a92c6707e8.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "26289148-54df-4c17-8e48-86a187cdcaf2",
-            "path": "sprites/Spr_Night_Camera_Flash_Recharge/26289148-54df-4c17-8e48-86a187cdcaf2.png"
+            "name": "9aab925f-de96-4f13-8ee2-a5a92c6707e8",
+            "path": "sprites/Spr_Night_Camera_Flash_Recharge/9aab925f-de96-4f13-8ee2-a5a92c6707e8.png"
           },
           "LayerId": {
-            "name": "f40c3010-7941-4da4-8612-103d5cac8a51",
-            "path": "sprites/Spr_Night_Camera_Flash_Recharge/f40c3010-7941-4da4-8612-103d5cac8a51.png"
+            "name": "2ed5e972-d2c4-4e0c-b7cf-267981e29070",
+            "path": "sprites/Spr_Night_Camera_Flash_Recharge/2ed5e972-d2c4-4e0c-b7cf-267981e29070.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "13cbea2d-127b-4a96-812d-88a80617ad1d",
+              "id": "92075d88-21a1-4f56-82b1-2917109e6986",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "26289148-54df-4c17-8e48-86a187cdcaf2",
+                    "name": "9aab925f-de96-4f13-8ee2-a5a92c6707e8",
                     "path": "sprites/Spr_Night_Camera_Flash_Recharge/Spr_Night_Camera_Flash_Recharge.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "f40c3010-7941-4da4-8612-103d5cac8a51",
+      "name": "2ed5e972-d2c4-4e0c-b7cf-267981e29070",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

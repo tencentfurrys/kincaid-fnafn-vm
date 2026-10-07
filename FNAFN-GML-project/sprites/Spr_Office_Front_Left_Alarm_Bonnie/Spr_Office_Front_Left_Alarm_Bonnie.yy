@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "4a4169f3-5c63-4131-8c1a-24575c4f0a3b",
+      "name": "91fe0ade-d1ed-49e2-a672-cda94f20d4ba",
       "spriteId": {
         "name": "Spr_Office_Front_Left_Alarm_Bonnie",
         "path": "sprites/Spr_Office_Front_Left_Alarm_Bonnie/Spr_Office_Front_Left_Alarm_Bonnie.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "4a4169f3-5c63-4131-8c1a-24575c4f0a3b",
-          "path": "sprites/Spr_Office_Front_Left_Alarm_Bonnie/4a4169f3-5c63-4131-8c1a-24575c4f0a3b.png"
+          "name": "91fe0ade-d1ed-49e2-a672-cda94f20d4ba",
+          "path": "sprites/Spr_Office_Front_Left_Alarm_Bonnie/91fe0ade-d1ed-49e2-a672-cda94f20d4ba.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "4a4169f3-5c63-4131-8c1a-24575c4f0a3b",
-            "path": "sprites/Spr_Office_Front_Left_Alarm_Bonnie/4a4169f3-5c63-4131-8c1a-24575c4f0a3b.png"
+            "name": "91fe0ade-d1ed-49e2-a672-cda94f20d4ba",
+            "path": "sprites/Spr_Office_Front_Left_Alarm_Bonnie/91fe0ade-d1ed-49e2-a672-cda94f20d4ba.png"
           },
           "LayerId": {
-            "name": "2ed21a1b-0630-4d02-bae1-d74d2c6b0b71",
-            "path": "sprites/Spr_Office_Front_Left_Alarm_Bonnie/2ed21a1b-0630-4d02-bae1-d74d2c6b0b71.png"
+            "name": "ba19139a-c898-4fb4-aef6-0ac3e2d1b578",
+            "path": "sprites/Spr_Office_Front_Left_Alarm_Bonnie/ba19139a-c898-4fb4-aef6-0ac3e2d1b578.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "694a6a29-ae47-4a0f-bbc9-0f6c086238c8",
+              "id": "f83aabb8-8a73-4c62-833b-999eedf0ada5",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "4a4169f3-5c63-4131-8c1a-24575c4f0a3b",
+                    "name": "91fe0ade-d1ed-49e2-a672-cda94f20d4ba",
                     "path": "sprites/Spr_Office_Front_Left_Alarm_Bonnie/Spr_Office_Front_Left_Alarm_Bonnie.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "2ed21a1b-0630-4d02-bae1-d74d2c6b0b71",
+      "name": "ba19139a-c898-4fb4-aef6-0ac3e2d1b578",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,

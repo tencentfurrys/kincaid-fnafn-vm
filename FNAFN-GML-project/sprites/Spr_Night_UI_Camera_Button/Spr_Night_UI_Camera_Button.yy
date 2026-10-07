@@ -31,7 +31,7 @@
     {
       "resourceType": "GMSpriteFrame",
       "resourceVersion": "1.1",
-      "name": "d17414bf-64c8-4caa-9a6d-2c6ab07bc181",
+      "name": "3d5db13c-a905-49c6-ad21-1aa4e2fb1135",
       "spriteId": {
         "name": "Spr_Night_UI_Camera_Button",
         "path": "sprites/Spr_Night_UI_Camera_Button/Spr_Night_UI_Camera_Button.yy"
@@ -41,8 +41,8 @@
         "resourceVersion": "1.0",
         "name": "",
         "FrameId": {
-          "name": "d17414bf-64c8-4caa-9a6d-2c6ab07bc181",
-          "path": "sprites/Spr_Night_UI_Camera_Button/d17414bf-64c8-4caa-9a6d-2c6ab07bc181.png"
+          "name": "3d5db13c-a905-49c6-ad21-1aa4e2fb1135",
+          "path": "sprites/Spr_Night_UI_Camera_Button/3d5db13c-a905-49c6-ad21-1aa4e2fb1135.png"
         },
         "LayerId": null
       },
@@ -52,12 +52,12 @@
           "resourceVersion": "1.0",
           "name": "",
           "FrameId": {
-            "name": "d17414bf-64c8-4caa-9a6d-2c6ab07bc181",
-            "path": "sprites/Spr_Night_UI_Camera_Button/d17414bf-64c8-4caa-9a6d-2c6ab07bc181.png"
+            "name": "3d5db13c-a905-49c6-ad21-1aa4e2fb1135",
+            "path": "sprites/Spr_Night_UI_Camera_Button/3d5db13c-a905-49c6-ad21-1aa4e2fb1135.png"
           },
           "LayerId": {
-            "name": "7b2e1bae-df0f-4e44-b547-4ef334ea7265",
-            "path": "sprites/Spr_Night_UI_Camera_Button/7b2e1bae-df0f-4e44-b547-4ef334ea7265.png"
+            "name": "c41c657d-270c-4f23-b99d-94b56efb7cec",
+            "path": "sprites/Spr_Night_UI_Camera_Button/c41c657d-270c-4f23-b99d-94b56efb7cec.png"
           }
         }
       ],
@@ -99,7 +99,7 @@
             {
               "resourceType": "Keyframe",
               "resourceVersion": "1.0",
-              "id": "e0419018-c3fd-4d1d-992c-472d6ad80b9f",
+              "id": "7b9dac3c-1550-4885-8e41-ae5b37e4fcfe",
               "Key": 0.0,
               "Length": 1.0,
               "Stretch": false,
@@ -110,7 +110,7 @@
                   "resourceType": "SpriteFrameKeyframe",
                   "resourceVersion": "1.0",
                   "Id": {
-                    "name": "d17414bf-64c8-4caa-9a6d-2c6ab07bc181",
+                    "name": "3d5db13c-a905-49c6-ad21-1aa4e2fb1135",
                     "path": "sprites/Spr_Night_UI_Camera_Button/Spr_Night_UI_Camera_Button.yy"
                   }
                 }
@@ -153,7 +153,7 @@
     {
       "resourceType": "GMSpriteLayer",
       "resourceVersion": "1.0",
-      "name": "7b2e1bae-df0f-4e44-b547-4ef334ea7265",
+      "name": "c41c657d-270c-4f23-b99d-94b56efb7cec",
       "visible": true,
       "hspeed": 0.0,
       "vspeed": 0.0,
