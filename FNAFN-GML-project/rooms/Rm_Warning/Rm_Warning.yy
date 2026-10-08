@@ -155,6 +155,28 @@
       "resourceVersion": "2.0",
       "userdefinedDepth": false,
       "visible": true
+    },
+    {
+      "$GMRInstanceLayer": "",
+      "%Name": "Main_menu",
+      "depth": 0,
+      "effectEnabled": false,
+      "effectType": null,
+      "gridX": 32,
+      "gridY": 32,
+      "hierarchyFrozen": false,
+      "inheritLayerDepth": false,
+      "inheritLayerSettings": false,
+      "inheritSubLayers": true,
+      "inheritVisibility": true,
+      "instances": [],
+      "layers": [],
+      "name": "Main_menu",
+      "properties": [],
+      "resourceType": "GMRInstanceLayer",
+      "resourceVersion": "2.0",
+      "userdefinedDepth": false,
+      "visible": true
     }
   ],
   "name": "Rm_Warning",

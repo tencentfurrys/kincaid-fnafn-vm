@@ -279,6 +279,28 @@
       "resourceVersion": "2.0",
       "userdefinedDepth": false,
       "visible": true
+    },
+    {
+      "$GMRInstanceLayer": "",
+      "%Name": "Fade",
+      "depth": -10000,
+      "effectEnabled": false,
+      "effectType": null,
+      "gridX": 32,
+      "gridY": 32,
+      "hierarchyFrozen": false,
+      "inheritLayerDepth": false,
+      "inheritLayerSettings": false,
+      "inheritSubLayers": true,
+      "inheritVisibility": true,
+      "instances": [],
+      "layers": [],
+      "name": "Fade",
+      "properties": [],
+      "resourceType": "GMRInstanceLayer",
+      "resourceVersion": "2.0",
+      "userdefinedDepth": false,
+      "visible": true
     }
   ],
   "name": "Rm_Menu_Custom_Night",
