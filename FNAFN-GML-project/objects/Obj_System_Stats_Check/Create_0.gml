@@ -2,6 +2,12 @@
 // Ground truth: gml_Object_Obj_System_Stats_Check_Create_0
 // Single-statement Create: tex_filter_toggle (id 0x18784) = 0.
 tex_filter_toggle = 0;
+// BOOT-INIT (not in C): toggle (0x18793) is read in Draw but only written
+// by KeyPress_16 (Shift, user input); YYC zero-inits it, VM dies on first
+// draw. Debug overlay starts off.
+if (!variable_instance_exists(self, "toggle")) {
+    toggle = 0;
+}
 // BOOT-INIT (not in C -- VM equivalent of YYC zero-initialized globals):
 // this is the first-created instance in menu boot rooms. The C has ZERO
 // writers for the AI levels (verified by fetch-path scan), so the YYC exe
