@@ -33,8 +33,6 @@ function scr_OLDTVFilter_Setup() {
     }
     bufferLastFrame = surface_create(surface_width, surface_height);
     bufferSurface = [surface_create(surface_width, surface_height), surface_create(surface_width, surface_height)];
-    var _tf = file_text_open_append(working_directory + "surftrace.txt");
-    file_text_write_string(_tf, "SETUP w=" + string(surface_width) + " h=" + string(surface_height) + " lf=" + string(bufferLastFrame) + " b0=" + string(bufferSurface[0]) + " b1=" + string(bufferSurface[1]) + "\n");
-    file_text_close(_tf);
+    show_message("SETUP w=" + string(surface_width) + " h=" + string(surface_height) + " lf=" + string(bufferLastFrame) + " b0=" + string(bufferSurface[0]) + " b1=" + string(bufferSurface[1]) + " ex0=" + string(surface_exists(bufferSurface[0])));
     return 0;
 }
