@@ -20,8 +20,17 @@
 // NOTE: scripts/todo/scr_OLDTVFilter_Setup.gml holds the YYC GlobalScript
 // re-export stub; THIS file (scripts/ported/) is the compiled implementation.
 function scr_OLDTVFilter_Setup() {
-    surface_width = surface_get_width(application_surface);
-    surface_height = surface_get_height(application_surface);
+    // At boot this runs (via Filter Alarm_0) before the first draw, when
+    // application_surface does not exist yet (proven in MINI:
+    // surface_exists(application_surface) == 0 in Create). Fall back to
+    // room size so surface_create gets valid dims.
+    if (surface_exists(application_surface)) {
+        surface_width = surface_get_width(application_surface);
+        surface_height = surface_get_height(application_surface);
+    } else {
+        surface_width = room_width;
+        surface_height = room_height;
+    }
     bufferLastFrame = surface_create(surface_width, surface_height);
     bufferSurface = [surface_create(surface_width, surface_height), surface_create(surface_width, surface_height)];
     return 0;
