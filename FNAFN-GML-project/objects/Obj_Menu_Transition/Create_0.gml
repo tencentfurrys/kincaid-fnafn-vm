@@ -37,6 +37,9 @@
 // flag — 0 by convention for all three.
 surf = -1;
 Room_to_go_to = -1;
+var _tf = file_text_open_append(working_directory + "surftrace.txt");
+file_text_write_string(_tf, "TRANS b0=" + string(bufferSurface[0]) + " ex=" + string(surface_exists(bufferSurface[0])) + "\n");
+file_text_close(_tf);
 if (!surface_exists(surf)) {
     surf = surface_create(1280, 720);
     surface_resize(surf, display_get_width(), display_get_height());
