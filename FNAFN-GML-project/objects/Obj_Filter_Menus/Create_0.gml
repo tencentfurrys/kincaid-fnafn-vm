@@ -22,7 +22,8 @@
 //      instance_destroy() path in func_0x00014017c070 fires types 1
 //      (ev_destroy) and 12 (ev_cleanup) through the same routine).
 // game_settings[0] is the graphics/filter quality level.
-script_execute(scr_OLDTVFilter_Settings);
+dbg_log("FRESH123 Filter_Menus Create reached");
+scr_OLDTVFilter_Settings();
 sprite_index = -1;
 
 if (game_settings[0] == "disabled") {

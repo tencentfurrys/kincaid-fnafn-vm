@@ -45,3 +45,10 @@ gml_GlobalScript_scr_OLDTVFilter_Settings(longlong *param_1,undefined8 param_2,u
   return param_3;
 }
 END DECOMPILED REFERENCE */
+
+// BOOT SHIM (calibration track replaces with the real preset applier):
+// function-less scripts register no runtime asset entry, breaking script_execute(name).
+// The YYC re-export ran no GML, so a no-op callee is faithful.
+function scr_OLDTVFilter_Settings() {
+    return 0;
+}

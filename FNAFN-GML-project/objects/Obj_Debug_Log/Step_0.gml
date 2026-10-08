@@ -3,9 +3,9 @@ global.dbg_frames += 1;
 var _rn = room_get_name(room);
 if (_rn != global.dbg_room) {
     global.dbg_room = _rn;
-    dbg_log("room: " + _rn + " inst=" + string(instance_number(all, false)) + " fps=" + string(fps_real));
+    dbg_log("room: " + _rn + " inst=" + string(instance_number(all)) + " fps=" + string(fps_real));
     if (instance_exists(Obj_Menu_Fade)) {
-        dbg_log("fade n=" + string(instance_number(Obj_Menu_Fade, false)));
+        dbg_log("fade n=" + string(instance_number(Obj_Menu_Fade)));
         with (Obj_Menu_Fade) {
             dbg_log("fade df=" + (variable_instance_exists(self, "delta_factor") ? string(delta_factor) : "MISSING") + " alpha=" + string(image_alpha));
         }
