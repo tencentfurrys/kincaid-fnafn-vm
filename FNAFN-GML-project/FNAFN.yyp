@@ -537,229 +537,229 @@
     {
       "id": {
         "name": "Animation",
-        "path": "scripts/Animation.yy"
+        "path": "scripts/Animation/Animation.yy"
       }
     },
     {
       "id": {
         "name": "Audio",
-        "path": "scripts/Audio.yy"
+        "path": "scripts/Audio/Audio.yy"
       }
     },
     {
       "id": {
         "name": "Camera",
-        "path": "scripts/Camera.yy"
+        "path": "scripts/Camera/Camera.yy"
       }
     },
     {
       "id": {
         "name": "Game_Save_And_Load",
-        "path": "scripts/Game_Save_And_Load.yy"
+        "path": "scripts/Game_Save_And_Load/Game_Save_And_Load.yy"
       }
     },
     {
       "id": {
         "name": "Scr_Camera_Update",
-        "path": "scripts/Scr_Camera_Update.yy"
+        "path": "scripts/Scr_Camera_Update/Scr_Camera_Update.yy"
       }
     },
     {
       "id": {
         "name": "UI",
-        "path": "scripts/UI.yy"
+        "path": "scripts/UI/UI.yy"
       }
     },
     {
       "id": {
         "name": "Update",
-        "path": "scripts/Update.yy"
+        "path": "scripts/Update/Update.yy"
       }
     },
     {
       "id": {
         "name": "__background_get_element",
-        "path": "scripts/__background_get_element.yy"
+        "path": "scripts/__background_get_element/__background_get_element.yy"
       }
     },
     {
       "id": {
         "name": "__background_get_internal",
-        "path": "scripts/__background_get_internal.yy"
+        "path": "scripts/__background_get_internal/__background_get_internal.yy"
       }
     },
     {
       "id": {
         "name": "__background_set",
-        "path": "scripts/__background_set.yy"
+        "path": "scripts/__background_set/__background_set.yy"
       }
     },
     {
       "id": {
         "name": "__background_set_element",
-        "path": "scripts/__background_set_element.yy"
+        "path": "scripts/__background_set_element/__background_set_element.yy"
       }
     },
     {
       "id": {
         "name": "__background_set_internal",
-        "path": "scripts/__background_set_internal.yy"
+        "path": "scripts/__background_set_internal/__background_set_internal.yy"
       }
     },
     {
       "id": {
         "name": "__init_action",
-        "path": "scripts/__init_action.yy"
+        "path": "scripts/__init_action/__init_action.yy"
       }
     },
     {
       "id": {
         "name": "__init_background",
-        "path": "scripts/__init_background.yy"
+        "path": "scripts/__init_background/__init_background.yy"
       }
     },
     {
       "id": {
         "name": "__init_global",
-        "path": "scripts/__init_global.yy"
+        "path": "scripts/__init_global/__init_global.yy"
       }
     },
     {
       "id": {
         "name": "__init_view",
-        "path": "scripts/__init_view.yy"
+        "path": "scripts/__init_view/__init_view.yy"
       }
     },
     {
       "id": {
         "name": "__view_get",
-        "path": "scripts/__view_get.yy"
+        "path": "scripts/__view_get/__view_get.yy"
       }
     },
     {
       "id": {
         "name": "action_draw_sprite",
-        "path": "scripts/action_draw_sprite.yy"
+        "path": "scripts/action_draw_sprite/action_draw_sprite.yy"
       }
     },
     {
       "id": {
         "name": "action_if_next_room",
-        "path": "scripts/action_if_next_room.yy"
+        "path": "scripts/action_if_next_room/action_if_next_room.yy"
       }
     },
     {
       "id": {
         "name": "action_next_room",
-        "path": "scripts/action_next_room.yy"
+        "path": "scripts/action_next_room/action_next_room.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_audio_play_sound_directional_single",
-        "path": "scripts/customfunct_audio_play_sound_directional_single.yy"
+        "path": "scripts/customfunct_audio_play_sound_directional_single/customfunct_audio_play_sound_directional_single.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_audio_play_sound_single",
-        "path": "scripts/customfunct_audio_play_sound_single.yy"
+        "path": "scripts/customfunct_audio_play_sound_single/customfunct_audio_play_sound_single.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_game_create_music_stream",
-        "path": "scripts/customfunct_game_create_music_stream.yy"
+        "path": "scripts/customfunct_game_create_music_stream/customfunct_game_create_music_stream.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_game_load",
-        "path": "scripts/customfunct_game_load.yy"
+        "path": "scripts/customfunct_game_load/customfunct_game_load.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_game_load_music",
-        "path": "scripts/customfunct_game_load_music.yy"
+        "path": "scripts/customfunct_game_load_music/customfunct_game_load_music.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_game_music_clear",
-        "path": "scripts/customfunct_game_music_clear.yy"
+        "path": "scripts/customfunct_game_music_clear/customfunct_game_music_clear.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_game_save",
-        "path": "scripts/customfunct_game_save.yy"
+        "path": "scripts/customfunct_game_save/customfunct_game_save.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_game_save_music",
-        "path": "scripts/customfunct_game_save_music.yy"
+        "path": "scripts/customfunct_game_save_music/customfunct_game_save_music.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_image_speed_delta",
-        "path": "scripts/customfunct_image_speed_delta.yy"
+        "path": "scripts/customfunct_image_speed_delta/customfunct_image_speed_delta.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_options_update",
-        "path": "scripts/customfunct_options_update.yy"
+        "path": "scripts/customfunct_options_update/customfunct_options_update.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_ui_button_detection",
-        "path": "scripts/customfunct_ui_button_detection.yy"
+        "path": "scripts/customfunct_ui_button_detection/customfunct_ui_button_detection.yy"
       }
     },
     {
       "id": {
         "name": "customfunct_ui_button_detection_x",
-        "path": "scripts/customfunct_ui_button_detection_x.yy"
+        "path": "scripts/customfunct_ui_button_detection_x/customfunct_ui_button_detection_x.yy"
       }
     },
     {
       "id": {
         "name": "draw_lensflare",
-        "path": "scripts/draw_lensflare.yy"
+        "path": "scripts/draw_lensflare/draw_lensflare.yy"
       }
     },
     {
       "id": {
         "name": "draw_set_blend_mode",
-        "path": "scripts/draw_set_blend_mode.yy"
+        "path": "scripts/draw_set_blend_mode/draw_set_blend_mode.yy"
       }
     },
     {
       "id": {
         "name": "scr_OLDTVFilter_Draw",
-        "path": "scripts/scr_OLDTVFilter_Draw.yy"
+        "path": "scripts/scr_OLDTVFilter_Draw/scr_OLDTVFilter_Draw.yy"
       }
     },
     {
       "id": {
         "name": "scr_OLDTVFilter_Settings",
-        "path": "scripts/scr_OLDTVFilter_Settings.yy"
+        "path": "scripts/scr_OLDTVFilter_Settings/scr_OLDTVFilter_Settings.yy"
       }
     },
     {
       "id": {
         "name": "scr_OLDTVFilter_Setup",
-        "path": "scripts/scr_OLDTVFilter_Setup.yy"
+        "path": "scripts/scr_OLDTVFilter_Setup/scr_OLDTVFilter_Setup.yy"
       }
     },
     {
       "id": {
         "name": "scr_dbg_log",
-        "path": "scripts/scr_dbg_log.yy"
+        "path": "scripts/scr_dbg_log/scr_dbg_log.yy"
       }
     },
     {

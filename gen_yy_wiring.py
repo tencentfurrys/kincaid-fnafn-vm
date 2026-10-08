@@ -18,16 +18,21 @@ and generates:
 
 Idempotent: safe to re-run; existing .yy files are overwritten.
 
-Script-layout note: GMS2 pairs <name>.yy with <name>.gml in the SAME
-folder, but our .gml files live flat in scripts/ported/ + scripts/todo/
-(moving them would break the porting workflow), so the generated
-scripts/<Script>.yy stubs sit in scripts/ root as valid GMscript JSON
-(yyp parses; IDE shows empty body until the real .gml is imported via
-drag-drop / copy-over). See BUILD-DATA.md step 2.
+Script-layout note: GMS2 pairs <name>.yy with <name>.gml in a
+per-script folder (scripts/<name>/<name>.yy + scripts/<name>/<name>.gml) and
+SILENTLY compiles an empty stub when the .gml is missing -- flat
+scripts/<name>.yy + scripts/<name>.gml siblings DO NOT LINK (proven
+2026-10-08: ProcMon shows the compiler probing scripts/<name>/<name>.gml
+only). So wire_scripts() copies the canonical bodies from
+scripts/ported/ + scripts/todo/ into scripts/<name>/<name>.gml
+(byte-exact) and writes the .yy beside them. Re-run this script after
+editing any ported/|todo/ body. scripts/todo/0.gml + 1.gml are skipped
+(numeric names are not valid GML identifiers) - recreate by hand.
 """
 
 import json
 import re
+import shutil
 import struct
 import subprocess
 import sys
@@ -198,11 +203,31 @@ def wire_objects() -> list[dict]:
 
 
 def wire_scripts() -> list[dict]:
+    """Wire scripts into per-script subfolders (REQUIRED layout).
+
+    GMSC resolves a script's code as <yy-dir>/<name>/<name>.gml and
+    SILENTLY compiles an empty stub when that file is missing (no error;
+    runtime "not set before reading it" on first call). Flat
+    scripts/<name>.yy + scripts/<name>.gml siblings DO NOT LINK -- proven
+    2026-10-08 via ProcMon (compiler probes scripts/test_fn/test_fn.gml,
+    never the sibling) + MINI repro (failed flat, works nested).
+    So each script gets scripts/<name>/<name>.yy + scripts/<name>/<name>.gml
+    (body copied byte-exact from ported/ or todo/), and stale flat
+    scripts/*.yy|*.gml copies are removed.
+    """
     # ported/ wins on basename collision with todo/ (canonical GML).
     by_name: dict[str, Path] = {}
     for sub in ("ported", "todo"):
         for p in sorted((SCR_DIR / sub).glob("*.gml")):
             by_name.setdefault(p.stem, p)
+    # Stale flat copies from the old layout (keep _unclassified.gml: never
+    # wired, no .yy; and numeric 0.gml/1.gml which live only in todo/).
+    for p in SCR_DIR.glob("*.yy"):
+        if p.stem in by_name:
+            p.unlink()
+    for p in SCR_DIR.glob("*.gml"):
+        if p.stem in by_name:
+            p.unlink()
     entries: list[dict] = []
     for name in sorted(by_name):
         src = by_name[name]
@@ -212,6 +237,8 @@ def wire_scripts() -> list[dict]:
             continue
         dup = [s for s in ("ported", "todo")
                if (SCR_DIR / s / f"{name}.gml").exists()]
+        d = SCR_DIR / name
+        d.mkdir(parents=True, exist_ok=True)
         yy = {
             "resourceType": "GMScript",
             "resourceVersion": "2.0",
@@ -221,14 +248,17 @@ def wire_scripts() -> list[dict]:
             "parent": {"name": "Scripts",
                        "path": "folders/Scripts.yy"},
         }
-        (SCR_DIR / f"{name}.yy").write_text(
+        (d / f"{name}.yy").write_text(
             json.dumps(yy, indent=2) + "\n")
+        # Byte-exact body copy (CRLF preserved): this file is what GMSC
+        # compiles. Re-run this script after editing ported/|todo/.
+        shutil.copyfile(src, d / f"{name}.gml")
         if len(dup) == 2:
             warnings.append(f"script {name}.gml in both ported/ and todo/; "
-                            f".yy stub created, canonical source = ported/")
+                            f"canonical source = ported/")
         entries.append({
             "id": str(uuid.uuid4()),
-            "resourcePath": f"scripts/{name}.yy",
+            "resourcePath": f"scripts/{name}/{name}.yy",
             "resourceType": "GMScript",
         })
     return entries
@@ -731,16 +761,13 @@ mapped, but sprites/sounds/tilesets still live inside the original
 
 ## (b) Open the project
 Open `FNAFN-GML-project/FNAFN.yyp` in GameMaker 2022+ (licensed).
-On first load the IDE relinks resources; expect two manual fixes:
-- Scripts: `scripts/<Name>.yy` stubs sit in scripts/ root while the real
-  GML lives in `scripts/ported/<Name>.gml` (canonical) or
-  `scripts/todo/<Name>.gml`. Drag-drop (or copy over) each .gml body
-  into its IDE script entry. `scripts/todo/0.gml` + `1.gml` are skipped
-  (numeric names are not valid GML identifiers) - recreate by hand.
+On first load the IDE relinks resources; expect one manual fix:
 - Multi-sub-event files (`Alarm.gml` with Alarm_0+Alarm_1, `Mouse.gml`
   with Mouse_53+Mouse_54, etc. - 12 files total) share one .gml across
   several event entries. Split each sub-event into its own IDE event;
   the `// ---- sub-event <Type>_<N>` headers mark the cut points.
+  (Scripts need NO manual step: gen_yy_wiring.py already copies the
+  canonical bodies into scripts/<Name>/<Name>.gml beside each .yy.)
 
 ## (c) Build an executable / APK
 - Windows: Build -> Create Executable. Output next to the project is a
@@ -817,7 +844,7 @@ def main() -> int:
     missing = [d.name for d in dirs
                if not (d / f"{d.name}.yy").exists()]
     yy_all = (list(OBJ_DIR.glob("*/*.yy"))
-              + list(SCR_DIR.glob("*.yy"))
+              + list(SCR_DIR.glob("*/*.yy"))
               + list((PROJ / "rooms").glob("*/*.yy"))
               + list((PROJ / "sprites").glob("*/*.yy"))
               + list((PROJ / "sounds").glob("*/*.yy"))
@@ -888,6 +915,17 @@ def main() -> int:
         + len(spr_entries) + len(snd_entries))
     assert len(yyp_check["Folders"]) == len(folder_entries) == 5
     assert len(opt_entries) == 2  # options live on disk, not in the 2026 yyp
+    # Script linkage (the 2026-10-08 blocker): GMSC reads each script body
+    # from scripts/<name>/<name>.gml and SILENTLY compiles an empty stub
+    # when it is missing (runtime "not set before reading it"). Every
+    # script entry must have its body file present and non-empty.
+    missing_bodies = [
+        e["resourcePath"] for e in scr_entries
+        if not (PROJ / e["resourcePath"]).with_suffix(".gml").exists()
+        or (PROJ / e["resourcePath"]).with_suffix(".gml").stat().st_size == 0
+    ]
+    assert not missing_bodies, f"scripts missing bodies: {missing_bodies}"
+    print(f"scripts: {len(scr_entries)} .yy, all bodies present")
     print("warnings:")
     for w in warnings:
         print(f"  - {w}")

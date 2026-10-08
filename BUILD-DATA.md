@@ -16,16 +16,13 @@ mapped, but sprites/sounds/tilesets still live inside the original
 
 ## (b) Open the project
 Open `FNAFN-GML-project/FNAFN.yyp` in GameMaker 2022+ (licensed).
-On first load the IDE relinks resources; expect two manual fixes:
-- Scripts: `scripts/<Name>.yy` stubs sit in scripts/ root while the real
-  GML lives in `scripts/ported/<Name>.gml` (canonical) or
-  `scripts/todo/<Name>.gml`. Drag-drop (or copy over) each .gml body
-  into its IDE script entry. `scripts/todo/0.gml` + `1.gml` are skipped
-  (numeric names are not valid GML identifiers) - recreate by hand.
+On first load the IDE relinks resources; expect one manual fix:
 - Multi-sub-event files (`Alarm.gml` with Alarm_0+Alarm_1, `Mouse.gml`
   with Mouse_53+Mouse_54, etc. - 12 files total) share one .gml across
   several event entries. Split each sub-event into its own IDE event;
   the `// ---- sub-event <Type>_<N>` headers mark the cut points.
+  (Scripts need NO manual step: gen_yy_wiring.py already copies the
+  canonical bodies into scripts/<Name>/<Name>.gml beside each .yy.)
 
 ## (c) Build an executable / APK
 - Windows: Build -> Create Executable. Output next to the project is a

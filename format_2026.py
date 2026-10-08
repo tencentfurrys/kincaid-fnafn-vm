@@ -691,7 +691,8 @@ def conv_yyp() -> dict:
     room_names = [r["name"] for r in rooms_meta]
     obj_names = sorted(d.name for d in (PROJ / "objects").iterdir()
                        if d.is_dir())
-    scr_names = sorted(p.stem for p in (PROJ / "scripts").glob("*.yy"))
+    scr_names = sorted(d.name for d in (PROJ / "scripts").iterdir()
+                       if d.is_dir() and (d / (d.name + ".yy")).exists())
     spr_names = sorted(d.name for d in (PROJ / "sprites").iterdir()
                        if d.is_dir())
     snd_names = sorted(d.name for d in (PROJ / "sounds").iterdir()
@@ -703,7 +704,7 @@ def conv_yyp() -> dict:
                                  "path": "objects/%s/%s.yy" % (o, o)}})
     for s in scr_names:
         resources.append({"id": {"name": s,
-                                 "path": "scripts/%s.yy" % s}})
+                                 "path": "scripts/%s/%s.yy" % (s, s)}})
     for r in room_names:
         resources.append({"id": {"name": r,
                                  "path": "rooms/%s/%s.yy" % (r, r)}})
@@ -773,9 +774,11 @@ def convert_all(proj: Path = PROJ) -> dict:
         if d.is_dir() and yy.exists():
             save_yy(yy, conv_object(load_yy(yy)))
             counts["object"] += 1
-    for yy in sorted((proj / "scripts").glob("*.yy")):
-        save_yy(yy, conv_script(load_yy(yy)))
-        counts["script"] += 1
+    for d in sorted((proj / "scripts").iterdir()):
+        yy = d / (d.name + ".yy")
+        if d.is_dir() and yy.exists():
+            save_yy(yy, conv_script(load_yy(yy)))
+            counts["script"] += 1
     for d in sorted((proj / "rooms").iterdir()):
         yy = d / (d.name + ".yy")
         if d.is_dir() and yy.exists():

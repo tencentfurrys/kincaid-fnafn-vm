@@ -20,7 +20,12 @@ This private repo (`backup` remote): full history + LFS + the bootable
 
 1. `python3 sound_names.py` → SOND sound index→name (57).
 2. `python3 room_instances.py` → fills 9 rooms (86 instances).
-3. Script siblings: bodies copied `scripts/ported|todo/*.gml` → `scripts/*.gml` (37; re-do manually if wiped).
+3. Script wiring: bodies live canonical in `scripts/ported|todo/*.gml`;
+   `python3 gen_yy_wiring.py` copies each into `scripts/<Name>/<Name>.gml`
+   beside its `scripts/<Name>/<Name>.yy` (per-script subfolders are REQUIRED:
+   GMSC resolves code as `<yy-dir>/<name>/<name>.gml` and SILENTLY compiles
+   an empty stub otherwise -- flat siblings do not link, proven 2026-10-08).
+   Re-run gen_yy_wiring.py after editing any ported/|todo/ body.
 4. `python3 split_combined_events.py` → splits multi-sub-event files (idempotent; fixes its own MULTILINE bug era).
 5. `python3 sanitize_reference_comments.py` → neutralizes nested C comments (168 files; else 12 GML errors).
 6. `python3 gen_yy_wiring.py` → regenerates all 297 `.yy` + `FNAFN.yyp` (runs `format_2026.py` internally; VALIDATION OK). Preserves room instances.

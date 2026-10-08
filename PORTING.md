@@ -379,3 +379,21 @@ sprite_index). Strings in the STRG-style .data region read directly
   4. mark calibrate-TODOs where a VARREF/property name is ambiguous
 - The `scripts/todo/` files still hold raw C; port them object by object,
   starting with small Create/Alarm events (40-60 lines of GML each).
+
+## BREAKTHROUGH 2026-10-08: script .gml linkage (the black-screen blocker)
+Symptom (Windows + Android): first script-function call dies at runtime
+(`Variable Obj_X.name(...) not set before reading it`), builtins fine,
+compile clean. MINI repro (1 room + 1 object + 1 script) failed identically,
+so NOT project-specific. ProcMon on GMSC showed it probing
+`scripts/test_fn/test_fn.gml` (PATH NOT FOUND) and never opening the flat
+sibling `scripts/test_fn.gml`. Rule (decompile-confirmed in
+GMAssetCompiler.dll `GMScript.GetScriptFilename` + silent skip on missing
+file): a script's code MUST live at `<yy-dir>/<name>/<name>.gml`, i.e.
+per-script subfolders `scripts/<Name>/<Name>.yy + <Name>.gml`, like every
+other resource kind. Flat `scripts/<Name>.yy` + `scripts/<Name>.gml`
+siblings register the name but compile to EMPTY stubs with NO error.
+Fix: gen_yy_wiring.py now copies ported/|todo/ bodies byte-exact into the
+subfolders and validates every body is present; MINI passes (TEST_FN_RAN).
+Aside: yyp `defaultScriptType` (ours 1 vs IDE-canonical 0) and `isEcma`
+(true/false) change nothing for this; `option_ecma` (absent = GML) selects
+the .gml vs .js extension.
