@@ -29,6 +29,16 @@ if (!variable_global_exists("game_settings")) {
     customfunct_game_load();
     customfunct_game_load_music();
 }
+// BOOT-INIT values (mirror the originals' first writes; YYC baked the rest):
+// delta_factor = 1 (Obj_System_Delta_Time/Create; absent from boot rooms),
+// game_font = default font (no font assets imported yet; game_font is never
+// written in GML -- TODO: import real fonts, then drop this).
+if (!variable_global_exists("delta_factor")) {
+    delta_factor = 1;
+}
+if (!variable_global_exists("game_font")) {
+    game_font = [-1, -1];
+}
 scr_OLDTVFilter_Settings();
 sprite_index = -1;
 

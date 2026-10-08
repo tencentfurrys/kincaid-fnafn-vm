@@ -38,7 +38,7 @@
 //      id 0x186df; scales @0x1405c4ff0 = 0.95 (exe .data double, verified
 //      via exe_strings.py); angle = same runtime @0x140656548:
 //      TODO(calibrate).
-// No 3D/camera/shader/3D-audio state here — plain 2D menu draw.
+// No 3D/camera/shader/3D-audio state here - plain 2D menu draw.
 draw_set_font(game_font[0]);
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);

@@ -608,6 +608,12 @@
     },
     {
       "id": {
+        "name": "__fnafn_globals",
+        "path": "scripts/__fnafn_globals/__fnafn_globals.yy"
+      }
+    },
+    {
+      "id": {
         "name": "__init_action",
         "path": "scripts/__init_action/__init_action.yy"
       }

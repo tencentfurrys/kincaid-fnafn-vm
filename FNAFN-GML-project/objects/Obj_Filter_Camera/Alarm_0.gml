@@ -63,7 +63,7 @@ scanline_magnetude = 0.5;
 tube_enabled = 1;
 tube_mask = sprite_get_texture(sprMaskWide1, 0 /* TODO(calibrate): subimg @0x140657440 */);
 tube_distortion = 0.15;
-script_execute(/* TODO(calibrate): index iRam @0x1405c8e70 */ 0);
+script_execute(scr_OLDTVFilter_Setup); // iRam @0x1405c8e70 name-resolves to gml_Script_scr_OLDTVFilter_Setup (was TODO index 0)
 
 /* BEGIN DECOMPILED REFERENCE
 // (Ghidra note) Globals starting with '_' overlap smaller symbols at the same address
