@@ -28,9 +28,9 @@ Reverse-engineered layout (validated across all 9 rooms, see notes below):
     [3] instance id (100000..100086 globally unique, except 100081 missing:
         presumably deleted in the original project)
     [4] creation-code ref (-1, or 56..69 / room-level 61,64,66,71,72.
-        NOT a STRG index (those slots hold sound names); unresolvable in a
-        YYC build, so .yy keeps hasCreationCode=false and the raw value is
-        only reported on stdout)
+        Maps to gml_RoomCC_* / gml_Room_*_Create functions; hasCreationCode
+        mirrors it (code files ported per-instance as
+        InstanceCreationCode_<inst>.gml).
     [5] scaleX (float; 1.0, 1.025, 0.94457727, 0.95, 1.055 observed)
     [6] scaleY (float; same set)
     [7] 1.0 for all 86 instances -> mapped to imageSpeed (GMS2 default 1.0)
@@ -128,7 +128,11 @@ def make_instance(room: str, inst: dict, obj_name: str) -> dict:
             "path": "objects/%s/%s.yy" % (obj_name, obj_name),
         },
         "inheritCode": False,
-        "hasCreationCode": False,
+        # Creation-code ref from data.win (instance [4]; -1 = none, else a
+        # RoomCC/Room code id). hasCreationCode=true requires the matching
+        # rooms/<Rm>/InstanceCreationCode_<inst>.gml to exist (else the
+        # compiler treats it as empty). Ported so far: MCN 56..60.
+        "hasCreationCode": inst["code"] != -1,
         "colour": 4294967295,
         "rotation": 0.0,
         "scaleX": inst["sx"],

@@ -1,7 +1,19 @@
-/// @description FNAFN Obj_System_Stats_Check / Create — PORTED from C
+/// @description FNAFN Obj_System_Stats_Check / Create - PORTED from C
 // Ground truth: gml_Object_Obj_System_Stats_Check_Create_0
 // Single-statement Create: tex_filter_toggle (id 0x18784) = 0.
 tex_filter_toggle = 0;
+// BOOT-INIT (not in C -- VM equivalent of YYC zero-initialized globals):
+// this is the first-created instance in menu boot rooms. The C has ZERO
+// writers for the AI levels (verified by fetch-path scan), so the YYC exe
+// runs them zero-initialized; a VM build leaves them unset and dies on
+// first read (RoomCC custom-night codes). Seed 0 (custom-night default).
+if (!variable_global_exists("Freddy_AI_Level")) {
+    Freddy_AI_Level = 0;
+    Bonnie_AI_Level = 0;
+    Foxy_AI_Level = 0;
+    Chica_AI_Level = 0;
+    Mangle_AI_Level = 0;
+}
 
 /* BEGIN DECOMPILED REFERENCE
 void gml_Object_Obj_System_Stats_Check_Create_0(longlong *param_1)
