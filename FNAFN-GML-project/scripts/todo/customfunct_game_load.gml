@@ -44,8 +44,13 @@ function customfunct_game_load() {
     game_settings[12] = ini_read_string("game settings", "Office navigation", "both");
     game_settings[13] = ini_read_string("game settings", "Office threshold", 25);
     ini_close();
-    display_reset(game_settings[3], game_settings[2]);
-    window_set_fullscreen(game_settings[1]);
+    // VM-STRICTNESS ADAPTATION (not in C): the 2026 runner type-checks
+    // builtins (YYGB) -- display_reset wants (real, bool) but ini values
+    // arrive as strings ("0"/"2") or numeric defaults. The YYC build
+    // coerced silently; convert explicitly (bool("0") would be TRUE, so
+    // compare via real()).
+    display_reset(real(game_settings[3]), real(game_settings[2]) != 0);
+    window_set_fullscreen(real(game_settings[1]) != 0);
     surface_resize(application_surface, display_get_gui_width(), display_get_gui_height());
 }
 
