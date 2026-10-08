@@ -17,7 +17,7 @@
       "$GMEvent": "v1",
       "%Name": "",
       "collisionObjectId": null,
-      "eventNum": 0,
+      "eventNum": 1,
       "eventType": 3,
       "isDnD": false,
       "name": "",
