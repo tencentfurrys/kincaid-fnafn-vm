@@ -1,5 +1,38 @@
 # SESSION HANDOFF — resume here (box was dying, state saved 2026-10-08 ~00:40 CUT)
 
+> ## Session 2026-10-08 (this box) — THE SCRIPT BLOCKER IS FIXED
+> - Fresh box: installed GameMaker LTS 2026 (IDE 16) + runtime 2026.0.0.23
+>   (public installer https://gms.yoyogames.com/GameMaker-Installer-2026.0.0.16.exe;
+>   user signed in). No APK/Android SDK here — Windows VM iteration only.
+> - **Root cause of black-screen blocker** (all script calls dying at runtime):
+>   scripts lived FLAT (`scripts/<N>.yy` + `scripts/<N>.gml`); GMSC resolves
+>   code as `<yy-dir>/<name>/<name>.gml` and SILENTLY compiles empty stubs
+>   otherwise (proven by ProcMon + ilspycmd decompile of
+>   `GMScript.GetScriptFilename`). Fix: per-script subfolders
+>   (`scripts/<N>/<N>.yy + <N>.gml`, bodies copied byte-exact from
+>   ported/|todo/); gen_yy_wiring.py + format_2026.py updated + validation
+>   asserts every body present. MINI repro passes (TEST_FN_RAN).
+> - `draw_lensflare` is an 8-arg real function (23 KB C, unported) but only
+>   the re-export stub existed → arity error now that scripts link. Temporary
+>   8-param no-op shim in scripts/ported/draw_lensflare.gml (TODO: real port).
+> - Boot chain fixes (all VM-parity, YYC was lenient/baked): guarded
+>   game_load+music in Filter Creates (game_settings), bool/real conversions
+>   in game_load tail (YYGB strict builtins), `globalvar` declarations for 67
+>   proven-shared globals (scripts/ported/__fnafn_globals.gml; zero ids use
+>   both paths), seeds (delta_factor=1, game_font=[-1,-1], AI levels=0,
+>   toggle=0), 5 MCN instance creation codes (animatronic text/AI),
+>   script_execute(Setup) for the iRam slot, DebugLog instance removed from
+>   MCN room (suspected in a fail-fast; re-add carefully if needed).
+> - Game now boots MCN room: Creates → Steps → first Draws; iterating via
+>   dialogs (each names the next missing seed). gamerun/ =
+>   Temp\1\opencode\gamerun (Runner.exe + FNAFN.win); screenshots via
+>   Temp\1\opencode\screen.py; MINI repro at Temp\1\opencode\mini.
+> - Remaining ports: Obj_Menu_Options_Preview/Alarm_1 (last of 17 gaps),
+>   12 RoomCC + 5 Room_Create functions (instance-code mapping known from
+>   data.win ccode refs), draw_lensflare real port, font import.
+>
+> Original session notes below (old box).
+
 ## Where everything is
 - Repo: `C:\Users\RDP\Documents\Default Project\kincaid-fnafn-savepoint`, branch `main`,
   remotes `origin` (public savepoint) + `backup` (`tencentfurrys/kincaid-fnafn-vm`, private).
