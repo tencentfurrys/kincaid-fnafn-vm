@@ -3,6 +3,15 @@
 // machine-level semantics recovered by Ghidra. Porting task: express this
 // in GML. Call graph and names are intact (see gml_all_414_decompiled.c).
 // Ported: Obj_Filter_Camera / Create
+// BOOT-INIT (not in C -- VM equivalent of YYC baked globals): the decompiled
+// C has ZERO writers to game_settings before first read (only
+// customfunct_game_load creates it, called solely from Rm_Initialize room
+// code), so the YYC exe must bake initial values; a VM build starts empty
+// and dies here. Run the same two calls Rm_Initialize_Create makes, once.
+if (!variable_global_exists("game_settings")) {
+    customfunct_game_load();
+    customfunct_game_load_music();
+}
 if (game_settings[0] == "disabled") oldtvfilter_enabled = 0;
 else oldtvfilter_enabled = 1;
 if (game_settings[0] == "full") event_perform(ev_alarm, 0);

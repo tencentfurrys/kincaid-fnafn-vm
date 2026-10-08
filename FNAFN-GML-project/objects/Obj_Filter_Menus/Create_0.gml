@@ -23,6 +23,12 @@
 //      (ev_destroy) and 12 (ev_cleanup) through the same routine).
 // game_settings[0] is the graphics/filter quality level.
 dbg_log("FRESH123 Filter_Menus Create reached");
+// BOOT-INIT (not in C -- VM equivalent of YYC baked globals): see
+// Obj_Filter_Camera/Create_0.gml. Same two calls Rm_Initialize_Create makes.
+if (!variable_global_exists("game_settings")) {
+    customfunct_game_load();
+    customfunct_game_load_music();
+}
 scr_OLDTVFilter_Settings();
 sprite_index = -1;
 
